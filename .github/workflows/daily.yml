@@ -1,0 +1,91 @@
+name: Daily observation and Pages
+
+on:
+  schedule:
+    - cron: '0 1 * * *' # 09:00 Asia/Shanghai; GitHub may delay execution.
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: daily-pages
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: app
+      - uses: actions/checkout@v4
+        with:
+          ref: data
+          path: state
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: app/package-lock.json
+      - name: Test ranking and archive behavior
+        working-directory: app
+        run: python3 -m unittest discover -s tests -v
+      - name: Restore last published records
+        working-directory: app
+        run: python3 -m collector.collect --state-dir ../state --export-only
+      - name: Collect today's observations
+        id: collect
+        continue-on-error: true
+        working-directory: app
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
+          LLM_MODEL: ${{ vars.LLM_MODEL }}
+        run: python3 -m collector.collect --state-dir ../state
+      - name: Save observations even when publishing fails
+        if: always()
+        working-directory: state
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add snapshots boards tracked.json status.json materials content pending.json .gitignore 2>/dev/null || git add -A
+          if ! git diff --cached --quiet; then
+            git commit -m 'Save daily GitHub observations'
+            git push origin HEAD:data
+          fi
+      - name: Install dependencies
+        working-directory: app
+        run: npm ci
+      - name: Check types and build
+        working-directory: app
+        env:
+          SITE_URL: https://${{ github.repository_owner }}.github.io
+          BASE_PATH: /${{ github.event.repository.name }}
+        run: |
+          npm run check
+          npm run build
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: app/dist
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
+      - name: Mark incomplete collection as a failed run
+        if: steps.collect.outcome == 'failure'
+        run: |
+          echo 'The prior valid board was published with a failure notice. Inspect the collection step.'
+          exit 1
