@@ -1,0 +1,9 @@
+{
+  "checked_at": "2026-10-31T07:10:36+00:00",
+  "model": "deepseek-v4.1-flash",
+  "status": "passed",
+  "repository_id": 63476337,
+  "full_name": "TheAlgorithms/Python",
+  "evidence_count": 4,
+  "summary_zh": "收录用 Python 实现的各种算法，主要供教育学习使用；这些实现可能不如 Python 标准库中的实现高效，使用时需自行斟酌。项目提供算法目录，便于浏览和查找。"
+}
