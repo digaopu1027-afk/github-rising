@@ -1,0 +1,12 @@
+---
+import {status, dateTime} from '../lib/data';
+interface Props { generatedAt: string | null; archived?: boolean }
+const {generatedAt, archived = false} = Astro.props;
+---
+{!archived && status.state === 'failed' && <div role="status" class="notice warning">{status.message} 最近尝试：{dateTime(status.attempted_at || null)}。</div>}
+{!archived && status.state === 'partial' && <div role="status" class="notice subtle">{status.message} <a href="#coverage">查看本期覆盖</a></div>}
+{!archived && <div class="notice warning" id="stale-notice" data-generated={generatedAt || ''} hidden>这份榜单已超过 30 小时未更新。以下保留最近一次有效记录，请留意采集时间。</div>}
+<script>
+  const notice = document.getElementById('stale-notice');
+  if (notice?.dataset.generated && Date.now() - Date.parse(notice.dataset.generated) > 30 * 3600000) notice.hidden = false;
+</script>

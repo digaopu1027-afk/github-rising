@@ -1,0 +1,51 @@
+{
+  "repo": {
+    "id": 1273427276,
+    "full_name": "cloudflare/security-audit-skill",
+    "name": "security-audit-skill",
+    "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+    "url": "https://github.com/cloudflare/security-audit-skill",
+    "homepage": null,
+    "stars": 54389,
+    "forks": 3524,
+    "language": "JavaScript",
+    "license": "MIT",
+    "license_url": "https://api.github.com/licenses/mit",
+    "topics": [],
+    "pushed_at": "2026-09-14T19:29:02Z",
+    "created_at": "2026-06-18T14:08:44Z",
+    "sampled_at": "2026-10-31T06:39:16+00:00",
+    "visibility": "public",
+    "fork": false,
+    "archived": false,
+    "disabled": false,
+    "category": "AI",
+    "kind": "应用／工具",
+    "summary_zh": "为编程助手提供分阶段安全审计技能，输出经过独立验证、机器可读的发现。",
+    "audience_zh": "希望借助 AI 编程助手开展结构化安全审计并处理审计结果的开发者。",
+    "evidence": [
+      {
+        "quote": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+        "url": "https://github.com/cloudflare/security-audit-skill"
+      }
+    ],
+    "content_status": "editorial",
+    "material_hash": "7b83125ecdc669fa11aaa963a9d22e997fb59bce5202f8dbb60f7431da61d1d4",
+    "readme_url": "https://github.com/cloudflare/security-audit-skill/blob/main/README.md",
+    "delta": null,
+    "growth_rate": null,
+    "rising_score": null,
+    "window_start": null,
+    "window_end": "2026-10-31T06:39:16+00:00",
+    "window_hours": null,
+    "observation": "warming"
+  },
+  "history": [
+    {
+      "date": "2026-10-31",
+      "sampled_at": "2026-10-31T06:39:16+00:00",
+      "stars": 54389,
+      "delta": null
+    }
+  ]
+}

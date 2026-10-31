@@ -1,0 +1,61 @@
+{
+  "repo": {
+    "id": 1124219907,
+    "full_name": "HKUDS/DeepTutor",
+    "name": "DeepTutor",
+    "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+    "url": "https://github.com/HKUDS/DeepTutor",
+    "homepage": "http://arxiv.org/abs/2604.26962",
+    "stars": 51990,
+    "forks": 6371,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "license_url": "https://api.github.com/licenses/apache-2.0",
+    "topics": [
+      "ai-agents",
+      "ai-tutor",
+      "clawbot",
+      "cli-tool",
+      "deepresearch",
+      "interactive-learning",
+      "learning",
+      "multi-agent-systems",
+      "rag"
+    ],
+    "pushed_at": "2026-10-31T03:30:32Z",
+    "created_at": "2025-12-28T15:35:54Z",
+    "sampled_at": "2026-10-31T06:39:12+00:00",
+    "visibility": "public",
+    "fork": false,
+    "archived": false,
+    "disabled": false,
+    "category": "AI",
+    "kind": "应用／工具",
+    "summary_zh": "探索持续、个性化的 AI 辅导与学习方式。",
+    "audience_zh": "希望了解或研究个性化 AI 辅导系统的学习者与开发者。",
+    "evidence": [
+      {
+        "quote": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+        "url": "https://github.com/HKUDS/DeepTutor"
+      }
+    ],
+    "content_status": "editorial",
+    "material_hash": "bfc6284d76f8e77fc7ee9f603c4e4d4406f7dcef89f285f6749190471797ac36",
+    "readme_url": "https://github.com/HKUDS/DeepTutor/blob/main/README.md",
+    "delta": null,
+    "growth_rate": null,
+    "rising_score": null,
+    "window_start": null,
+    "window_end": "2026-10-31T06:39:12+00:00",
+    "window_hours": null,
+    "observation": "warming"
+  },
+  "history": [
+    {
+      "date": "2026-10-31",
+      "sampled_at": "2026-10-31T06:39:12+00:00",
+      "stars": 51990,
+      "delta": null
+    }
+  ]
+}

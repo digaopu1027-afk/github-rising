@@ -1,0 +1,52 @@
+{
+  "repo": {
+    "id": 50264296,
+    "full_name": "jgthms/bulma",
+    "name": "bulma",
+    "description": "Modern CSS framework based on Flexbox",
+    "url": "https://github.com/jgthms/bulma",
+    "homepage": "https://bulma.io",
+    "stars": 50036,
+    "forks": 3861,
+    "language": "CSS",
+    "license": "MIT",
+    "license_url": "https://api.github.com/licenses/mit",
+    "topics": [
+      "css",
+      "css-framework",
+      "design",
+      "flexbox",
+      "html"
+    ],
+    "pushed_at": "2026-09-21T09:56:34Z",
+    "created_at": "2016-01-23T23:48:34Z",
+    "sampled_at": "2026-10-31T06:38:51+00:00",
+    "visibility": "public",
+    "fork": false,
+    "archived": false,
+    "disabled": false,
+    "category": "设计创作",
+    "kind": "库／框架",
+    "summary_zh": null,
+    "audience_zh": null,
+    "evidence": [],
+    "content_status": "missing",
+    "material_hash": "01cb5a9b6e14eb0b61ce0f8f3ebfa4521beab051937e6d160405d4253fdb8a36",
+    "readme_url": "https://github.com/jgthms/bulma/blob/main/README.md",
+    "delta": null,
+    "growth_rate": null,
+    "rising_score": null,
+    "window_start": null,
+    "window_end": "2026-10-31T06:38:51+00:00",
+    "window_hours": null,
+    "observation": "warming"
+  },
+  "history": [
+    {
+      "date": "2026-10-31",
+      "sampled_at": "2026-10-31T06:38:51+00:00",
+      "stars": 50036,
+      "delta": null
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "repo": {
+    "id": 771302083,
+    "full_name": "OpenHands/OpenHands",
+    "name": "OpenHands",
+    "description": "🙌 OpenHands: AI-Driven Development",
+    "url": "https://github.com/OpenHands/OpenHands",
+    "homepage": "https://openhands.dev",
+    "stars": 92311,
+    "forks": 12287,
+    "language": "TypeScript",
+    "license": "MIT",
+    "license_url": "https://api.github.com/licenses/mit",
+    "topics": [
+      "agent",
+      "artificial-intelligence",
+      "chatgpt",
+      "claude-ai",
+      "cli",
+      "developer-tools",
+      "gpt",
+      "llm",
+      "openai"
+    ],
+    "pushed_at": "2026-10-30T22:20:53Z",
+    "created_at": "2024-03-13T03:33:31Z",
+    "sampled_at": "2026-10-31T06:38:39+00:00",
+    "visibility": "public",
+    "fork": false,
+    "archived": false,
+    "disabled": false,
+    "category": "AI",
+    "kind": "应用／工具",
+    "summary_zh": "探索由 AI 驱动的软件开发工具。",
+    "audience_zh": "希望了解 AI 辅助软件开发方式的开发者。",
+    "evidence": [
+      {
+        "quote": "🙌 OpenHands: AI-Driven Development",
+        "url": "https://github.com/OpenHands/OpenHands"
+      }
+    ],
+    "content_status": "editorial",
+    "material_hash": "149aa7ac147b95c660ecaaa2e132732c762bd7596f74354633164487ca94159d",
+    "readme_url": "https://github.com/OpenHands/OpenHands/blob/main/README.md",
+    "delta": null,
+    "growth_rate": null,
+    "rising_score": null,
+    "window_start": null,
+    "window_end": "2026-10-31T06:38:39+00:00",
+    "window_hours": null,
+    "observation": "warming"
+  },
+  "history": [
+    {
+      "date": "2026-10-31",
+      "sampled_at": "2026-10-31T06:38:39+00:00",
+      "stars": 92311,
+      "delta": null
+    }
+  ]
+}

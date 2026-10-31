@@ -1,0 +1,41 @@
+---
+import '@fontsource-variable/manrope';
+import '../styles/global.css';
+import Icon from '../components/Icon.astro';
+import {href} from '../lib/data';
+interface Props { title?: string; description?: string; active?: string }
+const {title = '升榜 · GitHub 每日飙升榜', description = '每天几分钟，发现正在升温的开源项目。真实增长记录，有依据的中文介绍。', active = 'today'} = Astro.props;
+---
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#f8faf8" />
+    <link rel="icon" type="image/svg+xml" href={href('favicon.svg')} />
+    <title>{title}</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">跳到主要内容</a>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href={href()} aria-label="升榜首页">
+          <span class="brand-mark"><Icon name="rise" size={23}/></span>
+          <span>升榜<span class="brand-divider">/</span><span class="brand-sub">GitHub 每日飙升榜</span></span>
+        </a>
+        <nav aria-label="主导航">
+          <a href={href()} aria-current={active === 'today' ? 'page' : undefined}>今日榜单</a>
+          <a href={href('history/')} aria-current={active === 'history' ? 'page' : undefined}>历史记录</a>
+          <a href={href('about/')} aria-current={active === 'about' ? 'page' : undefined}>榜单说明</a>
+        </nav>
+        <a class="header-source" href="https://github.com/digaopu1027-afk/github-rising" target="_blank" rel="noopener noreferrer" aria-label="查看升榜源代码（新窗口）"><Icon name="github" size={20}/><span>源代码</span></a>
+      </div>
+    </header>
+    <main id="main" class="page-shell"><slot /></main>
+    <footer class="site-footer">
+      <div><a class="footer-brand" href={href()}>升榜</a><span>让值得了解的项目，更早被看见。</span></div>
+      <p>数据来自 GitHub · 仅覆盖已跟踪项目<a href={href('about/')}>查看统计口径 <Icon name="arrow" size={15}/></a></p>
+    </footer>
+  </body>
+</html>

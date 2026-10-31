@@ -1,0 +1,11 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Icon from '../../components/Icon.astro';
+import {archives, href, number, readableDate, dateTime} from '../../lib/data';
+---
+<Layout active="history" title="历史记录 · 升榜">
+  <section class="text-intro"><h1>每一天，都留一份记录。</h1><p>排名、数据和当时的项目介绍一起保存。今天的变化，不会改写昨天。</p></section>
+  <section class="archive-list" aria-label="历史榜单">
+    {archives.length ? archives.map((entry, i) => <a class="archive-row" href={href(`history/${entry.date}/`)}><div class="archive-date"><strong>{entry.date}</strong><span>{readableDate(entry.date)}</span></div><div class="archive-meta"><span>{number(entry.sampled_count)} 个项目完成采样</span><small>{dateTime(entry.generated_at)} 归档</small></div><span class="archive-action">{i === 0 ? '最近一期' : '查看榜单'}<Icon name="arrow" size={18}/></span></a>) : <div class="empty-state"><Icon name="clock" size={26}/><h2>第一份记录尚未生成</h2><p>首次采集完成后，每日记录会保存在这里。</p></div>}
+  </section>
+</Layout>

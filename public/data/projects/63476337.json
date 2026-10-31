@@ -1,0 +1,61 @@
+{
+  "repo": {
+    "id": 63476337,
+    "full_name": "TheAlgorithms/Python",
+    "name": "Python",
+    "description": "All Algorithms implemented in Python",
+    "url": "https://github.com/TheAlgorithms/Python",
+    "homepage": "https://thealgorithms.github.io/Python/",
+    "stars": 225727,
+    "forks": 51257,
+    "language": "Python",
+    "license": "MIT",
+    "license_url": "https://api.github.com/licenses/mit",
+    "topics": [
+      "algorithm",
+      "algorithm-competitions",
+      "algorithms-implemented",
+      "algos",
+      "community-driven",
+      "education",
+      "hacktoberfest",
+      "interview",
+      "learn",
+      "practice",
+      "python",
+      "searches",
+      "sorting-algorithms",
+      "sorts"
+    ],
+    "pushed_at": "2026-10-20T05:01:26Z",
+    "created_at": "2016-07-16T09:44:01Z",
+    "sampled_at": "2026-10-31T06:38:56+00:00",
+    "visibility": "public",
+    "fork": false,
+    "archived": false,
+    "disabled": false,
+    "category": "学习教育",
+    "kind": "应用／工具",
+    "summary_zh": null,
+    "audience_zh": null,
+    "evidence": [],
+    "content_status": "missing",
+    "material_hash": "ea18eecdc1221e98337957f9bb0ff7ea918fb0f1ea5ebd4e77378372cc6e7ba6",
+    "readme_url": "https://github.com/TheAlgorithms/Python/blob/master/README.md",
+    "delta": null,
+    "growth_rate": null,
+    "rising_score": null,
+    "window_start": null,
+    "window_end": "2026-10-31T06:38:56+00:00",
+    "window_hours": null,
+    "observation": "warming"
+  },
+  "history": [
+    {
+      "date": "2026-10-31",
+      "sampled_at": "2026-10-31T06:38:56+00:00",
+      "stars": 225727,
+      "delta": null
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "repo": {
+    "id": 28457823,
+    "full_name": "freeCodeCamp/freeCodeCamp",
+    "name": "freeCodeCamp",
+    "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+    "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+    "homepage": "https://contribute.freecodecamp.org",
+    "stars": 458257,
+    "forks": 48746,
+    "language": "TypeScript",
+    "license": "BSD-3-Clause",
+    "license_url": "https://api.github.com/licenses/bsd-3-clause",
+    "topics": [
+      "careers",
+      "certification",
+      "community",
+      "curriculum",
+      "d3",
+      "education",
+      "freecodecamp",
+      "javascript",
+      "learn-to-code",
+      "math",
+      "nodejs",
+      "nonprofits",
+      "programming",
+      "react",
+      "teachers"
+    ],
+    "pushed_at": "2026-10-31T06:32:06Z",
+    "created_at": "2014-12-24T17:49:19Z",
+    "sampled_at": "2026-10-31T06:38:55+00:00",
+    "visibility": "public",
+    "fork": false,
+    "archived": false,
+    "disabled": false,
+    "category": "学习教育",
+    "kind": "应用／工具",
+    "summary_zh": null,
+    "audience_zh": null,
+    "evidence": [],
+    "content_status": "missing",
+    "material_hash": "31a6cad70ec41d49dc1bc93f208a90374daf63ed0298366f969467c83ecad7d3",
+    "readme_url": "https://github.com/freeCodeCamp/freeCodeCamp/blob/main/README.md",
+    "delta": null,
+    "growth_rate": null,
+    "rising_score": null,
+    "window_start": null,
+    "window_end": "2026-10-31T06:38:55+00:00",
+    "window_hours": null,
+    "observation": "warming"
+  },
+  "history": [
+    {
+      "date": "2026-10-31",
+      "sampled_at": "2026-10-31T06:38:55+00:00",
+      "stars": 458257,
+      "delta": null
+    }
+  ]
+}

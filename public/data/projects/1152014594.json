@@ -1,0 +1,54 @@
+{
+  "repo": {
+    "id": 1152014594,
+    "full_name": "AgriciDaniel/claude-seo",
+    "name": "claude-seo",
+    "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
+    "url": "https://github.com/AgriciDaniel/claude-seo",
+    "homepage": null,
+    "stars": 24635,
+    "forks": 3278,
+    "language": "Python",
+    "license": "MIT",
+    "license_url": "https://api.github.com/licenses/mit",
+    "topics": [
+      "ai",
+      "ai-seo",
+      "claude-code",
+      "claude-code-skill",
+      "marketing-automation",
+      "open-source",
+      "seo"
+    ],
+    "pushed_at": "2026-10-22T16:47:40Z",
+    "created_at": "2026-02-07T08:17:38Z",
+    "sampled_at": "2026-10-31T06:39:16+00:00",
+    "visibility": "public",
+    "fork": false,
+    "archived": false,
+    "disabled": false,
+    "category": "AI",
+    "kind": "教程／资源",
+    "summary_zh": null,
+    "audience_zh": null,
+    "evidence": [],
+    "content_status": "missing",
+    "material_hash": "db1c7a3e2692c32b7f965ec77581875cac211e4c525b9dc55b93598d84c8df69",
+    "readme_url": "https://github.com/AgriciDaniel/claude-seo/blob/main/README.md",
+    "delta": null,
+    "growth_rate": null,
+    "rising_score": null,
+    "window_start": null,
+    "window_end": "2026-10-31T06:39:16+00:00",
+    "window_hours": null,
+    "observation": "warming"
+  },
+  "history": [
+    {
+      "date": "2026-10-31",
+      "sampled_at": "2026-10-31T06:39:16+00:00",
+      "stars": 24635,
+      "delta": null
+    }
+  ]
+}

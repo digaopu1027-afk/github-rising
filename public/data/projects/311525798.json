@@ -1,0 +1,55 @@
+{
+  "repo": {
+    "id": 311525798,
+    "full_name": "microsoft/Web-Dev-For-Beginners",
+    "name": "Web-Dev-For-Beginners",
+    "description": "24 Lessons, 12 Weeks, Get Started as a Web Developer",
+    "url": "https://github.com/microsoft/Web-Dev-For-Beginners",
+    "homepage": null,
+    "stars": 97051,
+    "forks": 16092,
+    "language": "JavaScript",
+    "license": "MIT",
+    "license_url": "https://api.github.com/licenses/mit",
+    "topics": [
+      "css",
+      "curriculum",
+      "education",
+      "html",
+      "javascript",
+      "learning",
+      "microsoft-for-beginners",
+      "tutorials"
+    ],
+    "pushed_at": "2026-10-20T21:43:35Z",
+    "created_at": "2020-11-10T02:44:00Z",
+    "sampled_at": "2026-10-31T06:38:59+00:00",
+    "visibility": "public",
+    "fork": false,
+    "archived": false,
+    "disabled": false,
+    "category": "学习教育",
+    "kind": "教程／资源",
+    "summary_zh": null,
+    "audience_zh": null,
+    "evidence": [],
+    "content_status": "missing",
+    "material_hash": "5e7bc5f9c0144865bc114adcf9cc1536bf147c492ada0429b161eae37871d09b",
+    "readme_url": "https://github.com/microsoft/Web-Dev-For-Beginners/blob/main/README.md",
+    "delta": null,
+    "growth_rate": null,
+    "rising_score": null,
+    "window_start": null,
+    "window_end": "2026-10-31T06:38:59+00:00",
+    "window_hours": null,
+    "observation": "warming"
+  },
+  "history": [
+    {
+      "date": "2026-10-31",
+      "sampled_at": "2026-10-31T06:38:59+00:00",
+      "stars": 97051,
+      "delta": null
+    }
+  ]
+}

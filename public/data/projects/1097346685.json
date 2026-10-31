@@ -1,0 +1,57 @@
+{
+  "repo": {
+    "id": 1097346685,
+    "full_name": "pbakaus/impeccable",
+    "name": "impeccable",
+    "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+    "url": "https://github.com/pbakaus/impeccable",
+    "homepage": "https://impeccable.style",
+    "stars": 97367,
+    "forks": 5736,
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "license_url": "https://api.github.com/licenses/apache-2.0",
+    "topics": [
+      "agent-skills",
+      "ai",
+      "anti-slop",
+      "design",
+      "slop"
+    ],
+    "pushed_at": "2026-10-30T17:36:40Z",
+    "created_at": "2025-11-16T01:52:04Z",
+    "sampled_at": "2026-10-31T06:38:36+00:00",
+    "visibility": "public",
+    "fork": false,
+    "archived": false,
+    "disabled": false,
+    "category": "AI",
+    "kind": "教程／资源",
+    "summary_zh": "给 AI 编程助手补充设计指令，支持界面打磨、设计审查与问题检查。",
+    "audience_zh": "使用 AI 编程工具制作界面，希望改善设计表达与审查流程的开发者。",
+    "evidence": [
+      {
+        "quote": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+        "url": "https://github.com/pbakaus/impeccable"
+      }
+    ],
+    "content_status": "editorial",
+    "material_hash": "c20b9a2c5b1ce00a5357ea9dbdcedda1be12bf7cdcc40d7865a347816ec3deb3",
+    "readme_url": "https://github.com/pbakaus/impeccable/blob/main/README.md",
+    "delta": null,
+    "growth_rate": null,
+    "rising_score": null,
+    "window_start": null,
+    "window_end": "2026-10-31T06:38:36+00:00",
+    "window_hours": null,
+    "observation": "warming"
+  },
+  "history": [
+    {
+      "date": "2026-10-31",
+      "sampled_at": "2026-10-31T06:38:36+00:00",
+      "stars": 97367,
+      "delta": null
+    }
+  ]
+}

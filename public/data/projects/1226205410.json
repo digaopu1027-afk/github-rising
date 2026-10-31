@@ -1,0 +1,62 @@
+{
+  "repo": {
+    "id": 1226205410,
+    "full_name": "Renhuai123/ziwei-doushu",
+    "name": "ziwei-doushu",
+    "description": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据",
+    "url": "https://github.com/Renhuai123/ziwei-doushu",
+    "homepage": "https://ouranic.cn/?from=gh-about",
+    "stars": 11546,
+    "forks": 2284,
+    "language": "TypeScript",
+    "license": "MIT",
+    "license_url": "https://api.github.com/licenses/mit",
+    "topics": [
+      "bazi",
+      "chinese-astrology",
+      "divination",
+      "fortune-telling",
+      "nextjs",
+      "open-source",
+      "purple-star-astrology",
+      "typescript",
+      "zi-wei-dou-shu",
+      "ziwei-doushu"
+    ],
+    "pushed_at": "2026-10-31T00:10:01Z",
+    "created_at": "2026-05-01T05:09:59Z",
+    "sampled_at": "2026-10-31T06:39:09+00:00",
+    "visibility": "public",
+    "fork": false,
+    "archived": false,
+    "disabled": false,
+    "category": "其他",
+    "kind": "应用／工具",
+    "summary_zh": "提供紫微斗数排盘引擎，包含排盘算法、四化系统、格局知识库和古籍原文。",
+    "audience_zh": "希望研究紫微斗数排盘算法、知识库与相关文献资料的人。",
+    "evidence": [
+      {
+        "quote": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据",
+        "url": "https://github.com/Renhuai123/ziwei-doushu"
+      }
+    ],
+    "content_status": "editorial",
+    "material_hash": "6600b24a0596188460bc8de990dbb218e0cd58ec466c13f82624d5a596800bdc",
+    "readme_url": "https://github.com/Renhuai123/ziwei-doushu/blob/main/README.md",
+    "delta": null,
+    "growth_rate": null,
+    "rising_score": null,
+    "window_start": null,
+    "window_end": "2026-10-31T06:39:09+00:00",
+    "window_hours": null,
+    "observation": "warming"
+  },
+  "history": [
+    {
+      "date": "2026-10-31",
+      "sampled_at": "2026-10-31T06:39:09+00:00",
+      "stars": 11546,
+      "delta": null
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "repo": {
+    "id": 1331261687,
+    "full_name": "milind-soni/OpenMausBot",
+    "name": "OpenMausBot",
+    "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+    "url": "https://github.com/milind-soni/OpenMausBot",
+    "homepage": "https://www.openmausbot.com/",
+    "stars": 8932,
+    "forks": 1228,
+    "language": "TypeScript",
+    "license": "Apache-2.0",
+    "license_url": "https://api.github.com/licenses/apache-2.0",
+    "topics": [
+      "ai-agents",
+      "claude-code",
+      "codex",
+      "computer-use",
+      "docker",
+      "electron",
+      "expo",
+      "grok",
+      "grok-bot",
+      "grok-bot-alternative",
+      "self-hosted",
+      "typescript"
+    ],
+    "pushed_at": "2026-10-31T06:32:19Z",
+    "created_at": "2026-08-11T18:58:55Z",
+    "sampled_at": "2026-10-31T06:39:08+00:00",
+    "visibility": "public",
+    "fork": false,
+    "archived": false,
+    "disabled": false,
+    "category": "AI",
+    "kind": "应用／工具",
+    "summary_zh": "给机器人一台可操作的虚拟机，探索开源的 Grok Bot 替代方案。",
+    "audience_zh": "希望研究或搭建能够操作虚拟机的机器人的开发者。",
+    "evidence": [
+      {
+        "quote": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+        "url": "https://github.com/milind-soni/OpenMausBot"
+      }
+    ],
+    "content_status": "editorial",
+    "material_hash": "daff93ed42b85a2da44aa89e2eadd4d2134b22840414d5cbaf36318b3d27823f",
+    "readme_url": "https://github.com/milind-soni/OpenMausBot/blob/main/README.md",
+    "delta": null,
+    "growth_rate": null,
+    "rising_score": null,
+    "window_start": null,
+    "window_end": "2026-10-31T06:39:08+00:00",
+    "window_hours": null,
+    "observation": "warming"
+  },
+  "history": [
+    {
+      "date": "2026-10-31",
+      "sampled_at": "2026-10-31T06:39:08+00:00",
+      "stars": 8932,
+      "delta": null
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "repo": {
+    "id": 909213664,
+    "full_name": "TauricResearch/TradingAgents",
+    "name": "TradingAgents",
+    "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+    "url": "https://github.com/TauricResearch/TradingAgents",
+    "homepage": "https://arxiv.org/pdf/2412.20138",
+    "stars": 118782,
+    "forks": 22704,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "license_url": "https://api.github.com/licenses/apache-2.0",
+    "topics": [
+      "agent",
+      "finance",
+      "llm",
+      "multiagent",
+      "trading"
+    ],
+    "pushed_at": "2026-10-27T08:43:04Z",
+    "created_at": "2024-12-28T03:31:08Z",
+    "sampled_at": "2026-10-31T06:39:17+00:00",
+    "visibility": "public",
+    "fork": false,
+    "archived": false,
+    "disabled": false,
+    "category": "AI",
+    "kind": "库／框架",
+    "summary_zh": null,
+    "audience_zh": null,
+    "evidence": [],
+    "content_status": "missing",
+    "material_hash": "6810d2f7db06c8a79129e4febffc24d891dd9d31b027f47a519cb25904f71be8",
+    "readme_url": "https://github.com/TauricResearch/TradingAgents/blob/main/README.md",
+    "delta": null,
+    "growth_rate": null,
+    "rising_score": null,
+    "window_start": null,
+    "window_end": "2026-10-31T06:39:17+00:00",
+    "window_hours": null,
+    "observation": "warming"
+  },
+  "history": [
+    {
+      "date": "2026-10-31",
+      "sampled_at": "2026-10-31T06:39:17+00:00",
+      "stars": 118782,
+      "delta": null
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "repo": {
+    "id": 90796663,
+    "full_name": "puppeteer/puppeteer",
+    "name": "puppeteer",
+    "description": "JavaScript API for Chrome and Firefox",
+    "url": "https://github.com/puppeteer/puppeteer",
+    "homepage": "https://pptr.dev",
+    "stars": 95772,
+    "forks": 9596,
+    "language": "TypeScript",
+    "license": "Apache-2.0",
+    "license_url": "https://api.github.com/licenses/apache-2.0",
+    "topics": [
+      "automation",
+      "chrome",
+      "chromium",
+      "developer-tools",
+      "firefox",
+      "headless-chrome",
+      "node-module",
+      "testing",
+      "web"
+    ],
+    "pushed_at": "2026-10-30T15:20:46Z",
+    "created_at": "2017-05-09T22:16:13Z",
+    "sampled_at": "2026-10-31T06:38:43+00:00",
+    "visibility": "public",
+    "fork": false,
+    "archived": false,
+    "disabled": false,
+    "category": "开发工具",
+    "kind": "应用／工具",
+    "summary_zh": null,
+    "audience_zh": null,
+    "evidence": [],
+    "content_status": "missing",
+    "material_hash": "82d2eb5bd15a38bc892650af91e3b462cbdf3a81831a071e39461e4bdd7aa29a",
+    "readme_url": "https://github.com/puppeteer/puppeteer/blob/main/README.md",
+    "delta": null,
+    "growth_rate": null,
+    "rising_score": null,
+    "window_start": null,
+    "window_end": "2026-10-31T06:38:43+00:00",
+    "window_hours": null,
+    "observation": "warming"
+  },
+  "history": [
+    {
+      "date": "2026-10-31",
+      "sampled_at": "2026-10-31T06:38:43+00:00",
+      "stars": 95772,
+      "delta": null
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "repo": {
+    "id": 1336502227,
+    "full_name": "CopilotKit/OpenBot",
+    "name": "OpenBot",
+    "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+    "url": "https://github.com/CopilotKit/OpenBot",
+    "homepage": "https://www.copilotkit.ai/openbot",
+    "stars": 8920,
+    "forks": 1119,
+    "language": "TypeScript",
+    "license": "MIT",
+    "license_url": "https://api.github.com/licenses/mit",
+    "topics": [
+      "ag-ui",
+      "agent-governance",
+      "ai-agents",
+      "browser-automation",
+      "copilotkit",
+      "generative-ui",
+      "mcp"
+    ],
+    "pushed_at": "2026-10-30T22:06:51Z",
+    "created_at": "2026-08-17T00:44:59Z",
+    "sampled_at": "2026-10-31T06:39:09+00:00",
+    "visibility": "public",
+    "fork": false,
+    "archived": false,
+    "disabled": false,
+    "category": "AI",
+    "kind": "应用／工具",
+    "summary_zh": "让 AI 同事拥有自己的浏览器、文件和工具，并记录每一步操作。",
+    "audience_zh": "希望围绕 AG-UI 智能体搭建可操作电脑的 AI 工作流的开发者。",
+    "evidence": [
+      {
+        "quote": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+        "url": "https://github.com/CopilotKit/OpenBot"
+      }
+    ],
+    "content_status": "editorial",
+    "material_hash": "43de9db1dcc41001eb6e677c40bdf9ab9829bf159c92924588d0f47d6b1cb269",
+    "readme_url": "https://github.com/CopilotKit/OpenBot/blob/main/README.md",
+    "delta": null,
+    "growth_rate": null,
+    "rising_score": null,
+    "window_start": null,
+    "window_end": "2026-10-31T06:39:09+00:00",
+    "window_hours": null,
+    "observation": "warming"
+  },
+  "history": [
+    {
+      "date": "2026-10-31",
+      "sampled_at": "2026-10-31T06:39:09+00:00",
+      "stars": 8920,
+      "delta": null
+    }
+  ]
+}

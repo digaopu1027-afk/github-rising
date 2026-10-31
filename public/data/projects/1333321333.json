@@ -1,0 +1,55 @@
+{
+  "repo": {
+    "id": 1333321333,
+    "full_name": "anywhere-labs/dsh-desktop",
+    "name": "dsh-desktop",
+    "description": "为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案。万物皆「插件」，桌面本身也是「插件」。",
+    "url": "https://github.com/anywhere-labs/dsh-desktop",
+    "homepage": "https://dshdesktop.cn",
+    "stars": 34210,
+    "forks": 1554,
+    "language": "TypeScript",
+    "license": "MIT",
+    "license_url": "https://api.github.com/licenses/mit",
+    "topics": [
+      "cordis",
+      "cordis-plugin",
+      "deepseek",
+      "deepseek-harness",
+      "desktop",
+      "dsh",
+      "dsh-plugin",
+      "dsh-plugin-desktop"
+    ],
+    "pushed_at": "2026-10-31T01:25:11Z",
+    "created_at": "2026-08-13T16:30:50Z",
+    "sampled_at": "2026-10-31T06:39:06+00:00",
+    "visibility": "public",
+    "fork": false,
+    "archived": false,
+    "disabled": false,
+    "category": "其他",
+    "kind": "应用／工具",
+    "summary_zh": null,
+    "audience_zh": null,
+    "evidence": [],
+    "content_status": "missing",
+    "material_hash": "d47984d423d07ac1f83674b5cf106b2ac936347dcb4b52fe31281a80e3e6fe80",
+    "readme_url": "https://github.com/anywhere-labs/dsh-desktop/blob/master/README.md",
+    "delta": null,
+    "growth_rate": null,
+    "rising_score": null,
+    "window_start": null,
+    "window_end": "2026-10-31T06:39:06+00:00",
+    "window_hours": null,
+    "observation": "warming"
+  },
+  "history": [
+    {
+      "date": "2026-10-31",
+      "sampled_at": "2026-10-31T06:39:06+00:00",
+      "stars": 34210,
+      "delta": null
+    }
+  ]
+}

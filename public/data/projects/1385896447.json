@@ -1,0 +1,57 @@
+{
+  "repo": {
+    "id": 1385896447,
+    "full_name": "Ebony-Vinyl/dsh-our-free-model",
+    "name": "dsh-our-free-model",
+    "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.",
+    "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
+    "homepage": null,
+    "stars": 53221,
+    "forks": 1456,
+    "language": "JavaScript",
+    "license": "MIT",
+    "license_url": "https://api.github.com/licenses/mit",
+    "topics": [
+      "ai-agents",
+      "deepseek",
+      "deepseek-harness",
+      "developer-tools",
+      "dsh",
+      "dsh-plugin",
+      "free-model",
+      "llm",
+      "model-provider",
+      "openai-compatible"
+    ],
+    "pushed_at": "2026-10-31T04:39:48Z",
+    "created_at": "2026-09-24T16:17:19Z",
+    "sampled_at": "2026-10-31T06:38:46+00:00",
+    "visibility": "public",
+    "fork": false,
+    "archived": false,
+    "disabled": false,
+    "category": "AI",
+    "kind": "应用／工具",
+    "summary_zh": null,
+    "audience_zh": null,
+    "evidence": [],
+    "content_status": "missing",
+    "material_hash": "4169c7f3ce50d0944ff5b157b94eb181d5547f19551e50c5b3b42d3b6e6776c4",
+    "readme_url": "https://github.com/Ebony-Vinyl/dsh-our-free-model/blob/main/README.md",
+    "delta": null,
+    "growth_rate": null,
+    "rising_score": null,
+    "window_start": null,
+    "window_end": "2026-10-31T06:38:46+00:00",
+    "window_hours": null,
+    "observation": "warming"
+  },
+  "history": [
+    {
+      "date": "2026-10-31",
+      "sampled_at": "2026-10-31T06:38:46+00:00",
+      "stars": 53221,
+      "delta": null
+    }
+  ]
+}

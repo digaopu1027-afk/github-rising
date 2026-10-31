@@ -1,0 +1,51 @@
+{
+  "repo": {
+    "id": 1333065091,
+    "full_name": "deepseek-ai/deepseek-harness",
+    "name": "deepseek-harness",
+    "description": "DeepSeek Harness: Everything is a Plugin.",
+    "url": "https://github.com/deepseek-ai/deepseek-harness",
+    "homepage": "https://deepseek.com/harness",
+    "stars": 266905,
+    "forks": 32372,
+    "language": "TypeScript",
+    "license": "MIT",
+    "license_url": "https://api.github.com/licenses/mit",
+    "topics": [
+      "ai-agents",
+      "cordis",
+      "dsh",
+      "dsh-plugin"
+    ],
+    "pushed_at": "2026-10-30T06:54:11Z",
+    "created_at": "2026-08-13T11:56:32Z",
+    "sampled_at": "2026-10-31T06:39:01+00:00",
+    "visibility": "public",
+    "fork": false,
+    "archived": false,
+    "disabled": false,
+    "category": "AI",
+    "kind": "应用／工具",
+    "summary_zh": null,
+    "audience_zh": null,
+    "evidence": [],
+    "content_status": "missing",
+    "material_hash": "26d8650e93ae3096ce4ae77de64ab64422669d5c4e2416f17cd729cf05430f4c",
+    "readme_url": "https://github.com/deepseek-ai/deepseek-harness/blob/master/README.md",
+    "delta": null,
+    "growth_rate": null,
+    "rising_score": null,
+    "window_start": null,
+    "window_end": "2026-10-31T06:39:01+00:00",
+    "window_hours": null,
+    "observation": "warming"
+  },
+  "history": [
+    {
+      "date": "2026-10-31",
+      "sampled_at": "2026-10-31T06:39:01+00:00",
+      "stars": 266905,
+      "delta": null
+    }
+  ]
+}

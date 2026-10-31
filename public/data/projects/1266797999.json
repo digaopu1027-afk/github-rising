@@ -1,0 +1,57 @@
+{
+  "repo": {
+    "id": 1266797999,
+    "full_name": "DietrichGebert/ponytail",
+    "name": "ponytail",
+    "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+    "url": "https://github.com/DietrichGebert/ponytail",
+    "homepage": "https://ponytail.dev",
+    "stars": 181090,
+    "forks": 9952,
+    "language": "JavaScript",
+    "license": "MIT",
+    "license_url": "https://api.github.com/licenses/mit",
+    "topics": [
+      "agent-skills",
+      "ai-agents",
+      "claude",
+      "claude-code",
+      "claude-code-plugin",
+      "cursor-rules",
+      "developer-tools",
+      "llm",
+      "prompt-engineering",
+      "yagni"
+    ],
+    "pushed_at": "2026-10-29T11:59:31Z",
+    "created_at": "2026-06-12T00:52:37Z",
+    "sampled_at": "2026-10-31T06:38:42+00:00",
+    "visibility": "public",
+    "fork": false,
+    "archived": false,
+    "disabled": false,
+    "category": "AI",
+    "kind": "教程／资源",
+    "summary_zh": null,
+    "audience_zh": null,
+    "evidence": [],
+    "content_status": "missing",
+    "material_hash": "0dcaa38b3720571a13c6e53d2d0ea75974e6f59699e95e7bf9e07db29abc8941",
+    "readme_url": "https://github.com/DietrichGebert/ponytail/blob/main/README.md",
+    "delta": null,
+    "growth_rate": null,
+    "rising_score": null,
+    "window_start": null,
+    "window_end": "2026-10-31T06:38:42+00:00",
+    "window_hours": null,
+    "observation": "warming"
+  },
+  "history": [
+    {
+      "date": "2026-10-31",
+      "sampled_at": "2026-10-31T06:38:42+00:00",
+      "stars": 181090,
+      "delta": null
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "repo": {
+    "id": 1153130349,
+    "full_name": "pingdotgg/t3code",
+    "name": "t3code",
+    "description": "",
+    "url": "https://github.com/pingdotgg/t3code",
+    "homepage": "https://t3.codes",
+    "stars": 33043,
+    "forks": 8678,
+    "language": "TypeScript",
+    "license": "MIT",
+    "license_url": "https://api.github.com/licenses/mit",
+    "topics": [],
+    "pushed_at": "2026-10-31T06:37:53Z",
+    "created_at": "2026-02-08T23:46:22Z",
+    "sampled_at": "2026-10-31T06:39:14+00:00",
+    "visibility": "public",
+    "fork": false,
+    "archived": false,
+    "disabled": false,
+    "category": "其他",
+    "kind": "应用／工具",
+    "summary_zh": null,
+    "audience_zh": null,
+    "evidence": [],
+    "content_status": "missing",
+    "material_hash": "32a9197f7aaf24564c3b8c30c2696e4df75b57f8d4ac54f25a5a5d6ac49365fd",
+    "readme_url": "https://github.com/pingdotgg/t3code/blob/main/README.md",
+    "delta": null,
+    "growth_rate": null,
+    "rising_score": null,
+    "window_start": null,
+    "window_end": "2026-10-31T06:39:14+00:00",
+    "window_hours": null,
+    "observation": "warming"
+  },
+  "history": [
+    {
+      "date": "2026-10-31",
+      "sampled_at": "2026-10-31T06:39:14+00:00",
+      "stars": 33043,
+      "delta": null
+    }
+  ]
+}

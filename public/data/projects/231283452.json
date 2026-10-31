@@ -1,0 +1,54 @@
+{
+  "repo": {
+    "id": 231283452,
+    "full_name": "excalidraw/excalidraw",
+    "name": "excalidraw",
+    "description": "Virtual whiteboard for sketching hand-drawn like diagrams",
+    "url": "https://github.com/excalidraw/excalidraw",
+    "homepage": "https://excalidraw.com",
+    "stars": 134893,
+    "forks": 15935,
+    "language": "TypeScript",
+    "license": "MIT",
+    "license_url": "https://api.github.com/licenses/mit",
+    "topics": [
+      "canvas",
+      "collaboration",
+      "diagrams",
+      "drawing",
+      "hacktoberfest",
+      "productivity",
+      "whiteboard"
+    ],
+    "pushed_at": "2026-10-30T21:21:53Z",
+    "created_at": "2020-01-02T01:04:43Z",
+    "sampled_at": "2026-10-31T06:38:47+00:00",
+    "visibility": "public",
+    "fork": false,
+    "archived": false,
+    "disabled": false,
+    "category": "设计创作",
+    "kind": "应用／工具",
+    "summary_zh": null,
+    "audience_zh": null,
+    "evidence": [],
+    "content_status": "missing",
+    "material_hash": "9f254184a243b803ee7a8774de438e5af1ba45255bc282b11fd8eb8c0bbee198",
+    "readme_url": "https://github.com/excalidraw/excalidraw/blob/master/README.md",
+    "delta": null,
+    "growth_rate": null,
+    "rising_score": null,
+    "window_start": null,
+    "window_end": "2026-10-31T06:38:47+00:00",
+    "window_hours": null,
+    "observation": "warming"
+  },
+  "history": [
+    {
+      "date": "2026-10-31",
+      "sampled_at": "2026-10-31T06:38:47+00:00",
+      "stars": 134893,
+      "delta": null
+    }
+  ]
+}

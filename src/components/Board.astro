@@ -1,0 +1,96 @@
+---
+import Icon from './Icon.astro';
+import {categories, detailHref, number, shortNumber, type Board} from '../lib/data';
+interface Props { board: Board; archived?: boolean }
+const {board, archived = false} = Astro.props;
+const groups = [{key: 'hot', label: '今日热榜', rows: board.hot}, {key: 'rising', label: '潜力新秀', rows: board.rising}, {key: 'observing', label: '观察池', rows: board.observing}];
+const hasHot = board.hot.length > 0;
+---
+<section class="board" aria-label="项目榜单" data-ranking data-cold={!hasHot}>
+  <div class="board-controls">
+    <div class="tabs" role="tablist" aria-label="选择榜单">
+      {groups.map((group, i) => <button id={`tab-${group.key}`} role="tab" aria-selected={i === 0 ? 'true' : 'false'} aria-controls={`panel-${group.key}`} data-mode={group.key} tabindex={i === 0 ? 0 : -1}>{group.label}<span>{group.rows.length}</span></button>)}
+    </div>
+    <label class="search"><Icon name="search" size={18}/><span class="sr-only">搜索项目名称、用途或技术语言</span><input id="project-search" type="search" placeholder="搜索项目、用途…" autocomplete="off" /></label>
+  </div>
+  <div class="filter-line">
+    <div class="categories" role="group" aria-label="项目分类">
+      {['全部', ...categories].map((category, i) => <button data-category={category} aria-pressed={i === 0 ? 'true' : 'false'}>{category}</button>)}
+    </div>
+    <span class="result-count" aria-live="polite" id="result-count"></span>
+  </div>
+  {groups.map(group => <section id={`panel-${group.key}`} class="ranking-panel" role="tabpanel" aria-labelledby={`tab-${group.key}`} data-panel={group.key} hidden={group.key !== 'hot'} tabindex="0">
+    {group.key === 'hot' && !hasHot && <div class="cold-start">
+      <span class="cold-symbol"><Icon name="clock" size={23}/></span>
+      <div><h2>{board.rankable_count ? '本期暂无符合条件的增长项目' : '先记录今天，才能看见明天的增长。'}</h2><p>{board.eligible_count ? `已开始观察 ${number(board.eligible_count)} 个符合范围的项目。需要相隔 22–26 小时的有效采样，才会生成排名。` : '首次采集完成后，这里将展示真实项目。没有数据时不会生成排名。'}</p>
+      {board.observing.length > 0 && <button class="text-button" data-open-observing>先逛逛观察池 <Icon name="arrow" size={16}/></button>}</div>
+    </div>}
+    {group.key === 'rising' && !group.rows.length && <div class="empty-state"><Icon name="rise" size={26}/><h2>潜力新秀还在积累中</h2><p>总 Star 50–5,000，近一日净增至少 10。满足采样条件后，按平滑增长率排序。</p></div>}
+    {group.key === 'observing' && <div class="observation-note">这些项目尚无合格的对比样本，暂不参与排名。先展示已有中文介绍的项目，再按总 Star 排列。</div>}
+    {group.rows.length > 0 && <>
+      <div class="list-head" aria-hidden="true"><span>{group.key === 'observing' ? '状态' : '排名'}</span><span>项目 / 能做什么</span><span>近一日净增</span><span>总 Star</span><span></span></div>
+      <ol class="repo-list" role="list" data-list={group.key}>
+        {group.rows.map(repo => <li class="repo-row" data-row data-category-value={repo.category} data-search={`${repo.full_name} ${repo.summary_zh || ''} ${repo.description} ${repo.category} ${repo.language || ''}`}>
+          <div class:list={['rank-number', { 'top-rank': repo.rank && repo.rank <= 3, 'unranked': !repo.rank }]}>{repo.rank ? String(repo.rank).padStart(2, '0') : <span class="observing-dot" aria-label="观察中"></span>}</div>
+          <div class="repo-info">
+            <div class="repo-title-line"><a class="repo-title" href={detailHref(repo.id, archived ? board.date : undefined)}>{repo.name}</a><span class="category-label">{repo.category}</span></div>
+            <p class:list={['repo-summary', {'original-description': !repo.summary_zh}]}>{repo.summary_zh || repo.description || '项目暂无公开描述，请查阅 README。'}</p>
+            <div class="repo-meta"><span class="repo-owner">{repo.full_name.split('/')[0]}</span><span>{repo.kind}</span>{repo.language && <span class="language"><i class={`lang-${repo.language.toLowerCase().replace(/[^a-z]/g, '')}`}></i>{repo.language}</span>}{!repo.summary_zh && <span>中文说明待补充</span>}</div>
+          </div>
+          <div class="delta-cell">{repo.delta !== null ? <><strong class:list={{negative: repo.delta < 0}}>{repo.delta > 0 ? '+' : ''}{number(repo.delta)}</strong><span>{repo.growth_rate !== null ? `${repo.growth_rate > 0 ? '+' : ''}${(repo.growth_rate * 100).toFixed(1)}%` : '基数为 0'}</span></> : <><strong class="pending-delta">—</strong><span>{repo.observation === 'warming' ? '积累中' : '间隔不合格'}</span></>}</div>
+          <div class="stars-cell"><Icon name="star" size={13}/>{shortNumber(repo.stars)}</div>
+          <a class="row-link" href={detailHref(repo.id, archived ? board.date : undefined)} aria-label={`了解 ${repo.name}`}><Icon name="chevron" size={18}/></a>
+        </li>)}
+      </ol>
+    </>}
+    {group.key === 'observing' && !group.rows.length && <div class="empty-state"><h2>暂无待观察项目</h2><p>新发现或采样间隔不合格的项目会出现在这里。</p></div>}
+  </section>)}
+  <div class="empty-state filter-empty" id="filter-empty" hidden><Icon name="search" size={25}/><h2>没有找到匹配的项目</h2><p>试试项目名称、用途，或切换其他分类。</p><button class="text-button" id="clear-filters">清除筛选 <Icon name="arrow" size={16}/></button></div>
+  {!hasHot && board.observing.length > 0 && <section class="cold-preview" id="cold-preview"><div class="section-heading"><h2>正在观察</h2><button class="text-button" data-open-observing>查看观察池 <Icon name="arrow" size={16}/></button></div><div class="preview-list">{board.observing.slice(0, 5).map(repo => <a class="preview-row" href={detailHref(repo.id, archived ? board.date : undefined)}><div><strong>{repo.name}</strong><p>{repo.summary_zh || repo.description || '查看项目资料'}</p></div><span>数据积累中<Icon name="chevron" size={16}/></span></a>)}</div></section>}
+  <div class="list-footnote"><span class="tiny-dot"></span>仅基于已跟踪项目 · Star 净增含新增与取消收藏的共同影响</div>
+</section>
+<script>
+  const root = document.querySelector<HTMLElement>('[data-ranking]');
+  if (root) {
+    const tabs = [...root.querySelectorAll<HTMLButtonElement>('[data-mode]')];
+    const categoryButtons = [...root.querySelectorAll<HTMLButtonElement>('[data-category]')];
+    const search = root.querySelector<HTMLInputElement>('#project-search')!;
+    let mode = 'hot', category = '全部';
+    const update = () => {
+      let count = 0;
+      const query = search.value.trim().toLocaleLowerCase();
+      root.querySelectorAll<HTMLElement>('[data-panel]').forEach(panel => {
+        const selected = panel.dataset.panel === mode;
+        panel.hidden = !selected;
+        panel.querySelectorAll<HTMLElement>('[data-row]').forEach(row => {
+          const match = (category === '全部' || row.dataset.categoryValue === category) && (row.dataset.search || '').toLocaleLowerCase().includes(query);
+          row.hidden = !match;
+          if (selected && match) count++;
+        });
+      });
+      tabs.forEach(tab => {const active = tab.dataset.mode === mode; tab.setAttribute('aria-selected', String(active)); tab.tabIndex = active ? 0 : -1;});
+      categoryButtons.forEach(button => button.setAttribute('aria-pressed', String(button.dataset.category === category)));
+      root.querySelector('#result-count')!.textContent = `${count} 个项目`;
+      const filtering = category !== '全部' || query !== '';
+      (root.querySelector('#filter-empty') as HTMLElement).hidden = count !== 0 || !filtering;
+      root.querySelectorAll<HTMLElement>('.cold-start, .ranking-panel > .empty-state, .observation-note').forEach(node => node.hidden = filtering);
+      const preview = root.querySelector<HTMLElement>('#cold-preview');
+      if (preview) preview.hidden = mode !== 'hot' || filtering;
+      root.querySelectorAll<HTMLElement>('.list-head').forEach(node => node.hidden = count === 0);
+    };
+    tabs.forEach((tab, index) => {
+      tab.addEventListener('click', () => {mode = tab.dataset.mode!; update();});
+      tab.addEventListener('keydown', event => {
+        if (!['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(event.key)) return;
+        event.preventDefault();
+        const next = event.key === 'Home' ? 0 : event.key === 'End' ? tabs.length - 1 : (index + (event.key === 'ArrowRight' ? 1 : -1) + tabs.length) % tabs.length;
+        tabs[next].click(); tabs[next].focus();
+      });
+    });
+    categoryButtons.forEach(button => button.addEventListener('click', () => {category = button.dataset.category!; update();}));
+    search.addEventListener('input', update);
+    root.querySelectorAll('[data-open-observing]').forEach(button => button.addEventListener('click', () => {mode = 'observing'; update(); tabs[2].focus();}));
+    root.querySelector('#clear-filters')?.addEventListener('click', () => {category = '全部'; search.value = ''; update(); search.focus();});
+    update();
+  }
+</script>

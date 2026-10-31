@@ -1,0 +1,53 @@
+{
+  "repo": {
+    "id": 1383809012,
+    "full_name": "yetone/magpie",
+    "name": "magpie",
+    "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+    "url": "https://github.com/yetone/magpie",
+    "homepage": "https://usemagpie.ai",
+    "stars": 26478,
+    "forks": 2215,
+    "language": "Go",
+    "license": "MIT",
+    "license_url": "https://api.github.com/licenses/mit",
+    "topics": [
+      "claude-code",
+      "codex",
+      "deepseek",
+      "gemini-cli",
+      "llm",
+      "macos"
+    ],
+    "pushed_at": "2026-10-31T06:30:31Z",
+    "created_at": "2026-09-23T16:22:35Z",
+    "sampled_at": "2026-10-31T06:39:07+00:00",
+    "visibility": "public",
+    "fork": false,
+    "archived": false,
+    "disabled": false,
+    "category": "AI",
+    "kind": "应用／工具",
+    "summary_zh": null,
+    "audience_zh": null,
+    "evidence": [],
+    "content_status": "missing",
+    "material_hash": "8d3439d96332d3233297d2356129e4b656935c5e50ea3d2416d16cae63800e3a",
+    "readme_url": "https://github.com/yetone/magpie/blob/main/README.md",
+    "delta": null,
+    "growth_rate": null,
+    "rising_score": null,
+    "window_start": null,
+    "window_end": "2026-10-31T06:39:07+00:00",
+    "window_hours": null,
+    "observation": "warming"
+  },
+  "history": [
+    {
+      "date": "2026-10-31",
+      "sampled_at": "2026-10-31T06:39:07+00:00",
+      "stars": 26478,
+      "delta": null
+    }
+  ]
+}

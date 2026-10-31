@@ -1,0 +1,53 @@
+{
+  "repo": {
+    "id": 1238120057,
+    "full_name": "ayghri/i-have-adhd",
+    "name": "i-have-adhd",
+    "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+    "url": "https://github.com/ayghri/i-have-adhd",
+    "homepage": null,
+    "stars": 59528,
+    "forks": 3460,
+    "language": "Python",
+    "license": "MIT",
+    "license_url": "https://api.github.com/licenses/mit",
+    "topics": [
+      "adhd",
+      "claude-",
+      "claude-code-plugin",
+      "claude-skills",
+      "developer-tools",
+      "productivity"
+    ],
+    "pushed_at": "2026-10-19T19:46:23Z",
+    "created_at": "2026-05-13T20:42:06Z",
+    "sampled_at": "2026-10-31T06:38:46+00:00",
+    "visibility": "public",
+    "fork": false,
+    "archived": false,
+    "disabled": false,
+    "category": "AI",
+    "kind": "教程／资源",
+    "summary_zh": null,
+    "audience_zh": null,
+    "evidence": [],
+    "content_status": "missing",
+    "material_hash": "a9cc9f2215e06b3eaacbfa6f0f5385ac2ba4a3d9edace5b4f8b80a2f50945831",
+    "readme_url": "https://github.com/ayghri/i-have-adhd/blob/main/README.md",
+    "delta": null,
+    "growth_rate": null,
+    "rising_score": null,
+    "window_start": null,
+    "window_end": "2026-10-31T06:38:46+00:00",
+    "window_hours": null,
+    "observation": "warming"
+  },
+  "history": [
+    {
+      "date": "2026-10-31",
+      "sampled_at": "2026-10-31T06:38:46+00:00",
+      "stars": 59528,
+      "delta": null
+    }
+  ]
+}

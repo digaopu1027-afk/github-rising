@@ -1,0 +1,54 @@
+{
+  "repo": {
+    "id": 1398080271,
+    "full_name": "storytold/photocraft",
+    "name": "photocraft",
+    "description": "PhotoCraft: An open-source, photo editor written by scratch in pure Rust",
+    "url": "https://github.com/storytold/photocraft",
+    "homepage": "https://getartcraft.com/apps/photocraft",
+    "stars": 75292,
+    "forks": 13328,
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "license_url": "https://api.github.com/licenses/apache-2.0",
+    "topics": [
+      "art",
+      "image-editing",
+      "image-editing-software",
+      "image-editor",
+      "images",
+      "photo-editing",
+      "rust"
+    ],
+    "pushed_at": "2026-10-31T05:14:33Z",
+    "created_at": "2026-09-30T13:37:48Z",
+    "sampled_at": "2026-10-31T06:39:03+00:00",
+    "visibility": "public",
+    "fork": false,
+    "archived": false,
+    "disabled": false,
+    "category": "设计创作",
+    "kind": "应用／工具",
+    "summary_zh": null,
+    "audience_zh": null,
+    "evidence": [],
+    "content_status": "missing",
+    "material_hash": "15d98b9befd58b167fb54122be40a714aa961f36faa6aef54abd77fc10656cf2",
+    "readme_url": "https://github.com/storytold/photocraft/blob/main/README.md",
+    "delta": null,
+    "growth_rate": null,
+    "rising_score": null,
+    "window_start": null,
+    "window_end": "2026-10-31T06:39:03+00:00",
+    "window_hours": null,
+    "observation": "warming"
+  },
+  "history": [
+    {
+      "date": "2026-10-31",
+      "sampled_at": "2026-10-31T06:39:03+00:00",
+      "stars": 75292,
+      "delta": null
+    }
+  ]
+}

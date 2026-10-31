@@ -1,0 +1,51 @@
+{
+  "repo": {
+    "id": 1106846196,
+    "full_name": "expo/skills",
+    "name": "skills",
+    "description": "A collection of AI agent skills for working with Expo projects and Expo Application Services",
+    "url": "https://github.com/expo/skills",
+    "homepage": null,
+    "stars": 3935,
+    "forks": 248,
+    "language": "Shell",
+    "license": "MIT",
+    "license_url": "https://api.github.com/licenses/mit",
+    "topics": [],
+    "pushed_at": "2026-10-30T20:29:57Z",
+    "created_at": "2025-11-30T03:57:18Z",
+    "sampled_at": "2026-10-31T06:39:09+00:00",
+    "visibility": "public",
+    "fork": false,
+    "archived": false,
+    "disabled": false,
+    "category": "AI",
+    "kind": "教程／资源",
+    "summary_zh": "为 AI 助手提供 Expo 项目和应用服务相关的技能资料。",
+    "audience_zh": "使用 Expo 与 Expo Application Services 构建应用，并希望借助 AI 助手工作的开发者。",
+    "evidence": [
+      {
+        "quote": "A collection of AI agent skills for working with Expo projects and Expo Application Services",
+        "url": "https://github.com/expo/skills"
+      }
+    ],
+    "content_status": "editorial",
+    "material_hash": "58cfcb6aa98b771ca553b2c692e42d3f2865d8b3b75b8e1ae0a25710caf6c62a",
+    "readme_url": "https://github.com/expo/skills/blob/main/README.md",
+    "delta": null,
+    "growth_rate": null,
+    "rising_score": null,
+    "window_start": null,
+    "window_end": "2026-10-31T06:39:09+00:00",
+    "window_hours": null,
+    "observation": "warming"
+  },
+  "history": [
+    {
+      "date": "2026-10-31",
+      "sampled_at": "2026-10-31T06:39:09+00:00",
+      "stars": 3935,
+      "delta": null
+    }
+  ]
+}

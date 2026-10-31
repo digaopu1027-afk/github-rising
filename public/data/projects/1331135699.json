@@ -1,0 +1,62 @@
+{
+  "repo": {
+    "id": 1331135699,
+    "full_name": "guillaumemeyer/watermarks-remover",
+    "name": "watermarks-remover",
+    "description": "A privacy-first app that strips AI watermarks from content you own.",
+    "url": "https://github.com/guillaumemeyer/watermarks-remover",
+    "homepage": "https://github.com/guillaumemeyer/watermarks-remover",
+    "stars": 25690,
+    "forks": 2928,
+    "language": "Python",
+    "license": "MIT",
+    "license_url": "https://api.github.com/licenses/mit",
+    "topics": [
+      "agent-skill",
+      "ai",
+      "anthropic",
+      "c2pa",
+      "chatgpt",
+      "claude",
+      "gemini",
+      "openai",
+      "provenance",
+      "synthid",
+      "watermark",
+      "watermark-detection",
+      "watermark-tools",
+      "watermarking",
+      "watermarks"
+    ],
+    "pushed_at": "2026-10-26T20:26:14Z",
+    "created_at": "2026-08-11T16:32:38Z",
+    "sampled_at": "2026-10-31T06:39:07+00:00",
+    "visibility": "public",
+    "fork": false,
+    "archived": false,
+    "disabled": false,
+    "category": "AI",
+    "kind": "应用／工具",
+    "summary_zh": null,
+    "audience_zh": null,
+    "evidence": [],
+    "content_status": "missing",
+    "material_hash": "a1fde5191a6aa292f41fb3532597b400e3063185e46c089fe30c1ed6f8039c01",
+    "readme_url": "https://github.com/guillaumemeyer/watermarks-remover/blob/main/README.md",
+    "delta": null,
+    "growth_rate": null,
+    "rising_score": null,
+    "window_start": null,
+    "window_end": "2026-10-31T06:39:07+00:00",
+    "window_hours": null,
+    "observation": "warming"
+  },
+  "history": [
+    {
+      "date": "2026-10-31",
+      "sampled_at": "2026-10-31T06:39:07+00:00",
+      "stars": 25690,
+      "delta": null
+    }
+  ]
+}

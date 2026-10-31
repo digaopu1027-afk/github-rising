@@ -1,0 +1,5 @@
+---
+import Layout from '../layouts/Layout.astro';
+import {href} from '../lib/data';
+---
+<Layout title="未找到这份记录 · 升榜"><div class="empty-state page-empty"><h1>这份记录还不存在。</h1><p>可能尚未开始跟踪这个项目，或链接地址有误。</p><a class="primary-button" href={href()}>回到今日榜单</a></div></Layout>

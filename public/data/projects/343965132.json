@@ -1,0 +1,59 @@
+{
+  "repo": {
+    "id": 343965132,
+    "full_name": "microsoft/ML-For-Beginners",
+    "name": "ML-For-Beginners",
+    "description": "12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all",
+    "url": "https://github.com/microsoft/ML-For-Beginners",
+    "homepage": null,
+    "stars": 91887,
+    "forks": 22799,
+    "language": "Jupyter Notebook",
+    "license": "MIT",
+    "license_url": "https://api.github.com/licenses/mit",
+    "topics": [
+      "data-science",
+      "education",
+      "machine-learning",
+      "machine-learning-algorithms",
+      "machinelearning",
+      "machinelearning-python",
+      "microsoft-for-beginners",
+      "ml",
+      "python",
+      "r",
+      "scikit-learn",
+      "scikit-learn-python"
+    ],
+    "pushed_at": "2026-10-21T01:01:31Z",
+    "created_at": "2021-03-03T01:34:05Z",
+    "sampled_at": "2026-10-31T06:38:59+00:00",
+    "visibility": "public",
+    "fork": false,
+    "archived": false,
+    "disabled": false,
+    "category": "AI",
+    "kind": "应用／工具",
+    "summary_zh": null,
+    "audience_zh": null,
+    "evidence": [],
+    "content_status": "missing",
+    "material_hash": "51ee3948a526232ecf710909e3ae329f8e15f458a6499b3be4e29a2158fb701e",
+    "readme_url": "https://github.com/microsoft/ML-For-Beginners/blob/main/README.md",
+    "delta": null,
+    "growth_rate": null,
+    "rising_score": null,
+    "window_start": null,
+    "window_end": "2026-10-31T06:38:59+00:00",
+    "window_hours": null,
+    "observation": "warming"
+  },
+  "history": [
+    {
+      "date": "2026-10-31",
+      "sampled_at": "2026-10-31T06:38:59+00:00",
+      "stars": 91887,
+      "delta": null
+    }
+  ]
+}

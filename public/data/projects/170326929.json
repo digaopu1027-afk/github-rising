@@ -1,0 +1,55 @@
+{
+  "repo": {
+    "id": 170326929,
+    "full_name": "goabstract/Awesome-Design-Tools",
+    "name": "Awesome-Design-Tools",
+    "description": "The best design tools and plugins for everything 👉",
+    "url": "https://github.com/goabstract/Awesome-Design-Tools",
+    "homepage": null,
+    "stars": 41707,
+    "forks": 2397,
+    "language": "JavaScript",
+    "license": "MIT",
+    "license_url": "https://api.github.com/licenses/mit",
+    "topics": [
+      "animations",
+      "awesome",
+      "awesome-list",
+      "design",
+      "design-systems",
+      "design-tools",
+      "font-awesome",
+      "ui-design"
+    ],
+    "pushed_at": "2024-07-28T19:57:31Z",
+    "created_at": "2019-02-12T13:55:30Z",
+    "sampled_at": "2026-10-31T06:38:52+00:00",
+    "visibility": "public",
+    "fork": false,
+    "archived": false,
+    "disabled": false,
+    "category": "设计创作",
+    "kind": "教程／资源",
+    "summary_zh": null,
+    "audience_zh": null,
+    "evidence": [],
+    "content_status": "missing",
+    "material_hash": "bd61564ccac93ba887ade73b4c074dccd72c252c6d6d6a7b9451c8d186e99aa3",
+    "readme_url": "https://github.com/goabstract/Awesome-Design-Tools/blob/master/README.md",
+    "delta": null,
+    "growth_rate": null,
+    "rising_score": null,
+    "window_start": null,
+    "window_end": "2026-10-31T06:38:52+00:00",
+    "window_hours": null,
+    "observation": "warming"
+  },
+  "history": [
+    {
+      "date": "2026-10-31",
+      "sampled_at": "2026-10-31T06:38:52+00:00",
+      "stars": 41707,
+      "delta": null
+    }
+  ]
+}

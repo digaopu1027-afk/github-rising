@@ -1,0 +1,54 @@
+{
+  "repo": {
+    "id": 23974149,
+    "full_name": "Dogfalo/materialize",
+    "name": "materialize",
+    "description": "Materialize, a CSS Framework based on Material Design",
+    "url": "https://github.com/Dogfalo/materialize",
+    "homepage": "https://materializecss.com",
+    "stars": 38775,
+    "forks": 4580,
+    "language": "JavaScript",
+    "license": "MIT",
+    "license_url": "https://api.github.com/licenses/mit",
+    "topics": [
+      "css",
+      "css-framework",
+      "design",
+      "framework",
+      "javascript",
+      "material",
+      "material-design"
+    ],
+    "pushed_at": "2026-08-20T13:49:11Z",
+    "created_at": "2014-09-12T19:35:38Z",
+    "sampled_at": "2026-10-31T06:38:53+00:00",
+    "visibility": "public",
+    "fork": false,
+    "archived": false,
+    "disabled": false,
+    "category": "设计创作",
+    "kind": "库／框架",
+    "summary_zh": null,
+    "audience_zh": null,
+    "evidence": [],
+    "content_status": "missing",
+    "material_hash": "bb513031b9bf99b811e28bff00ebd47262c19c1d078f0814782623ad8f7f8109",
+    "readme_url": "https://github.com/Dogfalo/materialize/blob/v1-dev/README.md",
+    "delta": null,
+    "growth_rate": null,
+    "rising_score": null,
+    "window_start": null,
+    "window_end": "2026-10-31T06:38:53+00:00",
+    "window_hours": null,
+    "observation": "warming"
+  },
+  "history": [
+    {
+      "date": "2026-10-31",
+      "sampled_at": "2026-10-31T06:38:53+00:00",
+      "stars": 38775,
+      "delta": null
+    }
+  ]
+}

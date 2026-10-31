@@ -1,0 +1,72 @@
+{
+  "repo": {
+    "id": 1048065319,
+    "full_name": "thedotmack/claude-mem",
+    "name": "claude-mem",
+    "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+    "url": "https://github.com/thedotmack/claude-mem",
+    "homepage": "https://claude-mem.ai",
+    "stars": 106664,
+    "forks": 9384,
+    "language": "TypeScript",
+    "license": "Apache-2.0",
+    "license_url": "https://api.github.com/licenses/apache-2.0",
+    "topics": [
+      "ai",
+      "ai-agents",
+      "ai-memory",
+      "anthropic",
+      "artificial-intelligence",
+      "chromadb",
+      "claude",
+      "claude-agent-sdk",
+      "claude-agents",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-skills",
+      "embeddings",
+      "long-term-memory",
+      "mem0",
+      "memory-engine",
+      "openmemory",
+      "rag",
+      "sqlite",
+      "supermemory"
+    ],
+    "pushed_at": "2026-10-31T02:09:54Z",
+    "created_at": "2025-08-31T20:50:03Z",
+    "sampled_at": "2026-10-31T06:38:36+00:00",
+    "visibility": "public",
+    "fork": false,
+    "archived": false,
+    "disabled": false,
+    "category": "AI",
+    "kind": "教程／资源",
+    "summary_zh": "为 AI 编程助手保存跨会话记忆，把之前的工作上下文带到下一次对话。",
+    "audience_zh": "希望在 Claude Code、Codex 等工具中持续保留项目上下文的用户。",
+    "evidence": [
+      {
+        "quote": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+        "url": "https://github.com/thedotmack/claude-mem"
+      }
+    ],
+    "content_status": "editorial",
+    "material_hash": "3125edf9847485c32f0c742a1778e5e68ad6b1c82b079a6b7ad5c85c96140b8d",
+    "readme_url": "https://github.com/thedotmack/claude-mem/blob/main/README.md",
+    "delta": null,
+    "growth_rate": null,
+    "rising_score": null,
+    "window_start": null,
+    "window_end": "2026-10-31T06:38:36+00:00",
+    "window_hours": null,
+    "observation": "warming"
+  },
+  "history": [
+    {
+      "date": "2026-10-31",
+      "sampled_at": "2026-10-31T06:38:36+00:00",
+      "stars": 106664,
+      "delta": null
+    }
+  ]
+}

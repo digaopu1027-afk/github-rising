@@ -1,0 +1,60 @@
+{
+  "repo": {
+    "id": 1293238217,
+    "full_name": "JetBrains/thinkrail",
+    "name": "thinkrail",
+    "description": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
+    "url": "https://github.com/JetBrains/thinkrail",
+    "homepage": "https://thinkrail.ai/",
+    "stars": 6672,
+    "forks": 360,
+    "language": "TypeScript",
+    "license": "Apache-2.0",
+    "license_url": "https://api.github.com/licenses/apache-2.0",
+    "topics": [
+      "agent",
+      "agent-skills",
+      "agentic-ai",
+      "agentic-workflow",
+      "ai-coding",
+      "ai-tools",
+      "pi-agent",
+      "pi-agent-extension",
+      "spec-driven",
+      "spec-driven-coding",
+      "spec-driven-development",
+      "vibe-coding",
+      "vibecoding"
+    ],
+    "pushed_at": "2026-10-31T01:42:57Z",
+    "created_at": "2026-07-08T07:40:43Z",
+    "sampled_at": "2026-10-31T06:39:15+00:00",
+    "visibility": "public",
+    "fork": false,
+    "archived": false,
+    "disabled": false,
+    "category": "AI",
+    "kind": "教程／资源",
+    "summary_zh": null,
+    "audience_zh": null,
+    "evidence": [],
+    "content_status": "missing",
+    "material_hash": "f4c53c8beba399e5debccb9a745eddb3f23c7d93912c61a381f3fe94566e65ea",
+    "readme_url": "https://github.com/JetBrains/thinkrail/blob/main/README.md",
+    "delta": null,
+    "growth_rate": null,
+    "rising_score": null,
+    "window_start": null,
+    "window_end": "2026-10-31T06:39:15+00:00",
+    "window_hours": null,
+    "observation": "warming"
+  },
+  "history": [
+    {
+      "date": "2026-10-31",
+      "sampled_at": "2026-10-31T06:39:15+00:00",
+      "stars": 6672,
+      "delta": null
+    }
+  ]
+}

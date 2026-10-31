@@ -1,0 +1,46 @@
+{
+  "repo": {
+    "id": 1421825221,
+    "full_name": "deepseek-ai/DeepInfer",
+    "name": "DeepInfer",
+    "description": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
+    "url": "https://github.com/deepseek-ai/DeepInfer",
+    "homepage": null,
+    "stars": 24539,
+    "forks": 2966,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "license_url": "https://api.github.com/licenses/apache-2.0",
+    "topics": [],
+    "pushed_at": "2026-10-26T05:30:52Z",
+    "created_at": "2026-10-16T07:47:23Z",
+    "sampled_at": "2026-10-31T06:39:08+00:00",
+    "visibility": "public",
+    "fork": false,
+    "archived": false,
+    "disabled": false,
+    "category": "开发工具",
+    "kind": "库／框架",
+    "summary_zh": null,
+    "audience_zh": null,
+    "evidence": [],
+    "content_status": "missing",
+    "material_hash": "29c494dd39e7609e03bd8640d08c84c026600638c360424cf1a7f8ac3f061cba",
+    "readme_url": "https://github.com/deepseek-ai/DeepInfer/blob/main/README.md",
+    "delta": null,
+    "growth_rate": null,
+    "rising_score": null,
+    "window_start": null,
+    "window_end": "2026-10-31T06:39:08+00:00",
+    "window_hours": null,
+    "observation": "warming"
+  },
+  "history": [
+    {
+      "date": "2026-10-31",
+      "sampled_at": "2026-10-31T06:39:08+00:00",
+      "stars": 24539,
+      "delta": null
+    }
+  ]
+}

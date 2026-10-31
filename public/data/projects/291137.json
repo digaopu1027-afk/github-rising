@@ -1,0 +1,62 @@
+{
+  "repo": {
+    "id": 291137,
+    "full_name": "ohmyzsh/ohmyzsh",
+    "name": "ohmyzsh",
+    "description": "🙃   A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.",
+    "url": "https://github.com/ohmyzsh/ohmyzsh",
+    "homepage": "https://ohmyz.sh",
+    "stars": 190255,
+    "forks": 28660,
+    "language": "Shell",
+    "license": "MIT",
+    "license_url": "https://api.github.com/licenses/mit",
+    "topics": [
+      "cli",
+      "cli-app",
+      "oh-my-zsh",
+      "oh-my-zsh-plugin",
+      "oh-my-zsh-theme",
+      "ohmyzsh",
+      "plugin-framework",
+      "plugins",
+      "productivity",
+      "shell",
+      "terminal",
+      "theme",
+      "themes",
+      "zsh",
+      "zsh-configuration"
+    ],
+    "pushed_at": "2026-10-27T11:37:50Z",
+    "created_at": "2009-08-28T18:15:37Z",
+    "sampled_at": "2026-10-31T06:38:47+00:00",
+    "visibility": "public",
+    "fork": false,
+    "archived": false,
+    "disabled": false,
+    "category": "效率办公",
+    "kind": "库／框架",
+    "summary_zh": null,
+    "audience_zh": null,
+    "evidence": [],
+    "content_status": "missing",
+    "material_hash": "cba514c50d34ab32d519344c5110bb5aecf8d3da9ee2b12bb60c11b265381136",
+    "readme_url": "https://github.com/ohmyzsh/ohmyzsh/blob/master/README.md",
+    "delta": null,
+    "growth_rate": null,
+    "rising_score": null,
+    "window_start": null,
+    "window_end": "2026-10-31T06:38:47+00:00",
+    "window_hours": null,
+    "observation": "warming"
+  },
+  "history": [
+    {
+      "date": "2026-10-31",
+      "sampled_at": "2026-10-31T06:38:47+00:00",
+      "stars": 190255,
+      "delta": null
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "repo": {
+    "id": 343078060,
+    "full_name": "lissy93/dashy",
+    "name": "dashy",
+    "description": "🚀 A self-hostable personal dashboard built for you. Includes status-checking, widgets, themes, icon packs, a UI editor and tons more!",
+    "url": "https://github.com/lissy93/dashy",
+    "homepage": "https://dashy.to",
+    "stars": 26877,
+    "forks": 1964,
+    "language": "Vue",
+    "license": "MIT",
+    "license_url": "https://api.github.com/licenses/mit",
+    "topics": [
+      "awesome",
+      "dashboard",
+      "docker",
+      "homelab",
+      "homepage",
+      "mit",
+      "nodejs",
+      "organization",
+      "productivity",
+      "pwa",
+      "self-hosted",
+      "startpage",
+      "vue"
+    ],
+    "pushed_at": "2026-10-30T16:27:30Z",
+    "created_at": "2021-02-28T10:35:44Z",
+    "sampled_at": "2026-10-31T06:38:50+00:00",
+    "visibility": "public",
+    "fork": false,
+    "archived": false,
+    "disabled": false,
+    "category": "效率办公",
+    "kind": "教程／资源",
+    "summary_zh": null,
+    "audience_zh": null,
+    "evidence": [],
+    "content_status": "missing",
+    "material_hash": "ac049f25343f2b7ceb40e4dc886c5fa82700b5ec036a3903a230c980cf0235c1",
+    "readme_url": "https://github.com/lissy93/dashy/blob/master/README.md",
+    "delta": null,
+    "growth_rate": null,
+    "rising_score": null,
+    "window_start": null,
+    "window_end": "2026-10-31T06:38:50+00:00",
+    "window_hours": null,
+    "observation": "warming"
+  },
+  "history": [
+    {
+      "date": "2026-10-31",
+      "sampled_at": "2026-10-31T06:38:50+00:00",
+      "stars": 26877,
+      "delta": null
+    }
+  ]
+}

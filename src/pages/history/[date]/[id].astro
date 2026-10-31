@@ -1,0 +1,16 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import ProjectView from '../../../components/ProjectView.astro';
+import {archives, read, type Board, type Detail, type Project} from '../../../lib/data';
+export function getStaticPaths() {
+  return archives.flatMap(entry => {
+    const board = read<Board>(`history/${entry.date}.json`, null!);
+    return board.projects.map((repo: Project) => {
+      const detail = read<Detail>(`projects/${repo.id}.json`, null!);
+      return {params: {date: entry.date, id: String(repo.id)}, props: {repo, history: detail.history.filter(p => p.date <= entry.date), archiveDate: entry.date}};
+    });
+  });
+}
+const {repo, history, archiveDate} = Astro.props;
+---
+<Layout active="history" title={`${repo.name} · ${archiveDate} 历史记录 · 升榜`}><ProjectView repo={repo} history={history} archiveDate={archiveDate}/></Layout>

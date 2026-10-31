@@ -1,0 +1,46 @@
+{
+  "repo": {
+    "id": 1148788086,
+    "full_name": "mattpocock/skills",
+    "name": "skills",
+    "description": "Skills for Real Engineers. Straight from my .agents directory.",
+    "url": "https://github.com/mattpocock/skills",
+    "homepage": "https://aihero.dev/skills",
+    "stars": 307665,
+    "forks": 25896,
+    "language": "Shell",
+    "license": "MIT",
+    "license_url": "https://api.github.com/licenses/mit",
+    "topics": [],
+    "pushed_at": "2026-10-30T14:00:30Z",
+    "created_at": "2026-02-03T11:15:53Z",
+    "sampled_at": "2026-10-31T06:39:13+00:00",
+    "visibility": "public",
+    "fork": false,
+    "archived": false,
+    "disabled": false,
+    "category": "AI",
+    "kind": "教程／资源",
+    "summary_zh": null,
+    "audience_zh": null,
+    "evidence": [],
+    "content_status": "missing",
+    "material_hash": "c7403a7fcb3f1981f884234a6380ff486b221d04c4595c8f851fa046925f2627",
+    "readme_url": "https://github.com/mattpocock/skills/blob/main/README.md",
+    "delta": null,
+    "growth_rate": null,
+    "rising_score": null,
+    "window_start": null,
+    "window_end": "2026-10-31T06:39:13+00:00",
+    "window_hours": null,
+    "observation": "warming"
+  },
+  "history": [
+    {
+      "date": "2026-10-31",
+      "sampled_at": "2026-10-31T06:39:13+00:00",
+      "stars": 307665,
+      "delta": null
+    }
+  ]
+}

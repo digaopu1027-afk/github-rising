@@ -1,0 +1,61 @@
+{
+  "repo": {
+    "id": 784181462,
+    "full_name": "ItzCrazyKns/Vane",
+    "name": "Vane",
+    "description": "Vane is an AI-powered answering engine.",
+    "url": "https://github.com/ItzCrazyKns/Vane",
+    "homepage": null,
+    "stars": 37870,
+    "forks": 4212,
+    "language": "TypeScript",
+    "license": "MIT",
+    "license_url": "https://api.github.com/licenses/mit",
+    "topics": [
+      "ai-agents",
+      "ai-search-engine",
+      "answering-engine",
+      "artificial-intelligence",
+      "llm",
+      "machine-learning",
+      "open-source-ai-search-engine",
+      "perplexica",
+      "rag",
+      "search-engine",
+      "searxng",
+      "searxng-copilot",
+      "self-hosted-ai",
+      "vane"
+    ],
+    "pushed_at": "2026-09-01T14:12:12Z",
+    "created_at": "2024-04-09T10:51:32Z",
+    "sampled_at": "2026-10-31T06:38:42+00:00",
+    "visibility": "public",
+    "fork": false,
+    "archived": false,
+    "disabled": false,
+    "category": "AI",
+    "kind": "应用／工具",
+    "summary_zh": null,
+    "audience_zh": null,
+    "evidence": [],
+    "content_status": "missing",
+    "material_hash": "9c0863611779e5f1e705b1ca0e166d4917979e9652d151ae88e2f2c4e88e1cdb",
+    "readme_url": "https://github.com/ItzCrazyKns/Vane/blob/master/README.md",
+    "delta": null,
+    "growth_rate": null,
+    "rising_score": null,
+    "window_start": null,
+    "window_end": "2026-10-31T06:38:42+00:00",
+    "window_hours": null,
+    "observation": "warming"
+  },
+  "history": [
+    {
+      "date": "2026-10-31",
+      "sampled_at": "2026-10-31T06:38:42+00:00",
+      "stars": 37870,
+      "delta": null
+    }
+  ]
+}

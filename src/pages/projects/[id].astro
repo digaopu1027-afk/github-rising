@@ -1,0 +1,10 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import ProjectView from '../../components/ProjectView.astro';
+import {projectIndex, read, type Detail} from '../../lib/data';
+export function getStaticPaths() {
+  return projectIndex.map(item => ({params: {id: String(item.id)}, props: {detail: read<Detail>(`projects/${item.id}.json`, null!)}}));
+}
+const {detail} = Astro.props;
+---
+<Layout title={`${detail.repo.name} · 升榜项目记录`}><ProjectView repo={detail.repo} history={detail.history}/></Layout>

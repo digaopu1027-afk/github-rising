@@ -1,0 +1,56 @@
+{
+  "repo": {
+    "id": 94498635,
+    "full_name": "carbon-app/carbon",
+    "name": "carbon",
+    "description": ":black_heart: Create and share beautiful images of your source code",
+    "url": "https://github.com/carbon-app/carbon",
+    "homepage": "https://carbon.now.sh",
+    "stars": 36124,
+    "forks": 1973,
+    "language": "JavaScript",
+    "license": "MIT",
+    "license_url": "https://api.github.com/licenses/mit",
+    "topics": [
+      "beautiful",
+      "carbon",
+      "education",
+      "github-gist",
+      "javascript",
+      "presentation",
+      "sharing",
+      "snippets",
+      "tweet"
+    ],
+    "pushed_at": "2026-10-27T01:26:22Z",
+    "created_at": "2017-06-16T02:50:28Z",
+    "sampled_at": "2026-10-31T06:39:01+00:00",
+    "visibility": "public",
+    "fork": false,
+    "archived": false,
+    "disabled": false,
+    "category": "学习教育",
+    "kind": "应用／工具",
+    "summary_zh": null,
+    "audience_zh": null,
+    "evidence": [],
+    "content_status": "missing",
+    "material_hash": "0fa648a413d89b53fff593f7a859e9dead4929eb4e9cfb4de5f0b230bfab6ff3",
+    "readme_url": "https://github.com/carbon-app/carbon/blob/main/README.md",
+    "delta": null,
+    "growth_rate": null,
+    "rising_score": null,
+    "window_start": null,
+    "window_end": "2026-10-31T06:39:01+00:00",
+    "window_hours": null,
+    "observation": "warming"
+  },
+  "history": [
+    {
+      "date": "2026-10-31",
+      "sampled_at": "2026-10-31T06:39:01+00:00",
+      "stars": 36124,
+      "delta": null
+    }
+  ]
+}

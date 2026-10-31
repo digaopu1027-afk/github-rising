@@ -1,0 +1,22 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Board from '../components/Board.astro';
+import Status from '../components/Status.astro';
+import Icon from '../components/Icon.astro';
+import {latest, number, readableDate, dateTime, href} from '../lib/data';
+---
+<Layout>
+  <section class="page-intro">
+    <div><div class="date-line"><span class="live-dot"></span>{readableDate(latest.date)}<span class="date-year">{latest.date.slice(0, 4)}</span></div><h1>开源世界，<span>正在升温。</span></h1><p class="intro-copy">每天几分钟，发现值得了解的项目。看见增长，也看懂用途。</p></div>
+    <div class="edition-stamp"><Icon name="clock" size={16}/><div>每日 09:00 触发更新<span>北京时间 · {dateTime(latest.generated_at, false)}</span></div></div>
+  </section>
+  <Status generatedAt={latest.generated_at}/>
+  <div class="content-grid">
+    <Board board={latest}/>
+    <aside class="sidebar">
+      <section class="sidebar-intro"><span class="sidebar-symbol"><Icon name="book" size={24}/></span><h2>热度之外，<br/>还有用处。</h2><p>一个项目能做什么，<br/>比它有多少颗 Star 更值得先了解。</p><a class="text-button" href={href('about/')}>这份榜单怎么看 <Icon name="arrow" size={16}/></a></section>
+      <section class="coverage" id="coverage"><h2>本期记录</h2><dl><div><dt>已跟踪项目</dt><dd>{number(latest.tracked_count)}</dd></div><div><dt>本次成功采样</dt><dd>{number(latest.sampled_count)}</dd></div><div><dt>符合开源范围</dt><dd>{number(latest.eligible_count)}</dd></div><div><dt>可对比有效样本</dt><dd>{number(latest.rankable_count)}</dd></div></dl><p>采集完成于<br/><time datetime={latest.generated_at || undefined}>{dateTime(latest.generated_at)}</time></p><a href={href('data/latest.json')} class="subtle-link">下载本期原始数据 <Icon name="external" size={13}/></a></section>
+      <section class="reading-note"><h2>先读懂，再试用</h2><p>项目介绍来自 README 和官方说明。热度反映关注变化，适不适合你，还需要结合用途判断。</p><a href={href('history/')}>翻看过去的记录 <Icon name="arrow" size={14}/></a></section>
+    </aside>
+  </div>
+</Layout>

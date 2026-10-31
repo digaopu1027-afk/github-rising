@@ -1,0 +1,60 @@
+{
+  "repo": {
+    "id": 1375382253,
+    "full_name": "NandhaKishorM/laya",
+    "name": "laya",
+    "description": "Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right checkpoint per request.",
+    "url": "https://github.com/NandhaKishorM/laya",
+    "homepage": "https://huggingface.co/convaiinnovations/laya",
+    "stars": 34721,
+    "forks": 3105,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "license_url": "https://api.github.com/licenses/apache-2.0",
+    "topics": [
+      "calibration",
+      "classification",
+      "decision-model",
+      "huggingface",
+      "jev",
+      "modernbert",
+      "multilingual",
+      "nlp",
+      "python",
+      "pytorch",
+      "routing",
+      "typed-decisions",
+      "zero-shot"
+    ],
+    "pushed_at": "2026-10-31T05:14:07Z",
+    "created_at": "2026-09-18T04:46:33Z",
+    "sampled_at": "2026-10-31T06:39:06+00:00",
+    "visibility": "public",
+    "fork": false,
+    "archived": false,
+    "disabled": false,
+    "category": "其他",
+    "kind": "应用／工具",
+    "summary_zh": null,
+    "audience_zh": null,
+    "evidence": [],
+    "content_status": "missing",
+    "material_hash": "836ce895f9eefc522d9fa08962c9c517a4690ae9d446bb1440ad75a0d62f6549",
+    "readme_url": "https://github.com/NandhaKishorM/laya/blob/main/README.md",
+    "delta": null,
+    "growth_rate": null,
+    "rising_score": null,
+    "window_start": null,
+    "window_end": "2026-10-31T06:39:06+00:00",
+    "window_hours": null,
+    "observation": "warming"
+  },
+  "history": [
+    {
+      "date": "2026-10-31",
+      "sampled_at": "2026-10-31T06:39:06+00:00",
+      "stars": 34721,
+      "delta": null
+    }
+  ]
+}

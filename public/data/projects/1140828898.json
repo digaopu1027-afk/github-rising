@@ -1,0 +1,51 @@
+{
+  "repo": {
+    "id": 1140828898,
+    "full_name": "anthropics/knowledge-work-plugins",
+    "name": "knowledge-work-plugins",
+    "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+    "url": "https://github.com/anthropics/knowledge-work-plugins",
+    "homepage": null,
+    "stars": 34084,
+    "forks": 3757,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "license_url": "https://api.github.com/licenses/apache-2.0",
+    "topics": [],
+    "pushed_at": "2026-10-30T07:28:00Z",
+    "created_at": "2026-01-23T20:11:54Z",
+    "sampled_at": "2026-10-31T06:39:18+00:00",
+    "visibility": "public",
+    "fork": false,
+    "archived": false,
+    "disabled": false,
+    "category": "AI",
+    "kind": "应用／工具",
+    "summary_zh": "为 Claude Cowork 的知识工作场景提供开源插件。",
+    "audience_zh": "在 Claude Cowork 中处理知识工作，希望了解或扩展插件能力的用户。",
+    "evidence": [
+      {
+        "quote": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+        "url": "https://github.com/anthropics/knowledge-work-plugins"
+      }
+    ],
+    "content_status": "editorial",
+    "material_hash": "915fd971eeb8abe7eb0f644f16cc5fca19145a0a99ffb90fd183e0e91b2411a6",
+    "readme_url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/README.md",
+    "delta": null,
+    "growth_rate": null,
+    "rising_score": null,
+    "window_start": null,
+    "window_end": "2026-10-31T06:39:18+00:00",
+    "window_hours": null,
+    "observation": "warming"
+  },
+  "history": [
+    {
+      "date": "2026-10-31",
+      "sampled_at": "2026-10-31T06:39:18+00:00",
+      "stars": 34084,
+      "delta": null
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "repo": {
+    "id": 1215145625,
+    "full_name": "alchaincyf/huashu-design",
+    "name": "huashu-design",
+    "description": "Huashu Design 3.0 · 在 agent 里打一句话，拿回能交付的设计：网页 / App 原型 / 可编辑 PPTX / 动画 / 信息图 · 六个候选挑三个方向 · 84 种带样张的风格库 · 越用越懂你的外观账本与设计体检 · HTML-native design skill for Claude Code, Codex, Cursor & any agent",
+    "url": "https://github.com/alchaincyf/huashu-design",
+    "homepage": null,
+    "stars": 28248,
+    "forks": 3058,
+    "language": "HTML",
+    "license": "MIT",
+    "license_url": "https://api.github.com/licenses/mit",
+    "topics": [
+      "agent-skills",
+      "ai-design",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "cursor",
+      "design",
+      "html",
+      "pptx",
+      "prototype"
+    ],
+    "pushed_at": "2026-10-30T17:51:13Z",
+    "created_at": "2026-04-19T14:42:06Z",
+    "sampled_at": "2026-10-31T06:38:54+00:00",
+    "visibility": "public",
+    "fork": false,
+    "archived": false,
+    "disabled": false,
+    "category": "AI",
+    "kind": "教程／资源",
+    "summary_zh": null,
+    "audience_zh": null,
+    "evidence": [],
+    "content_status": "missing",
+    "material_hash": "d60b726e9424b8b655f827656e3d75111eadc9f7a05697552ebe992892cc2e36",
+    "readme_url": "https://github.com/alchaincyf/huashu-design/blob/master/README.md",
+    "delta": null,
+    "growth_rate": null,
+    "rising_score": null,
+    "window_start": null,
+    "window_end": "2026-10-31T06:38:54+00:00",
+    "window_hours": null,
+    "observation": "warming"
+  },
+  "history": [
+    {
+      "date": "2026-10-31",
+      "sampled_at": "2026-10-31T06:38:54+00:00",
+      "stars": 28248,
+      "delta": null
+    }
+  ]
+}

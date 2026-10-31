@@ -1,0 +1,49 @@
+{
+  "repo": {
+    "id": 834369920,
+    "full_name": "jingyaogong/minimind",
+    "name": "minimind",
+    "description": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
+    "url": "https://github.com/jingyaogong/minimind",
+    "homepage": "https://jingyaogong.github.io/minimind",
+    "stars": 64667,
+    "forks": 8453,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "license_url": "https://api.github.com/licenses/apache-2.0",
+    "topics": [
+      "artificial-intelligence",
+      "large-language-model"
+    ],
+    "pushed_at": "2026-10-27T06:57:09Z",
+    "created_at": "2024-07-27T04:34:12Z",
+    "sampled_at": "2026-10-31T06:38:40+00:00",
+    "visibility": "public",
+    "fork": false,
+    "archived": false,
+    "disabled": false,
+    "category": "AI",
+    "kind": "应用／工具",
+    "summary_zh": null,
+    "audience_zh": null,
+    "evidence": [],
+    "content_status": "missing",
+    "material_hash": "5e797c9ad2d612450d725de80b5dca01b4bc32fcd19fb5e4e04c67a0439dc4cd",
+    "readme_url": "https://github.com/jingyaogong/minimind/blob/master/README.md",
+    "delta": null,
+    "growth_rate": null,
+    "rising_score": null,
+    "window_start": null,
+    "window_end": "2026-10-31T06:38:40+00:00",
+    "window_hours": null,
+    "observation": "warming"
+  },
+  "history": [
+    {
+      "date": "2026-10-31",
+      "sampled_at": "2026-10-31T06:38:40+00:00",
+      "stars": 64667,
+      "delta": null
+    }
+  ]
+}

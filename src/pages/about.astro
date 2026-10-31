@@ -1,0 +1,17 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Icon from '../components/Icon.astro';
+import {latest, href} from '../lib/data';
+---
+<Layout active="about" title="榜单说明 · 升榜">
+  <section class="text-intro"><h1>每一份热度，都有来处。</h1><p>这里解释我们观察什么、怎样排名，以及哪些信息还不知道。</p></section>
+  <div class="about-grid"><nav class="about-nav" aria-label="说明目录"><a href="#discovery">项目从哪里来</a><a href="#ranking">排名怎么算</a><a href="#sampling">采样与首次观察</a><a href="#content">中文介绍与来源</a><a href="#limits">覆盖与更新边界</a></nav>
+    <article class="prose"><section id="discovery"><h2>项目从哪里来</h2><p>从 GitHub Trending 日榜、周榜，以及 AI、开发工具、效率办公、设计创作、学习教育和近 90 天新建项目的搜索结果中发现候选。搜索以 Star 数排序，每组采集一定数量；发现后按仓库固定 ID 持续跟踪。</p><p>只有公开、非 Fork、未归档、未禁用且许可证被识别为 OSI 认可开源许可证的仓库才进入榜单。许可证尚未确认的项目暂不入榜；识别结果以 GitHub 元数据和 SPDX 许可证清单为依据。</p><p>项目分类与应用／工具、库／框架、教程／资源类型根据公开描述和标签推断，可能存在误分。</p></section>
+    <section id="ranking"><h2>排名怎么算</h2><h3>今日热榜</h3><p>总 Star 不少于 50，且近一日净增为正。按净增从高到低排列，取前 50 个；净增相同，按增长率从高到低，再按仓库固定 ID 从小到大排列。基数为零时增长率不定义，不作为高增长率优先。</p><div class="formula">近一日净增 = 本次 Star 总数 − 上一次 Star 总数</div><h3>潜力新秀</h3><p>总 Star 在 50～5,000 之间，近一日净增至少 10。按以下平滑增长率排序，取前 20 个；同分再比较净增与仓库 ID。分母最少取 100，避免极小基数放大波动。</p><div class="formula">平滑增长率 = 净增 ÷ max（上一日 Star 总数，100）</div><p>列表中的百分比为实际增长率，与用于新秀排序的平滑增长率不同。Star 净增同时受到新增与取消收藏影响，不能解释为新增收藏人数。</p></section>
+    <section id="sampling"><h2>采样与首次观察</h2><p>采用相邻北京时间自然日的真实快照。每个项目两次采样间隔必须在 22～26 小时之间，才参与当日排名；页面保留采样时间和实际区间。</p><p>首次跟踪的项目标记“数据积累中”，不会把累计 Star 当作一天的增长。漏采、间隔不合格或请求失败时，不补零、不插值、不回填虚构历史。观察池优先展示已有中文介绍的项目，再按总 Star 排列；它不代表增长排名。</p><p>曲线展示开始跟踪之后的真实 Star 总数。只有一个记录时显示单次采样，不生成曲线。历史榜单与项目介绍一起保存，同一天重复运行不会改写已有归档。</p></section>
+    <section id="content"><h2>中文介绍与来源</h2><p>中文介绍依据项目 README 和官方描述，由编辑整理，或通过配置的大模型离线生成。模型需返回官方材料的原文片段，采集程序校验片段存在后才接受结果；这能核对出处，仍不能保证模型的每个判断都正确。</p><p>生成失败、没有配置模型或材料不可用时，保留项目原始描述并标注“中文说明待补充”。不推测突然走红的原因，不编造使用体验、价格或质量评价。内容在来源变化后重新处理，项目详情可直接查看介绍依据和原始资料。</p></section>
+    <section id="limits"><h2>覆盖与更新边界</h2><p>这份榜单只覆盖已发现、已跟踪且采样成功的项目。GitHub 搜索有返回数量和请求频率限制，Trending 也只是一个发现入口；这里不是整个 GitHub 的完整排名。</p><p>每天默认最多采样 400 个项目，优先当天发现的候选，再继续既有追踪，以适应接口配额。未被本期采样的项目保留历史，但当天不排名，也不计为零增长。</p><p>每日北京时间 09:00 触发 GitHub Actions 更新，实际完成时间以页面记录为准。定时任务可能延迟。采集失败时保留上一次有效榜单并提示；超过 30 小时未更新也会显示提醒。</p><p>Star 是关注度信号。榜单不代表项目安全、成熟、持续维护或适合生产环境，使用前请结合文档与需求判断。</p><div class="reference-links"><a href="https://docs.github.com/en/rest/search/search" target="_blank" rel="noopener noreferrer">GitHub 搜索接口说明 <Icon name="external" size={14}/></a><a href="https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule" target="_blank" rel="noopener noreferrer">定时任务说明 <Icon name="external" size={14}/></a><a href={href('data/latest.json')}>本期原始数据 <Icon name="arrow" size={14}/></a></div></section>
+    {latest.sources.length > 0 && <section><h2>本期发现来源</h2><ul class="source-list">{latest.sources.map(source => <li><a href={source.url} target="_blank" rel="noopener noreferrer">{source.kind === 'trending' ? `Trending ${source.period === 'daily' ? '日榜' : '周榜'}` : `${source.category} 分类搜索`}<Icon name="external" size={13}/></a><span>{source.count} 个候选</span></li>)}</ul></section>}
+    </article>
+  </div>
+</Layout>

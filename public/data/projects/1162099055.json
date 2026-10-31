@@ -1,0 +1,63 @@
+{
+  "repo": {
+    "id": 1162099055,
+    "full_name": "Leonxlnx/taste-skill",
+    "name": "taste-skill",
+    "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
+    "url": "https://github.com/Leonxlnx/taste-skill",
+    "homepage": "https://tasteskill.dev",
+    "stars": 106481,
+    "forks": 7205,
+    "language": "JavaScript",
+    "license": "MIT",
+    "license_url": "https://api.github.com/licenses/mit",
+    "topics": [
+      "agent-skills",
+      "ai-agents",
+      "anti-slop",
+      "claude-code",
+      "codex",
+      "cursor",
+      "design-system",
+      "frontend",
+      "landing-page",
+      "ui-design",
+      "web-design"
+    ],
+    "pushed_at": "2026-10-31T03:55:27Z",
+    "created_at": "2026-02-19T21:44:05Z",
+    "sampled_at": "2026-10-31T06:39:18+00:00",
+    "visibility": "public",
+    "fork": false,
+    "archived": false,
+    "disabled": false,
+    "category": "AI",
+    "kind": "教程／资源",
+    "summary_zh": "把艺术指导、参考图和浏览器检查加入 AI 编程助手的界面制作流程。",
+    "audience_zh": "使用 AI 编程工具制作网页，希望结合视觉参考与浏览器检查的开发者。",
+    "evidence": [
+      {
+        "quote": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
+        "url": "https://github.com/Leonxlnx/taste-skill"
+      }
+    ],
+    "content_status": "editorial",
+    "material_hash": "3301ae6261fe6cfea441a58d2e66c03bc49767127de9914df7ccdcd1216ef94a",
+    "readme_url": "https://github.com/Leonxlnx/taste-skill/blob/main/README.md",
+    "delta": null,
+    "growth_rate": null,
+    "rising_score": null,
+    "window_start": null,
+    "window_end": "2026-10-31T06:39:18+00:00",
+    "window_hours": null,
+    "observation": "warming"
+  },
+  "history": [
+    {
+      "date": "2026-10-31",
+      "sampled_at": "2026-10-31T06:39:18+00:00",
+      "stars": 106481,
+      "delta": null
+    }
+  ]
+}

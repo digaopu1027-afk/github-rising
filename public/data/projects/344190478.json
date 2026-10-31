@@ -1,0 +1,62 @@
+{
+  "repo": {
+    "id": 344190478,
+    "full_name": "microsoft/AI-For-Beginners",
+    "name": "AI-For-Beginners",
+    "description": "12 Weeks, 24 Lessons, AI for All!",
+    "url": "https://github.com/microsoft/AI-For-Beginners",
+    "homepage": null,
+    "stars": 70390,
+    "forks": 13686,
+    "language": "Jupyter Notebook",
+    "license": "MIT",
+    "license_url": "https://api.github.com/licenses/mit",
+    "topics": [
+      "ai",
+      "artificial-intelligence",
+      "cnn",
+      "computer-vision",
+      "deep-learning",
+      "gan",
+      "machine-learning",
+      "microsoft-for-beginners",
+      "nlp",
+      "rnn"
+    ],
+    "pushed_at": "2026-10-23T23:55:14Z",
+    "created_at": "2021-03-03T16:27:36Z",
+    "sampled_at": "2026-10-31T06:38:39+00:00",
+    "visibility": "public",
+    "fork": false,
+    "archived": false,
+    "disabled": false,
+    "category": "AI",
+    "kind": "应用／工具",
+    "summary_zh": "通过 12 周、24 节课程入门人工智能。",
+    "audience_zh": "希望按课程结构开始了解人工智能的初学者。",
+    "evidence": [
+      {
+        "quote": "12 Weeks, 24 Lessons, AI for All!",
+        "url": "https://github.com/microsoft/AI-For-Beginners"
+      }
+    ],
+    "content_status": "editorial",
+    "material_hash": "d6cd9d81819d6bd25f88a58f31609c0c9f1f7747e0acee8d971a13484f09eb35",
+    "readme_url": "https://github.com/microsoft/AI-For-Beginners/blob/main/README.md",
+    "delta": null,
+    "growth_rate": null,
+    "rising_score": null,
+    "window_start": null,
+    "window_end": "2026-10-31T06:38:39+00:00",
+    "window_hours": null,
+    "observation": "warming"
+  },
+  "history": [
+    {
+      "date": "2026-10-31",
+      "sampled_at": "2026-10-31T06:38:39+00:00",
+      "stars": 70390,
+      "delta": null
+    }
+  ]
+}

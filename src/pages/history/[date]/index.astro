@@ -1,0 +1,13 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import BoardList from '../../../components/Board.astro';
+import Icon from '../../../components/Icon.astro';
+import {archives, read, href, readableDate, dateTime, type Board} from '../../../lib/data';
+export function getStaticPaths() { return archives.map(entry => ({params: {date: entry.date}, props: {board: read<Board>(`history/${entry.date}.json`, null!)}})); }
+const {board} = Astro.props;
+---
+<Layout active="history" title={`${board.date} 历史榜单 · 升榜`}>
+  <a class="back-link" href={href('history/')}><Icon name="back" size={17}/>所有历史记录</a>
+  <section class="text-intro archive-intro"><p class="archive-date-label">{board.date} · {readableDate(board.date)}</p><h1>这一天，开源正在升温。</h1><p>归档于 {dateTime(board.generated_at)}。这里保留当时的排名、数据和介绍。</p></section>
+  <BoardList board={board} archived/>
+</Layout>

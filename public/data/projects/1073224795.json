@@ -1,0 +1,60 @@
+{
+  "repo": {
+    "id": 1073224795,
+    "full_name": "obra/superpowers",
+    "name": "superpowers",
+    "description": "An agentic skills framework & software development methodology that works.",
+    "url": "https://github.com/obra/superpowers",
+    "homepage": null,
+    "stars": 309567,
+    "forks": 27546,
+    "language": "Shell",
+    "license": "MIT",
+    "license_url": "https://api.github.com/licenses/mit",
+    "topics": [
+      "ai",
+      "brainstorming",
+      "coding",
+      "obra",
+      "sdlc",
+      "skills",
+      "subagent-driven-development",
+      "superpowers"
+    ],
+    "pushed_at": "2026-10-29T23:35:34Z",
+    "created_at": "2025-10-09T19:45:18Z",
+    "sampled_at": "2026-10-31T06:39:15+00:00",
+    "visibility": "public",
+    "fork": false,
+    "archived": false,
+    "disabled": false,
+    "category": "AI",
+    "kind": "教程／资源",
+    "summary_zh": "为 AI 编程助手组织技能与软件开发方法，建立更明确的开发流程。",
+    "audience_zh": "希望为 AI 编程助手配置技能，并整理软件开发工作方法的开发者。",
+    "evidence": [
+      {
+        "quote": "An agentic skills framework & software development methodology that works.",
+        "url": "https://github.com/obra/superpowers"
+      }
+    ],
+    "content_status": "editorial",
+    "material_hash": "36a432a89ba90c1f52d805be804e4e02c6a9008390af90fc884fd3bce295074b",
+    "readme_url": "https://github.com/obra/superpowers/blob/main/README.md",
+    "delta": null,
+    "growth_rate": null,
+    "rising_score": null,
+    "window_start": null,
+    "window_end": "2026-10-31T06:39:15+00:00",
+    "window_hours": null,
+    "observation": "warming"
+  },
+  "history": [
+    {
+      "date": "2026-10-31",
+      "sampled_at": "2026-10-31T06:39:15+00:00",
+      "stars": 309567,
+      "delta": null
+    }
+  ]
+}

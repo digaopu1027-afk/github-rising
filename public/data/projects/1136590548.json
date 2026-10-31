@@ -1,0 +1,55 @@
+{
+  "repo": {
+    "id": 1136590548,
+    "full_name": "affaan-m/ECC",
+    "name": "ECC",
+    "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+    "url": "https://github.com/affaan-m/ECC",
+    "homepage": "https://ecc.tools",
+    "stars": 293538,
+    "forks": 43435,
+    "language": "JavaScript",
+    "license": "MIT",
+    "license_url": "https://api.github.com/licenses/mit",
+    "topics": [
+      "ai-agents",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "developer-tools",
+      "llm",
+      "mcp",
+      "productivity"
+    ],
+    "pushed_at": "2026-10-30T03:06:42Z",
+    "created_at": "2026-01-18T00:51:51Z",
+    "sampled_at": "2026-10-31T06:38:36+00:00",
+    "visibility": "public",
+    "fork": false,
+    "archived": false,
+    "disabled": false,
+    "category": "AI",
+    "kind": "教程／资源",
+    "summary_zh": null,
+    "audience_zh": null,
+    "evidence": [],
+    "content_status": "missing",
+    "material_hash": "baebe990a37438769920c7f017783c54a562c06e3868300a4e7d4ead70e461cf",
+    "readme_url": "https://github.com/affaan-m/ECC/blob/main/README.md",
+    "delta": null,
+    "growth_rate": null,
+    "rising_score": null,
+    "window_start": null,
+    "window_end": "2026-10-31T06:38:36+00:00",
+    "window_hours": null,
+    "observation": "warming"
+  },
+  "history": [
+    {
+      "date": "2026-10-31",
+      "sampled_at": "2026-10-31T06:38:36+00:00",
+      "stars": 293538,
+      "delta": null
+    }
+  ]
+}
