@@ -8,7 +8,7 @@ import unittest
 from unittest.mock import patch
 
 from collector.core import eligible, observe, build_rankings
-from collector.collect import atomic_json, make_board, publish, export_all, validate_content, safe_url, collect, fetch_repo, ApiError, generate_content
+from collector.collect import atomic_json, make_board, publish, export_all, validate_content, safe_url, collect, fetch_repo, ApiError, generate_content, evidence_options, resolve_evidence_ids
 
 AT = datetime(2026, 10, 30, 1, tzinfo=timezone.utc)
 
@@ -143,6 +143,16 @@ class ArchiveTests(unittest.TestCase):
 
 
 class ContentTests(unittest.TestCase):
+    def test_evidence_selection_preserves_source_bytes_and_rejects_invented_ids(self):
+        r = {'description': 'Algorithms written in Python — for learning.', 'url': 'https://github.com/a/b'}
+        source = {'readme': '  ## Learning algorithms\nKeep punctuation,  spaces and **markup** exactly.\n', 'readme_url': r['url']}
+        options = evidence_options(r, source)
+        value = {'summary_zh': '学习算法的资料', 'audience_zh': '学习者', 'evidence': [{'id': 'E1'}, {'id': 'E3'}]}
+        result = validate_content(resolve_evidence_ids(value, options), r, source)
+        self.assertEqual(result['evidence'][1]['quote'], 'Keep punctuation,  spaces and **markup** exactly.')
+        with self.assertRaises(ValueError):
+            resolve_evidence_ids(dict(value, evidence=[{'id': 'invented'}]), options)
+
     def test_opencode_request_uses_truthful_client_stable_sessions_and_json(self):
         import io
         r = {'id': 1, 'description': 'A browser for AI and automation', 'url': 'https://github.com/a/b'}
@@ -179,7 +189,7 @@ class ContentTests(unittest.TestCase):
             response = {'choices': [{'finish_reason': reason, 'message': {'content': content}}]}
             with patch.dict('os.environ', env), patch('collector.collect.urlopen', return_value=io.BytesIO(json.dumps(response).encode())):
                 with self.assertRaises(ValueError):
-                    generate_content({'id': 1, 'description': ''}, {'available': True, 'hash': 'h', 'readme': ''})
+                    generate_content({'id': 1, 'description': 'Algorithms for education'}, {'available': True, 'hash': 'h', 'readme': ''})
 
     def test_vendor_specific_headers_and_parameters_do_not_leak_to_other_providers(self):
         import io
