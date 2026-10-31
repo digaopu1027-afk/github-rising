@@ -60,6 +60,10 @@ npm run test:site
 
 仅来源变化时生成新内容；未配置模型、调用失败或证据不符时保留原始描述，并显示“中文说明待补充”。无密钥不影响榜单采集。
 
+OpenCode Go 技术接入使用 `LLM_BASE_URL=https://opencode.ai/inference/go/openai/v1`、`LLM_MODEL=deepseek-v4.1-flash`。请求以真实的 `github-rising/1.0` 客户端标识发送，并按项目、材料指纹和模型提供稳定的 `x-opencode-session`。DeepSeek 的资料提取请求关闭思考模式，最多输出 2,048 tokens；空白或截断结果拒绝使用。Go 官方面向编程智能体流量，账号方案是否覆盖长期定时摘要需由使用者确认；接入代码不伪装其他客户端，也不绕过账号限制。
+
+Actions 的手动运行可勾选 `verify_model`，用一个真实项目测试模型 JSON 与出处校验；默认关闭，定时任务不增加额外测试调用。成功结果进入内容缓存和数据分支的 `model-check.json`，不改写已归档榜单；日志不输出密钥、请求头或原始模型响应。
+
 ## 自动更新与部署
 
 代码在 `main`，持久数据在独立 `data` 分支。首次设置必须将 `.data/` 中的真实状态推送到 `data` 分支根目录；这个分支至少需要一个初始提交。不要把它放在 `main` 的嵌套目录。

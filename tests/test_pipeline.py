@@ -8,7 +8,7 @@ import unittest
 from unittest.mock import patch
 
 from collector.core import eligible, observe, build_rankings
-from collector.collect import atomic_json, make_board, publish, export_all, validate_content, safe_url, collect, fetch_repo, ApiError
+from collector.collect import atomic_json, make_board, publish, export_all, validate_content, safe_url, collect, fetch_repo, ApiError, generate_content
 
 AT = datetime(2026, 10, 30, 1, tzinfo=timezone.utc)
 
@@ -143,6 +143,59 @@ class ArchiveTests(unittest.TestCase):
 
 
 class ContentTests(unittest.TestCase):
+    def test_opencode_request_uses_truthful_client_stable_sessions_and_json(self):
+        import io
+        r = {'id': 1, 'description': 'A browser for AI and automation', 'url': 'https://github.com/a/b'}
+        source = {'available': True, 'hash': 'material-one', 'readme': 'Use the browser to automate tasks.',
+                  'readme_url': 'https://github.com/a/b#readme'}
+        expected = {'summary_zh': '浏览器自动化工具', 'audience_zh': '自动化开发者',
+                    'evidence': [{'source': 'description', 'quote': r['description']}]}
+        requests = []
+        def respond(request, **kwargs):
+            requests.append(request)
+            return io.BytesIO(json.dumps({'choices': [{'finish_reason': 'stop', 'message': {'content': json.dumps(expected)}}]}).encode())
+        env = {'LLM_API_KEY': 'unit-test-token', 'LLM_MODEL': 'deepseek-v4.1-flash',
+               'LLM_BASE_URL': 'https://opencode.ai/inference/go/openai/v1'}
+        with patch.dict('os.environ', env), patch('collector.collect.urlopen', side_effect=respond):
+            self.assertEqual(generate_content(r, source)['summary_zh'], expected['summary_zh'])
+            generate_content(r, source)
+            generate_content(r, dict(source, hash='material-two'))
+        self.assertEqual(requests[0].full_url, env['LLM_BASE_URL'] + '/chat/completions')
+        headers = {k.lower(): v for k, v in requests[0].header_items()}
+        self.assertTrue(headers['user-agent'].startswith('github-rising/'))
+        self.assertEqual(headers['x-opencode-session'], {k.lower(): v for k, v in requests[1].header_items()}['x-opencode-session'])
+        self.assertNotEqual(headers['x-opencode-session'], {k.lower(): v for k, v in requests[2].header_items()}['x-opencode-session'])
+        self.assertNotIn(env['LLM_API_KEY'], headers['x-opencode-session'])
+        body = json.loads(requests[0].data)
+        self.assertEqual(body['thinking'], {'type': 'disabled'})
+        self.assertEqual(body['response_format'], {'type': 'json_object'})
+        self.assertEqual(body['max_tokens'], 2048)
+
+    def test_blank_or_truncated_model_response_is_not_accepted(self):
+        import io
+        env = {'LLM_API_KEY': 'unit-test-token', 'LLM_MODEL': 'deepseek-v4.1-flash',
+               'LLM_BASE_URL': 'https://opencode.ai/inference/go/openai/v1'}
+        for reason, content in [('length', '{}'), ('stop', '   ')]:
+            response = {'choices': [{'finish_reason': reason, 'message': {'content': content}}]}
+            with patch.dict('os.environ', env), patch('collector.collect.urlopen', return_value=io.BytesIO(json.dumps(response).encode())):
+                with self.assertRaises(ValueError):
+                    generate_content({'id': 1, 'description': ''}, {'available': True, 'hash': 'h', 'readme': ''})
+
+    def test_vendor_specific_headers_and_parameters_do_not_leak_to_other_providers(self):
+        import io
+        from unittest.mock import Mock
+        r = {'id': 1, 'description': 'A browser for AI and automation', 'url': 'https://github.com/a/b'}
+        source = {'available': True, 'hash': 'h', 'readme': '', 'readme_url': r['url']}
+        value = {'summary_zh': '浏览器工具', 'audience_zh': '开发者',
+                 'evidence': [{'source': 'description', 'quote': r['description']}]}
+        env = {'LLM_API_KEY': 'unit-test-token', 'LLM_MODEL': 'another-model', 'LLM_BASE_URL': 'https://example.test/v1'}
+        response = {'choices': [{'message': {'content': json.dumps(value)}}]}
+        with patch.dict('os.environ', env), patch('collector.collect.urlopen', return_value=io.BytesIO(json.dumps(response).encode())) as request:
+            generate_content(r, source)
+        sent = request.call_args[0][0]
+        self.assertNotIn('x-opencode-session', {k.lower(): v for k, v in sent.header_items()})
+        self.assertNotIn('thinking', json.loads(sent.data))
+
     def test_repo_that_became_private_is_never_persisted(self):
         from unittest.mock import Mock
         api = Mock()
