@@ -1,0 +1,13 @@
+{
+  "summary_zh": "为 AI 编程助手保存跨会话记忆，把之前的工作上下文带到下一次对话。",
+  "audience_zh": "希望在 Claude Code、Codex 等工具中持续保留项目上下文的用户。",
+  "evidence": [
+    {
+      "quote": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "url": "https://github.com/thedotmack/claude-mem"
+    }
+  ],
+  "content_status": "editorial",
+  "material_hash": "3125edf9847485c32f0c742a1778e5e68ad6b1c82b079a6b7ad5c85c96140b8d",
+  "readme_url": "https://github.com/thedotmack/claude-mem/blob/main/README.md"
+}

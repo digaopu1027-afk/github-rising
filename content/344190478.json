@@ -1,0 +1,13 @@
+{
+  "summary_zh": "通过 12 周、24 节课程入门人工智能。",
+  "audience_zh": "希望按课程结构开始了解人工智能的初学者。",
+  "evidence": [
+    {
+      "quote": "12 Weeks, 24 Lessons, AI for All!",
+      "url": "https://github.com/microsoft/AI-For-Beginners"
+    }
+  ],
+  "content_status": "editorial",
+  "material_hash": "d6cd9d81819d6bd25f88a58f31609c0c9f1f7747e0acee8d971a13484f09eb35",
+  "readme_url": "https://github.com/microsoft/AI-For-Beginners/blob/main/README.md"
+}

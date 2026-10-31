@@ -1,0 +1,13 @@
+{
+  "summary_zh": "探索由 AI 驱动的软件开发工具。",
+  "audience_zh": "希望了解 AI 辅助软件开发方式的开发者。",
+  "evidence": [
+    {
+      "quote": "🙌 OpenHands: AI-Driven Development",
+      "url": "https://github.com/OpenHands/OpenHands"
+    }
+  ],
+  "content_status": "editorial",
+  "material_hash": "149aa7ac147b95c660ecaaa2e132732c762bd7596f74354633164487ca94159d",
+  "readme_url": "https://github.com/OpenHands/OpenHands/blob/main/README.md"
+}

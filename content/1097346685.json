@@ -1,0 +1,13 @@
+{
+  "summary_zh": "给 AI 编程助手补充设计指令，支持界面打磨、设计审查与问题检查。",
+  "audience_zh": "使用 AI 编程工具制作界面，希望改善设计表达与审查流程的开发者。",
+  "evidence": [
+    {
+      "quote": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+      "url": "https://github.com/pbakaus/impeccable"
+    }
+  ],
+  "content_status": "editorial",
+  "material_hash": "c20b9a2c5b1ce00a5357ea9dbdcedda1be12bf7cdcc40d7865a347816ec3deb3",
+  "readme_url": "https://github.com/pbakaus/impeccable/blob/main/README.md"
+}

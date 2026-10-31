@@ -1,0 +1,13 @@
+{
+  "summary_zh": "探索持续、个性化的 AI 辅导与学习方式。",
+  "audience_zh": "希望了解或研究个性化 AI 辅导系统的学习者与开发者。",
+  "evidence": [
+    {
+      "quote": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+      "url": "https://github.com/HKUDS/DeepTutor"
+    }
+  ],
+  "content_status": "editorial",
+  "material_hash": "bfc6284d76f8e77fc7ee9f603c4e4d4406f7dcef89f285f6749190471797ac36",
+  "readme_url": "https://github.com/HKUDS/DeepTutor/blob/main/README.md"
+}

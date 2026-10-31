@@ -1,0 +1,13 @@
+{
+  "summary_zh": "让 AI 同事拥有自己的浏览器、文件和工具，并记录每一步操作。",
+  "audience_zh": "希望围绕 AG-UI 智能体搭建可操作电脑的 AI 工作流的开发者。",
+  "evidence": [
+    {
+      "quote": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+      "url": "https://github.com/CopilotKit/OpenBot"
+    }
+  ],
+  "content_status": "editorial",
+  "material_hash": "43de9db1dcc41001eb6e677c40bdf9ab9829bf159c92924588d0f47d6b1cb269",
+  "readme_url": "https://github.com/CopilotKit/OpenBot/blob/main/README.md"
+}

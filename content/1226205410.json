@@ -1,0 +1,13 @@
+{
+  "summary_zh": "提供紫微斗数排盘引擎，包含排盘算法、四化系统、格局知识库和古籍原文。",
+  "audience_zh": "希望研究紫微斗数排盘算法、知识库与相关文献资料的人。",
+  "evidence": [
+    {
+      "quote": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据",
+      "url": "https://github.com/Renhuai123/ziwei-doushu"
+    }
+  ],
+  "content_status": "editorial",
+  "material_hash": "6600b24a0596188460bc8de990dbb218e0cd58ec466c13f82624d5a596800bdc",
+  "readme_url": "https://github.com/Renhuai123/ziwei-doushu/blob/main/README.md"
+}

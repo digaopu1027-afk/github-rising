@@ -1,0 +1,13 @@
+{
+  "summary_zh": "把艺术指导、参考图和浏览器检查加入 AI 编程助手的界面制作流程。",
+  "audience_zh": "使用 AI 编程工具制作网页，希望结合视觉参考与浏览器检查的开发者。",
+  "evidence": [
+    {
+      "quote": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
+      "url": "https://github.com/Leonxlnx/taste-skill"
+    }
+  ],
+  "content_status": "editorial",
+  "material_hash": "3301ae6261fe6cfea441a58d2e66c03bc49767127de9914df7ccdcd1216ef94a",
+  "readme_url": "https://github.com/Leonxlnx/taste-skill/blob/main/README.md"
+}

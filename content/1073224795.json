@@ -1,0 +1,13 @@
+{
+  "summary_zh": "为 AI 编程助手组织技能与软件开发方法，建立更明确的开发流程。",
+  "audience_zh": "希望为 AI 编程助手配置技能，并整理软件开发工作方法的开发者。",
+  "evidence": [
+    {
+      "quote": "An agentic skills framework & software development methodology that works.",
+      "url": "https://github.com/obra/superpowers"
+    }
+  ],
+  "content_status": "editorial",
+  "material_hash": "36a432a89ba90c1f52d805be804e4e02c6a9008390af90fc884fd3bce295074b",
+  "readme_url": "https://github.com/obra/superpowers/blob/main/README.md"
+}

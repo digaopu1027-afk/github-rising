@@ -1,0 +1,13 @@
+{
+  "summary_zh": "给机器人一台可操作的虚拟机，探索开源的 Grok Bot 替代方案。",
+  "audience_zh": "希望研究或搭建能够操作虚拟机的机器人的开发者。",
+  "evidence": [
+    {
+      "quote": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+      "url": "https://github.com/milind-soni/OpenMausBot"
+    }
+  ],
+  "content_status": "editorial",
+  "material_hash": "daff93ed42b85a2da44aa89e2eadd4d2134b22840414d5cbaf36318b3d27823f",
+  "readme_url": "https://github.com/milind-soni/OpenMausBot/blob/main/README.md"
+}

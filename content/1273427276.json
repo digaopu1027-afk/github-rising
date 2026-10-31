@@ -1,0 +1,13 @@
+{
+  "summary_zh": "为编程助手提供分阶段安全审计技能，输出经过独立验证、机器可读的发现。",
+  "audience_zh": "希望借助 AI 编程助手开展结构化安全审计并处理审计结果的开发者。",
+  "evidence": [
+    {
+      "quote": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "url": "https://github.com/cloudflare/security-audit-skill"
+    }
+  ],
+  "content_status": "editorial",
+  "material_hash": "7b83125ecdc669fa11aaa963a9d22e997fb59bce5202f8dbb60f7431da61d1d4",
+  "readme_url": "https://github.com/cloudflare/security-audit-skill/blob/main/README.md"
+}

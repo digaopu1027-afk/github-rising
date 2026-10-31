@@ -1,0 +1,13 @@
+{
+  "summary_zh": "为 AI 助手提供 Expo 项目和应用服务相关的技能资料。",
+  "audience_zh": "使用 Expo 与 Expo Application Services 构建应用，并希望借助 AI 助手工作的开发者。",
+  "evidence": [
+    {
+      "quote": "A collection of AI agent skills for working with Expo projects and Expo Application Services",
+      "url": "https://github.com/expo/skills"
+    }
+  ],
+  "content_status": "editorial",
+  "material_hash": "58cfcb6aa98b771ca553b2c692e42d3f2865d8b3b75b8e1ae0a25710caf6c62a",
+  "readme_url": "https://github.com/expo/skills/blob/main/README.md"
+}

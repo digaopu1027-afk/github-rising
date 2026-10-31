@@ -1,0 +1,13 @@
+{
+  "summary_zh": "为 Claude Cowork 的知识工作场景提供开源插件。",
+  "audience_zh": "在 Claude Cowork 中处理知识工作，希望了解或扩展插件能力的用户。",
+  "evidence": [
+    {
+      "quote": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "url": "https://github.com/anthropics/knowledge-work-plugins"
+    }
+  ],
+  "content_status": "editorial",
+  "material_hash": "915fd971eeb8abe7eb0f644f16cc5fca19145a0a99ffb90fd183e0e91b2411a6",
+  "readme_url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/README.md"
+}
