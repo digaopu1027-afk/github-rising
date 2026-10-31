@@ -8,7 +8,7 @@ import unittest
 from unittest.mock import patch
 
 from collector.core import eligible, observe, build_rankings
-from collector.collect import atomic_json, make_board, publish, export_all, validate_content, safe_url, collect
+from collector.collect import atomic_json, make_board, publish, export_all, validate_content, safe_url, collect, fetch_repo, ApiError
 
 AT = datetime(2026, 10, 30, 1, tzinfo=timezone.utc)
 
@@ -133,8 +133,23 @@ class ArchiveTests(unittest.TestCase):
             collect(Namespace(state_dir=str(self.state), output_dir=str(self.output)))
             api.assert_not_called()
 
+    def test_missing_state_cannot_restart_over_existing_public_history(self):
+        from argparse import Namespace
+        atomic_json(self.output / 'history/index.json', [{'date': '2026-10-30'}])
+        with patch('collector.collect.GitHub') as api:
+            with self.assertRaises(ApiError):
+                collect(Namespace(state_dir=str(self.state), output_dir=str(self.output)))
+            api.assert_not_called()
+
 
 class ContentTests(unittest.TestCase):
+    def test_repo_that_became_private_is_never_persisted(self):
+        from unittest.mock import Mock
+        api = Mock()
+        api.get.return_value = {'id': 1, 'private': True}
+        with self.assertRaises(ApiError):
+            fetch_repo(api, {'id': 1})
+
     def test_only_supplied_exact_evidence_is_accepted(self):
         r = {'description': 'A browser for AI and automation', 'url': 'https://github.com/a/b'}
         source = {'readme': 'Use the browser to automate tasks.', 'readme_url': 'https://github.com/a/b#readme'}

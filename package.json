@@ -9,6 +9,7 @@
     "preview": "astro preview --host 127.0.0.1",
     "check": "astro check",
     "test": "python3 -m unittest discover -s tests -v",
+    "test:site": "python3 tests/check_site.py",
     "collect": "python3 -m collector.collect"
   },
   "dependencies": {

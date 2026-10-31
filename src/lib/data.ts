@@ -25,7 +25,7 @@ export interface Point { date: string; sampled_at: string; stars: number; delta:
 export interface Detail { repo: Project; history: Point[] }
 export interface HistoryEntry {date: string; generated_at: string; sampled_count: number; eligible_count: number}
 
-const dataRoot = path.resolve('public/data');
+const dataRoot = path.resolve(process.env.PUBLIC_DIR || 'public', 'data');
 export function read<T>(relative: string, fallback: T): T {
   const target = path.join(dataRoot, relative);
   return fs.existsSync(target) ? JSON.parse(fs.readFileSync(target, 'utf-8')) as T : fallback;

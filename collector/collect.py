@@ -326,6 +326,8 @@ def collect(args):
         export_all(state, output)
         print('Already collected %s; exported immutable archive.' % day)
         return
+    if not list((state / 'boards').glob('*.json')) and load(output / 'history/index.json', []):
+        raise ApiError('Persistent state is missing. Restore the data branch before collecting; existing public history was preserved.')
     api = GitHub()
     approved = set(load(ROOT / 'config' / 'osi-licenses.json')['licenses'])
     tracked = load(state / 'tracked.json', {})

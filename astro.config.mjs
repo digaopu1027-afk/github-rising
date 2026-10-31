@@ -5,5 +5,6 @@ export default defineConfig({
   base: process.env.BASE_PATH || '/',
   trailingSlash: 'always',
   output: 'static',
+  publicDir: process.env.PUBLIC_DIR || './public',
   devToolbar: { enabled: false },
 });

@@ -9,11 +9,21 @@
 ```bash
 npm ci
 gh auth login
-python3 -m collector.collect
 npm run dev
 ```
 
 已随代码保存首次真实采样的公开导出数据，未配置采集凭证也可以浏览。初始快照不构成增长榜；至少需要相邻两日、相隔 22–26 小时的有效样本。北京时间早上 9 点运行时，若与首次手工采样间隔不足，仍继续观察，直到下一组合格快照产生。
+
+从 GitHub 克隆后，第一次在本地采集前先恢复持久状态（仅在 `.data/` 尚未初始化时运行）：
+
+```bash
+git fetch origin data
+mkdir -p .data
+git archive origin/data | tar -x -C .data
+python3 -m collector.collect
+```
+
+缺少持久状态而已有公开历史时，采集器会拒绝重新开始，防止误用新基线覆盖原有记录。
 
 检查与构建：
 
@@ -21,6 +31,7 @@ npm run dev
 npm test
 npm run check
 npm run build
+npm run test:site
 ```
 
 ## 数据口径
@@ -77,3 +88,5 @@ GitHub Pages 的 Source 选择 **GitHub Actions**。工作流 `.github/workflows
 单元测试覆盖统计区间、门槛、并列、负增长、许可证、改名、漏采、冷启动、证据校验、重复运行及历史冻结。网站包含数据积累、空榜、过滤无结果、失败、部分成功与超过 30 小时未更新的状态。
 
 完整每日流程的验收需要两个相隔 22–26 小时的真实采样。一次开发会话中的即时重跑只验证幂等性，不算第二天的数据。部署记录见 `VALIDATION.md`。
+
+`python3 tests/build_fixture.py` 可在系统临时目录生成标有“禁止发布”的隔离测试站，用于验证有排名和两点曲线的界面。它不会修改真实状态、`public/data/` 或生产 `dist/`。`PUBLIC_DIR` 仅用于选择隔离的构建输入，生产工作流不设置该变量。
