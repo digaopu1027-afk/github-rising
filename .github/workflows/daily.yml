@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: '0 1 * * *' # 09:00 Asia/Shanghai; GitHub may delay execution.
   workflow_dispatch:
+    inputs:
+      verify_model:
+        description: 'Make one real source-backed request to verify the configured model'
+        type: boolean
+        default: false
   push:
     branches: [main]
 
@@ -55,6 +60,14 @@ jobs:
           LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
           LLM_MODEL: ${{ vars.LLM_MODEL }}
         run: python3 -m collector.collect --state-dir ../state
+      - name: Verify model with one real project
+        if: github.event_name == 'workflow_dispatch' && inputs.verify_model
+        working-directory: app
+        env:
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
+          LLM_MODEL: ${{ vars.LLM_MODEL }}
+        run: python3 -m collector.model_check --state-dir ../state
       - name: Save observations even when publishing fails
         if: always()
         working-directory: state
