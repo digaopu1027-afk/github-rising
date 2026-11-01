@@ -1,0 +1,25 @@
+{
+  "summary_zh": "开源虚拟白板，可在无限画布上手绘风格绘制图表、线框图等内容，支持图形库、图片、暗色模式、多语言，以及导出 PNG、SVG 或 .excalidraw 文件。",
+  "audience_zh": "适合需要手绘风格画图、制作线框图或示意图的用户；也可供开发者通过 npm 包将编辑器集成到 React 应用中，或参与开源贡献与翻译。",
+  "evidence": [
+    {
+      "quote": "Virtual whiteboard for sketching hand-drawn like diagrams",
+      "url": "https://github.com/excalidraw/excalidraw"
+    },
+    {
+      "quote": "An open source virtual hand-drawn style whiteboard. </br>",
+      "url": "https://github.com/excalidraw/excalidraw/blob/master/README.md"
+    },
+    {
+      "quote": "The Excalidraw editor (npm package) supports:",
+      "url": "https://github.com/excalidraw/excalidraw/blob/master/README.md"
+    },
+    {
+      "quote": "Collaborative and end-to-end encrypted. </br>",
+      "url": "https://github.com/excalidraw/excalidraw/blob/master/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "9f254184a243b803ee7a8774de438e5af1ba45255bc282b11fd8eb8c0bbee198",
+  "readme_url": "https://github.com/excalidraw/excalidraw/blob/master/README.md"
+}

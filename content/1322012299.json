@@ -1,0 +1,25 @@
+{
+  "summary_zh": "将 Word、PowerPoint、Excel、OpenDocument、RTF、EPUB、CSV 和 PDF 转换为干净的 GitHub 风格 Markdown，采用 Rust 实现并提供 Node.js、Python 与浏览器 WebAssembly 绑定，输出格式统一。",
+  "audience_zh": "需要在 Node.js、Python、浏览器或 Rust 中批量处理多种办公文档并生成一致 Markdown 的开发者；也适合希望让 AI 代理读取文档的用户。",
+  "evidence": [
+    {
+      "quote": "Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown. Built in Rust, with Node.js and Python bindings.",
+      "url": "https://github.com/firecrawl/anydoc"
+    },
+    {
+      "quote": "Fast Rust library that converts documents (Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF) into clean GitHub-Flavored Markdown. Includes bindings for [Node.js](node/README.md), [Python](python/README.md), and the [browser](wasm/README.md) (WebAssembly).",
+      "url": "https://github.com/firecrawl/anydoc/blob/main/README.md"
+    },
+    {
+      "quote": "Built by [Firecrawl](https://firecrawl.dev) to turn any office document into LLM-ready Markdown in single-digit milliseconds, with one consistent output no matter which format goes in. It powers [Firecrawl Parse](https://firecrawl.dev/parse), so if you'd rather not run it yourself, the hosted API gi",
+      "url": "https://github.com/firecrawl/anydoc/blob/main/README.md"
+    },
+    {
+      "quote": "anydoc ships as an [Agent Skill](https://agentskills.io), so your agent can read any document it runs into:",
+      "url": "https://github.com/firecrawl/anydoc/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "203ebc6b00bdf118918026ca228c3d2ba3e5670c43a5af70407b3cb185af0b27",
+  "readme_url": "https://github.com/firecrawl/anydoc/blob/main/README.md"
+}

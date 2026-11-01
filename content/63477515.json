@@ -1,0 +1,25 @@
+{
+  "summary_zh": "这是一个用C语言实现的开源算法集合，涵盖数学、机器学习、计算机科学、物理等主题，面向教育用途。代码有详细注释，只依赖标准C库，遵循C11标准，并带有自检和在线文档，便于学习算法原理。",
+  "audience_zh": "适合学习者、学生和教师，作为算法学习与教学资源；也适合希望研究同一目标下不同算法策略与优化实现的C语言开发者，或需要将模块化实现用于其他应用的开发者。",
+  "evidence": [
+    {
+      "quote": "Collection of various algorithms in mathematics, machine learning, computer science, physics, etc implemented in C for educational purposes.",
+      "url": "https://github.com/TheAlgorithms/C"
+    },
+    {
+      "quote": "e, machine learning, engineering, etc.. The implementations and their associated documentations are meant to provide a learning resource for educators and students. Hence, one may find more than one implementation for the same objective but using different algorithm strategies and optimizations.",
+      "url": "https://github.com/TheAlgorithms/C/blob/master/README.md"
+    },
+    {
+      "quote": "* Well documented source code with detailed explanations provide a valuable resource for educators and students alike.",
+      "url": "https://github.com/TheAlgorithms/C/blob/master/README.md"
+    },
+    {
+      "quote": "* Each source code is atomic using standard C library [`libc`](https://en.wikipedia.org/wiki/C_standard_library) and _no external libraries_ are required for their compilation and execution. Thus the fundamentals of the algorithms can be studied in much depth.",
+      "url": "https://github.com/TheAlgorithms/C/blob/master/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "19a367c8d47d94fe3343383432acc70a7ae3f4622dc39c7db8454fcbd20a194e",
+  "readme_url": "https://github.com/TheAlgorithms/C/blob/master/README.md"
+}

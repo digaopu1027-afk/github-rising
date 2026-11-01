@@ -1,0 +1,21 @@
+{
+  "summary_zh": "Oh My Zsh 是开源、社区驱动的 zsh 配置管理框架，提供 300 多个可选插件和 140 多个主题，并自带更新工具，方便跟进社区更新。",
+  "audience_zh": "适合使用 zsh 并希望统一管理和扩展终端配置的用户，包括需要插件、主题或自动化安装选项的开发者。",
+  "evidence": [
+    {
+      "quote": "🙃   A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up w",
+      "url": "https://github.com/ohmyzsh/ohmyzsh"
+    },
+    {
+      "quote": "Oh My Zsh is an open source, community-driven framework for managing your [zsh](https://www.zsh.org/)",
+      "url": "https://github.com/ohmyzsh/ohmyzsh/blob/master/README.md"
+    },
+    {
+      "quote": "in your command prompt, you'll take advantage of the hundreds of powerful plugins and beautiful themes.",
+      "url": "https://github.com/ohmyzsh/ohmyzsh/blob/master/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "cba514c50d34ab32d519344c5110bb5aecf8d3da9ee2b12bb60c11b265381136",
+  "readme_url": "https://github.com/ohmyzsh/ohmyzsh/blob/master/README.md"
+}

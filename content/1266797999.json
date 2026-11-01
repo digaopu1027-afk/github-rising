@@ -1,0 +1,25 @@
+{
+  "summary_zh": "它把“能少写就少写”的资深开发者思路注入 AI 编程代理：先读清改动涉及的代码与真实数据流，再按阶梯依次考虑是否真的需要、是否已有现成实现、是否可用标准库或平台原生能力，尽量复用现有代码，只写任务所需的最小实现；同时保留校验、错误处理、安全与可访问性，并为核心逻辑留下测试，还提供代码审查与全仓库审计命令。",
+  "audience_zh": "适合使用支持技能的 AI 编程代理（如 Claude Code、Codex 等）的开发者，尤其希望减少冗余代码、控制 token 与成本的个人和团队，以及需要 AI 在写码时兼顾安全、测试和现有代码复用的使用者；仅用规则文件适配的宿主可获得常驻规则，但没有命令功能。",
+  "evidence": [
+    {
+      "quote": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "url": "https://github.com/DietrichGebert/ponytail"
+    },
+    {
+      "quote": "**The rule was never \"fewest tokens.\"** It is: write only what the task needs, and never cut validation, error handling, security, or accessibility. The code ends up small because it is necessary, not golfed. Lower cost and latency are a side effect.",
+      "url": "https://github.com/DietrichGebert/ponytail/blob/main/README.md"
+    },
+    {
+      "quote": "The ladder runs *after* it understands the problem, not instead of it: it reads the code the change touches and traces the real flow before picking a rung. Lazy about the solution, never about reading.",
+      "url": "https://github.com/DietrichGebert/ponytail/blob/main/README.md"
+    },
+    {
+      "quote": "Lazy, not negligent: trust-boundary validation, data-loss handling, security, and accessibility are never on the chopping block.",
+      "url": "https://github.com/DietrichGebert/ponytail/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "0dcaa38b3720571a13c6e53d2d0ea75974e6f59699e95e7bf9e07db29abc8941",
+  "readme_url": "https://github.com/DietrichGebert/ponytail/blob/main/README.md"
+}

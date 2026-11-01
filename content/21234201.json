@@ -1,0 +1,25 @@
+{
+  "summary_zh": "mo.js 是一个用于网页的 JavaScript 动态图形库，提供声明式 API 和内置组件（如 html、shape、swirl、burst、stagger），可精确控制并自定义动画，用于增强用户体验、丰富视觉内容并制作令人愉悦的动画效果。",
+  "audience_zh": "适合熟悉 JavaScript、希望在网页中制作自定义动态图形和动画的前端开发者；可使用 npm/yarn 配合 webpack、rollup 等打包工具引入，也可通过 CDN 以脚本方式快速引入页面。",
+  "evidence": [
+    {
+      "quote": "**mo · js** is a javascript motion graphics library that is a **fast, retina ready, modular and open source**. In comparison to other libraries, it has a different syntax and code animation structure approach. The declarative API provides you a complete control over the animation, making it customizable with ease.",
+      "url": "https://github.com/mojs/mojs/blob/main/README.md"
+    },
+    {
+      "quote": "The library provides **built-in components** to start animating from scratch like html, shape, swirl, burst and stagger, but also bring you tools to help craft your animation in a most natural way. Using mojs on your site will enhance the user experience, enrich your content visually and create **de",
+      "url": "https://github.com/mojs/mojs/blob/main/README.md"
+    },
+    {
+      "quote": "Mojs is published on the **NPM registry**, so you can install it through the command line interpreter using your favorite package manager. This is the best way to install the library if you are comfortable with **javascript bundlers** like `webpack` or `rollup`.",
+      "url": "https://github.com/mojs/mojs/blob/main/README.md"
+    },
+    {
+      "quote": "To rapidly **include the minified production file** in your web page, load the latest build from your favorite CDN using a generic script markup:",
+      "url": "https://github.com/mojs/mojs/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "dbedca3b0a48b9a5dc3a9726efa0c62a6904ddd8a0e2f6038455dc83992fe197",
+  "readme_url": "https://github.com/mojs/mojs/blob/main/README.md"
+}

@@ -1,0 +1,25 @@
+{
+  "summary_zh": "为编码代理提供协调式工程系统与工具箱：先规划再实现、用测试验证改动、从新上下文自审、记忆要点，并把反复成功的做法沉淀为可复用技能与工作流，附代理、技能、命令、钩子、规则和 AgentShield 安全扫描。",
+  "audience_zh": "主要适合使用 Claude Code 的开发者，也可用于 Codex、Kimi Code 等代理环境；需要 Node.js 18 及以上，Claude 插件方式还需 Git 与 Claude Code 2.1 及以上。",
+  "evidence": [
+    {
+      "quote": "Your agent can write code, but ECC gives it a coordinated engineering system and toolbox: it plans before it builds, verifies changes with tests, reviews its own work from a fresh context, remembers what matters, and turns repeated wins into reusable skills and workflows.",
+      "url": "https://github.com/affaan-m/ECC/blob/main/README.md"
+    },
+    {
+      "quote": "ECC is MIT-licensed open source. It works best with Claude Code today, has native Codex and Qoder plugin paths, and provides capability-limited adapters for Cursor, OpenCode, Gemini, Zed, GitHub Copilot, Antigravity, Qwen, and other harnesses. See the [support status matrix](#platform-support) befor",
+      "url": "https://github.com/affaan-m/ECC/blob/main/README.md"
+    },
+    {
+      "quote": "Access to 71 agents, 314 skills, and 98 legacy command shims, plus hooks, rules, memory, continuous learning, and AgentShield security scanning. The agents are specialized for planning, review, build repair, security, architecture, and domain work.",
+      "url": "https://github.com/affaan-m/ECC/blob/main/README.md"
+    },
+    {
+      "quote": "> The universal package requires Node.js 18 or newer. Claude plugin setup also",
+      "url": "https://github.com/affaan-m/ECC/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "baebe990a37438769920c7f017783c54a562c06e3868300a4e7d4ead70e461cf",
+  "readme_url": "https://github.com/affaan-m/ECC/blob/main/README.md"
+}

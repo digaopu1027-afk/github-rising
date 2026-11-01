@@ -1,0 +1,25 @@
+{
+  "summary_zh": "Carbon 可将源代码生成为美观图片，支持自定义语法主题、字体、背景、窗口样式、内边距与阴影。可拖入文件、通过 GitHub gist 链接或直接输入导入代码，一键下载 PNG/SVG、复制到剪贴板、生成分享链接、创建可自动展开的保存片段，或通过 iframe 嵌入网页与博客。",
+  "audience_zh": "适合需要在 Twitter、Slack、博客或文档中展示代码截图的开发者、技术写作者与内容分享者，也适合希望将代码片段以美观形式嵌入网站或文章的个人与团队。",
+  "evidence": [
+    {
+      "quote": ":black_heart: Create and share beautiful images of your source code",
+      "url": "https://github.com/carbon-app/carbon"
+    },
+    {
+      "quote": "- **Customization**. Customize things like your image's syntax theme, font style, and more",
+      "url": "https://github.com/carbon-app/carbon/blob/main/README.md"
+    },
+    {
+      "quote": "Once you've got all of your code into Carbon, you can customize your image by changing the syntax theme, background color, window theme, padding, shadows, fonts, and more.",
+      "url": "https://github.com/carbon-app/carbon/blob/main/README.md"
+    },
+    {
+      "quote": "Sharing a saved snippet will automatically unfurl the image on platforms like Twitter and Slack. This lets users see your creation, while also giving them access to the source code via the link. Better yet, if you need to make an update, simply follow the link yourself to edit the snippet directly.",
+      "url": "https://github.com/carbon-app/carbon/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "0fa648a413d89b53fff593f7a859e9dead4929eb4e9cfb4de5f0b230bfab6ff3",
+  "readme_url": "https://github.com/carbon-app/carbon/blob/main/README.md"
+}

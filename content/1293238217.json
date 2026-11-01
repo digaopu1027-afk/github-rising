@@ -1,0 +1,25 @@
+{
+  "summary_zh": "ThinkRail 是围绕 pi 编码代理构建的代理式 IDE：可把任意 git 仓库拆成隔离的 worktree 工作区，让多个代理并行工作而互不影响；提供 Monaco 编辑器、文件树、终端、流式对话、规格树、技能与工作流、MCP 服务器及自定义模型服务等界面能力。",
+  "audience_zh": "适合希望在真实 IDE 界面中使用编码代理、以 git 分支和 worktree 并行处理任务并管理 PR 的开发者；也适合已有 pi 配置、想接入自有模型服务或 JetBrains AI 的用户。",
+  "evidence": [
+    {
+      "quote": "ThinkRail is the agentic IDE that gets better every time you use it — learning your project through",
+      "url": "https://github.com/JetBrains/thinkrail/blob/main/README.md"
+    },
+    {
+      "quote": "We built a rich interface around the [`pi`](https://www.npmjs.com/package/@earendil-works/pi-coding-agent)",
+      "url": "https://github.com/JetBrains/thinkrail/blob/main/README.md"
+    },
+    {
+      "quote": "- **Isolated workspaces.** Open any git repo as a project and cut workspaces from it as `git worktree`s,",
+      "url": "https://github.com/JetBrains/thinkrail/blob/main/README.md"
+    },
+    {
+      "quote": "- **A real IDE around the agent.** A splittable workbench of Monaco editor tabs, a Files tree with live git",
+      "url": "https://github.com/JetBrains/thinkrail/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "f4c53c8beba399e5debccb9a745eddb3f23c7d93912c61a381f3fe94566e65ea",
+  "readme_url": "https://github.com/JetBrains/thinkrail/blob/main/README.md"
+}

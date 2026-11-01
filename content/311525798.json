@@ -1,0 +1,21 @@
+{
+  "summary_zh": "这是一门为期12周、共24课的网络开发入门课程，由微软云技术推广团队制作，通过动手项目讲解JavaScript、CSS和HTML基础，并配有测验、讨论和练习作业，帮助初学者开始学习编程。",
+  "audience_zh": "适合希望从零开始学习网络开发、掌握JavaScript、CSS和HTML基础的编程初学者，以及考虑在课堂中使用该课程资源的教师。",
+  "evidence": [
+    {
+      "quote": "24 Lessons, 12 Weeks, Get Started as a Web Developer",
+      "url": "https://github.com/microsoft/Web-Dev-For-Beginners"
+    },
+    {
+      "quote": "Learn the fundamentals of web development with our 12-week comprehensive course by Microsoft Cloud Advocates. Each of the 24 lessons dives into JavaScript, CSS, and HTML through hands-on projects like terrariums, browser extensions, and space games. Engage with quizzes, discussions, and practical as",
+      "url": "https://github.com/microsoft/Web-Dev-For-Beginners/blob/main/README.md"
+    },
+    {
+      "quote": "signments. Enhance your skills and optimize your knowledge retention with our effective project-based pedagogy. Start your coding journey today!",
+      "url": "https://github.com/microsoft/Web-Dev-For-Beginners/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "5e7bc5f9c0144865bc114adcf9cc1536bf147c492ada0429b161eae37871d09b",
+  "readme_url": "https://github.com/microsoft/Web-Dev-For-Beginners/blob/main/README.md"
+}

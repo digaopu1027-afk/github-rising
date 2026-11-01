@@ -1,0 +1,25 @@
+{
+  "summary_zh": "Dashy 是一个可自托管的个人仪表盘，可作为家庭实验室的起始页。它支持多页面、应用和主机实时状态监测、展示自托管服务动态内容的组件、即时搜索与快捷键、主题与图标自定义、可选的多用户认证、多语言，以及通过 YAML 文件或界面编辑器进行配置。",
+  "audience_zh": "适合搭建家庭实验室、自托管多项服务的用户，以及希望把常用应用和链接集中到一个可定制主页中、并需要状态监测与快速检索的人。",
+  "evidence": [
+    {
+      "quote": "🚀 A self-hostable personal dashboard built for you. Includes status-checking, widgets, themes, icon packs, a UI editor and tons more!",
+      "url": "https://github.com/lissy93/dashy"
+    },
+    {
+      "quote": "- [🚦 Status Indicators](#status-indicators-)",
+      "url": "https://github.com/lissy93/dashy/blob/master/README.md"
+    },
+    {
+      "quote": "- [📊 Widgets](#widgets-)",
+      "url": "https://github.com/lissy93/dashy/blob/master/README.md"
+    },
+    {
+      "quote": "- [🔎 Searching and Shortcuts](#searching-and-shortcuts-)",
+      "url": "https://github.com/lissy93/dashy/blob/master/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "ac049f25343f2b7ceb40e4dc886c5fa82700b5ec036a3903a230c980cf0235c1",
+  "readme_url": "https://github.com/lissy93/dashy/blob/master/README.md"
+}

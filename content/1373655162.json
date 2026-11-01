@@ -1,0 +1,21 @@
+{
+  "summary_zh": "这是一个浏览器智能体：给出一个自然语言目标，它会基于动态索引的动作空间选择操作与页面元素，仅在需要输入文本时由小型语言模型生成文字。支持点击、输入、选择、滚动、等待、完成与受阻等操作，并提供本地检查器查看元素编号与决策概率。",
+  "audience_zh": "适合希望用一条自然语言目标自动操作网页的开发者，以及想阅读、复用或扩展其轻量库与检查器的研究人员；可通过示例运行航班搜索、维基百科等任务。",
+  "evidence": [
+    {
+      "quote": "**A browser agent with a dynamic, indexed action space.**",
+      "url": "https://github.com/browser-use/jev-ultrafast/blob/main/README.md"
+    },
+    {
+      "quote": "Give it one goal. [TypeSafe's Jev](https://docs.typesafe.ai/introduction) picks an operation and an element. A small LLM writes text only when the operation is `TYPE_TEXT`.",
+      "url": "https://github.com/browser-use/jev-ultrafast/blob/main/README.md"
+    },
+    {
+      "quote": "The operations are `CLICK`, `TYPE_TEXT`, `SELECT`, `SCROLL_UP`, `SCROLL_DOWN`, `WAIT`, `DONE`, and `BLOCKED`. Only supported operations and targets are offered.",
+      "url": "https://github.com/browser-use/jev-ultrafast/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "e1cc93a60e49105e6790c953ba42cb564443f9442e411934a1c956f862518502",
+  "readme_url": "https://github.com/browser-use/jev-ultrafast/blob/main/README.md"
+}

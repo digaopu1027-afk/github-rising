@@ -1,0 +1,25 @@
+{
+  "summary_zh": "Penpot 是开源设计平台，支持在浏览器使用或自托管部署，采用 SVG、CSS、HTML、JSON 等开放标准，提供实时协作、Design Tokens、组件与变体、CSS Grid 与 Flex 布局，并通过 API、插件和 MCP 服务器连接设计与代码流程。",
+  "audience_zh": "适合需要可扩展协作的产品团队，以及重视设计基础设施自主可控、有合规治理要求并希望自托管的组织；也适合希望设计与代码衔接的设计师和开发者。",
+  "evidence": [
+    {
+      "quote": "Penpot: The open-source design platform for Product teams that need scalable collaboration.",
+      "url": "https://github.com/penpot/penpot"
+    },
+    {
+      "quote": "Penpot is the open-source design platform for teams that build digital products at scale.",
+      "url": "https://github.com/penpot/penpot/blob/develop/README.md"
+    },
+    {
+      "quote": "Penpot’s key strength lies in giving you **full ownership of your design infrastructure**. Built on open source and designed for [self-hosting](https://help.penpot.app/technical-guide/getting-started/), it puts teams in complete control of their design environment supporting strict compliance and go",
+      "url": "https://github.com/penpot/penpot/blob/develop/README.md"
+    },
+    {
+      "quote": "Real-time collaboration strengthens this foundation, helping teams scale and bring design closer to the product through top-tier capabilities. Additionally, developers feel at home using Penpot, because design is expressed as code, enabling a direct translation and shipping products faster.",
+      "url": "https://github.com/penpot/penpot/blob/develop/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "180c57349f9b088bbdf006c23a22f4b9efb9502debc7d9bf5d90c7d2ce174d95",
+  "readme_url": "https://github.com/penpot/penpot/blob/develop/README.md"
+}

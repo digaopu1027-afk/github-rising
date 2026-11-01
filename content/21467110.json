@@ -1,0 +1,25 @@
+{
+  "summary_zh": "spaCy 是面向 Python 的高级自然语言处理（NLP）库，提供预训练流水线，支持 70 多种语言的分词与训练；可用于词性标注、句法分析、命名实体识别、文本分类、词形还原等，并支持 BERT 等预训练 transformer 的多任务学习，以及训练系统、模型打包与部署。",
+  "audience_zh": "适合需要用 Python 构建真实产品中 NLP 能力的开发者与数据科学团队，包括多语言文本处理、实体识别和文本分类等任务；也适合希望使用预训练流水线并进行训练、打包与部署的工程人员。",
+  "evidence": [
+    {
+      "quote": "💫 Industrial-strength Natural Language Processing (NLP) in Python",
+      "url": "https://github.com/explosion/spaCy"
+    },
+    {
+      "quote": "spaCy is a library for **advanced Natural Language Processing** in Python and",
+      "url": "https://github.com/explosion/spaCy/blob/master/README.md"
+    },
+    {
+      "quote": "supports tokenization and training for **70+ languages**. It features",
+      "url": "https://github.com/explosion/spaCy/blob/master/README.md"
+    },
+    {
+      "quote": "**named entity recognition**, **text classification** and more, multi-task",
+      "url": "https://github.com/explosion/spaCy/blob/master/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "8f6a05e42ffd90b437e6e3e8d22b42925ac4485a16c2e9a3586f344a72d8f7f7",
+  "readme_url": "https://github.com/explosion/spaCy/blob/master/README.md"
+}

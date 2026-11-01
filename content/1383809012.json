@@ -1,0 +1,25 @@
+{
+  "summary_zh": "magpie 通过本地网关和菜单栏统一管理多个 AI 编程代理的模型配置：为不同代理选择任意已添加供应商或订阅的模型，支持配额耗尽时自动切换账户或路由组，并可选用隐私掩码在请求离开本机前遮盖密钥等敏感信息。",
+  "audience_zh": "适合同时使用多个 AI 编程代理、多个模型供应商或多个账户，希望集中切换模型并管理配额的用户；若只用单一代理及其官方套餐即可满足，则不需要它。",
+  "evidence": [
+    {
+      "quote": "Each agent keeps its model in its own file, in its own format, with its own keys and base URLs. A subscription you pay for works in one agent and nowhere else. magpie puts all of that behind one app and one local gateway:",
+      "url": "https://github.com/yetone/magpie/blob/main/README.md"
+    },
+    {
+      "quote": "- **Pick any model for any agent** from one list. magpie edits the one key that matters in the agent's own config.",
+      "url": "https://github.com/yetone/magpie/blob/main/README.md"
+    },
+    {
+      "quote": "- **Keep going when a quota runs out**: a provider's next account takes over, and a routing group moves on to another model or provider, so the agent never sees the error. With one account and no group there is nothing to move to, and the error reaches the agent.",
+      "url": "https://github.com/yetone/magpie/blob/main/README.md"
+    },
+    {
+      "quote": "It's for you if you use more than one agent, more than one provider, or more than one account. If you use one agent on its vendor's own plan and that's enough, you don't need it.",
+      "url": "https://github.com/yetone/magpie/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "1d888a74032e4061e93b3c31daabcb0fcb9c011e3337b8130e078f0230ccb6a1",
+  "readme_url": "https://github.com/yetone/magpie/blob/main/README.md"
+}

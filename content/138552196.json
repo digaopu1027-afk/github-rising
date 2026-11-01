@@ -1,0 +1,25 @@
+{
+  "summary_zh": "开源、生产级的 Rust 原生交易引擎，采用确定性事件驱动架构，在统一运行时中覆盖研究、回测模拟与实盘执行。Rust 核心负责性能与安全，Python 作为策略逻辑、配置和编排的控制面；同一策略代码可跨回测与实盘运行，并可通过模块化适配器接入多资产、多交易场所。",
+  "audience_zh": "适合个人及小型团队的量化交易开发者，尤其是希望用 Python 编写策略、同时获得编译型引擎性能与确定性回测能力，并需要在多个交易场所运行回测和实盘策略的开发者；关键任务场景也可完全用 Rust 编写。",
+  "evidence": [
+    {
+      "quote": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
+      "url": "https://github.com/nautechsystems/nautilus_trader"
+    },
+    {
+      "quote": "NautilusTrader is an open-source, production-grade, Rust-native engine for multi-asset,",
+      "url": "https://github.com/nautechsystems/nautilus_trader/blob/develop/README.md"
+    },
+    {
+      "quote": "The system spans research, deterministic simulation, and live execution within a single",
+      "url": "https://github.com/nautechsystems/nautilus_trader/blob/develop/README.md"
+    },
+    {
+      "quote": "The same strategy and execution-algorithm code can run across backtest and live systems, reducing",
+      "url": "https://github.com/nautechsystems/nautilus_trader/blob/develop/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "f40670c9efeea50ed8bda502b0ddba1dd6c85ecc3a538f995ff305ef63e85873",
+  "readme_url": "https://github.com/nautechsystems/nautilus_trader/blob/develop/README.md"
+}

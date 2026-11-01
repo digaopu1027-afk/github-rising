@@ -1,0 +1,25 @@
+{
+  "summary_zh": "在 AI 编程助手中输入 /graphify，即可把代码、文档、SQL 模式、配置和 PDF 等映射为可查询的知识图谱，用查询和图遍历替代逐文件搜索。代码部分用本地确定性 AST 解析，不依赖向量库，每条连接标注为源码明示或推断。",
+  "audience_zh": "适合使用 Claude Code、Cursor、Codex、Gemini CLI 等 AI 编程助手、希望以图谱方式理解或检索代码库及配套文档的开发者；需 Python 3.10+ 及 uv 或 pipx。",
+  "evidence": [
+    {
+      "quote": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+      "url": "https://github.com/Graphify-Labs/graphify"
+    },
+    {
+      "quote": "Type `/graphify` in your AI coding assistant and it maps your entire project (code, docs, PDFs, images, videos) into a **knowledge graph** you can **query instead of grepping** through files.",
+      "url": "https://github.com/Graphify-Labs/graphify/blob/v8/README.md"
+    },
+    {
+      "quote": "- **Not a vector index.** No embeddings, no vector store: a real graph you traverse. Ask a question, trace the path between two things, or explain one concept.",
+      "url": "https://github.com/Graphify-Labs/graphify/blob/v8/README.md"
+    },
+    {
+      "quote": "**One install, any assistant, any OS.** Claude Code, Cursor, Codex, Gemini CLI, GitHub Copilot, and 20+ more, on macOS, Linux, and Windows: [pick your platform](#install).",
+      "url": "https://github.com/Graphify-Labs/graphify/blob/v8/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "71ada40ff31648b1de178c9dfc0b856337c0b90283435a5547349ad8d42ff0d0",
+  "readme_url": "https://github.com/Graphify-Labs/graphify/blob/v8/README.md"
+}

@@ -1,0 +1,25 @@
+{
+  "summary_zh": "Strix 是开源 AI 渗透测试工具，通过自主 AI 代理动态运行代码、发现并验证应用漏洞，提供侦察、利用、真实 PoC 验证、自动修复与报告，支持本地 CLI、CI/CD 和 API 测试。",
+  "audience_zh": "适合需要快速、准确安全测试的开发者与安全团队，以及希望自动化漏洞发现、在 CI/CD 中拦截不安全代码、开展应用安全测试或渗透测试报告工作的人员。",
+  "evidence": [
+    {
+      "quote": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+      "url": "https://github.com/usestrix/strix"
+    },
+    {
+      "quote": "Strix are autonomous AI penetration testing agents that act just like real hackers - they run your code dynamically, find vulnerabilities, and validate them through actual proofs-of-concept. Built for developers and security teams who need fast, accurate security testing without the overhead of manu",
+      "url": "https://github.com/usestrix/strix/blob/main/README.md"
+    },
+    {
+      "quote": "- **Auto‑fix & reporting** - generate patches and compliance-ready pentest reports",
+      "url": "https://github.com/usestrix/strix/blob/main/README.md"
+    },
+    {
+      "quote": "- **CI/CD Integration** - Run tests in CI/CD to block vulnerabilities before reaching production",
+      "url": "https://github.com/usestrix/strix/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "665ff2eb01f7ea2db568a26c32eb9a6d6ae522d3f240e34103f0bb3a2d6d6b10",
+  "readme_url": "https://github.com/usestrix/strix/blob/main/README.md"
+}

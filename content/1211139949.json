@@ -1,0 +1,25 @@
+{
+  "summary_zh": "把任何想法、计划或代码库转成可交互的 HTML 图表。作为 AI 代理技能使用，可用一句话描述系统生成架构或流程示意图，也可让代理读取仓库生成有源码依据的架构图；还能针对问题生成结论先行的单页解释，含表格、步骤、图表和代码，便于查看、导出与分享。",
+  "audience_zh": "适合使用 Cursor、Claude Code、Codex CLI、OpenCode 等 AI 编程代理的开发者与团队；也适合想向他人讲解系统、梳理架构或行程等复杂信息，需要可交互可视化并便于分享的人。",
+  "evidence": [
+    {
+      "quote": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
+      "url": "https://github.com/tt-a1i/archify"
+    },
+    {
+      "quote": "Works with Cursor, Claude Code, Codex CLI, and OpenCode. See installation options below for additional integrations.",
+      "url": "https://github.com/tt-a1i/archify/blob/main/README.md"
+    },
+    {
+      "quote": "**No repository is required:** start with a description, or ask your agent to read a repository for a source-backed architecture diagram.",
+      "url": "https://github.com/tt-a1i/archify/blob/main/README.md"
+    },
+    {
+      "quote": "Not every answer is one diagram. Ask your agent to answer as a page and Archify builds an **explainer**: the conclusion first, then one panel per question, with tables, steps, charts, code and validated diagrams.",
+      "url": "https://github.com/tt-a1i/archify/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "4c793cd8888f6fa3423cd39fd77e6a9ac8d56de295328cfeff312f0fc6fce45b",
+  "readme_url": "https://github.com/tt-a1i/archify/blob/main/README.md"
+}

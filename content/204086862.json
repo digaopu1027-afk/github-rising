@@ -1,0 +1,25 @@
+{
+  "summary_zh": "Streamlit 可将 Python 脚本快速转换为交互式 Web 应用，用于构建仪表盘、生成报告或创建聊天应用，并可通过 Community Cloud 部署、管理和分享。支持输入控件、数据表格、图表、布局和多页应用，编辑脚本时应用实时更新。",
+  "audience_zh": "适合希望用 Python 快速制作交互式数据应用、仪表盘或报告并进行分享的开发者与数据工作者，也适合需要让他人快速体验数据并获得反馈的原型开发者。",
+  "evidence": [
+    {
+      "quote": "Streamlit lets you transform Python scripts into interactive web apps in minutes, instead of weeks. Build dashboards, generate reports, or create chat apps. Once you’ve created an app, you can use our [Community Cloud platform](https://streamlit.io/cloud) to deploy, manage, and share your app.",
+      "url": "https://github.com/streamlit/streamlit/blob/develop/README.md"
+    },
+    {
+      "quote": "- **Fast, interactive prototyping:** Let others interact with your data and provide feedback quickly.",
+      "url": "https://github.com/streamlit/streamlit/blob/develop/README.md"
+    },
+    {
+      "quote": "- **Live editing:** See your app update instantly as you edit your script.",
+      "url": "https://github.com/streamlit/streamlit/blob/develop/README.md"
+    },
+    {
+      "quote": "- **Simple and Pythonic:** Write beautiful, easy-to-read code.",
+      "url": "https://github.com/streamlit/streamlit/blob/develop/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "09283cdfc63d34829fd3efab0d79aa574257fbfbaea70c0b40bc3732f314e4db",
+  "readme_url": "https://github.com/streamlit/streamlit/blob/develop/README.md"
+}

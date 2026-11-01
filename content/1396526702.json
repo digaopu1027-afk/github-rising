@@ -1,0 +1,25 @@
+{
+  "summary_zh": "免费开源的文件转换器，支持拖放操作，可离线转换图片、PDF、Word、Excel、PowerPoint、HWP/HWPX、视频、音频、电子书、压缩包等多种格式；文件不会上传，结果保存在原文件旁，且无需安装 Office、Hancom Office 或 LibreOffice。",
+  "audience_zh": "适合需要在本机批量转换多种格式文件、注重隐私不上传文件、不想安装 Office 等办公套件的 Windows 10/11、macOS 13+（预览版）及 Linux x64/ARM64 用户。",
+  "evidence": [
+    {
+      "quote": "Free, open-source file converter. Convert 263 formats offline by drag & drop — images, PDF, Word, Excel, PowerPoint, HWP/HWPX, video, audio, e-books and archives. No upload, no Office needed.",
+      "url": "https://github.com/KnifeLemon/Filee"
+    },
+    {
+      "quote": "Images, PDF, Word, Excel, PowerPoint, HWP, e-books, archives, fonts, CAD, 3D models and geospatial data work without Office, Hancom Office or LibreOffice.",
+      "url": "https://github.com/KnifeLemon/Filee/blob/main/README.md"
+    },
+    {
+      "quote": "Nothing is uploaded.",
+      "url": "https://github.com/KnifeLemon/Filee/blob/main/README.md"
+    },
+    {
+      "quote": "- **Linux x64/ARM64** (Ubuntu 22.04+): unpack the package and run `./install.sh` (no root, needs Python 3).",
+      "url": "https://github.com/KnifeLemon/Filee/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "c9f5642bfdf374ff438fb80d9e7cc73d3e2767b81bd50266855e850c8ff611c9",
+  "readme_url": "https://github.com/KnifeLemon/Filee/blob/main/README.md"
+}

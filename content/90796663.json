@@ -1,0 +1,25 @@
+{
+  "summary_zh": "Puppeteer 是一个 JavaScript 库，提供高层 API 控制 Chrome 或 Firefox 浏览器，通过 DevTools Protocol 或 WebDriver BiDi 通信，默认以无头模式运行。可用于打开页面、导航到网址、设置视口、键盘输入、定位并点击页面元素及读取文本等浏览器自动化操作。",
+  "audience_zh": "适合需要用 JavaScript 编写浏览器自动化脚本的开发者，例如进行页面操作、元素定位与内容读取等任务；文档提供安装说明、示例代码及 API 文档入口，也面向需要自行配置浏览器下载的 npm/pnpm/Yarn 等包管理器用户。",
+  "evidence": [
+    {
+      "quote": "> Puppeteer is a JavaScript library which provides a high-level API to control",
+      "url": "https://github.com/puppeteer/puppeteer/blob/main/README.md"
+    },
+    {
+      "quote": "> Chrome or Firefox over the",
+      "url": "https://github.com/puppeteer/puppeteer/blob/main/README.md"
+    },
+    {
+      "quote": "> Puppeteer runs in the headless (no visible UI) by default",
+      "url": "https://github.com/puppeteer/puppeteer/blob/main/README.md"
+    },
+    {
+      "quote": "import puppeteer from 'puppeteer';",
+      "url": "https://github.com/puppeteer/puppeteer/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "82d2eb5bd15a38bc892650af91e3b462cbdf3a81831a071e39461e4bdd7aa29a",
+  "readme_url": "https://github.com/puppeteer/puppeteer/blob/main/README.md"
+}

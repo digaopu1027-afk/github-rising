@@ -1,0 +1,21 @@
+{
+  "summary_zh": "Kong Gateway 是一个云原生、平台无关、可扩展的 API、LLM 与 MCP 网关，通过插件提供高可扩展性。它支持代理、路由、负载均衡、健康检查与身份认证，也支持多 LLM 路由、MCP 流量治理与安全分析，可作为统一编排 API、微服务及 AI/MCP 流量的中心层。",
+  "audience_zh": "适合需要统一管理 API 与微服务流量、实施认证与限流等策略的团队；需要多 LLM 统一路由、MCP 流量安全与可观测性的 AI 平台开发者；以及在 Kubernetes 上通过 Ingress Controller 部署网关的运维与平台工程人员。",
+  "evidence": [
+    {
+      "quote": "Kong or Kong Gateway is a cloud-native, platform-agnostic, scalable **API 𖧹 LLM 𖧹 MCP** Gateway distinguished for its high performance and extensibility via plugins. It also provides advanced AI traffic capabilities with multi-LLM support, semantic security, MCP traffic security and analytics, and more.",
+      "url": "https://github.com/Kong/kong/blob/master/README.md"
+    },
+    {
+      "quote": "By providing functionality for proxying, routing, load balancing, health checking, authentication (and [more](#features)), Kong serves as the central layer for orchestrating microservices or conventional API traffic - and agentic LLM and MCP as well - with ease.",
+      "url": "https://github.com/Kong/kong/blob/master/README.md"
+    },
+    {
+      "quote": "Kong runs natively on Kubernetes thanks to its official [Kubernetes Ingress Controller](https://github.com/Kong/kubernetes-ingress-controller).",
+      "url": "https://github.com/Kong/kong/blob/master/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "8073535e85ec21f10e65ec8bdcc15769a024f4b9af21bdb396b0e8d93755f0f0",
+  "readme_url": "https://github.com/Kong/kong/blob/master/README.md"
+}

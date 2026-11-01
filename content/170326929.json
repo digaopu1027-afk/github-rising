@@ -1,0 +1,25 @@
+{
+  "summary_zh": "这是一个设计工具与插件资源合集，按无障碍、动画、增强现实、协作、配色、原型、线框图、3D建模等类别整理条目，并提供插件、会议、UI套件等独立清单；用户可通过目录或关键词检索查找所需工具。",
+  "audience_zh": "面向设计师和开发者，方便按类别或关键词查找设计与开发相关工具；也适合希望补充设计工具或插件条目、参与开源清单贡献的人。",
+  "evidence": [
+    {
+      "quote": "The best design tools and plugins for everything 👉",
+      "url": "https://github.com/goabstract/Awesome-Design-Tools"
+    },
+    {
+      "quote": "- To find the tool, go through the Table of Contents or search for a keyword (for example, \"animation\", \"prototyping\").",
+      "url": "https://github.com/goabstract/Awesome-Design-Tools/blob/master/README.md"
+    },
+    {
+      "quote": "- Now you are in the **Awesome Design Tools** section, if you need plugins — go to [Awesome Design Plugins](https://github.com/LisaDziuba/Awesome-Design-Tools/blob/master/Awesome-Design-Plugins.md).",
+      "url": "https://github.com/goabstract/Awesome-Design-Tools/blob/master/README.md"
+    },
+    {
+      "quote": "If you found some great design tool or plugin, just send a Pull Request with respect to our [Contribution Guidelines](https://github.com/LisaDziuba/Awesome-Design-Tools/blob/master/Contribution_Guidelines.md) (they're very simple, please take a look). Design tools should be submitted here and plugin",
+      "url": "https://github.com/goabstract/Awesome-Design-Tools/blob/master/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "bd61564ccac93ba887ade73b4c074dccd72c252c6d6d6a7b9451c8d186e99aa3",
+  "readme_url": "https://github.com/goabstract/Awesome-Design-Tools/blob/master/README.md"
+}

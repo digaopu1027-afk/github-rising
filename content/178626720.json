@@ -1,0 +1,25 @@
+{
+  "summary_zh": "一个用于预训练和微调 AI 模型的深度学习框架，通过组织 PyTorch 代码自动化反向传播、混合精度、多 GPU 与分布式训练等工程环节，并可在不改动核心代码的情况下从 CPU 扩展到多节点 GPU。",
+  "audience_zh": "适合使用 PyTorch 训练模型的开发者与研究人员，尤其是希望减少重复工程代码、简化多 GPU 和分布式训练，同时保留模型逻辑控制权的用户；需要专家级控制的人也可选择 Fabric。",
+  "evidence": [
+    {
+      "quote": "**The deep learning framework to pretrain and finetune AI models.**",
+      "url": "https://github.com/Lightning-AI/pytorch-lightning/blob/master/README.md"
+    },
+    {
+      "quote": "Training models in plain PyTorch requires writing and maintaining a lot of repetitive engineering code. Handling backpropagation, mixed precision, multi-GPU, and distributed training is error-prone and often reimplemented for every project. PyTorch Lightning organizes PyTorch code to automate this i",
+      "url": "https://github.com/Lightning-AI/pytorch-lightning/blob/master/README.md"
+    },
+    {
+      "quote": "nfrastructure while keeping full control over your model logic. You write the science. Lightning handles the engineering, and scales from CPU to multi-node GPUs without changing your core code. PyTorch experts can still opt into [expert-level control](#lightning-fabric-expert-control).",
+      "url": "https://github.com/Lightning-AI/pytorch-lightning/blob/master/README.md"
+    },
+    {
+      "quote": "Lightning gives you granular control over how much abstraction you want to add over PyTorch.",
+      "url": "https://github.com/Lightning-AI/pytorch-lightning/blob/master/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "3b39988e728035f52c15bbd7a7fa398c5766da5c5a97c43c07540d615f460a0f",
+  "readme_url": "https://github.com/Lightning-AI/pytorch-lightning/blob/master/README.md"
+}

@@ -1,0 +1,13 @@
+{
+  "summary_zh": "把邮件、聊天、文档、任务和客户管理整合进共享 AI 记忆的团队工作区。",
+  "audience_zh": "希望在统一空间处理团队沟通、文档、任务与客户信息的团队。",
+  "evidence": [
+    {
+      "quote": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
+      "url": "https://github.com/macro-inc/macro"
+    }
+  ],
+  "content_status": "editorial",
+  "material_hash": "7595a916b1b0134b278656be9306c2368427860d6e22554715785ec317004667",
+  "readme_url": "https://github.com/macro-inc/macro/blob/main/README.md"
+}

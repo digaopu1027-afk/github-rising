@@ -1,0 +1,25 @@
+{
+  "summary_zh": "DeepSeek Harness（dsh）是 DeepSeek AI 开发的开源 agent harness，采用一切皆插件的架构，由 Cordis 驱动，提供 Web UI，可通过 npx 启动或从源码构建运行。当前处于开发者预览阶段，会有破坏兼容性的变更，运行前需查看安全须知。",
+  "audience_zh": "适合希望试用或基于开源 agent harness 开展开发、插件扩展与本地 Web UI 运行的开发者；需能使用 Node.js 与 pnpm，并能接受开发者预览阶段频繁变更及查阅安全须知的用户。",
+  "evidence": [
+    {
+      "quote": "DeepSeek Harness (`dsh`) is an open-source agent harness developed by [DeepSeek AI](https://deepseek.com).",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/blob/master/README.md"
+    },
+    {
+      "quote": "It is built on an **everything-is-a-plugin** architecture and powered by [Cordis](https://github.com/cordiverse/cordis), whose design is described in [_A Programming Paradigm for Spatiotemporal Composability_](https://arxiv.org/abs/2608.25512).",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/blob/master/README.md"
+    },
+    {
+      "quote": "DeepSeek Harness is in _developer preview_ and iterating rapidly. **THERE WILL BE COMPATIBILITY-BREAKING CHANGES.**",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/blob/master/README.md"
+    },
+    {
+      "quote": "npx @deepseek-ai/dsh web",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/blob/master/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "26d8650e93ae3096ce4ae77de64ab64422669d5c4e2416f17cd729cf05430f4c",
+  "readme_url": "https://github.com/deepseek-ai/deepseek-harness/blob/master/README.md"
+}

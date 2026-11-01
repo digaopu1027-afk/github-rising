@@ -1,0 +1,25 @@
+{
+  "summary_zh": "提供从零构建简易操作系统内核的分步指南，项目名为RPi OS，其源码主要基于Linux内核但功能有限。教程每课先讲解RPi OS如何实现某项内核特性，再对照演示Linux内核中的相同功能，并附对应源码快照。",
+  "audience_zh": "适合想学习操作系统内核开发的读者，包括没有特定OS开发经验的人；教程围绕Raspberry Pi 3，也适合关注Linux内核实现的开发者参考。",
+  "evidence": [
+    {
+      "quote": "This repository contains a step-by-step guide that teaches how to create a simple operating system (OS) kernel from scratch. I call this OS Raspberry Pi OS or just RPi OS. The RPi OS source code is largely based on [Linux kernel](https://github.com/torvalds/linux), but the OS has very limited functi",
+      "url": "https://github.com/s-matyukevich/raspberry-pi-os/blob/master/README.md"
+    },
+    {
+      "quote": "Each lesson is designed in such a way that it first explains how some kernel feature is implemented in the RPi OS, and then it tries to demonstrate how the same functionality works in the Linux kernel. Each lesson has a corresponding folder in the [src](https://github.com/s-matyukevich/raspberry-pi-",
+      "url": "https://github.com/s-matyukevich/raspberry-pi-os/blob/master/README.md"
+    },
+    {
+      "quote": "os/tree/master/src) directory, which contains a snapshot of the OS source code at the time when the lesson had just been completed. This allows the introduction of new concepts gracefully and helps readers to follow the evolution of the RPi OS. Understanding this guide doesn't require any specific O",
+      "url": "https://github.com/s-matyukevich/raspberry-pi-os/blob/master/README.md"
+    },
+    {
+      "quote": "onality and supports only [Raspberry PI 3](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/).",
+      "url": "https://github.com/s-matyukevich/raspberry-pi-os/blob/master/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "2bec4a93c625ca839919599958ce37dfcf2e1f9900668d86b75414d6c650e9ea",
+  "readme_url": "https://github.com/s-matyukevich/raspberry-pi-os/blob/master/README.md"
+}

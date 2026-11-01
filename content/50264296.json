@@ -1,0 +1,25 @@
+{
+  "summary_zh": "Bulma 是一个基于 Flexbox 的现代 CSS 框架，输出为单个 CSS 文件，不包含 JavaScript，可作为样式层配合项目自有 JS 使用。可通过 npm、Yarn、Bower、CDN 或直接导入 CSS 文件快速安装，也可下载 Sass 源码自定义变量。",
+  "audience_zh": "适合需要轻量样式层、希望自行管理 JavaScript 逻辑的前端开发者，以及使用 Vue、React、Angular 等框架并寻求 CSS 框架的项目；需要兼容较新版本主流浏览器、对旧版 IE 支持要求不高的团队。",
+  "evidence": [
+    {
+      "quote": "Modern CSS framework based on Flexbox",
+      "url": "https://github.com/jgthms/bulma"
+    },
+    {
+      "quote": "Bulma is a **modern CSS framework** based on [Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes).",
+      "url": "https://github.com/jgthms/bulma/blob/main/README.md"
+    },
+    {
+      "quote": "Bulma is a **CSS** framework. As such, the sole output is a single CSS file: [bulma.css](https://github.com/jgthms/bulma/blob/main/css/bulma.css)",
+      "url": "https://github.com/jgthms/bulma/blob/main/README.md"
+    },
+    {
+      "quote": "There is **no** JavaScript included. People generally want to use their own JS implementation (and usually already have one). Bulma can be considered \"environment agnostic\": it's just the style layer on top of the logic.",
+      "url": "https://github.com/jgthms/bulma/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "01cb5a9b6e14eb0b61ce0f8f3ebfa4521beab051937e6d160405d4253fdb8a36",
+  "readme_url": "https://github.com/jgthms/bulma/blob/main/README.md"
+}

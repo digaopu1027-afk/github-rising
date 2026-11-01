@@ -1,0 +1,25 @@
+{
+  "summary_zh": "Materialize 是一个基于 Material Design 的 CSS 框架，可用于构建遵循该设计风格的网页界面。README 说明可通过下载发布包、克隆仓库、CDN、npm、Bower 或 Atmosphere 等方式引入使用，并建议阅读入门指南了解用法。",
+  "audience_zh": "适合需要基于 Material Design 样式开发网页界面的前端开发者；也适合希望按 README 指引获取框架、查阅文档并将其集成到项目中的使用者。",
+  "evidence": [
+    {
+      "quote": "Materialize, a CSS Framework based on Material Design",
+      "url": "https://github.com/Dogfalo/materialize"
+    },
+    {
+      "quote": "Materialize, a CSS Framework based on material design.",
+      "url": "https://github.com/Dogfalo/materialize/blob/v1-dev/README.md"
+    },
+    {
+      "quote": "Read the [getting started guide](http://materializecss.com/getting-started.html) for more information on how to use materialize.",
+      "url": "https://github.com/Dogfalo/materialize/blob/v1-dev/README.md"
+    },
+    {
+      "quote": "- Install with [npm](https://www.npmjs.com): `npm install materialize-css` (Beta: `npm install materialize-css@next`)",
+      "url": "https://github.com/Dogfalo/materialize/blob/v1-dev/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "bb513031b9bf99b811e28bff00ebd47262c19c1d078f0814782623ad8f7f8109",
+  "readme_url": "https://github.com/Dogfalo/materialize/blob/v1-dev/README.md"
+}

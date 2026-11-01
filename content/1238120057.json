@@ -1,0 +1,25 @@
+{
+  "summary_zh": "这是一个用于编码助手的技能，可让助手先给出可执行的下一步操作，而非把答案埋在冗长解释里；多选题式步骤会编号，每轮结尾给出具体下一步，抑制离题内容，不写开场白或结束语。",
+  "audience_zh": "适合希望编码助手回答简短直接、优先给出行动步骤的开发者；README 称无需 ADHD 诊断即可使用，也适合偏好分步操作和明确下一步的人。",
+  "evidence": [
+    {
+      "quote": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+      "url": "https://github.com/ayghri/i-have-adhd"
+    },
+    {
+      "quote": "A skill for your coding assistant that stops it from burying the answer. Action first. Steps numbered. No \"Hope this helps!\"",
+      "url": "https://github.com/ayghri/i-have-adhd/blob/main/README.md"
+    },
+    {
+      "quote": "1. Lead with the next action.",
+      "url": "https://github.com/ayghri/i-have-adhd/blob/main/README.md"
+    },
+    {
+      "quote": "3. End with one concrete next step.",
+      "url": "https://github.com/ayghri/i-have-adhd/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "a9cc9f2215e06b3eaacbfa6f0f5385ac2ba4a3d9edace5b4f8b80a2f50945831",
+  "readme_url": "https://github.com/ayghri/i-have-adhd/blob/main/README.md"
+}

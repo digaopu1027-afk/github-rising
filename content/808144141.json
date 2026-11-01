@@ -1,0 +1,25 @@
+{
+  "summary_zh": "提供免费域名注册，用户可注册域名并通过自定义名称服务器接入自己偏好的DNS服务商；同时提供从注册到部署的教程，以及涵盖DNS、网站、电子邮件、运维和进阶主题的书本式学习指南。本仓库汇集公开信息与学习资源，应用源代码另仓维护。",
+  "audience_zh": "适合希望零成本为个人网站或组织项目取得域名的个人与机构，也适合想系统学习DNS、网站搭建、电子邮件和运维部署的入门学习者及自学者。",
+  "evidence": [
+    {
+      "quote": "Free domain registration and practical DNS learning resources for everyone.",
+      "url": "https://github.com/DigitalPlatDev/FreeDomain"
+    },
+    {
+      "quote": "Register a domain, connect your preferred DNS provider through custom nameservers, and use the included learning guide to take a project from registration to deployment.",
+      "url": "https://github.com/DigitalPlatDev/FreeDomain/blob/main/README.md"
+    },
+    {
+      "quote": "Follow the complete book-style learning path in [LEARN.md](./LEARN.md), from DigitalPlat FreeDomain setup to general DNS, website, email, operations, and advanced topics.",
+      "url": "https://github.com/DigitalPlatDev/FreeDomain/blob/main/README.md"
+    },
+    {
+      "quote": "With over 500,000 domains already registered, DigitalPlat FreeDomain is a trusted choice for individuals and organizations alike. Join our growing community and claim your own free domain today!",
+      "url": "https://github.com/DigitalPlatDev/FreeDomain/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "6cffc03d742988b44e74b0a1582ef39351abdeeef422ec467d1d5cc88f7ba147",
+  "readme_url": "https://github.com/DigitalPlatDev/FreeDomain/blob/main/README.md"
+}

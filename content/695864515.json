@@ -1,0 +1,25 @@
+{
+  "summary_zh": "这是一个实时换脸与一键视频深度伪造工具，仅需一张源人脸图片即可运行。支持图片/视频模式与摄像头实时模式，具备嘴部遮罩、多脸映射、多主体同时换脸、实时影视观看与直播表演等用途，并内置不当媒体内容检查。",
+  "audience_zh": "适合AI生成媒体行业的创作者与艺术家，用于动画化自定义角色、制作内容或服装设计展示；也适合需要在直播、表演、影视观看中实时换脸的用户。手动安装需技术能力，追求快速部署者可考虑预构建版本。",
+  "evidence": [
+    {
+      "quote": "real time face swap and one-click video deepfake with only a single image",
+      "url": "https://github.com/hacksider/Deep-Live-Cam"
+    },
+    {
+      "quote": "Real-time face swap and video deepfake with a single click and only a single image.",
+      "url": "https://github.com/hacksider/Deep-Live-Cam/blob/main/README.md"
+    },
+    {
+      "quote": "This deepfake software is designed to be a productive tool for the AI-generated media industry. It can assist artists in animating custom characters, creating engaging content, and even using models for clothing design.",
+      "url": "https://github.com/hacksider/Deep-Live-Cam/blob/main/README.md"
+    },
+    {
+      "quote": "- Ethical Use: Users are expected to use this software responsibly and legally. If using a real person's face, obtain their consent and clearly label any output as a deepfake when sharing online.",
+      "url": "https://github.com/hacksider/Deep-Live-Cam/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "d692b25df086ffed21f79bb8d30356127f9fd89d3ff3c021c739a19f8b72b76b",
+  "readme_url": "https://github.com/hacksider/Deep-Live-Cam/blob/main/README.md"
+}

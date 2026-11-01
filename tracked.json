@@ -350,5 +350,217 @@
   "995029641": {
     "id": 995029641,
     "full_name": "ruvnet/ruflo"
+  },
+  "642323624": {
+    "id": 642323624,
+    "full_name": "XingangPan/DragGAN"
+  },
+  "21467110": {
+    "id": 21467110,
+    "full_name": "explosion/spaCy"
+  },
+  "178626720": {
+    "id": 178626720,
+    "full_name": "Lightning-AI/pytorch-lightning"
+  },
+  "306977633": {
+    "id": 306977633,
+    "full_name": "AMAI-GmbH/AI-Expert-Roadmap"
+  },
+  "655459367": {
+    "id": 655459367,
+    "full_name": "e2b-dev/awesome-ai-agents"
+  },
+  "138552196": {
+    "id": 138552196,
+    "full_name": "nautechsystems/nautilus_trader"
+  },
+  "94801380": {
+    "id": 94801380,
+    "full_name": "The-Art-of-Hacking/h4cker"
+  },
+  "1134426800": {
+    "id": 1134426800,
+    "full_name": "sickn33/agentic-awesome-skills"
+  },
+  "821372392": {
+    "id": 821372392,
+    "full_name": "HandsOnLLM/Hands-On-Large-Language-Models"
+  },
+  "163591278": {
+    "id": 163591278,
+    "full_name": "GitHubDaily/GitHubDaily"
+  },
+  "542284380": {
+    "id": 542284380,
+    "full_name": "usebruno/bruno"
+  },
+  "1166102148": {
+    "id": 1166102148,
+    "full_name": "DeusData/codebase-memory-mcp"
+  },
+  "1193909050": {
+    "id": 1193909050,
+    "full_name": "herdrdev/herdr"
+  },
+  "204086862": {
+    "id": 204086862,
+    "full_name": "streamlit/streamlit"
+  },
+  "488641606": {
+    "id": 488641606,
+    "full_name": "agno-agi/agno"
+  },
+  "33702544": {
+    "id": 33702544,
+    "full_name": "plotly/dash"
+  },
+  "78243781": {
+    "id": 78243781,
+    "full_name": "super-productivity/super-productivity"
+  },
+  "501045649": {
+    "id": 501045649,
+    "full_name": "wavetermdev/waveterm"
+  },
+  "66150122": {
+    "id": 66150122,
+    "full_name": "jarun/nnn"
+  },
+  "1052845083": {
+    "id": 1052845083,
+    "full_name": "danielmiessler/LifeOS"
+  },
+  "57224308": {
+    "id": 57224308,
+    "full_name": "ActivityWatch/activitywatch"
+  },
+  "309123651": {
+    "id": 309123651,
+    "full_name": "alyssaxuu/screenity"
+  },
+  "65411043": {
+    "id": 65411043,
+    "full_name": "wulkano/Kap"
+  },
+  "8424040": {
+    "id": 8424040,
+    "full_name": "processing/p5.js"
+  },
+  "6720403": {
+    "id": 6720403,
+    "full_name": "simple-icons/simple-icons"
+  },
+  "101033179": {
+    "id": 101033179,
+    "full_name": "rsms/inter"
+  },
+  "71939872": {
+    "id": 71939872,
+    "full_name": "palantir/blueprint"
+  },
+  "63935685": {
+    "id": 63935685,
+    "full_name": "gztchan/awesome-design"
+  },
+  "21234201": {
+    "id": 21234201,
+    "full_name": "mojs/mojs"
+  },
+  "63477515": {
+    "id": 63477515,
+    "full_name": "TheAlgorithms/C"
+  },
+  "21958186": {
+    "id": 21958186,
+    "full_name": "ellisonleao/magictools"
+  },
+  "157509583": {
+    "id": 157509583,
+    "full_name": "mahmoud/awesome-python-applications"
+  },
+  "31168578": {
+    "id": 31168578,
+    "full_name": "hemanth/functional-programming-jargon"
+  },
+  "65866559": {
+    "id": 65866559,
+    "full_name": "getify/Functional-Light-JS"
+  },
+  "279310322": {
+    "id": 279310322,
+    "full_name": "iggredible/Learn-Vim"
+  },
+  "95133665": {
+    "id": 95133665,
+    "full_name": "s-matyukevich/raspberry-pi-os"
+  },
+  "1373655162": {
+    "id": 1373655162,
+    "full_name": "browser-use/jev-ultrafast"
+  },
+  "112235591": {
+    "id": 112235591,
+    "full_name": "Hacker0x01/hacker101"
+  },
+  "1410124849": {
+    "id": 1410124849,
+    "full_name": "wheresryan22/anatomy"
+  },
+  "1322012299": {
+    "id": 1322012299,
+    "full_name": "firecrawl/anydoc"
+  },
+  "1333175049": {
+    "id": 1333175049,
+    "full_name": "awesome-dsh-plugin/awesome-dsh-plugin"
+  },
+  "1329849289": {
+    "id": 1329849289,
+    "full_name": "lexmount/moli"
+  },
+  "1407951147": {
+    "id": 1407951147,
+    "full_name": "google-research/harness2"
+  },
+  "1396526702": {
+    "id": 1396526702,
+    "full_name": "KnifeLemon/Filee"
+  },
+  "1398086162": {
+    "id": 1398086162,
+    "full_name": "storytold/pdfcraft"
+  },
+  "1155965274": {
+    "id": 1155965274,
+    "full_name": "Donchitos/Claude-Code-Game-Studios"
+  },
+  "1224575142": {
+    "id": 1224575142,
+    "full_name": "Orkas-AI/Orkas"
+  },
+  "1178737655": {
+    "id": 1178737655,
+    "full_name": "THU-MAIC/OpenMAIC"
+  },
+  "1267485499": {
+    "id": 1267485499,
+    "full_name": "vorssaint/vorssaint-utils"
+  },
+  "212639071": {
+    "id": 212639071,
+    "full_name": "bregman-arie/devops-exercises"
+  },
+  "1222917575": {
+    "id": 1222917575,
+    "full_name": "Nutlope/hallmark"
+  },
+  "1339256252": {
+    "id": 1339256252,
+    "full_name": "YuJunZhiXue/dsh-purge"
+  },
+  "575865240": {
+    "id": 575865240,
+    "full_name": "AstrBotDevs/AstrBot"
   }
 }

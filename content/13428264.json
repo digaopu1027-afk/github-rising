@@ -1,0 +1,25 @@
+{
+  "summary_zh": "ShareX 是面向 Windows 的免费开源屏幕截图与录屏工具，支持全屏、区域、滚动截图及视频/GIF 录制，并提供截图标注、OCR、二维码扫描、取色、文件上传与自定义热键工作流，可在截图后自动完成复制、保存、编辑或上传等任务。",
+  "audience_zh": "适合需要频繁截图、录制短片、分享文件或编写文档的开发者、设计师、支持团队、内容创作者、技术文档作者、QA 测试人员及希望精确控制截图与上传流程的高级用户；也可作为简单截图工具使用。",
+  "evidence": [
+    {
+      "quote": "ShareX is a free and open-source application that enables users to capture or record any area of their screen with a single keystroke. It also supports uploading images, text, and various file types to a wide range of destinations.",
+      "url": "https://github.com/ShareX/ShareX"
+    },
+    {
+      "quote": "ShareX is a free and open source screenshot tool, screen recorder, file sharing tool and productivity application for Windows. It is designed for users who need fast screen capture, powerful screenshot editing, automated sharing, custom upload destinations and practical utilities in one lightweight desktop app.",
+      "url": "https://github.com/ShareX/ShareX/blob/develop/README.md"
+    },
+    {
+      "quote": "With ShareX, you can capture any area of your screen, record video or GIFs, annotate screenshots, upload files, copy shareable links, extract text with OCR, scan QR codes, pick colors and run custom workflows from hotkeys. ShareX is built for speed and control: capture a screenshot, edit it, save it",
+      "url": "https://github.com/ShareX/ShareX/blob/develop/README.md"
+    },
+    {
+      "quote": "ShareX is especially useful for developers, designers, support teams, content creators, technical writers, QA testers and power users who frequently create screenshots, record short clips, share files or document workflows. It can be used as a simple screenshot app, but it also supports advanced wor",
+      "url": "https://github.com/ShareX/ShareX/blob/develop/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "99f1d678b855d4518486e8fce6980250350982f2812c649ae6fb62498caf57ca",
+  "readme_url": "https://github.com/ShareX/ShareX/blob/develop/README.md"
+}

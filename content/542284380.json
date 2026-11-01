@@ -1,0 +1,25 @@
+{
+  "summary_zh": "Bruno 是一个开源 API 探索与测试 IDE，定位为 Postman/Insomnia 的轻量替代。它把 API 请求集合以纯文本 Bru 标记语言保存在本地文件夹中，并可通过 Git 等版本控制协作；采用离线模式，不提供云同步。",
+  "audience_zh": "适合需要探索和测试 API 的开发者、偏好轻量客户端替代 Postman/Insomnia 的用户、希望用 Git 等版本控制协作管理 API 集合的团队，以及重视数据留在本机、不愿依赖云同步的人。",
+  "evidence": [
+    {
+      "quote": "Opensource IDE For Exploring and Testing API's (lightweight alternative to Postman/Insomnia)",
+      "url": "https://github.com/usebruno/bruno"
+    },
+    {
+      "quote": "Bruno stores your collections directly in a folder on your filesystem. We use a plain text markup language, Bru, to save information about API requests.",
+      "url": "https://github.com/usebruno/bruno/blob/main/readme.md"
+    },
+    {
+      "quote": "You can use Git or any version control of your choice to collaborate over your API collections.",
+      "url": "https://github.com/usebruno/bruno/blob/main/readme.md"
+    },
+    {
+      "quote": "Bruno is offline-only. There are no plans to add cloud-sync to Bruno, ever. We value your data privacy and believe it should stay on your device. Read our long-term vision [here](https://github.com/usebruno/bruno/discussions/269)",
+      "url": "https://github.com/usebruno/bruno/blob/main/readme.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "e2b812fa765fecb3aa2bb00ff8d3ecf83b5e3c62f9f62d8ce43b81dd31daa6cb",
+  "readme_url": "https://github.com/usebruno/bruno/blob/main/readme.md"
+}

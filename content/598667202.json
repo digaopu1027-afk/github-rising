@@ -1,0 +1,13 @@
+{
+  "summary_zh": "面向 AI 与自动化任务的无头浏览器。",
+  "audience_zh": "需要在没有图形界面的环境中执行浏览器自动化的开发者。",
+  "evidence": [
+    {
+      "quote": "Lightpanda: the headless browser designed for AI and automation",
+      "url": "https://github.com/lightpanda-io/browser"
+    }
+  ],
+  "content_status": "editorial",
+  "material_hash": "74ae6352dd9438d237abb3768502203ec44d6cad26ffd658c31351ffea73e13a",
+  "readme_url": "https://github.com/lightpanda-io/browser/blob/main/README.md"
+}

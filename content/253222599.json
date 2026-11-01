@@ -1,0 +1,21 @@
+{
+  "summary_zh": "这是一套面向开发者的在线实用工具集合，强调良好的使用体验；README另说明它也适用于从事IT工作的人员，并提供Docker镜像及自托管方式，便于在自有环境中部署使用。",
+  "audience_zh": "适合开发者和从事IT工作的人员使用；有自托管需求的个人或homelab用户也可参考Docker等部署方式搭建。",
+  "evidence": [
+    {
+      "quote": "Collection of handy online tools for developers, with great UX. ",
+      "url": "https://github.com/CorentinTh/it-tools"
+    },
+    {
+      "quote": "Useful tools for developer and people working in IT. <a href=\"https://it-tools.tech\">Try it!</a>",
+      "url": "https://github.com/CorentinTh/it-tools/blob/main/README.md"
+    },
+    {
+      "quote": "Self host solutions for your homelab",
+      "url": "https://github.com/CorentinTh/it-tools/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "1e7c682484a7f3b08144ec1f5848a54fe7b4a580cee296f3f8ad117df5f95c63",
+  "readme_url": "https://github.com/CorentinTh/it-tools/blob/main/README.md"
+}

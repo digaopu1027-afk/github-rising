@@ -1,0 +1,25 @@
+{
+  "summary_zh": "该仓库是《Hands-On Large Language Models》一书的官方配套代码，包含书中全部示例的Notebook，覆盖语言模型入门、分词与嵌入、Transformer内部、文本分类、聚类与主题建模、提示工程、高级文本生成、语义搜索与RAG、多模态模型、嵌入模型创建及模型微调等章节的实践代码。",
+  "audience_zh": "适合希望结合代码动手学习大语言模型概念与应用的读者，作为该书读者的配套实践材料；按README建议，可通过Google Colab或本地/conda环境运行示例。",
+  "evidence": [
+    {
+      "quote": "Official code repo for the O'Reilly Book - \"Hands-On Large Language Models\"",
+      "url": "https://github.com/HandsOnLLM/Hands-On-Large-Language-Models"
+    },
+    {
+      "quote": "Welcome! In this repository you will find the code for all examples throughout the book [Hands-On Large Language Models](https://www.amazon.com/Hands-Large-Language-Models-Understanding/dp/1098150961) written by [Jay Alammar](https://www.linkedin.com/in/jalammar/) and [Maarten Grootendorst](https://",
+      "url": "https://github.com/HandsOnLLM/Hands-On-Large-Language-Models/blob/main/README.md"
+    },
+    {
+      "quote": "Through the visually educational nature of this book and with **almost 300 custom made figures**, learn the practical tools and concepts you need to use Large Language Models today!",
+      "url": "https://github.com/HandsOnLLM/Hands-On-Large-Language-Models/blob/main/README.md"
+    },
+    {
+      "quote": "We advise to run all examples through Google Colab for the easiest setup. Google Colab allows you to use a T4 GPU with 16GB of VRAM for free. All examples were mainly built and tested using Google Colab, so it should be the most stable platform. However, any other cloud provider should work.",
+      "url": "https://github.com/HandsOnLLM/Hands-On-Large-Language-Models/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "aa376eb420c33e235abaa0d53b674cb5c3027d97cef8c3a7424e7a391f0de090",
+  "readme_url": "https://github.com/HandsOnLLM/Hands-On-Large-Language-Models/blob/main/README.md"
+}

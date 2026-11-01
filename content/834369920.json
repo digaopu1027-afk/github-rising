@@ -1,0 +1,25 @@
+{
+  "summary_zh": "从零训练约64M参数的超小语言模型MiniMind，开源极简结构与完整训练链路，覆盖预训练、SFT、LoRA、DPO、RLAIF、Tool Use、Agentic RL等流程，核心算法用PyTorch原生实现，并兼容transformers、llama.cpp、vllm、ollama等生态。",
+  "audience_zh": "适合想深入理解LLM内部机制、亲手复现训练全流程的开发者与学习者；也适合算力有限的个人，期望在普通GPU上完成小模型训练、微调与推理实践。",
+  "evidence": [
+    {
+      "quote": "* 此开源项目旨在完全从 0 开始，仅用 3 块钱成本与 2 小时训练时间，即可训练出规模约为 64M 的超小语言模型 MiniMind。",
+      "url": "https://github.com/jingyaogong/minimind/blob/master/README.md"
+    },
+    {
+      "quote": "* 项目同时开源了大模型的极简结构与完整训练链路，覆盖 MoE、数据清洗、预训练（Pretrain）、监督微调（SFT）、LoRA、RLHF（DPO）、RLAIF（PPO / GRPO / CISPO）、Tool Use、Agentic RL、自适应思考与模型蒸馏等全过程代码。",
+      "url": "https://github.com/jingyaogong/minimind/blob/master/README.md"
+    },
+    {
+      "quote": "* 项目所有核心算法代码均从 0 使用 PyTorch 原生实现，不依赖第三方库提供的高层抽象接口。",
+      "url": "https://github.com/jingyaogong/minimind/blob/master/README.md"
+    },
+    {
+      "quote": "* 这不仅是一个大语言模型全阶段开源复现项目，也是一套面向 LLM 入门与实践的教程。",
+      "url": "https://github.com/jingyaogong/minimind/blob/master/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "5e797c9ad2d612450d725de80b5dca01b4bc32fcd19fb5e4e04c67a0439dc4cd",
+  "readme_url": "https://github.com/jingyaogong/minimind/blob/master/README.md"
+}

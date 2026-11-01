@@ -1,0 +1,21 @@
+{
+  "summary_zh": "一组用于真实工程开发的代理技能，覆盖需求对齐、领域术语建模、TDD、缺陷诊断、代码审查、架构改进与任务拆分等流程；设计小巧、可组合、可自行修改，并支持多种编码代理安装使用。",
+  "audience_zh": "适合希望用AI代理进行真实应用开发、重视工程实践与代码设计而非“氛围编程”的开发者，也适合需要可适配多种模型、可自行改造技能流程的工程团队。",
+  "evidence": [
+    {
+      "quote": "My agent skills that I use every day to do real engineering - not vibe coding.",
+      "url": "https://github.com/mattpocock/skills/blob/main/README.md"
+    },
+    {
+      "quote": "These skills are designed to be small, easy to adapt, and composable. They work with any model. They're based on decades of engineering experience. Hack around with them. Make them your own. Enjoy.",
+      "url": "https://github.com/mattpocock/skills/blob/main/README.md"
+    },
+    {
+      "quote": "# Skills For Real Engineers",
+      "url": "https://github.com/mattpocock/skills/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "c7403a7fcb3f1981f884234a6380ff486b221d04c4595c8f851fa046925f2627",
+  "readme_url": "https://github.com/mattpocock/skills/blob/main/README.md"
+}

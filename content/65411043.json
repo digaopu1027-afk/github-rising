@@ -1,0 +1,25 @@
+{
+  "summary_zh": "Kap 是一个用 Web 技术构建的开源屏幕录制工具。用户点击菜单栏图标打开录制器，选择要录制的屏幕区域后开始录制，再次点击菜单栏图标即可停止；录制过程中还可通过 Option 点击菜单栏图标暂停或右键查看更多选项。",
+  "audience_zh": "适合需要录制屏幕内容的 Mac 用户，README 提供面向 Apple silicon 和 Intel 的下载方式，也可通过 Homebrew-Cask 安装；对插件开发感兴趣者可查阅插件文档，想参与贡献者可阅读贡献指南。",
+  "evidence": [
+    {
+      "quote": "An open-source screen recorder built with web technology",
+      "url": "https://github.com/wulkano/Kap"
+    },
+    {
+      "quote": "Click the menu bar icon to bring up the screen recorder. After selecting what portion of the screen you'd like to record, hit the record button to start recording. Click the menu bar icon again to stop the recording.",
+      "url": "https://github.com/wulkano/Kap/blob/main/README.md"
+    },
+    {
+      "quote": "- [Apple silicon](https://getkap.co/api/download/arm64)",
+      "url": "https://github.com/wulkano/Kap/blob/main/README.md"
+    },
+    {
+      "quote": "For more info on how to create plugins, read the [plugins docs](docs/plugins.md).",
+      "url": "https://github.com/wulkano/Kap/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "241f007c81737b17187612ba4a270f74dbf5bfbdc3714e310256e9c782938ff2",
+  "readme_url": "https://github.com/wulkano/Kap/blob/main/README.md"
+}

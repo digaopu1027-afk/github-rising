@@ -1,0 +1,25 @@
+{
+  "summary_zh": "Khoj 是个人 AI 助手，可连接本地或在线大模型（如 GPT、Claude、Gemini、Llama、Qwen 等）对话，并从网络或 PDF、Markdown、Word、Notion 等文档中检索答案；支持创建自定义智能体、定时自动化调研、语义搜索、生成图片等，可开源自托管或使用云应用。",
+  "audience_zh": "适合希望把个人知识库与多种大模型结合使用的个人用户，也适合需要私有部署、自建智能体或在浏览器、Obsidian、Emacs、桌面、手机等多端访问 AI 助手的开发者和团队。",
+  "evidence": [
+    {
+      "quote": "Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free.",
+      "url": "https://github.com/khoj-ai/khoj"
+    },
+    {
+      "quote": "- Chat with any local or online LLM (e.g llama3, qwen, gemma, mistral, gpt, claude, gemini, deepseek).",
+      "url": "https://github.com/khoj-ai/khoj/blob/master/README.md"
+    },
+    {
+      "quote": "- Get answers from the internet and your docs (including image, pdf, markdown, org-mode, word, notion files).",
+      "url": "https://github.com/khoj-ai/khoj/blob/master/README.md"
+    },
+    {
+      "quote": "- Create agents with custom knowledge, persona, chat model and tools to take on any role.",
+      "url": "https://github.com/khoj-ai/khoj/blob/master/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "0cea82373312aca9b2ffaed7f00a97548ebfd5e2c5450b723b4496e953d15893",
+  "readme_url": "https://github.com/khoj-ai/khoj/blob/master/README.md"
+}

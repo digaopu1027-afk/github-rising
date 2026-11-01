@@ -1,0 +1,25 @@
+{
+  "summary_zh": "DSH Desktop 将 DeepSeek Harness 的本地 Web UI、Host 服务和插件系统集成进原生桌面应用，提供窗口、托盘、终端、更新与工作配置，支持插件市场及按插件方式组合的桌面能力，可下载安装使用。",
+  "audience_zh": "适合希望在 Windows 或 macOS 桌面端直接使用 DeepSeek Harness、无需自行配置环境或执行命令的普通用户，以及基于插件机制扩展桌面能力的插件开发者。",
+  "evidence": [
+    {
+      "quote": "DSH Desktop 将 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 的本地 Web UI、Host 服务和插件系统集成到原生桌面应用中。项目固定并原样运行特定上游版本；DSH Desktop 提供窗口、托盘、终端、更新和工作配置，并通过 DeepSeek Harness 提供的插件机制与上游能力组合。",
+      "url": "https://github.com/anywhere-labs/dsh-desktop/blob/master/README.md"
+    },
+    {
+      "quote": "当前正式安装包支持 Windows x64 和 macOS Universal。无需额外环境，下载安装，一键使用。",
+      "url": "https://github.com/anywhere-labs/dsh-desktop/blob/master/README.md"
+    },
+    {
+      "quote": "普通用户从[用户指南](docs/user-guide.md)开始即可；开发者文档只在需要扩展或维护时才需要阅读。",
+      "url": "https://github.com/anywhere-labs/dsh-desktop/blob/master/README.md"
+    },
+    {
+      "quote": "与许多其他项目不同，这个项目本身就是一个 DSH [插件](docs/plugin-development.md)：桌面壳与第三方插件使用相同的插件组合机制。Desktop 的插件能力已经可以使用。我们提供了 Desktop 服务，让插件开发者能够把插件与桌面能力集成起来：例如查看和切换工作配置，或在当前配置中安装、更新和移除插件。完整用法见[桌面插件接口说明](dsh-plugin-desktop/docs/plugin-services.zh.md)。为什么选择这样的边界、哪些能力不会暴露给第三方插件，见[为什么做 DSH Desktop](docs/why-desktop.md)和[插件",
+      "url": "https://github.com/anywhere-labs/dsh-desktop/blob/master/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "d47984d423d07ac1f83674b5cf106b2ac936347dcb4b52fe31281a80e3e6fe80",
+  "readme_url": "https://github.com/anywhere-labs/dsh-desktop/blob/master/README.md"
+}

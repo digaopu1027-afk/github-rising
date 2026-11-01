@@ -1,0 +1,25 @@
+{
+  "summary_zh": "一组面向 AI 助手的 agent skills，用于构建和优化界面。覆盖无障碍、布局、写作、字体排版、颜色、UI 打磨等方面；包含界面评审、颜色系统构建、文案撰写、组件状态与变体渲染、从 Figma 或设计图构建 UI、解析网站或动画实现方式等技能。",
+  "audience_zh": "适合前端开发者、设计工程师和产品团队，以及使用 AI 助手做界面评审、无障碍修复、配色、字体排版、布局调整、界面文案撰写、组件状态测试或还原设计稿的人。",
+  "evidence": [
+    {
+      "quote": "A collection of agent skills that help you build great interfaces.",
+      "url": "https://github.com/jakubkrehel/skills"
+    },
+    {
+      "quote": "A collection of agent skills that cover UI, typography, colors, accessibility, layout, product writing and help you build a great interface.",
+      "url": "https://github.com/jakubkrehel/skills/blob/main/README.md"
+    },
+    {
+      "quote": "- [**better-interface**](skills/better-interface/SKILL.md): Reviews a screen, flow or whole interface across **accessibility**, **layout**, **writing**, **typography**, **color** and **UI polish**, and returns one ranked report.",
+      "url": "https://github.com/jakubkrehel/skills/blob/main/README.md"
+    },
+    {
+      "quote": "- [**build-design**](skills/build-design/SKILL.md): Builds UI from a Figma file or a design image so it matches the design, using the project's existing tokens and components.",
+      "url": "https://github.com/jakubkrehel/skills/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "0d75422702f0597ce396966adb60a310c763465181128307f9915fcde5be2ee2",
+  "readme_url": "https://github.com/jakubkrehel/skills/blob/main/README.md"
+}

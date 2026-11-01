@@ -1,0 +1,21 @@
+{
+  "summary_zh": "Hallmark 是面向代码助手的设计技能，用于生成不显 AI 痕迹的网页。它从五十套主题中抽取三套，按页面实际用途组织布局，并在真实浏览器中检查标题眉题、空框、移动端错位等常见问题；另支持自定义设计、重设计与审计。",
+  "audience_zh": "适合使用 Claude Code、Codex CLI、Cursor 或 OpenCode 进行前端开发的设计师与开发者，尤其需要为网页建立统一设计基线、避免模板化 AI 风格，或要对现有页面做重设计与审计的人。",
+  "evidence": [
+    {
+      "quote": "**A design skill for Claude Code, Codex, Cursor and OpenCode that refuses to look AI-generated.**",
+      "url": "https://github.com/Nutlope/hallmark/blob/main/README.md"
+    },
+    {
+      "quote": "Hallmark holds a hard floor and then gets out of the way. It deals three themes from a catalog of fifty materials, builds the page around what the visitor came to do, and lints the result in a real browser against the tells that read as machine-made: the eyebrow above every heading, tracked-capital ",
+      "url": "https://github.com/Nutlope/hallmark/blob/main/README.md"
+    },
+    {
+      "quote": "- **Redesign and audit.** `/hallmark redesign <path>` rebuilds a page and keeps its content and wiring; `/hallmark audit <path>` only reports.",
+      "url": "https://github.com/Nutlope/hallmark/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "30bd2fa6d18712ec1f0842633817557cd23a1f92fb5c396ef0673ed45d81e110",
+  "readme_url": "https://github.com/Nutlope/hallmark/blob/main/README.md"
+}

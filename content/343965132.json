@@ -1,0 +1,21 @@
+{
+  "summary_zh": "这是一套为期12周、共26课的经典机器学习入门课程，配有52个小测验。内容以Scikit-learn为主要工具，不涉及深度学习；每课包含课前与课后测验、书面讲解、解决方案和作业，并以项目式方式边做边学。",
+  "audience_zh": "适合希望系统学习经典机器学习的初学者，也适合学生按课程自主或分组练习；教师可参考课程中的教学建议组织课堂，并可与数据科学入门课程搭配学习。",
+  "evidence": [
+    {
+      "quote": "12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all",
+      "url": "https://github.com/microsoft/ML-For-Beginners"
+    },
+    {
+      "quote": "Cloud Advocates at Microsoft are pleased to offer a 12-week, 26-lesson curriculum all about **Machine Learning**. In this curriculum, you will learn about what is sometimes called **classic machine learning**, using primarily Scikit-learn as a library and avoiding deep learning, which is covered in ",
+      "url": "https://github.com/microsoft/ML-For-Beginners/blob/main/README.md"
+    },
+    {
+      "quote": "Travel with us around the world as we apply these classic techniques to data from many areas of the world. Each lesson includes pre- and post-lesson quizzes, written instructions to complete the lesson, a solution, an assignment, and more. Our project-based pedagogy allows you to learn while buildin",
+      "url": "https://github.com/microsoft/ML-For-Beginners/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "51ee3948a526232ecf710909e3ae329f8e15f458a6499b3be4e29a2158fb701e",
+  "readme_url": "https://github.com/microsoft/ML-For-Beginners/blob/main/README.md"
+}

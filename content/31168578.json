@@ -1,0 +1,25 @@
+{
+  "summary_zh": "这是一个函数式编程术语表，用简单易懂的方式解释函数式编程世界的专业行话，示例采用JavaScript（ES2015），并在适用处使用Fantasy Land规范中的术语，目标是让学习函数式编程更容易。",
+  "audience_zh": "适合正在学习函数式编程、希望弄懂相关术语的开发者，尤其是使用JavaScript（ES2015）的读者；也适合需要查阅FP概念定义的人。",
+  "evidence": [
+    {
+      "quote": "Jargon from the functional programming world in simple terms!",
+      "url": "https://github.com/hemanth/functional-programming-jargon"
+    },
+    {
+      "quote": "Functional programming (FP) provides many advantages, and its popularity has been increasing as a result. However, each programming paradigm comes with its own unique jargon and FP is no exception. By providing a glossary, we hope to make learning FP easier.",
+      "url": "https://github.com/hemanth/functional-programming-jargon/blob/master/readme.md"
+    },
+    {
+      "quote": "Examples are presented in JavaScript (ES2015). [Why JavaScript?](https://github.com/hemanth/functional-programming-jargon/wiki/Why-JavaScript%3F)",
+      "url": "https://github.com/hemanth/functional-programming-jargon/blob/master/readme.md"
+    },
+    {
+      "quote": "Where applicable, this document uses terms defined in the [Fantasy Land spec](https://github.com/fantasyland/fantasy-land).",
+      "url": "https://github.com/hemanth/functional-programming-jargon/blob/master/readme.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "89d8e66ada81937f7194ce427a05989f67cec6696f72d9136fbb0572b0a8b276",
+  "readme_url": "https://github.com/hemanth/functional-programming-jargon/blob/master/readme.md"
+}

@@ -1,0 +1,25 @@
+{
+  "summary_zh": "该仓库汇集网络安全参考资料、脚本、工具、代码、实验与培训资源，覆盖道德黑客、漏洞赏金、数字取证与事件响应、AI安全、漏洞研究、漏洞利用开发、逆向工程，以及攻防安全、云与容器安全、应用安全、认证和实验环境建设等方向。",
+  "audience_zh": "适合网络安全学习者、渗透测试与攻防从业人员、漏洞研究与逆向工程人员、DFIR从业者、AI安全关注者，以及准备相关认证考试或需要搭建实验环境的人。",
+  "evidence": [
+    {
+      "quote": "This repository is maintained by Omar Santos (@santosomar) and includes thousands of resources related to ethical hacking, bug bounties, digital forensics and incident response (DFIR), AI security, vulnerability research, exploit development, reverse engineering, and more. 🔥 Also check: https://hack",
+      "url": "https://github.com/The-Art-of-Hacking/h4cker"
+    },
+    {
+      "quote": "This repository is a comprehensive collection of cybersecurity references, scripts, tools, code, labs, and training resources. It is carefully curated and maintained by [Omar Santos](https://omarsantos.io/).",
+      "url": "https://github.com/The-Art-of-Hacking/h4cker/blob/master/README.md"
+    },
+    {
+      "quote": "The repository serves as supplemental material for books, video courses, and live training created by Omar Santos. It includes resources for offensive security, defensive security, cloud and container security, application security, AI security, certifications, labs, and reference material.",
+      "url": "https://github.com/The-Art-of-Hacking/h4cker/blob/master/README.md"
+    },
+    {
+      "quote": "- **Certifications**: [certifications](certifications/) contains certification roadmaps, Cisco SCOR, cloud certifications, Kubernetes/CNCF certifications, CompTIA, ISC2, offensive security certification references, and supplemental exam topics.",
+      "url": "https://github.com/The-Art-of-Hacking/h4cker/blob/master/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "44ca8cdc978202158beff129d108ffe1b0f6e2d00fe261580f03b84720872b9a",
+  "readme_url": "https://github.com/The-Art-of-Hacking/h4cker/blob/master/README.md"
+}

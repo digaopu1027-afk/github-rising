@@ -1,0 +1,17 @@
+{
+  "summary_zh": "OpenMAIC 是开源 AI 教学平台，可将任意主题或文档一键生成互动课堂，包含幻灯片、测验、互动模拟和项目式学习活动；并由能说话、白板绘图、实时讨论的 AI 教师与 AI 同学讲授。",
+  "audience_zh": "适合希望围绕主题或自有材料快速获得沉浸式多智能体学习体验的学习者，也适合需要部署或配置该开源平台、并通过 OpenClaw 等智能体工作台生成课堂的开发与运维人员。",
+  "evidence": [
+    {
+      "quote": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
+      "url": "https://github.com/THU-MAIC/OpenMAIC"
+    },
+    {
+      "quote": "sed as soon as they are attached, and the web app and the API share one pipeline. New: [classroom export](packages/docs/content/docs/getting-started.mdx#export-a-classroom), as a PPTX that keeps every scene or as one offline HTML file that plays the lesson. It needs PostgreSQL and a long-running ser",
+      "url": "https://github.com/THU-MAIC/OpenMAIC/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "a2120350d8c033d0b7b1af15975c32105ea3ed21e2b69858681038dde93e0bb0",
+  "readme_url": "https://github.com/THU-MAIC/OpenMAIC/blob/main/README.md"
+}

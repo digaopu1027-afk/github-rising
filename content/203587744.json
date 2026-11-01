@@ -1,0 +1,25 @@
+{
+  "summary_zh": "Hoppscotch 是一个开源 API 开发生态系统，可离线、本地部署或云端使用，提供 Web、桌面和 CLI 版本。它支持多种 HTTP 方法及自定义方法，可发送请求、查看与下载响应，管理集合、环境变量，并支持实时请求响应。",
+  "audience_zh": "适合需要开发、调试和测试 API 的开发者与团队，也适合希望用开源工具替代 Postman、Insomnia，并在 Web、桌面或命令行环境中组织 API 请求的个人和协作团队。",
+  "evidence": [
+    {
+      "quote": "Open-Source API Development Ecosystem • https://hoppscotch.io • Offline, On-Prem & Cloud • Web, Desktop & CLI • Open-Source Alternative to Postman, Insomnia",
+      "url": "https://github.com/hoppscotch/hoppscotch"
+    },
+    {
+      "quote": "Open Source API Development Ecosystem",
+      "url": "https://github.com/hoppscotch/hoppscotch/blob/main/README.md"
+    },
+    {
+      "quote": "⚡️ **Fast:** Send requests and get responses in real time.",
+      "url": "https://github.com/hoppscotch/hoppscotch/blob/main/README.md"
+    },
+    {
+      "quote": "🗄️ **HTTP Methods:** Request methods define the type of action you are requesting to be performed.",
+      "url": "https://github.com/hoppscotch/hoppscotch/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "02b901f62bd28037bb520a53850f2f33772b6547501b053a7c40d714b313ae90",
+  "readme_url": "https://github.com/hoppscotch/hoppscotch/blob/main/README.md"
+}

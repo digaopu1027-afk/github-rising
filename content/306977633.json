@@ -1,0 +1,25 @@
+{
+  "summary_zh": "提供一组图表，展示成为数据科学家、机器学习或人工智能专家可走的路径和可采用的技术，包含数据科学、机器学习、深度学习、数据工程与大数据工程路线图，并有可交互版本供逐项查看。",
+  "audience_zh": "适合对下一步学习方向感到困惑、想了解人工智能领域全貌与学习路径的人，包括初学者和希望梳理技术脉络的从业者；也适合企业为新员工规划成长路线时参考。",
+  "evidence": [
+    {
+      "quote": "Roadmap to becoming an Artificial Intelligence Expert in 2022",
+      "url": "https://github.com/AMAI-GmbH/AI-Expert-Roadmap"
+    },
+    {
+      "quote": "Below you find a set of charts demonstrating the paths that you can take and the technologies that you would want to adopt in order to become a data scientist, machine learning or an AI expert. We made these charts for our new employees to make them AI Experts but we wanted to share them here to help the community.",
+      "url": "https://github.com/AMAI-GmbH/AI-Expert-Roadmap/blob/main/readme.md"
+    },
+    {
+      "quote": "👉 An **interactive version with links to follow** about each bullet of the list can be found at [i.am.ai/roadmap](https://i.am.ai/roadmap?utm_source=GitHub&utm_medium=Referral&utm_campaign=AI+Expert+Roadmap+Interactive) 👈",
+      "url": "https://github.com/AMAI-GmbH/AI-Expert-Roadmap/blob/main/readme.md"
+    },
+    {
+      "quote": "The purpose of these roadmaps is to give you an idea about the landscape and to guide you if you are confused about what to learn next and not to encourage you to pick what is hip and trendy. You should grow some understanding of why one tool would be better suited for some cases than the other and ",
+      "url": "https://github.com/AMAI-GmbH/AI-Expert-Roadmap/blob/main/readme.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "26f8b997d6ad5a79f8b5ff97ae49798239b628569b8a7288e4af3f03ea8e60b0",
+  "readme_url": "https://github.com/AMAI-GmbH/AI-Expert-Roadmap/blob/main/readme.md"
+}

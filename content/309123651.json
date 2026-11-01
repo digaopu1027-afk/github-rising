@@ -1,0 +1,25 @@
+{
+  "summary_zh": "Screenity 是一款免费、注重隐私的屏幕录制与标注工具，可无限制录制标签页、指定区域、桌面、应用或摄像头，支持麦克风与内部音频、屏幕标注、AI 摄像头背景或模糊、平滑缩放、敏感内容模糊、剪辑裁剪及导出 MP4/GIF/WebM，并可保存至 Google Drive。",
+  "audience_zh": "适合需要制作产品演示、教程、演示文稿或向团队反馈的职场人士与教育工作者，也适合重视隐私、希望本地或离线使用的用户；支持自托管用于个人、教育或内部用途。",
+  "evidence": [
+    {
+      "quote": "The free and privacy-friendly screen recorder with no limits 🎥",
+      "url": "https://github.com/alyssaxuu/screenity"
+    },
+    {
+      "quote": "Screenity is a powerful privacy-friendly screen recorder and annotation tool to make better videos for work, education, and more. You can create stunning product demos, tutorials, presentations, or share feedback with your team - all for free.",
+      "url": "https://github.com/alyssaxuu/screenity/blob/master/README.md"
+    },
+    {
+      "quote": "🎥 Make unlimited recordings of your tab, a specific area, desktop, any application, or camera<br>",
+      "url": "https://github.com/alyssaxuu/screenity/blob/master/README.md"
+    },
+    {
+      "quote": "✏️ Annotate by drawing anywhere on the screen, adding text, arrows, shapes, and more<br>",
+      "url": "https://github.com/alyssaxuu/screenity/blob/master/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "be01b5a03e58f612e0d3d813593c3bb1fca47f858a4c645ea5c43e2fb8b9171e",
+  "readme_url": "https://github.com/alyssaxuu/screenity/blob/master/README.md"
+}

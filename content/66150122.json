@@ -1,0 +1,25 @@
+{
+  "summary_zh": "nnn（n³）是一款功能完整的终端文件管理器，体积小、几乎无需配置且运行快速，可用于分析磁盘占用、批量重命名、启动应用和选取文件，并可通过插件扩展实时预览、挂载磁盘、查找列表、文件差异比较和上传等功能。",
+  "audience_zh": "适合在终端或命令行环境中工作、追求轻量快速且少配置的用户，包括 Linux、macOS、BSD、Termux（Android）、树莓派及 WSL 等平台的使用者，以及希望借助插件与自定义补丁扩展文件管理能力的进阶用户。",
+  "evidence": [
+    {
+      "quote": "n³ The unorthodox terminal file manager",
+      "url": "https://github.com/jarun/nnn"
+    },
+    {
+      "quote": "`nnn` (_n³_) is a full-featured terminal file manager. It's tiny (~150 KiB), [nearly 0-config](https://github.com/jarun/nnn#quickstart) and [incredibly fast](https://github.com/jarun/nnn/wiki/Performance).",
+      "url": "https://github.com/jarun/nnn/blob/master/README.md"
+    },
+    {
+      "quote": "`nnn` can analyze disk usage, batch rename, launch apps and pick files. The plugin repository has tons of plugins to extend the capabilities further e.g. [live previews](https://github.com/jarun/nnn/wiki/Live-previews), (un)mount disks, find & list, file/dir diff, upload files. A [patch framework](h",
+      "url": "https://github.com/jarun/nnn/blob/master/README.md"
+    },
+    {
+      "quote": "Runs on the Pi, [Termux](https://www.youtube.com/embed/AbaauM7gUJw) (Android), Linux, macOS, BSD, Haiku, Cygwin, WSL, across DEs or a strictly CLI env.",
+      "url": "https://github.com/jarun/nnn/blob/master/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "91624393e16f6c5ce9c5fe72eabbe366b46297f35bba5f470380c0c000bedcef",
+  "readme_url": "https://github.com/jarun/nnn/blob/master/README.md"
+}

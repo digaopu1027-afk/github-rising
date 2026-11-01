@@ -1,0 +1,25 @@
+{
+  "summary_zh": "Inter 是专为电脑屏幕设计的字体家族，提供可变字体版本，并包含上下文字形替换、带斜线的零、等宽数字等 OpenType 特性；可用于网页与本地安装，提供官方 CDN，以及 NPM、Homebrew 等多种分发方式。",
+  "audience_zh": "适合需要在网页或软件界面中使用屏幕阅读字体的设计师和开发者，也适合需要在桌面或 Linux 环境中安装字体的普通用户。",
+  "evidence": [
+    {
+      "quote": "Inter is a typeface carefully crafted & designed for computer screens.",
+      "url": "https://github.com/rsms/inter/blob/master/README.md"
+    },
+    {
+      "quote": "Inter features a tall x-height to aid in readability of mixed-case and lower-case text.",
+      "url": "https://github.com/rsms/inter/blob/master/README.md"
+    },
+    {
+      "quote": "several [OpenType features](https://rsms.me/inter/#features), like contextual alternates that adjusts punctuation depending on the shape of surrounding glyphs, slashed zero for when you need to disambiguate \"0\" from \"o\", tabular numbers, etc.",
+      "url": "https://github.com/rsms/inter/blob/master/README.md"
+    },
+    {
+      "quote": "For web pages, there's an official [CDN distribution](https://rsms.me/inter/inter.css) that you can use directly without having to host the font files yourself:",
+      "url": "https://github.com/rsms/inter/blob/master/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "36787996809ffb3ff2d825075d94fcec4c0eb6de61649b6f814b9a9221d7aeb1",
+  "readme_url": "https://github.com/rsms/inter/blob/master/README.md"
+}

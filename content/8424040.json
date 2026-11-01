@@ -1,0 +1,21 @@
+{
+  "summary_zh": "p5.js 是面向Web的客户端JavaScript创意编程平台，基于Processing核心原则。它提供完整绘图工具集，支持在网页上创作视听、交互、实验与生成式作品，把网页当作草图；配有多种语言文档、教程、示例、网页编辑器及社区库扩展。",
+  "audience_zh": "适合艺术家、设计师、学生、教育者、初学者以及任何想学习编程并在Web上创意表达的人；也适合希望将网页作为创作媒介、进行互动与生成式艺术探索的创作者。",
+  "evidence": [
+    {
+      "quote": "p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. Looking for p5.js 2.0? http://beta.p5js.org",
+      "url": "https://github.com/processing/p5.js"
+    },
+    {
+      "quote": "p5.js is a free and open-source JavaScript library for [accessible](https://p5js.org/contribute/access) creative coding. It is a nurturing community, an approachable language, an exploratory tool, an accessible environment, an inclusive platform, welcoming and playful for artists, designers, educato",
+      "url": "https://github.com/processing/p5.js/blob/main/README.md"
+    },
+    {
+      "quote": "p5.js is built and organized to prioritize [accessibility, inclusivity, community, and joy](https://p5js.org/community). Similar to sketching, p5.js has a full set of tools to draw. It also supports creating audio-visual, interactive, experimental, and generative works for the web. p5.js enables thi",
+      "url": "https://github.com/processing/p5.js/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "84c409b543435b12894ea95d0ca67445ac19ce655111a6d96a7c98381f32ca57",
+  "readme_url": "https://github.com/processing/p5.js/blob/main/README.md"
+}

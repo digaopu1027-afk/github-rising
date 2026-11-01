@@ -1,0 +1,25 @@
+{
+  "summary_zh": "开源一体化 Agent 聊天机器人平台：可在 IM 工作流中接入 QQ、企业微信、飞书、钉钉、Telegram、Slack 等主流即时通讯平台，提供 LLM 对话、多模态、Agent、知识库、插件扩展、Agent 沙箱、WebUI 与 Web ChatUI，并支持对接 Dify、百炼、Coze 等平台。",
+  "audience_zh": "适合希望快速搭建 IM 内 AI 应用的个人、开发者与团队，可用于个人 AI 伙伴、智能客服、自动化助手或企业知识库。",
+  "evidence": [
+    {
+      "quote": "AstrBot is an open-source all-in-one Agent chatbot platform that integrates with mainstream instant messaging apps. It provides reliable and scalable conversational AI infrastructure for individuals, developers, and teams. Whether you're building a personal AI companion, intelligent customer service",
+      "url": "https://github.com/AstrBotDevs/AstrBot/blob/master/README.md"
+    },
+    {
+      "quote": ", automation assistant, or enterprise knowledge base, AstrBot enables you to quickly build production-ready AI applications within your IM platform workflows.",
+      "url": "https://github.com/AstrBotDevs/AstrBot/blob/master/README.md"
+    },
+    {
+      "quote": "4. 🌐 Multi-Platform: QQ, WeChat Work, Feishu, DingTalk, WeChat Official Accounts, Telegram, Slack, and [more](#supported-messaging-platforms).",
+      "url": "https://github.com/AstrBotDevs/AstrBot/blob/master/README.md"
+    },
+    {
+      "quote": "2. ✨ AI LLM Conversations, Multimodal, Agent, MCP, Skills, Knowledge Base, Persona Settings, Auto Context Compression.",
+      "url": "https://github.com/AstrBotDevs/AstrBot/blob/master/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "4f77fbf77bcb5175c07c965f487ef61b5afd2d903abd1ab98e7b74a46d223610",
+  "readme_url": "https://github.com/AstrBotDevs/AstrBot/blob/master/README.md"
+}

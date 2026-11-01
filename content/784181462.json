@@ -1,0 +1,25 @@
+{
+  "summary_zh": "Vane 是注重隐私的 AI 问答引擎，可运行在自有硬件上。它结合互联网知识与本地 LLM（Ollama）或 OpenAI、Claude、Groq 等云模型，给出带引用来源的答案，搜索过程保持私密；还支持多种搜索模式与来源、文件上传问答、特定域名搜索及本地搜索历史。",
+  "audience_zh": "适合重视搜索隐私、希望自托管服务的用户，以及需要在本地模型与云端模型间灵活切换的开发者；也适合想将搜索问答集成到自有应用、或用浏览器搜索栏快速调用的人群。",
+  "evidence": [
+    {
+      "quote": "Vane is a **privacy-focused AI answering engine** that runs entirely on your own hardware. It combines knowledge from the vast internet with support for **local LLMs** (Ollama) and cloud providers (OpenAI, Claude, Groq), delivering accurate answers with **cited sources** while keeping your searches completely private.",
+      "url": "https://github.com/ItzCrazyKns/Vane/blob/master/README.md"
+    },
+    {
+      "quote": "🤖 **Support for all major AI providers** - Use local LLMs through Ollama or connect to OpenAI, Anthropic Claude, Google Gemini, Groq, and more. Mix and match models based on your needs.",
+      "url": "https://github.com/ItzCrazyKns/Vane/blob/master/README.md"
+    },
+    {
+      "quote": "📄 **File uploads** - Upload documents and ask questions about them. PDFs, text files, images - Vane understands them all.",
+      "url": "https://github.com/ItzCrazyKns/Vane/blob/master/README.md"
+    },
+    {
+      "quote": "🌐 **Search specific domains** - Limit your search to specific websites when you know where to look. Perfect for technical documentation or research papers.",
+      "url": "https://github.com/ItzCrazyKns/Vane/blob/master/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "9c0863611779e5f1e705b1ca0e166d4917979e9652d151ae88e2f2c4e88e1cdb",
+  "readme_url": "https://github.com/ItzCrazyKns/Vane/blob/master/README.md"
+}

@@ -1,0 +1,25 @@
+{
+  "summary_zh": "LifeOS 是一个通用 AI Harness 与个人生活操作系统，围绕从「当前状态」走向「理想状态」这一核心概念，记录你的身份、关注点与目标，再用了解你上下文的 AI 协助推进生活与工作中的事情，覆盖开发应用、创业、创作等场景。",
+  "audience_zh": "适合希望在生活与工作中借助 AI 推进目标、并愿意使用具备能力的 AI 编程 Harness（如 Claude Code、Cursor、Codex 等）及 bun 环境进行安装配置的用户。",
+  "evidence": [
+    {
+      "quote": "⛰️ LifeOS — The universal AI Harness designed to move you from Current to Ideal state in both life and work.",
+      "url": "https://github.com/danielmiessler/LifeOS"
+    },
+    {
+      "quote": "**LifeOS** is a General Purpose AI Harness for doing anything you want to do in life and work with AI. It captures who you are, what you care about, and where you're trying to go, then uses AI that knows you to help you get there.",
+      "url": "https://github.com/danielmiessler/LifeOS/blob/main/README.md"
+    },
+    {
+      "quote": "And because it has your full context, it makes everything you do more efficient and effective, from building apps, to starting a business, to creative projects…_basically anything_.",
+      "url": "https://github.com/danielmiessler/LifeOS/blob/main/README.md"
+    },
+    {
+      "quote": "Either path needs a capable AI coding harness — we build and run on [Claude Code](https://docs.claude.com/claude-code) — and [bun](https://bun.sh).",
+      "url": "https://github.com/danielmiessler/LifeOS/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "d41377d1ef8ae73e479d14dd176171623ad818ace1d4fe6cd98970f38cf321e0",
+  "readme_url": "https://github.com/danielmiessler/LifeOS/blob/main/README.md"
+}

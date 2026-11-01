@@ -1,0 +1,25 @@
+{
+  "summary_zh": "Nextcloud服务器端项目，用于自建数据存储与协作平台：在自选服务器上存储文件、联系人和日历，在设备间同步，并向他人分享或协作；可通过数百个应用扩展，并提供加密、漏洞赏金和双因素认证等安全机制。",
+  "audience_zh": "适合希望在自选服务器上存放并同步文件、日历和联系人，需要与他人分享协作，或为家庭、组织搭建私有云的个人与团队；也适合关注企业、公共部门或教育场景方案的用户及贡献者。",
+  "evidence": [
+    {
+      "quote": "* 📁 **Access your Data** You can store your files, contacts, calendars, and more on a server of your choosing.",
+      "url": "https://github.com/nextcloud/server/blob/master/README.md"
+    },
+    {
+      "quote": "* 🔄 **Sync your Data** You keep your files, contacts, calendars, and more synchronized amongst your devices.",
+      "url": "https://github.com/nextcloud/server/blob/master/README.md"
+    },
+    {
+      "quote": "* 🙌 **Share your Data** …by giving others access to the stuff you want them to see or to collaborate with.",
+      "url": "https://github.com/nextcloud/server/blob/master/README.md"
+    },
+    {
+      "quote": "Do you want to learn more about how you can use Nextcloud to access, share, and protect your files, calendars, contacts, communication & more at home and in your organization? [**Learn about all our Features**](https://nextcloud.com/athome/).",
+      "url": "https://github.com/nextcloud/server/blob/master/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "58e47048dcec68994613aa95b740ca17b776d53854838146c80713e4ce57a60d",
+  "readme_url": "https://github.com/nextcloud/server/blob/master/README.md"
+}

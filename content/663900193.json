@@ -1,0 +1,25 @@
+{
+  "summary_zh": "Yazi 是一款用 Rust 编写、基于异步 I/O 的终端文件管理器，提供全异步文件操作、多线程任务调度、内置图片与代码预览、Lua 插件系统、虚拟文件系统、多标签与跨目录选择、批量重命名及压缩包解压等功能，并可与 ripgrep、fd、fzf、zoxide、Rclone 等工具集成。",
+  "audience_zh": "适合习惯终端操作、需要高效且可定制文件管理体验的用户，尤其是使用 Vim 类操作、需要图片预览或远程文件管理，并愿意接受测试阶段变动的开发者与进阶用户。",
+  "evidence": [
+    {
+      "quote": "💥 Blazing fast terminal file manager written in Rust, based on async I/O.",
+      "url": "https://github.com/sxyazi/yazi"
+    },
+    {
+      "quote": "Yazi (means \"duck\") is a terminal file manager written in Rust, based on non-blocking async I/O. It aims to provide an efficient, user-friendly, and customizable file management experience.",
+      "url": "https://github.com/sxyazi/yazi/blob/main/README.md"
+    },
+    {
+      "quote": "- 💫 Vim-like input/pick/confirm/which/notify component, auto-completion for cd paths",
+      "url": "https://github.com/sxyazi/yazi/blob/main/README.md"
+    },
+    {
+      "quote": "Public beta, can be used as a daily driver.",
+      "url": "https://github.com/sxyazi/yazi/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "e01de8feb2720f2e0bd89f496ca22afb2d5d6f0e8f42b8ee82c7c41d7a9894c9",
+  "readme_url": "https://github.com/sxyazi/yazi/blob/main/README.md"
+}

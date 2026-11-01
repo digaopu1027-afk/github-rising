@@ -1,0 +1,25 @@
+{
+  "summary_zh": "一个面向 AI 代理的技能，用于把技术概念或真实机械绘制成可交互的等距插图：由许多精细零件组成，输出 SVG，可选叠加 WebGL 着色器与 3D 效果；图中带标题、提示和实时读数。",
+  "audience_zh": "适合使用 Claude Code、Antigravity、OpenCode、Codex 或 MiniMax Code，并希望把技术概念做成等距说明图或交互式解释图的开发者与文档作者。",
+  "evidence": [
+    {
+      "quote": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
+      "url": "https://github.com/wheresryan22/anatomy"
+    },
+    {
+      "quote": "Ask Claude for a figure that explains a technical idea, and Anatomy has it invent a physical thing whose working *is* the concept. A cache key that skips work when nothing changed becomes a pin-tumbler lock that only turns when every pin matches. One GPU context serving many canvases becomes a gantr",
+      "url": "https://github.com/wheresryan22/anatomy/blob/main/README.md"
+    },
+    {
+      "quote": "Then Claude builds that thing out of dozens of small, solid, shaded parts, puts it in a framed card with a title, a hint and a live readout, makes it move calmly under the pointer and the keyboard, and checks its own work by zooming in on every joint. Every number the figure shows comes from the sam",
+      "url": "https://github.com/wheresryan22/anatomy/blob/main/README.md"
+    },
+    {
+      "quote": "The CLI asks which agents to set up (Claude Code, Antigravity, OpenCode, Codex, MiniMax Code). To skip the question, add `-a claude-code`, `-a antigravity`, `-a opencode`, `-a codex`, or `-a minimax-code`.",
+      "url": "https://github.com/wheresryan22/anatomy/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "ae6e76086c5cd89f7badf81773ed07e5058947373984166690737d94707ecc94",
+  "readme_url": "https://github.com/wheresryan22/anatomy/blob/main/README.md"
+}
