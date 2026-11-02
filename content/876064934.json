@@ -1,0 +1,21 @@
+{
+  "summary_zh": "这是一个AI工程学习资源库，提供关于大语言模型（LLM）、RAG（检索增强生成）和真实AI智能体应用的深入教程，并收录了覆盖不同难度等级的实践项目，供使用者实现、改编和扩展。",
+  "audience_zh": "适合希望学习并动手实践AI工程的初学者、从业者和研究人员：初学者可从入门项目或学习路线开始，有经验者可通过中级与高级项目深入智能体、复杂工作流等内容。",
+  "evidence": [
+    {
+      "quote": "In-depth tutorials on LLMs, RAGs and real-world AI agent applications.",
+      "url": "https://github.com/patchy631/ai-engineering-hub"
+    },
+    {
+      "quote": "- In-depth tutorials on **LLMs, RAG, Agents, and more**",
+      "url": "https://github.com/patchy631/ai-engineering-hub/blob/main/README.md"
+    },
+    {
+      "quote": "Whether you're a beginner, practitioner, or researcher, this repo provides resources for all skill levels to experiment and succeed in AI engineering.",
+      "url": "https://github.com/patchy631/ai-engineering-hub/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "3da1d48ff070d50ac5d8e67547ccaa591e9344ec16856a1013e29863b726a8c4",
+  "readme_url": "https://github.com/patchy631/ai-engineering-hub/blob/main/README.md"
+}

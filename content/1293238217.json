@@ -1,13 +1,13 @@
 {
-  "summary_zh": "ThinkRail 是围绕 pi 编码代理构建的代理式 IDE：可把任意 git 仓库拆成隔离的 worktree 工作区，让多个代理并行工作而互不影响；提供 Monaco 编辑器、文件树、终端、流式对话、规格树、技能与工作流、MCP 服务器及自定义模型服务等界面能力。",
-  "audience_zh": "适合希望在真实 IDE 界面中使用编码代理、以 git 分支和 worktree 并行处理任务并管理 PR 的开发者；也适合已有 pi 配置、想接入自有模型服务或 JetBrains AI 的用户。",
+  "summary_zh": "ThinkRail 是围绕 pi 编码智能体构建的智能体 IDE，用独立 git worktree 工作区隔离任务，让多个智能体并行工作而互不干扰；它以 SPEC.md 规格图和可复用技能为智能体提供持久项目知识，并提供可拆分编辑器、终端、多会话聊天、PR 与 CI 管理等完整开发界面，支持自带模型提供商。",
+  "audience_zh": "适合习惯使用编码智能体、希望在真实 IDE 中并行处理多个分支任务并管理 GitHub PR 的开发者；也适合重视项目规格文档、偏好自带模型凭据与自定义模型服务的团队和个人用户。",
   "evidence": [
     {
-      "quote": "ThinkRail is the agentic IDE that gets better every time you use it — learning your project through",
-      "url": "https://github.com/JetBrains/thinkrail/blob/main/README.md"
+      "quote": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
+      "url": "https://github.com/JetBrains/thinkrail"
     },
     {
-      "quote": "We built a rich interface around the [`pi`](https://www.npmjs.com/package/@earendil-works/pi-coding-agent)",
+      "quote": "ThinkRail is the agentic IDE that gets better every time you use it — learning your project through",
       "url": "https://github.com/JetBrains/thinkrail/blob/main/README.md"
     },
     {
@@ -20,6 +20,6 @@
     }
   ],
   "content_status": "generated",
-  "material_hash": "f4c53c8beba399e5debccb9a745eddb3f23c7d93912c61a381f3fe94566e65ea",
+  "material_hash": "a7468465b0e4ab376283dd589169db4d15a39b0e2bd6baa8d98b413bfe47f7d1",
   "readme_url": "https://github.com/JetBrains/thinkrail/blob/main/README.md"
 }

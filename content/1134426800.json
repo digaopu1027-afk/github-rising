@@ -1,10 +1,14 @@
 {
-  "summary_zh": "提供 2,884 个以上可安装的 SKILL.md 指令集（AI编码技能的剧本），面向 Claude Code、Codex、Cursor、Gemini CLI 等 AI 编码工具；配套 AAS Core 支持本地目录检索、由代理自行选择技能、栈校验与变更前计划预览，另有 CLI、MCP 与插件等接入形式。",
-  "audience_zh": "适合使用 Claude Code、Codex、Cursor、Gemini CLI 等 AI 编码代理的开发者，尤其是希望为项目查找、审阅并复用可安装技能指令，并在改动目标前先查看所选技能与计划预览的人。",
+  "summary_zh": "提供2884+份可安装的SKILL.md技能说明，供Claude Code、Codex、Cursor、Gemini CLI等AI编码代理使用；AAS Core支持在本地目录中检索并查看完整技能文件，由代理自行选定技能并生成可审阅的计划预览，不进行排名或推荐。",
+  "audience_zh": "适合使用Claude Code、Codex、Cursor、Gemini CLI等AI编码代理，并希望查找、审阅、复用和安装可复用技能说明的开发者；也适合需要为项目挑选精确技能组合并预览变更的人。",
   "evidence": [
     {
       "quote": "2,884+ reusable AI agent skills for Claude Code, Codex, Cursor and Gemini CLI. AAS Core adds local catalog discovery, agent-owned selection and plan preview. CLI, MCP and plugins.",
       "url": "https://github.com/sickn33/agentic-awesome-skills"
+    },
+    {
+      "quote": "> **Find reusable instructions for your project, inspect their complete files, and keep an exact skill set you can review and reuse.**",
+      "url": "https://github.com/sickn33/agentic-awesome-skills/blob/main/README.md"
     },
     {
       "quote": "Agentic Awesome Skills is a library of 2,884+ installable `SKILL.md` playbooks for Claude Code, Codex, Cursor, Gemini CLI and other AI coding agents. AAS Core helps Codex or Claude search the complete local catalog, record the skills the agent chooses, and preview a plan you can inspect before chang",
@@ -16,6 +20,6 @@
     }
   ],
   "content_status": "generated",
-  "material_hash": "875b84f8d1637d312863b9f98cde13ff65231152003be70fd72067aec297a465",
+  "material_hash": "e4a7582696a7540e1ff90ece940eb8e551437868ab95412ff859e55d5b7e7584",
   "readme_url": "https://github.com/sickn33/agentic-awesome-skills/blob/main/README.md"
 }

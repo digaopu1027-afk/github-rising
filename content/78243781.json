@@ -1,0 +1,25 @@
+{
+  "summary_zh": "一款带时间盒与时间追踪的待办事项应用，支持用子任务、项目、标签分类规划任务，通过规划器和日程时间线安排每天工作，并在看板中排序任务；可生成工时表与工作总结，提供休息提醒、专注模式与个人指标，并支持Jira、GitLab、GitHub、OpenProject等任务集成。",
+  "audience_zh": "适合希望离线、私密地管理个人工作、专注执行并记录时间的用户；也适合需要把本地任务规划与Jira、GitLab、GitHub、OpenProject等工作系统对接的开发者或团队个人。",
+  "evidence": [
+    {
+      "quote": "Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabilities. It also comes with integrations for Jira, GitLab, GitHub and Open Project.",
+      "url": "https://github.com/super-productivity/super-productivity"
+    },
+    {
+      "quote": "A to-do list, time tracker and daily planner for focused personal work. Private, offline-first and open source.",
+      "url": "https://github.com/super-productivity/super-productivity/blob/master/README.md"
+    },
+    {
+      "quote": "- **Plan ahead** with the **planner** and see your day laid out on the **schedule** timeline, next to your calendar events.",
+      "url": "https://github.com/super-productivity/super-productivity/blob/master/README.md"
+    },
+    {
+      "quote": "- Use **timeboxing** and **track your time**. Create time sheets and work summaries in a breeze to easily export them to your company's time tracking system.",
+      "url": "https://github.com/super-productivity/super-productivity/blob/master/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "50a030eb14238be318fbbd7664c54497bd6d2f24dd0a09270feb05529210e498",
+  "readme_url": "https://github.com/super-productivity/super-productivity/blob/master/README.md"
+}

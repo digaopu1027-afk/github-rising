@@ -1,0 +1,21 @@
+{
+  "summary_zh": "一个以隐私为先的工具，用于移除你自有内容中的多厂商 AI 来源标记：可处理文本中的不可见 Unicode 与统计型水印，以及图片和文档（C2PA/EXIF/XMP 等）中的元数据；提供脚本、HTTP 服务和代理技能。",
+  "audience_zh": "适合希望清理自己拥有内容上 AI 水印与来源痕迹的开发者与隐私敏感用户，也适合在 Claude Code、Codex、Cursor 等代理环境中集成使用；文本工具可独立使用，完整清理需运行服务。",
+  "evidence": [
+    {
+      "quote": "A privacy-first app that strips AI watermarks from content you own.",
+      "url": "https://github.com/guillaumemeyer/watermarks-remover"
+    },
+    {
+      "quote": "Agent skill + stdlib Python service to strip **multi-vendor AI provenance marks** from text and files — for privacy and hygiene on content **you own**. The skill is a thin client: it drives the machinery over HTTP, so the agent host needs no Python.",
+      "url": "https://github.com/guillaumemeyer/watermarks-remover/blob/main/README.md"
+    },
+    {
+      "quote": "Vendors / ecosystems (class-level): **Claude**, **Gemini / SynthID-Text**, **OpenAI** provenance surfaces, **open-LLM** Kirchenbauer-style (green-list) and keyed-Gumbel / EXP (Aaronson) marks.",
+      "url": "https://github.com/guillaumemeyer/watermarks-remover/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "a1fde5191a6aa292f41fb3532597b400e3063185e46c089fe30c1ed6f8039c01",
+  "readme_url": "https://github.com/guillaumemeyer/watermarks-remover/blob/main/README.md"
+}

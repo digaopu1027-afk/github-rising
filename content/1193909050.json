@@ -1,0 +1,25 @@
+{
+  "summary_zh": "Herdr 是运行编码智能体的运行时环境：在后台服务器中保持终端，客户端关闭或 SSH 断开时仍可继续工作；可在单一窗口管理本地与远程 SSH 机器的智能体列表；标记每个窗格的工作、阻塞或空闲状态；智能体可通过 CLI 和 socket API 创建窗格、相互提示并等待。",
+  "audience_zh": "适合使用 Claude Code、Codex、Cursor、OpenCode、Grok 等编码智能体、需要多窗格终端管理与远程机器协同的开发者；也适合构建智能体并希望接入 Herdr 的开发者。",
+  "evidence": [
+    {
+      "quote": "the runtime your coding agents live on",
+      "url": "https://github.com/herdrdev/herdr"
+    },
+    {
+      "quote": "- **detach without stopping work** — herdr keeps terminals running in a background server when you close the client or lose your SSH connection. after a server or machine restart, herdr restores the saved layout and can resume supported agent sessions; the original processes do not survive. [session",
+      "url": "https://github.com/herdrdev/herdr/blob/master/README.md"
+    },
+    {
+      "quote": "- **several machines, one window** — keep local work and saved ssh machines together, with a combined agent list and independent reconnects. [remote machines →](https://herdr.dev/docs/connecting-machines/)",
+      "url": "https://github.com/herdrdev/herdr/blob/master/README.md"
+    },
+    {
+      "quote": "- **runs what you already run** — claude code, codex, cursor, opencode, grok and the rest. herdr doesn't wrap or replace them; it owns their terminals. building an agent? [add herdr support →](https://herdr.dev/docs/add-herdr-support/)",
+      "url": "https://github.com/herdrdev/herdr/blob/master/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "a570fe0a3ddb68976cc724db30847ca29709ec9ffe7f651fe6f765a82d425f79",
+  "readme_url": "https://github.com/herdrdev/herdr/blob/master/README.md"
+}

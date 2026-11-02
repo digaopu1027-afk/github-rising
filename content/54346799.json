@@ -1,0 +1,21 @@
+{
+  "summary_zh": "这是一个由社区人工整理维护的公共API集合列表，收录来自多个领域的免费公共API，可供开发者在自己的产品中使用。README还列出APILayer旗下API（如IP定位、邮件验证、汇率、航班状态等）以及可供AI代理调用的MCP服务器条目。",
+  "audience_zh": "适合需要查找公共API来开发产品的开发者、为AI客户端寻找可调用MCP服务器的用户，以及愿意参与整理和补充API列表的社区贡献者。",
+  "evidence": [
+    {
+      "quote": "A collective list of free APIs",
+      "url": "https://github.com/public-apis/public-apis"
+    },
+    {
+      "quote": "The Public APIs repository is manually curated by community members like you and folks working at [APILayer](https://apilayer.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo). It includes an extensive list of public APIs from many domains that you can use for your own produc",
+      "url": "https://github.com/public-apis/public-apis/blob/master/README.md"
+    },
+    {
+      "quote": "[Model Context Protocol](https://modelcontextprotocol.io) servers let AI agents call APIs as tools. You install one into a client, Claude, Cursor, VS Code, instead of calling it from your own code, so these entries list **transport** and **where you can install them** rather than `HTTPS`/`CORS`.",
+      "url": "https://github.com/public-apis/public-apis/blob/master/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "bf20e8acb42842f349b4ad8ce69354b99e350c44c29d1becb1f098962649d2cb",
+  "readme_url": "https://github.com/public-apis/public-apis/blob/master/README.md"
+}

@@ -1,6 +1,6 @@
 {
-  "summary_zh": "Orkas 是一款开源（MIT）、本地优先的桌面多智能体应用。指挥官把目标拆成待办，协调 16 个内置专家智能体，以及 Claude Code、Codex 等 CLI 智能体协作，并通过项目、定时自动化和连接器推进工作，覆盖视频、图片、研究报告、内容、代码、Office 文件与电商等任务。",
-  "audience_zh": "适合希望用多个智能体持续承接跨天工作、重视数据和自有密钥保存在本机、需要内容制作/研究/代码/Office/电商等多种交付物的个人与小型团队；不适合只想要单一聊天机器人或纯代码库嵌入的开发者。",
+  "summary_zh": "Orkas 是开源 MIT 的本地优先桌面多智能体应用：Commander 将目标拆解为待办，协调16个内置专职智能体及 Claude Code、Codex、OpenCode、OpenClaw、Hermes-Agent，支持项目记忆、定时自动化与连接器。",
+  "audience_zh": "适合希望以团队形式推进跨天持续工作、并让数据、密钥和智能体保存在本机的 macOS/Windows 用户，如做营销内容、电商运营、研究分析、客户交付、产品开发及小团队协作的人。",
   "evidence": [
     {
       "quote": "Orkas is an open-source (MIT), local-first AI team for your desktop: a Commander turns your goal into to-dos and coordinates 16 built-in specialist agents plus Claude Code, Codex, OpenCode, OpenClaw and Hermes, with projects, scheduled automations and connectors. Free app for macOS & Windows; built-",
@@ -20,6 +20,6 @@
     }
   ],
   "content_status": "generated",
-  "material_hash": "92e514f42d94cb6101ccc3e18bdeeb38c0c3cfaec15ac97abaf2e128e063167d",
+  "material_hash": "5ae2f18fa05045fe0c5e277b273c666e2b03f79ad919a591f41c4f952cb73aee",
   "readme_url": "https://github.com/Orkas-AI/Orkas/blob/main/README.md"
 }

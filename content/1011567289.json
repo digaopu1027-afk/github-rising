@@ -1,0 +1,25 @@
+{
+  "summary_zh": "Kronos 是面向金融市场 K 线序列的开源基础模型，基于解码器结构，通过专用分词器将 OHLCV 数据量化后由自回归 Transformer 建模，可用于 K 线预测等量化任务，并提供预测器进行数据预处理、归一化、预测与反归一化。",
+  "audience_zh": "适合需要金融 K 线序列建模或预测的研究人员、量化从业者，以及希望基于自身数据微调模型开展实验的开发者。",
+  "evidence": [
+    {
+      "quote": "> Kronos is the **first open-source foundation model** for financial candlesticks (K-lines),",
+      "url": "https://github.com/shiyu-coder/Kronos/blob/master/README.md"
+    },
+    {
+      "quote": "**Kronos** is a family of decoder-only foundation models, pre-trained specifically for the \"language\" of financial markets—K-line sequences. Unlike general-purpose TSFMs, Kronos is designed to handle the unique, high-noise characteristics of financial data. It leverages a novel two-stage framework:",
+      "url": "https://github.com/shiyu-coder/Kronos/blob/master/README.md"
+    },
+    {
+      "quote": "2. A large, autoregressive Transformer is then pre-trained on these tokens, enabling it to serve as a unified model for diverse quantitative tasks.",
+      "url": "https://github.com/shiyu-coder/Kronos/blob/master/README.md"
+    },
+    {
+      "quote": "Forecasting with Kronos is straightforward using the `KronosPredictor` class. It handles data preprocessing, normalization, prediction, and inverse normalization, allowing you to get from raw data to forecasts in just a few lines of code.",
+      "url": "https://github.com/shiyu-coder/Kronos/blob/master/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "383c62c5c5a0d154d7c7d329501169f658f4e0ebc9c3af9b2903832c6824efff",
+  "readme_url": "https://github.com/shiyu-coder/Kronos/blob/master/README.md"
+}

@@ -1,0 +1,25 @@
+{
+  "summary_zh": "Agno 是自驱动智能体平台：可用 Agno、Claude Agent 或 Codex SDK 构建智能体并组合为团队和工作流，通过 AgentOS 以带 API 和 MCP 的持久服务运行，支持认证、角色权限、审批、调度与持久执行；还可用于自动化公司运营，并通过 REST API、MCP 或 Slack 等渠道使用。",
+  "audience_zh": "适合希望为公司、产品或客户构建并运行智能体的开发者与团队，尤其是使用编码智能体和云模板搭建自有平台、需要持久服务及人工审批与可观测能力的人员。",
+  "evidence": [
+    {
+      "quote": "Agno is a self-driving agent platform. Build agents for your company, product, or customers. Run them as durable services on AgentOS. Put them to work automating company operations.",
+      "url": "https://github.com/agno-agi/agno/blob/main/README.md"
+    },
+    {
+      "quote": "- **Build** agents with the Agno, Claude Agent, or Codex SDKs. Combine agents into teams and workflows.",
+      "url": "https://github.com/agno-agi/agno/blob/main/README.md"
+    },
+    {
+      "quote": "- **Run** agents as durable services with built-in API and MCP. AgentOS handles authentication, role-based access, resume/replay, human approvals, scheduling, and durable execution.",
+      "url": "https://github.com/agno-agi/agno/blob/main/README.md"
+    },
+    {
+      "quote": "Agno is built for coding agents. Start with a pre-built template and give this prompt to your coding agent:",
+      "url": "https://github.com/agno-agi/agno/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "9aa73bb1a67e54b52dcd53b18975e39a81d66bc115a08228f7def708eb2931ad",
+  "readme_url": "https://github.com/agno-agi/agno/blob/main/README.md"
+}

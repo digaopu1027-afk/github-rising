@@ -1,0 +1,25 @@
+{
+  "summary_zh": "基于PyTorch的可微计算机视觉库，提供可微图像处理与几何视觉算法，支持批处理变换、自动求导和GPU加速，涵盖滤波、几何变换、特征检测与匹配、相机模型、RANSAC求解、数据增强和图像损失等算子。",
+  "audience_zh": "适合使用PyTorch进行空间AI、3D视觉、图像处理或深度学习增强的研究者和开发者，尤其在需要GPU批量处理、可微几何或手写实现冗长时更有价值。",
+  "evidence": [
+    {
+      "quote": "**Kornia** is a differentiable computer vision library that provides a rich set of differentiable image processing and geometric vision algorithms. Built on top of [PyTorch](https://pytorch.org), Kornia integrates seamlessly into existing AI workflows, allowing you to leverage powerful [batch transf",
+      "url": "https://github.com/kornia/kornia/blob/main/README.md"
+    },
+    {
+      "quote": "Kornia pays off where a hand-written version gets long or fragile, or where the alternatives leave the GPU:",
+      "url": "https://github.com/kornia/kornia/blob/main/README.md"
+    },
+    {
+      "quote": "- **Breadth.** 1,200+ public operators, most with no torchvision equivalent: camera models and",
+      "url": "https://github.com/kornia/kornia/blob/main/README.md"
+    },
+    {
+      "quote": "5-point essential (`find_essential`), DLT homography and PnP (`solve_pnp_dlt`) solvers are there too. `RANSAC`",
+      "url": "https://github.com/kornia/kornia/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "0ddc1aedc878c84bf9b716c8ca1d39b5dccd3760d759587d1015406f807ab4a5",
+  "readme_url": "https://github.com/kornia/kornia/blob/main/README.md"
+}

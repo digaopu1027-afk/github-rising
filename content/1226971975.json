@@ -1,0 +1,25 @@
+{
+  "summary_zh": "开源、可自托管的AI安全运营中心：接入安全遥测，用可执行规则检测并关联告警为事件，由AI代理调查、推理全程可审计并给出建议，响应需人工批准。无需API密钥即可运行，附带面向Claude、Cursor和Continue的MCP服务器。",
+  "audience_zh": "适合希望自行部署安全告警与事件调查流水线的安全团队和SOC运营人员，以及需要可审计AI分诊、人工审批响应、本地模型与MCP集成的开发者；需Docker Compose v2、8GB内存和20GB磁盘。",
+  "evidence": [
+    {
+      "quote": "Open-source AI Security Operations Center: alert fusion, LLM-agent triage, MITRE ATT&CK investigation, and a replayable decision ledger for every agent step. Self-hostable, runs with no API keys, MIT licensed. Ships an MCP server for Claude, Cursor and Continue.",
+      "url": "https://github.com/beenuar/AiSOC"
+    },
+    {
+      "quote": "**An open-source, self-hostable AI Security Operations Center.** It ingests your security telemetry, detects and correlates threats, investigates them with AI agents whose reasoning is fully auditable, and proposes responses a human approves.",
+      "url": "https://github.com/beenuar/AiSOC/blob/main/README.md"
+    },
+    {
+      "quote": "The [Technical Guide](https://raw.githubusercontent.com/beenuar/AiSOC/main/apps/web/public/papers/aisoc-technical-guide.pdf) covers this in depth: server sizing, where the model runs, every failure mode with its cause and fix, the REST API, MCP, and every console surface.",
+      "url": "https://github.com/beenuar/AiSOC/blob/main/README.md"
+    },
+    {
+      "quote": "Needs Docker Compose v2 with **8 GB memory and 20 GB free disk in the Docker VM**, plus `python3` (3.9+) and `bash`; `make doctor` checks all of it and [Installation](https://beenuar.github.io/AiSOC/docs/installation#requirements) says what each number was measured against. The first run downloads a",
+      "url": "https://github.com/beenuar/AiSOC/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "4e85e1aa90f8a5106c7ede5018b74c7fcccce8d665f7213c285d0fe3dd0e3d41",
+  "readme_url": "https://github.com/beenuar/AiSOC/blob/main/README.md"
+}

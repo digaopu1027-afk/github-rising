@@ -1,6 +1,6 @@
 {
-  "summary_zh": "AnyPS5 是用于将 PS5 可执行文件自动移植到 Linux 和 Windows 的工具，通过 relinker 转换为目标系统原生格式，并提供适合动态链接的系统 prx 库实现，不依赖模拟器或独立运行时进程。",
-  "audience_zh": "适合研究互操作性、软件保存与兼容性工作的开发者，以及对 PS5 可执行文件移植感兴趣的技术用户；需自行确保所用二进制文件来源合法。",
+  "summary_zh": "用于将PS5可执行文件自动移植到Linux和Windows的工具。内含relinker，可将可执行文件转换为目标系统的原生格式，并提供适用于动态链接的系统prx库实现，不采用模拟或独立运行时进程；还提供文件留在本地的网页转换器。仅relinker构建可在macOS（含Apple silicon）运行。",
+  "audience_zh": "适合关注PS5可执行文件移植、互操作性、研究与保存工作的开发者或技术人员；需自行合法获取所处理的文件，并注意项目按GPLv2发布、与索尼无关联。",
   "evidence": [
     {
       "quote": "Tool for automatic PS5 executables porting to Linux and Windows",
@@ -11,11 +11,15 @@
       "url": "https://github.com/boykopovar/AnyPS5/blob/main/README.md"
     },
     {
+      "quote": "The relinker-only build runs on macOS, including Apple silicon.",
+      "url": "https://github.com/boykopovar/AnyPS5/blob/main/README.md"
+    },
+    {
       "quote": "This project is intended for interoperability, research, preservation, and compatibility purposes. It does not include, distribute, or require copyrighted software, firmware, cryptographic keys, or proprietary libraries. Users are responsible for ensuring that any binaries used with this project are",
       "url": "https://github.com/boykopovar/AnyPS5/blob/main/README.md"
     }
   ],
   "content_status": "generated",
-  "material_hash": "615093e9348c3834eaaa61af1e557593ceab2322930bf3125f2df564bec94d98",
+  "material_hash": "83c08d2dc0b6ac55228dfe917beb1631703091bb7386963c03887363f5dc4eeb",
   "readme_url": "https://github.com/boykopovar/AnyPS5/blob/main/README.md"
 }

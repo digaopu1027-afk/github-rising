@@ -1,0 +1,25 @@
+{
+  "summary_zh": "DeepInfer 是面向 DeepSeek 模型的高性能大规模推理框架，支持 DeepSeek-V4.1-Flash 的离线推理，提供优化内核、并行策略、DSpark 与置信度调度验证、SWA 有界重放、异步调度、批不变推理、确定性采样和结构化输出等功能，需自行编译源码运行。",
+  "audience_zh": "适合在 NVIDIA SM100 GPU 或华为昇腾 950 NPU 上部署 DeepSeek 模型进行大规模离线推理的开发者与运维团队，需具备 Linux、GCC 13、Python 3.12、CUDA 13 或 CANN 9.2 环境及源码构建能力。",
+  "evidence": [
+    {
+      "quote": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
+      "url": "https://github.com/deepseek-ai/DeepInfer"
+    },
+    {
+      "quote": "DeepInfer is the high-performance inference framework that powers DeepSeek's large-scale production services. This open-source release provides offline inference with the core features needed for serving at scale.",
+      "url": "https://github.com/deepseek-ai/DeepInfer/blob/main/README.md"
+    },
+    {
+      "quote": "- DeepSeek-V4.1-Flash",
+      "url": "https://github.com/deepseek-ai/DeepInfer/blob/main/README.md"
+    },
+    {
+      "quote": "- NVIDIA SM100 GPUs",
+      "url": "https://github.com/deepseek-ai/DeepInfer/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "29c494dd39e7609e03bd8640d08c84c026600638c360424cf1a7f8ac3f061cba",
+  "readme_url": "https://github.com/deepseek-ai/DeepInfer/blob/main/README.md"
+}

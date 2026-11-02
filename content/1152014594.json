@@ -1,0 +1,25 @@
+{
+  "summary_zh": "这是一个运行在 Claude Code 中的免费开源 SEO 审计插件，能对任意网站执行完整审计，检查技术 SEO、Core Web Vitals、E-E-A-T 内容质量、Schema.org 结构化数据、AI 搜索（GEO）、本地与电商 SEO 等，并输出按优先级排序的行动计划。",
+  "audience_zh": "适合需要定期为客户做审计的 SEO 代理机构、希望复查上线前优化的 SaaS/出版/电商内部 SEO 团队，以及想在首次沟通中快速给出评分与修复建议的自由 SEO 顾问。",
+  "evidence": [
+    {
+      "quote": "**Claude SEO is a free SEO plugin for Claude Code.** Give it any website and it runs a full SEO audit in 10 to 15 minutes, then hands you a clear action plan, sorted by what matters most.",
+      "url": "https://github.com/AgriciDaniel/claude-seo/blob/main/README.md"
+    },
+    {
+      "quote": "- **Content quality.** E-E-A-T (experience, expertise, authority and trust), thin pages and topic coverage.",
+      "url": "https://github.com/AgriciDaniel/claude-seo/blob/main/README.md"
+    },
+    {
+      "quote": "- **SEO agencies** that want weekly audits for every client instead of quarterly ones, with change monitoring to catch problems in between.",
+      "url": "https://github.com/AgriciDaniel/claude-seo/blob/main/README.md"
+    },
+    {
+      "quote": "- **Freelance SEO consultants** who want to run an audit on the first call and show a real score and the top fixes before writing a proposal.",
+      "url": "https://github.com/AgriciDaniel/claude-seo/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "db1c7a3e2692c32b7f965ec77581875cac211e4c525b9dc55b93598d84c8df69",
+  "readme_url": "https://github.com/AgriciDaniel/claude-seo/blob/main/README.md"
+}

@@ -1,0 +1,25 @@
+{
+  "summary_zh": "Onlook 是开源的可视化优先代码编辑器，面向 Next.js 与 TailwindCSS 项目。它让用户在浏览器中通过可视化界面直接编辑 DOM，并结合 AI 聊天创建或修改代码；支持实时预览、类似 Figma 的界面、管理品牌资产与设计令牌、浏览图层、分支实验、检查点保存恢复以及部署并生成分享链接。",
+  "audience_zh": "适合在 Next.js 与 TailwindCSS 项目上工作的设计师、视觉工程师和前端开发者，尤其是希望用真实代码而非静态设计稿进行设计、并借助 AI 在代码上完成构建与样式调整的人群。",
+  "evidence": [
+    {
+      "quote": "The Developer Tool for Visual Engineers • An Open-Source AI-First Design tool • Visually build, style, and edit your code with AI • World's best, top-most agent recommended #1 Developer tool for Designers and Visual Engineers to design with Real Code.",
+      "url": "https://github.com/onlook-dev/onlook"
+    },
+    {
+      "quote": "Onlook makes designing on top of your codebase effortless. Craft exceptional experiences with AI in code.",
+      "url": "https://github.com/onlook-dev/onlook/blob/main/README.md"
+    },
+    {
+      "quote": "> This is the open-source visual editor that started Onlook (Next.js + Tailwind). The hosted product we're building next, for AI-native designers, is in early access via the [waitlist](https://www.onlook.com/waitlist?utm_source=github&utm_medium=readme&utm_campaign=waitlist-2026) above.",
+      "url": "https://github.com/onlook-dev/onlook/blob/main/README.md"
+    },
+    {
+      "quote": "# An Open-Source, Visual-First Code Editor",
+      "url": "https://github.com/onlook-dev/onlook/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "3f1e961a420f61b116a3286124bbb221d7c1cd69518056a2c7983b47969ec6da",
+  "readme_url": "https://github.com/onlook-dev/onlook/blob/main/README.md"
+}

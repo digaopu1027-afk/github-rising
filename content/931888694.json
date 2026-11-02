@@ -1,0 +1,25 @@
+{
+  "summary_zh": "Handy 是一款免费、开源、可扩展的离线语音转文字桌面应用。按下可配置的快捷键后说话，停止录音时用 Whisper 或 Parakeet 模型在本机完成转录，并把文字粘贴到任意文本输入框；全程不上传音频。支持 Windows、macOS、Linux。",
+  "audience_zh": "适合注重隐私、希望语音内容不离开本机的桌面用户；需要在各类应用文本框中快速口述输入的人；以及希望使用或扩展开源语音转文字工具的开发者和用户。",
+  "evidence": [
+    {
+      "quote": "Handy is a cross-platform desktop application that provides simple, privacy-focused speech transcription. Press a shortcut, speak, and have your words appear in any text field. This happens on your own computer without sending any information to the cloud.",
+      "url": "https://github.com/cjpais/Handy/blob/main/README.md"
+    },
+    {
+      "quote": "4. **Get** your transcribed text pasted directly into whatever app you're using",
+      "url": "https://github.com/cjpais/Handy/blob/main/README.md"
+    },
+    {
+      "quote": "- Works on Windows, macOS, and Linux",
+      "url": "https://github.com/cjpais/Handy/blob/main/README.md"
+    },
+    {
+      "quote": "- **Open Source**: Together we can build further. Extend Handy for yourself and contribute to something bigger",
+      "url": "https://github.com/cjpais/Handy/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "0cba7ef75446b59b88875f4dbf3157717a1860c3a3f731cf663d4948d50a5783",
+  "readme_url": "https://github.com/cjpais/Handy/blob/main/README.md"
+}

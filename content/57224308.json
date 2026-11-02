@@ -1,0 +1,25 @@
+{
+  "summary_zh": "ActivityWatch 是一款免费开源的自动时间追踪工具，跨平台且可扩展，注重隐私。它会记录当前活动应用及窗口标题、浏览器标签页及标题和网址、键盘鼠标活动以判断是否离开电脑；数据安全存储在本地，由用户掌控，可在网页界面查看活动概览、时间线和原始事件，也可通过 REST API 和查询语言访问数据。",
+  "audience_zh": "适合希望了解自己时间去向、重视数据隐私并希望数据存储在本地的大众用户；也适合需要图形界面、可扩展追踪能力以及浏览器、编辑器等多类监控插件的人；开发者可借助客户端库和 API 编写自己的监控程序。",
+  "evidence": [
+    {
+      "quote": "The best free and open-source automated time tracker. Cross-platform, extensible, privacy-focused.",
+      "url": "https://github.com/ActivityWatch/activitywatch"
+    },
+    {
+      "quote": "The goal of ActivityWatch is simple: *Enable the collection of as much valuable lifedata as possible without compromising user privacy.*",
+      "url": "https://github.com/ActivityWatch/activitywatch/blob/master/README.md"
+    },
+    {
+      "quote": "We've worked towards this goal by creating an application for safe storage of the data on the user's local machine and as well as a set of watchers which record data such as:",
+      "url": "https://github.com/ActivityWatch/activitywatch/blob/master/README.md"
+    },
+    {
+      "quote": "- Currently active application and the title of its window",
+      "url": "https://github.com/ActivityWatch/activitywatch/blob/master/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "29bd39ed25c864d3e16548e5ff501d51adf27ecd2e7b861e05fa9790cf587ab5",
+  "readme_url": "https://github.com/ActivityWatch/activitywatch/blob/master/README.md"
+}
