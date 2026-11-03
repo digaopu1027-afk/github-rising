@@ -1,0 +1,25 @@
+{
+  "summary_zh": "Wave Terminal 是一款开源、集成 AI 的跨平台终端，支持 macOS、Linux 和 Windows。它可接入多种 AI 模型并允许使用自有 API 密钥或本地模型；提供断线后可自动重连的持久 SSH 会话、内置远程文件编辑与文件预览，以及可拖放排列的终端、编辑器、浏览器和 AI 助手区块。",
+  "audience_zh": "适合需要在 macOS、Linux 或 Windows 上频繁使用终端和远程 SSH 的开发者、运维人员，以及希望在同一界面中结合 AI 辅助、远程文件编辑与多区块工作流的用户。",
+  "evidence": [
+    {
+      "quote": "Wave is an open-source, AI-integrated terminal for macOS, Linux, and Windows. It works with any AI model. Bring your own API keys for OpenAI, Claude, or Gemini, or run local models via Ollama and LM Studio. No accounts required.",
+      "url": "https://github.com/wavetermdev/waveterm/blob/main/README.md"
+    },
+    {
+      "quote": "Wave also supports durable SSH sessions that survive network interruptions and restarts, with automatic reconnection. Edit remote files with a built-in graphical editor and preview files inline without leaving the terminal.",
+      "url": "https://github.com/wavetermdev/waveterm/blob/main/README.md"
+    },
+    {
+      "quote": "- Wave AI - Context-aware terminal assistant that reads your terminal output, analyzes widgets, and performs file operations",
+      "url": "https://github.com/wavetermdev/waveterm/blob/main/README.md"
+    },
+    {
+      "quote": "- Flexible drag & drop interface to organize terminal blocks, editors, web browsers, and AI assistants",
+      "url": "https://github.com/wavetermdev/waveterm/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "41e1643aa41ce45deb0e767871b1cccafd46efeb562cc725dcd2206cc3ea9cb0",
+  "readme_url": "https://github.com/wavetermdev/waveterm/blob/main/README.md"
+}

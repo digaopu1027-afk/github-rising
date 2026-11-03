@@ -1,0 +1,25 @@
+{
+  "summary_zh": "面向 AI 智能体的桌面操作命令行工具与 C 库，支持 macOS、Windows 和 Linux。它通过操作系统无障碍树读取和操作桌面应用：快照以 JSON 返回每个可操作元素的引用，智能体按引用执行点击、输入等操作后再快照核验，无需像素匹配。默认无头运行，通过无障碍 API 操作而不移动指针或抢占焦点。",
+  "audience_zh": "适合需要让 AI 智能体读取并操作桌面应用（如辅助自动化流程、GUI 任务代理）的开发者，以及希望在进程内调用 C 库的 macOS、Windows、Linux 程序开发者。macOS 需授予辅助功能权限，Linux 需图形会话与 at-spi2-core。",
+  "evidence": [
+    {
+      "quote": "Computer use CLI for AI agents",
+      "url": "https://github.com/vercel-labs/agent-desktop"
+    },
+    {
+      "quote": "Computer use for AI agents: read and operate desktop apps through the OS accessibility tree.",
+      "url": "https://github.com/vercel-labs/agent-desktop/blob/main/README.md"
+    },
+    {
+      "quote": "A CLI and C library for macOS, Windows and Linux. A snapshot returns JSON with a ref for every element an agent can act on. The agent acts on a ref and snapshots again to check, with no pixel matching; the loop stays in your agent.",
+      "url": "https://github.com/vercel-labs/agent-desktop/blob/main/README.md"
+    },
+    {
+      "quote": "- **macOS** needs Accessibility permission: `agent-desktop permissions --guide`.",
+      "url": "https://github.com/vercel-labs/agent-desktop/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "11dd87f38fe0d720b60ac13598124afce3ac1c2c7f68042d23197200d121e586",
+  "readme_url": "https://github.com/vercel-labs/agent-desktop/blob/main/README.md"
+}

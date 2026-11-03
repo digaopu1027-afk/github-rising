@@ -1,6 +1,6 @@
 {
-  "summary_zh": "在 dsh 中安装插件后，无需登录、注册或填写 API Key，即可调用 DeepSeek V4.1 Flash、Kimi K3 等模型；插件保持上游模型清单刷新，提供真实思考强度下发和 OpenAI 兼容本地转发端口，采用纯插件挂载，零依赖、无构建步骤。",
-  "audience_zh": "适合使用 dsh（含纯 web、桌面端或 dsh-tui 等组合）并希望在免账号、免 Key 的前提下使用前沿模型，或需要本地转发与思考强度调节的用户。",
+  "summary_zh": "在 dsh 中安装该插件后，无需登录、注册或填写 API Key，即可使用 DeepSeek V4.1 Flash、Kimi K3 等前沿模型；插件还提供思考强度调节、OpenAI 兼容的本地转发端口、模型选择器中的可用性分组、用量看板与本地网关等功能。",
+  "audience_zh": "适合已在用 dsh（含纯 web profile、桌面端或 dsh-tui 等组合）并希望免配置调用前沿模型、或需要在本机以兼容接口转发这些模型的使用者。",
   "evidence": [
     {
       "quote": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.",
@@ -15,11 +15,11 @@
       "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model/blob/main/README.md"
     },
     {
-      "quote": "> 纯插件挂载：不改内核、无构建步骤、零依赖。",
+      "quote": "- **不依赖浏览器界面**——插件仅将 llm 作为硬依赖，在没有 web server 的 composition（如 dsh-tui）中同样完成启动并输出模型；看板模块挂载在独立的 fiber 上，待 webServer 就绪后再注册路由，因此既不会阻塞模型车道，也不会因插件先于 web 服务加载而永久丢失设置页。",
       "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model/blob/main/README.md"
     }
   ],
   "content_status": "generated",
-  "material_hash": "7a29abfb21d165cb7c86202804e44cd547551770734dc744270777437700ae51",
+  "material_hash": "e9e873331de0dd7f7b55cd35ad83fe760917f34ae8f0a6cbf602a9ad9a48443f",
   "readme_url": "https://github.com/Ebony-Vinyl/dsh-our-free-model/blob/main/README.md"
 }

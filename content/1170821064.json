@@ -1,0 +1,25 @@
+{
+  "summary_zh": "Paperclip 是开源的多 AI 代理编排工具，由 Node.js 服务端和 React 界面组成。用户自带代理、设定业务目标，在统一仪表盘中分配任务、查看工作与花费，并管理代理间的角色、权限、审批和预算。各代理可用不同模型与运行框架，任务、技能、权限与历史集中保存。",
+  "audience_zh": "适合希望以团队方式管理多个 AI 代理（如 OpenClaw、Codex、Claude、Cursor 等）并朝共同目标推进的人，包括面对大量代理终端难以掌控进度、需要 7×24 小时自动运行但仍要审核工作、需要监控花费与控制预算、希望以任务管理器方式管理代理，以及想通过手机管理自动运行的业务。",
+  "evidence": [
+    {
+      "quote": "Paperclip is a Node.js server and React UI that orchestrates a team of AI agents to run a business. Bring your own agents, assign goals, and track work and costs from one dashboard. Choose models and harnesses per agent while keeping your team's tasks, skills, permissions, and history in one place.",
+      "url": "https://github.com/paperclipai/paperclip/blob/master/README.md"
+    },
+    {
+      "quote": "- ✅ You want to build **autonomous AI organizations**",
+      "url": "https://github.com/paperclipai/paperclip/blob/master/README.md"
+    },
+    {
+      "quote": "- ✅ You **coordinate many different agents** (OpenClaw, Codex, Claude, Cursor) toward a common goal",
+      "url": "https://github.com/paperclipai/paperclip/blob/master/README.md"
+    },
+    {
+      "quote": "- ✅ You want to **monitor costs** and enforce budgets",
+      "url": "https://github.com/paperclipai/paperclip/blob/master/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "30facedbd7bca5833261870baad7218017e4b2535d7dbede39daae51e0a0c8e1",
+  "readme_url": "https://github.com/paperclipai/paperclip/blob/master/README.md"
+}

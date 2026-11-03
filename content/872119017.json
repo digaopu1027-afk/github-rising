@@ -1,0 +1,21 @@
+{
+  "summary_zh": "Scrapling 是一个 Python 网页抓取框架，把快速 HTTP 请求、隐身浏览器、强大解析和并发爬取合为一体。可抓静态页面、渲染 JavaScript、与网站交互并提取其 API 数据；支持会话复用、代理轮换、重试、暂停/恢复和数据导出，也能通过 MCP 服务与 CLI 使用。",
+  "audience_zh": "适合需要用 Python 做网页数据采集的开发者，从单页少量字段提取到整站并发爬取；也适合希望借助终端命令或 AI 代理完成抓取的用户。",
+  "evidence": [
+    {
+      "quote": "Scrapling is a Python Web Scraping framework that brings fast HTTP requests, stealth browsers, powerful parsing, and concurrent crawling into one library.",
+      "url": "https://github.com/D4Vinci/Scrapling/blob/main/README.md"
+    },
+    {
+      "quote": "Scrape static pages, render JavaScript, interact with websites, and extract data from the API calls behind them. Build crawlers with reusable sessions, proxy rotation, automatic retries, pause/resume, and built-in data exports.",
+      "url": "https://github.com/D4Vinci/Scrapling/blob/main/README.md"
+    },
+    {
+      "quote": "Use it from Python, the terminal, or your AI agent through its MCP server and Agent Skill. From extracting a few fields to collecting a whole website as clean Markdown, Scrapling covers the full scraping workflow.",
+      "url": "https://github.com/D4Vinci/Scrapling/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "691e620f8884358f7b5f2d070984550496df1caf46867151c035a81fbf915d89",
+  "readme_url": "https://github.com/D4Vinci/Scrapling/blob/main/README.md"
+}

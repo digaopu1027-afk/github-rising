@@ -1,0 +1,21 @@
+{
+  "summary_zh": "Compositor 是面向 Mac 的图像编辑器，围绕合成与后期工作流提供图层、蒙版、调整图层与滤镜、选区、绘画修图、变换、裁剪及多种格式导入导出等功能，并支持 AI 代理与脚本以 .comp 文件夹形式构建和编辑项目。",
+  "audience_zh": "适合使用 Mac 且需要类似 Photoshop 合成与后期流程的图像编辑者、设计师和开发者，尤其是希望修改源码定制功能或通过脚本、AI 代理操作项目的人。仅支持 Apple 芯片 Mac。",
+  "evidence": [
+    {
+      "quote": "The Photoshop alternative for Mac",
+      "url": "https://github.com/robbietilton/Compositor"
+    },
+    {
+      "quote": "The goal was to create a full-featured image editor that is completely free and open source. I used to use Photoshop for compositing and post-processing, so Compositor is built around that workflow - with the tools needed to create a pixel-perfect final image.",
+      "url": "https://github.com/robbietilton/Compositor/blob/main/README.md"
+    },
+    {
+      "quote": "Because it’s open source, you can download the Xcode project and add, remove, or modify any feature to fit your workflow.",
+      "url": "https://github.com/robbietilton/Compositor/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "9e2f8a2f71c11638a4f19f5b721ad731ab51ae3085a2c13529786043cd36209e",
+  "readme_url": "https://github.com/robbietilton/Compositor/blob/main/README.md"
+}

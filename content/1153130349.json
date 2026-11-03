@@ -1,0 +1,21 @@
+{
+  "summary_zh": "T3 Code 是一个代理工具控制界面，可通过 iOS、Android 移动应用、Web 应用和 Electron 桌面应用控制本机已安装并登录的代理，支持 Claude Code、Codex、Cursor、Grok Build、OpenCode、Google Antigravity 和 fx。",
+  "audience_zh": "适合已在本机安装并认证上述至少一个代理工具，希望通过手机、网页或桌面端远程操控这些代理的开发者；项目处于早期，需能接受缺陷。",
+  "evidence": [
+    {
+      "quote": "T3 Code is an \"agent harness control surface\". It enables control of the agents on your machine with a best-in-class mobile app ([iOS](https://apps.apple.com/us/app/t3-code-remote-claude-more/id6787819824), [Android](https://play.google.com/store/apps/details?id=com.t3tools.t3code)), [web app](https",
+      "url": "https://github.com/pingdotgg/t3code/blob/main/README.md"
+    },
+    {
+      "quote": "Works with your subscriptions on Claude Code, Codex, Cursor, Grok Build, OpenCode, Google Antigravity, and fx. If they're set up on your computer, T3 Code can control them.",
+      "url": "https://github.com/pingdotgg/t3code/blob/main/README.md"
+    },
+    {
+      "quote": "> T3 Code currently supports Codex, Claude, Cursor, Grok Build, OpenCode, Antigravity, and fx. Install and authenticate at least one provider before use:",
+      "url": "https://github.com/pingdotgg/t3code/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "ee707544871b1d0efb2a0eb9a79647232649b4152187f180d2ba9f655205cc52",
+  "readme_url": "https://github.com/pingdotgg/t3code/blob/main/README.md"
+}

@@ -610,5 +610,37 @@
   "475553026": {
     "id": 475553026,
     "full_name": "ghostty-org/ghostty"
+  },
+  "1161958643": {
+    "id": 1161958643,
+    "full_name": "vercel-labs/agent-desktop"
+  },
+  "872119017": {
+    "id": 872119017,
+    "full_name": "D4Vinci/Scrapling"
+  },
+  "1078528927": {
+    "id": 1078528927,
+    "full_name": "max-sixty/worktrunk"
+  },
+  "1286080397": {
+    "id": 1286080397,
+    "full_name": "JustVugg/colibri"
+  },
+  "1075431749": {
+    "id": 1075431749,
+    "full_name": "karpathy/nanochat"
+  },
+  "1170821064": {
+    "id": 1170821064,
+    "full_name": "paperclipai/paperclip"
+  },
+  "1177402105": {
+    "id": 1177402105,
+    "full_name": "heygen-com/hyperframes"
+  },
+  "1061041576": {
+    "id": 1061041576,
+    "full_name": "p-e-w/heretic"
   }
 }

@@ -1,0 +1,21 @@
+{
+  "summary_zh": "nanochat 是面向 LLM 训练的极简实验框架，可在单个 GPU 节点上完成分词、预训练、微调、评估与推理，并通过单一 depth 参数自动配置最优超参数。随后可通过命令行与训练出的模型对话，项目还维护 GPT-2 速度跑分榜。",
+  "audience_zh": "适合希望低成本从零训练并研究 LLM 全流程的研究者与开发者；需要可读、可改的代码在单 GPU 或 8XH100 节点上快速实验，包括令牌化、预训练、微调、评估、推理及 scaling law 实验。",
+  "evidence": [
+    {
+      "quote": "nanochat is the simplest experimental harness for training LLMs. It is designed to run on a single GPU node, the code is minimal/hackable, and it covers all major LLM stages including tokenization, pretraining, finetuning, evaluation, and inference. For example, you can train your own GPT-2 capabili",
+      "url": "https://github.com/karpathy/nanochat/blob/master/README.md"
+    },
+    {
+      "quote": "ty LLM (which cost ~$43,000 to train in 2019) for only $48 (~2 hours of 8XH100 GPU node) and then talk to it over a simple CLI. On a spot instance, the total cost can be closer to ~$15. More generally, nanochat is configured out of the box to train an entire miniseries of compute-optimal models by s",
+      "url": "https://github.com/karpathy/nanochat/blob/master/README.md"
+    },
+    {
+      "quote": "The most fun you can have is to train your own GPT-2 and talk to it. The entire pipeline to do so is contained in the single file [runs/speedrun.sh](runs/speedrun.sh), which is designed to be run on an 8XH100 GPU node. Boot up a new 8XH100 GPU box from your favorite provider (e.g. I use and like [La",
+      "url": "https://github.com/karpathy/nanochat/blob/master/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "2526a7c9834ac9c91885b3722a09d1257ddb78e578b233a27173e4c206bfd93c",
+  "readme_url": "https://github.com/karpathy/nanochat/blob/master/README.md"
+}

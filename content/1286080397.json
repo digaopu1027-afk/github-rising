@@ -1,0 +1,25 @@
+{
+  "summary_zh": "纯 C 编写的轻量推理引擎，可在自有硬件上运行超大规模 MoE 开源模型：把常驻内存的密集部分留在 RAM，按需从磁盘流式读取专家权重；支持 GGUF 文件，CPU、Vulkan 和 CUDA 均可运行，可选图形生成与决策模型。",
+  "audience_zh": "适合想在个人电脑或现有 CPU、GPU 硬件上运行超大 MoE 开源模型的用户，包括硬件资源有限、希望利用磁盘流式加载、需要 CPU 或 Vulkan/CUDA 支持，以及关注引擎实现与端到端测量的人。",
+  "evidence": [
+    {
+      "quote": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
+      "url": "https://github.com/JustVugg/colibri"
+    },
+    {
+      "quote": "**Tiny engine, immense model.** colibri runs very large open models on the",
+      "url": "https://github.com/JustVugg/colibri/blob/main/README.md"
+    },
+    {
+      "quote": "machine you already have. A mixture-of-experts model of hundreds of billions of",
+      "url": "https://github.com/JustVugg/colibri/blob/main/README.md"
+    },
+    {
+      "quote": "that part in RAM and reads the rest, the experts, from the disk when the model",
+      "url": "https://github.com/JustVugg/colibri/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "79592184aed6a6e9af8d93e0ea5266a2f69c85ac5ef58ab05012f1f8d32f38c3",
+  "readme_url": "https://github.com/JustVugg/colibri/blob/main/README.md"
+}
