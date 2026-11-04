@@ -1,13 +1,13 @@
 {
-  "summary_zh": "DSH Desktop 将 DeepSeek Harness 的本地 Web UI、Host 服务和插件系统集成进原生桌面应用，提供窗口、托盘、终端、更新与工作配置，支持插件市场及按插件方式组合的桌面能力，可下载安装使用。",
-  "audience_zh": "适合希望在 Windows 或 macOS 桌面端直接使用 DeepSeek Harness、无需自行配置环境或执行命令的普通用户，以及基于插件机制扩展桌面能力的插件开发者。",
+  "summary_zh": "DSH Desktop 是独立的社区开源桌面客户端，基于 DeepSeek Harness 构建，适用于 Windows、macOS 和 Linux。它把上游固定版本的本地 Web UI、Host 服务与插件系统集成到原生桌面应用，提供窗口、托盘、终端、更新和工作配置，并内置插件市场；桌面壳本身也按插件方式组合。",
+  "audience_zh": "适合希望在桌面端直接使用 DeepSeek Harness、不想自行安装 Node.js 或执行命令的普通用户；也适合需要开发或维护 DSH 插件、把插件与桌面能力集成的开发者与维护者。",
   "evidence": [
     {
       "quote": "DSH Desktop 将 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 的本地 Web UI、Host 服务和插件系统集成到原生桌面应用中。项目固定并原样运行特定上游版本；DSH Desktop 提供窗口、托盘、终端、更新和工作配置，并通过 DeepSeek Harness 提供的插件机制与上游能力组合。",
       "url": "https://github.com/anywhere-labs/dsh-desktop/blob/master/README.md"
     },
     {
-      "quote": "当前正式安装包支持 Windows x64 和 macOS Universal。无需额外环境，下载安装，一键使用。",
+      "quote": "当前正式安装包支持 Windows x64、macOS Universal 和 Linux（x64 与 arm64）。无需额外环境，下载安装，一键使用。",
       "url": "https://github.com/anywhere-labs/dsh-desktop/blob/master/README.md"
     },
     {
@@ -20,6 +20,6 @@
     }
   ],
   "content_status": "generated",
-  "material_hash": "d47984d423d07ac1f83674b5cf106b2ac936347dcb4b52fe31281a80e3e6fe80",
+  "material_hash": "cb620169583f9f23815e8359d6a79cc54d5a34ebec71dc206fbffefdf36141c3",
   "readme_url": "https://github.com/anywhere-labs/dsh-desktop/blob/master/README.md"
 }

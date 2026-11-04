@@ -1,25 +1,25 @@
 {
-  "summary_zh": "dsh-purge 是面向官方 DeepSeek Harness 本机安装的安全红队插件，可让不同模型替换各自的破甲提示词，默认提示词面向「小码酱」；它在会话旁提供面板，可查看补丁状态并应用、恢复或卸载，还提供提示词编辑和多规则集，用于受控评估主机层策略。开源版仅限本地实验室地址。",
-  "audience_zh": "适合已在自有机器上安装官方 DeepSeek Harness（Web 或桌面版，DSH 0.2.1-rc.2，0.2.0 亦可）并希望在授权本地实验室环境中进行红队研究、模型鲁棒性评估和提示词测试的安全研究人员；不适用于公网目标、生产环境或无授权测试。",
+  "summary_zh": "面向已安装官方 DeepSeek Harness 的本机环境提供的网络安全红队测试插件，可在 Web 端或桌面端侧边停靠面板中查看补丁状态、应用或恢复，并编辑多套提示词规则；攻击类任务仅限回环与 RFC1918 私网地址，不含技能库与知识库。",
+  "audience_zh": "适合在自有官方 DeepSeek Harness 本机环境中做受控红队研究与健壮性评估的安全研究人员；需遵守授权范围与法律合规要求，禁止用于游戏作弊、未授权外部系统或商业转售。",
   "evidence": [
     {
       "quote": "DeepSeek Harness 破甲：让所有模型都能破甲，不同模型可换不同提示词；默认提示词面向国模「小码酱」。Jailbreak for every model — swap prompts per model. 求 Star 收藏 ⭐ 如要二开，请查看署名要求部分",
-      "url": "https://github.com/YuJunZhiXue/dsh-purge"
+      "url": "https://github.com/HunYiSage/dsh-purge"
     },
     {
-      "quote": "**dsh-purge** is a cybersecurity red-team plugin for the official [DeepSeek Harness](https://www.deepseek.com/harness/) already installed on your machine. **1.1.81** targets **DSH 0.2.1-rc.2** (0.2.0 still works). **DSH 0.2.1-rc.3 and newer RCs are not supported.** Official **Web** (`dsh web`) and t",
-      "url": "https://github.com/YuJunZhiXue/dsh-purge/blob/master/README.md"
+      "quote": "- **The open-source build is local-lab only.** Attack tasks are limited to loopback and RFC1918 private addresses. Domains are resolved first (including hosts); every resolved address must be private or loopback. Entries that point a lab name at a public address, failed lookups, or answers that incl",
+      "url": "https://github.com/HunYiSage/dsh-purge/blob/master/README.md"
     },
     {
-      "quote": "Harness does more than forward a prompt. It rewrites prompts, approval gates, sandbox policy, and session migration at runtime. Asking only “will the model answer” treats a host-layer block as a model refusal. This plugin separates those two layers on your own install, for controlled evaluation and ",
-      "url": "https://github.com/YuJunZhiXue/dsh-purge/blob/master/README.md"
+      "quote": "- **Game cheats are prohibited**, including aimbots, wallhacks, memory modification, and anti-cheat bypass; both the prompt layer and the session gate enforce this.",
+      "url": "https://github.com/HunYiSage/dsh-purge/blob/master/README.md"
     },
     {
-      "quote": "From now on the **public internet is closed**. The open-source build only allows **local lab IPs**: loopback and RFC1918. Domains are resolved first (including hosts); every answer must be private or loopback. A hosts trick that points `.lab` at a public IP, a failed lookup, or a mixed public answer",
-      "url": "https://github.com/YuJunZhiXue/dsh-purge/blob/master/README.md"
+      "quote": "**Resale of the original build is prohibited.** Paid resale, re-skinning for store listings, and distribution as a commercial product are not permitted. Forks and derivative work are allowed provided they credit the source repository: [HunYiSage/dsh-purge](https://github.com/HunYiSage/dsh-purge). Re",
+      "url": "https://github.com/HunYiSage/dsh-purge/blob/master/README.md"
     }
   ],
   "content_status": "generated",
-  "material_hash": "40f3d340a878e375c691dc27dda70252919affa4587dad3f2f5500c217a91038",
-  "readme_url": "https://github.com/YuJunZhiXue/dsh-purge/blob/master/README.md"
+  "material_hash": "71195bb29080f6feff6fe483c4871ecf12bb21a77486e0f3ab0d654eb83a4409",
+  "readme_url": "https://github.com/HunYiSage/dsh-purge/blob/master/README.md"
 }

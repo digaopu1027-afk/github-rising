@@ -1,6 +1,6 @@
 {
-  "summary_zh": "Heretic 是无须训练即可修改语言模型的工具，通过对比示例提示与评分器来引导模型行为，可抑制拒答/移除审查、减少废话、降低谄媚、减少幽默感或调整情绪倾向，默认执行移除审查。",
-  "audience_zh": "适合能在自己硬件上运行大语言模型、希望修改模型行为（如移除审查）的用户，无需理解模型内部原理；也适合需要自定义评分器或插件的开发者。",
+  "summary_zh": "Heretic 是无需训练的语言模型修改工具，通过数学方法基于对比示例提示与评分器来引导模型行为，可移除审查/拒绝、减少废话、降低幽默感、减少谄媚、调整情绪倾向等，支持在本地硬件上运行并可选 4 位量化。",
+  "audience_zh": "适合希望在自有硬件上修改而非仅运行语言模型、调整模型行为（如移除拒绝、减少谄媚）的用户；无需理解模型内部原理，支持多数稠密及部分多模态、MoE、混合模型。",
   "evidence": [
     {
       "quote": "Training-free language model modification: Remove censorship, suppress slop, reduce sycophancy, and more",
@@ -20,6 +20,6 @@
     }
   ],
   "content_status": "generated",
-  "material_hash": "106c3a8bb6f6ab9c816b2e8f54ff6cbc1727081fb874743a6c152f7792a456f1",
+  "material_hash": "d3625128ce901a8f2a99121ca9981ef3efcb4d5ed817d47f77db64286be47c6b",
   "readme_url": "https://github.com/p-e-w/heretic/blob/master/README.md"
 }

@@ -1,6 +1,6 @@
 {
-  "summary_zh": "Laya 是一个非自回归的 System 1 决策引擎，可在单次前向传播中对任意文本做出类型化决策，包括选项选择、评分和是/否判断；支持 100 多种语言，并内置路由器按请求选择合适的检查点。",
-  "audience_zh": "适合需要在工单分流、邮件分类、风控与内容审核等场景中快速做结构化判断的开发者；支持 Python 3.10+，也提供 TypeScript/Node.js 与浏览器版本。",
+  "summary_zh": "面向文本的单次前向推理决策引擎，可对任意文本做选择、打分和是/否判定，支持100多种语言；通过路由器按请求自动选择合适检查点，无需生成文本，避免解析和幻觉问题。",
+  "audience_zh": "适合需要在英文或多语言短文本、工单、邮件上做分类、评分和判定，并希望低延迟批量推理的开发者；提供Python与TypeScript/Node接口，也可通过命令行快速试用。",
   "evidence": [
     {
       "quote": "Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right checkpoint per request.",
@@ -11,15 +11,11 @@
       "url": "https://github.com/NandhaKishorM/laya/blob/main/README.md"
     },
     {
-      "quote": "\"department\": {\"type\": \"choice\", \"instructions\": \"Which department should handle this?\",",
-      "url": "https://github.com/NandhaKishorM/laya/blob/main/README.md"
-    },
-    {
-      "quote": "Python 3.10 or newer. Optional extras: `laya[serve]` (HTTP server), `laya[mcp]` (MCP server), `laya[langchain]` (LangChain and LangGraph), `laya[llamaindex]` (LlamaIndex selectors), `laya[crewai]` (CrewAI routing), `laya[onnx]` (ONNX Runtime), `laya[fast]` (TileLang GPU fast path), `laya[structured]",
+      "quote": "For TypeScript / Node.js / browser, see [`laya-ts/`](https://github.com/NandhaKishorM/laya/tree/main/laya-ts/). npm releases (`npm install laya-ts`) are published from this repository's `laya-ts-v*` release tags.",
       "url": "https://github.com/NandhaKishorM/laya/blob/main/README.md"
     }
   ],
   "content_status": "generated",
-  "material_hash": "e241d25b8c499520d2ff760528b8214fb388d1228815895f118f01ca6be580dc",
+  "material_hash": "11fb456cecb44ccbd358294f63c4588c654c4d949c7474785cd716e72bb7f0c1",
   "readme_url": "https://github.com/NandhaKishorM/laya/blob/main/README.md"
 }

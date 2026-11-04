@@ -1,25 +1,21 @@
 {
-  "summary_zh": "面向 AI 智能体的桌面操作命令行工具与 C 库，支持 macOS、Windows 和 Linux。它通过操作系统无障碍树读取和操作桌面应用：快照以 JSON 返回每个可操作元素的引用，智能体按引用执行点击、输入等操作后再快照核验，无需像素匹配。默认无头运行，通过无障碍 API 操作而不移动指针或抢占焦点。",
-  "audience_zh": "适合需要让 AI 智能体读取并操作桌面应用（如辅助自动化流程、GUI 任务代理）的开发者，以及希望在进程内调用 C 库的 macOS、Windows、Linux 程序开发者。macOS 需授予辅助功能权限，Linux 需图形会话与 at-spi2-core。",
+  "summary_zh": "面向 AI 代理的计算机操作 CLI：通过操作系统无障碍树读取桌面应用界面并以 JSON 返回，为可操作元素生成 ref，代理按 ref 点击或输入后重新读取界面验证；内置模型不含代理逻辑，同时提供 C 库，支持 macOS、Windows、Linux。",
+  "audience_zh": "适合需要让 AI 代理在桌面应用中执行点击、输入、读取界面等操作，并能自行编写代理循环的开发者；也适合需要通过 CLI 或 C 库集成桌面自动化能力的工程团队。",
   "evidence": [
+    {
+      "quote": "Computer use for AI agents: see and operate desktop apps on macOS, Windows, and Linux through the OS accessibility tree.",
+      "url": "https://github.com/vercel-labs/agent-desktop/blob/main/README.md"
+    },
+    {
+      "quote": "agent-desktop gives an AI agent computer use without screenshots or pixel matching. It reads the accessibility tree of a desktop app and returns it as JSON, with a ref for every element the agent can act on. The agent clicks or types on a ref, reads the UI again to check the result, and repeats. The",
+      "url": "https://github.com/vercel-labs/agent-desktop/blob/main/README.md"
+    },
     {
       "quote": "Computer use CLI for AI agents",
       "url": "https://github.com/vercel-labs/agent-desktop"
-    },
-    {
-      "quote": "Computer use for AI agents: read and operate desktop apps through the OS accessibility tree.",
-      "url": "https://github.com/vercel-labs/agent-desktop/blob/main/README.md"
-    },
-    {
-      "quote": "A CLI and C library for macOS, Windows and Linux. A snapshot returns JSON with a ref for every element an agent can act on. The agent acts on a ref and snapshots again to check, with no pixel matching; the loop stays in your agent.",
-      "url": "https://github.com/vercel-labs/agent-desktop/blob/main/README.md"
-    },
-    {
-      "quote": "- **macOS** needs Accessibility permission: `agent-desktop permissions --guide`.",
-      "url": "https://github.com/vercel-labs/agent-desktop/blob/main/README.md"
     }
   ],
   "content_status": "generated",
-  "material_hash": "11dd87f38fe0d720b60ac13598124afce3ac1c2c7f68042d23197200d121e586",
+  "material_hash": "18027e74c5498a2424bd6eb8d0f15eb634e61be2f493b4e8520a3b7a178aa125",
   "readme_url": "https://github.com/vercel-labs/agent-desktop/blob/main/README.md"
 }

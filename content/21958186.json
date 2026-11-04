@@ -1,6 +1,6 @@
 {
-  "summary_zh": "这是一份精选的游戏开发资源清单，按图形、代码、音频、学习等类别整理相关工具与素材链接，并标注免费、开源、付费或部分免费等许可信息，方便开发者查找所需资源。",
-  "audience_zh": "适合需要查找游戏开发相关工具、素材和学习资料的独立开发者及游戏开发爱好者参考使用。",
+  "summary_zh": "这是一个精选的游戏开发资源清单，按图形（素材、精灵表、纹理、动画、图像编辑）、代码（引擎框架、AI）、音频、桌游、学习资料等分类整理，并提供免费、开源、付费、部分免费等许可标签，帮助开发者查找游戏开发相关工具与素材。",
+  "audience_zh": "适合独立游戏开发者、游戏美术与程序人员，以及需要查找游戏开发工具和素材（如纹理、精灵表、关卡编辑器、引擎框架）的从业者与学习者。",
   "evidence": [
     {
       "quote": ":video_game: :pencil: A list of Game Development resources to make magic happen.",
@@ -11,7 +11,7 @@
       "url": "https://github.com/ellisonleao/magictools/blob/main/README.md"
     },
     {
-      "quote": "- **Game dev only**: must be explicitly about game development, not a general tool.",
+      "quote": "- **License tag required**: start with `:free:`, `:tada:`, `:moneybag:`, or `:money_with_wings:` (not required for Blogs and Portals, Videos/Podcasts, Game Jams, and Communities).",
       "url": "https://github.com/ellisonleao/magictools/blob/main/README.md"
     },
     {
@@ -20,6 +20,6 @@
     }
   ],
   "content_status": "generated",
-  "material_hash": "29f8d07702f60812d00c7b25279ac9042e3c75fe2cdd50b8c1946e27e64d8406",
+  "material_hash": "31b92c76556734b1ca7cd1a457aa942f7161bc707b969dfb99ca410b90936972",
   "readme_url": "https://github.com/ellisonleao/magictools/blob/main/README.md"
 }

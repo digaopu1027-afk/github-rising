@@ -1,6 +1,6 @@
 {
-  "summary_zh": "一套可安装的 AI 编码代理技能库，提供数千个 SKILL.md 可复用指令，支持 Claude Code、Codex、Cursor、Gemini CLI 等工具；配套 AAS Core 可搜索本地技能目录、由代理选择技能并预览变更计划，另有 CLI、MCP 与插件方式。",
-  "audience_zh": "适合使用 Claude Code、Codex、Cursor、Gemini CLI 等 AI 编码代理，并希望按需挑选、审阅和复用技能指令的开发者与团队。",
+  "summary_zh": "提供2,923+个可安装的SKILL.md指令手册，适用于Claude Code、Codex、Cursor、Gemini CLI等AI编程代理。AAS Core支持在本地目录中检索技能、由代理选定技能、校验技能栈并预览计划，便于审阅后复用确切的技能集；核心不负责排序或推荐技能。",
+  "audience_zh": "适合使用Claude Code、Codex、Cursor、Gemini CLI等AI编程代理，并希望为项目查找、审查和复用可安装技能指令的开发者；需要先审阅所选技能并预览变更，而不依赖自动推荐的人。",
   "evidence": [
     {
       "quote": "2,884+ reusable AI agent skills for Claude Code, Codex, Cursor and Gemini CLI. AAS Core adds local catalog discovery, agent-owned selection and plan preview. CLI, MCP and plugins.",
@@ -11,15 +11,15 @@
       "url": "https://github.com/sickn33/agentic-awesome-skills/blob/main/README.md"
     },
     {
-      "quote": "Agentic Awesome Skills is a library of 2,917+ installable `SKILL.md` playbooks for Claude Code, Codex, Cursor, Gemini CLI and other AI coding agents. AAS Core helps Codex or Claude search the complete local catalog, record the skills the agent chooses, and preview a plan you can inspect before chang",
+      "quote": "Agentic Awesome Skills is a library of 2,923+ installable `SKILL.md` playbooks for Claude Code, Codex, Cursor, Gemini CLI and other AI coding agents. AAS Core helps Codex or Claude search the complete local catalog, record the skills the agent chooses, and preview a plan you can inspect before chang",
       "url": "https://github.com/sickn33/agentic-awesome-skills/blob/main/README.md"
     },
     {
-      "quote": "**Current release: V20.4.0.** AAS Core supports local catalog inspection, agent-owned selection, stack validation, and plan preview. Apply and recovery remain experimental. [Read the AAS Core preview guide](https://github.com/sickn33/agentic-awesome-skills/blob/v20.4.0/docs/users/aas-core.md) for se",
+      "quote": "**Current release: V20.5.0.** AAS Core supports local catalog inspection, agent-owned selection, stack validation, and plan preview. Apply and recovery remain experimental. [Read the AAS Core preview guide](https://github.com/sickn33/agentic-awesome-skills/blob/v20.5.0/docs/users/aas-core.md) for se",
       "url": "https://github.com/sickn33/agentic-awesome-skills/blob/main/README.md"
     }
   ],
   "content_status": "generated",
-  "material_hash": "aaab990cd880464421a65c5e2d9548c6f73083412396b4c6d840a01334df590b",
+  "material_hash": "845dc7b301c98cb61981d4480236eee7d4446ac39ebe71412e60b3d3f8fe7e41",
   "readme_url": "https://github.com/sickn33/agentic-awesome-skills/blob/main/README.md"
 }

@@ -1,0 +1,21 @@
+{
+  "summary_zh": "Floci 是免费开源的本机 AWS 模拟器，可用于开发、测试和 CI。它在本地提供 AWS 形态的服务，无需云账户、鉴权令牌或付费功能门槛，让现有的 AWS SDK、CLI、Terraform、CDK、OpenTofu 或测试套件指向 http://localhost:4566 即可继续使用原有工作流。",
+  "audience_zh": "适合需要在本机进行 AWS 开发、测试与 CI 的开发者与团队；也适合正在使用 LocalStack、希望换用可直接替代镜像并保留现有工作流的人员。",
+  "evidence": [
+    {
+      "quote": "Floci is a free, open-source local AWS emulator for development, testing, and CI.",
+      "url": "https://github.com/floci-io/floci/blob/main/README.md"
+    },
+    {
+      "quote": "It gives you AWS-shaped services on your machine without requiring a cloud account, an auth token, or paid feature gates. Point your AWS SDK, CLI, Terraform, CDK, OpenTofu, or test suite at `http://localhost:4566` and keep your existing workflows.",
+      "url": "https://github.com/floci-io/floci/blob/main/README.md"
+    },
+    {
+      "quote": "Already using LocalStack? Floci is a drop-in replacement: swap the image and keep going. See [Migrating from LocalStack](#migrating-from-localstack).",
+      "url": "https://github.com/floci-io/floci/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "c7992c911e88caa75464aeccc45c836ab17523928e1517b38775944da9790287",
+  "readme_url": "https://github.com/floci-io/floci/blob/main/README.md"
+}

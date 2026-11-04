@@ -1,7 +1,11 @@
 {
-  "summary_zh": "REA 通过 MCP 把逆向工程工具接入你的智能体，可检查原生二进制、JavaScript/Electron 应用、.NET 程序集和网站，在无源码时解释功能实现并给出证据；也可从终端使用，分析在本地运行。",
-  "audience_zh": "适合希望借助智能体了解现有应用功能实现、进行二进制或应用逆向分析并据此自建功能的开发者；需 Node.js 22.x/24.x/26.12.1+ 环境，原生分析需 Hopper、Ghidra、IDA 或 Kuna。",
+  "summary_zh": "REA 是一个面向智能体的 MCP 逆向工程工具，可分析原生二进制、JavaScript/Electron 应用、.NET 程序集、网站、APK、固件等多种目标。它能说明功能如何工作、给出证据与局限，并支持从终端直接使用；分析在本地运行。",
+  "audience_zh": "适合需要在不依赖源码的情况下理解应用或二进制行为、并据此实现类似功能的开发者与逆向工程人员；也适合使用 Claude Code、Codex、Cursor 等支持 MCP 的智能体工具的用户。",
   "evidence": [
+    {
+      "quote": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "url": "https://github.com/morluto/rea"
+    },
     {
       "quote": "See a feature in an app that you want in your own product? Ask your agent to investigate it with REA. It can inspect the app without its source code, explain how the feature works, show the evidence, and build a version for your project.",
       "url": "https://github.com/morluto/rea/blob/main/README.md"
@@ -13,13 +17,9 @@
     {
       "quote": "Setup registers REA with your agent and installs matching workflow instructions. Native analysis can use an existing Hopper, Ghidra, IDA or Kuna installation; setup can optionally install Hopper with approval. Static JavaScript analysis needs no native analysis engine.",
       "url": "https://github.com/morluto/rea/blob/main/README.md"
-    },
-    {
-      "quote": "### One MCP for reverse engineering across binaries, applications, and runtime behavior.",
-      "url": "https://github.com/morluto/rea/blob/main/README.md"
     }
   ],
   "content_status": "generated",
-  "material_hash": "4627f7373c7206ed92670e4bf4bb6a93d1ac0a4e504963b4bd3b806202303a4f",
+  "material_hash": "9fb2c4fe9528f17a6eb92ddddecf6074c20b7117e8dc692d5e4264f51f3aeaee",
   "readme_url": "https://github.com/morluto/rea/blob/main/README.md"
 }

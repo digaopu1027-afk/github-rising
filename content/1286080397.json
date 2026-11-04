@@ -1,25 +1,25 @@
 {
-  "summary_zh": "纯 C 编写的轻量推理引擎，可在自有硬件上运行超大规模 MoE 开源模型：把常驻内存的密集部分留在 RAM，按需从磁盘流式读取专家权重；支持 GGUF 文件，CPU、Vulkan 和 CUDA 均可运行，可选图形生成与决策模型。",
-  "audience_zh": "适合想在个人电脑或现有 CPU、GPU 硬件上运行超大 MoE 开源模型的用户，包括硬件资源有限、希望利用磁盘流式加载、需要 CPU 或 Vulkan/CUDA 支持，以及关注引擎实现与端到端测量的人。",
+  "summary_zh": "colibri 是一个用 C 编写的分层推理引擎，用于运行前沿 MoE 大模型：将热门专家放在 GPU（CUDA/Vulkan），温专家放在内存，冷专家从 NVMe 流式读取；不需要 GPU 也能在 CPU 上运行，并可直接读取已发布的 GGUF 文件。",
+  "audience_zh": "适合希望在已有硬件上运行超大 MoE 开源模型的人，包括内存有限（最低约 8GB RAM、需磁盘空间）且可选有无 GPU 的用户，以及需要聊天、代码、图像或决策模型的使用者。",
   "evidence": [
     {
-      "quote": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
+      "quote": "A hierarchical inference engine for frontier MoE models: hot experts on the GPU (CUDA, Vulkan), warm ones in RAM, cold ones streamed from NVMe. Written in C, runs on the hardware you already own.",
       "url": "https://github.com/JustVugg/colibri"
     },
     {
-      "quote": "**Tiny engine, immense model.** colibri runs very large open models on the",
+      "quote": "asks for them. Pure C, one file per model family, no GPU required.",
       "url": "https://github.com/JustVugg/colibri/blob/main/README.md"
     },
     {
-      "quote": "machine you already have. A mixture-of-experts model of hundreds of billions of",
+      "quote": "engine. The language models also run from the GGUF files already published,",
       "url": "https://github.com/JustVugg/colibri/blob/main/README.md"
     },
     {
-      "quote": "that part in RAM and reads the rest, the experts, from the disk when the model",
+      "quote": "You need a computer with **8 GB of RAM** at the very least (16 GB or more is",
       "url": "https://github.com/JustVugg/colibri/blob/main/README.md"
     }
   ],
   "content_status": "generated",
-  "material_hash": "79592184aed6a6e9af8d93e0ea5266a2f69c85ac5ef58ab05012f1f8d32f38c3",
+  "material_hash": "32075a08c54e718c853e7b3deee786f3571281a216a69e33b0a3ef50a2ac83d3",
   "readme_url": "https://github.com/JustVugg/colibri/blob/main/README.md"
 }

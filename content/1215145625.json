@@ -1,6 +1,6 @@
 {
-  "summary_zh": "在 Claude Code、Codex、Cursor 等兼容 skill 的 agent 中，用一句话生成可交付的设计：网页、可点击 App 原型、可编辑 PPTX、动画和信息图，还能做小红书图文。内置带样张的风格库、三方向候选流程、设计体检和外观账本，输出单文件 HTML、MP4、GIF、PDF 等。",
-  "audience_zh": "适合愿意用对话方式在 agent 里产出设计、不想打开图形界面的人，如开发者、独立创作者、需要快速做宣传片或演示稿的团队，也适合处理带品牌资产的设计任务。",
+  "summary_zh": "一款可装在 Claude Code、Codex、Cursor 等 agent 中的设计技能：用一句话生成网页、可点击 App 原型、可编辑 PPTX、动画、信息图和 3:4 图文；先出六张缩略图再挑三版，配有带样张的风格库、设计体检与外观账本。",
+  "audience_zh": "适合习惯在终端或 agent 里对话完成设计、不想打开图形界面的开发者、独立创作者与中小团队，用于原型、演示幻灯片、动效、信息图及小红书图文等交付。",
   "evidence": [
     {
       "quote": "Huashu Design 3.0 · 在 agent 里打一句话，拿回能交付的设计：网页 / App 原型 / 可编辑 PPTX / 动画 / 信息图 · 六个候选挑三个方向 · 84 种带样张的风格库 · 越用越懂你的外观账本与设计体检 · HTML-native design skill for Claude Code, Codex, Cursor & any agent",
@@ -13,9 +13,13 @@
     {
       "quote": "跨 agent 通用——Claude Code、Cursor、Codex、OpenClaw、Hermes 都能装。",
       "url": "https://github.com/alchaincyf/huashu-design/blob/master/README.md"
+    },
+    {
+      "quote": "**在你的 agent 里打一句话，拿回一份能交付的设计。**",
+      "url": "https://github.com/alchaincyf/huashu-design/blob/master/README.md"
     }
   ],
   "content_status": "generated",
-  "material_hash": "d60b726e9424b8b655f827656e3d75111eadc9f7a05697552ebe992892cc2e36",
+  "material_hash": "8362bffd9a8772908c0c27cc918f525a7eeca285ae6096bb9e14a56926081405",
   "readme_url": "https://github.com/alchaincyf/huashu-design/blob/master/README.md"
 }
