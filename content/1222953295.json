@@ -1,0 +1,25 @@
+{
+  "summary_zh": "Auto Ontology 是一个 Python 框架，可在数据之上构建基于图的语义推理层，从企业元数据生成本体，统一跨系统定义，校验生成的查询并返回来源信息，并通过 MCP、CLI 和 API 向智能体提供上下文；支持自然语言查询结构化数据，将问题转换为 SQL 并在已连接数据库上执行。",
+  "audience_zh": "适合需要为 LLM 或智能体工作流构建可靠数据分析上下文的开发者，也适合希望连接现有语义模型、让智能体可解释地查询关系型数据并核对答案来源的技术团队。",
+  "evidence": [
+    {
+      "quote": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
+      "url": "https://github.com/NVIDIA/auto-ontology"
+    },
+    {
+      "quote": " what is similar. NVIDIA Auto Ontology is an open library that builds that layer from enterprise metadata, reconciles definitions across systems, and exposes it to any agent harness through MCP, CLI, and API. It complements the semantic models customers already own.",
+      "url": "https://github.com/NVIDIA/auto-ontology/blob/main/README.md"
+    },
+    {
+      "quote": "- Discover: generate enterprise ontologies from metadata; connect existing ontologies and semantic models; build AI-ready knowledge graphs.",
+      "url": "https://github.com/NVIDIA/auto-ontology/blob/main/README.md"
+    },
+    {
+      "quote": "- **Natural-language querying** of structured data — questions are translated to",
+      "url": "https://github.com/NVIDIA/auto-ontology/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "0c88b25de6b8d1be95d80d471111bbe9a22cf437764eb8c7b93e1f62264c29d1",
+  "readme_url": "https://github.com/NVIDIA/auto-ontology/blob/main/README.md"
+}

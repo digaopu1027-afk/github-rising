@@ -1,0 +1,25 @@
+{
+  "summary_zh": "用可移植的C99实现Kimi K3（2.78万亿参数）推理，不依赖BLAS、框架或GPU，在单个CPU、8.24 GB内存的普通笔记本上也能运行，输出与增加内存时完全一致，只是速度不同。",
+  "audience_zh": "适合想在普通CPU机器或笔记本上本地运行超大模型的开发者；需要能编译C99、用GCC或Clang，并且有约1.7 TB存储空间来放置检查点，并使用快速磁盘。",
+  "evidence": [
+    {
+      "quote": "A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.",
+      "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c"
+    },
+    {
+      "quote": "Slow, and answering correctly, in 8.24 GB, from a checkpoint of 1.56 TB. This particular",
+      "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c/blob/main/README.md"
+    },
+    {
+      "quote": "Give the same batch request more memory and the answer does not change, only the clock:",
+      "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c/blob/main/README.md"
+    },
+    {
+      "quote": "packed 4-bit form. The consequence is that **the same model runs in 8 GB and in 224 GB and",
+      "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "135482b028b125895492c45f594466835e09584c27f4e3a999e16003a9d1152e",
+  "readme_url": "https://github.com/FareedKhan-dev/kimi-k3-in-c/blob/main/README.md"
+}

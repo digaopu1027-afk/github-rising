@@ -1,13 +1,9 @@
 {
-  "summary_zh": "Agno 是自驱动智能体平台：可用 Agno、Claude Agent 或 Codex SDK 构建智能体并组合为团队和工作流，通过 AgentOS 以带 API 和 MCP 的持久服务运行，支持认证、角色权限、审批、调度与持久执行；还可用于自动化公司运营，并通过 REST API、MCP 或 Slack 等渠道使用。",
-  "audience_zh": "适合希望为公司、产品或客户构建并运行智能体的开发者与团队，尤其是使用编码智能体和云模板搭建自有平台、需要持久服务及人工审批与可观测能力的人员。",
+  "summary_zh": "Agno 是自管理智能体平台：可用 Agno、Claude Agent 或 Codex SDK 构建智能体，组合成团队与工作流；通过 AgentOS 以持久服务运行，内置 API、MCP、认证、角色权限、人工审批、调度与持久执行；还可用 Company OS 将工作组织为项目、任务和例程，自动化公司运营。",
+  "audience_zh": "适合希望为公司、产品或客户构建并运行智能体的开发者和企业团队，包括需要 REST API、MCP 接入产品及 Claude、ChatGPT、Slack 等渠道，或在自有云中管控数据、查看对话与追踪、审批敏感操作并安排定期任务的人员。",
   "evidence": [
     {
-      "quote": "Agno is a self-driving agent platform. Build agents for your company, product, or customers. Run them as durable services on AgentOS. Put them to work automating company operations.",
-      "url": "https://github.com/agno-agi/agno/blob/main/README.md"
-    },
-    {
-      "quote": "- **Build** agents with the Agno, Claude Agent, or Codex SDKs. Combine agents into teams and workflows.",
+      "quote": "Agno is a self-managing agent platform. Build agents for your company, product, or customers. Run them as durable services on AgentOS. Put them to work automating company operations.",
       "url": "https://github.com/agno-agi/agno/blob/main/README.md"
     },
     {
@@ -15,11 +11,15 @@
       "url": "https://github.com/agno-agi/agno/blob/main/README.md"
     },
     {
-      "quote": "Agno is built for coding agents. Start with a pre-built template and give this prompt to your coding agent:",
+      "quote": "- **Automate** company operations with Company OS. Give agents responsibilities, organize work into projects and tasks, and configure recurring routines. People set direction and review results; agents own and execute.",
+      "url": "https://github.com/agno-agi/agno/blob/main/README.md"
+    },
+    {
+      "quote": "Run your platform in your own cloud and keep your data in your control. Review conversations, inspect traces, manage knowledge, and track your agent activity using the [AgentOS UI](https://os.agno.com).",
       "url": "https://github.com/agno-agi/agno/blob/main/README.md"
     }
   ],
   "content_status": "generated",
-  "material_hash": "9aa73bb1a67e54b52dcd53b18975e39a81d66bc115a08228f7def708eb2931ad",
+  "material_hash": "0aed5d48e7495ff69ad5379995a75c2dd97dc96de1966786cece55cac9cb6db5",
   "readme_url": "https://github.com/agno-agi/agno/blob/main/README.md"
 }

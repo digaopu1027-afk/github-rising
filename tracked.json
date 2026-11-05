@@ -654,5 +654,53 @@
   "1160497244": {
     "id": 1160497244,
     "full_name": "floci-io/floci"
+  },
+  "1440705679": {
+    "id": 1440705679,
+    "full_name": "deepseek-ai/dsh-superagent-prototype"
+  },
+  "1222953295": {
+    "id": 1222953295,
+    "full_name": "NVIDIA/auto-ontology"
+  },
+  "1042367133": {
+    "id": 1042367133,
+    "full_name": "github/spec-kit"
+  },
+  "662766482": {
+    "id": 662766482,
+    "full_name": "The-PR-Agent/pr-agent"
+  },
+  "770153867": {
+    "id": 770153867,
+    "full_name": "harry0703/MoneyPrinterTurbo"
+  },
+  "1179264259": {
+    "id": 1179264259,
+    "full_name": "garrytan/gstack"
+  },
+  "1319154759": {
+    "id": 1319154759,
+    "full_name": "FareedKhan-dev/kimi-k3-in-c"
+  },
+  "441903012": {
+    "id": 441903012,
+    "full_name": "MichaelCade/90DaysOfDevOps"
+  },
+  "1343344945": {
+    "id": 1343344945,
+    "full_name": "JiaFeiMiao-K-Cat/DiscImageStudio"
+  },
+  "1162410458": {
+    "id": 1162410458,
+    "full_name": "Thysrael/Horizon"
+  },
+  "1331882604": {
+    "id": 1331882604,
+    "full_name": "scenario-labs/skills"
+  },
+  "1195360525": {
+    "id": 1195360525,
+    "full_name": "calesthio/OpenMontage"
   }
 }

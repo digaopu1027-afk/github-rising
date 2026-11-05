@@ -1,0 +1,21 @@
+{
+  "summary_zh": "面向单个 GitHub 仓库的主动式编码代理，打包为 DeepSeek Harness 组件。它监听 GitHub 及可选的飞书：当获授权的人请求工作时，创建工作项，在独立的代理会话和目录中处理，并在原对话中答复（例如提交拉取请求）；网页面板展示需要人工处理的事项。它仅在收到请求或团队规则允许时行动。",
+  "audience_zh": "适合希望为单个 GitHub 仓库引入代理式工作流程、并愿意在自建环境中审阅和适配代码的研究或开发团队；这是仅作参考的研究原型，并非生产就绪软件，也不是官方 DeepSeek 产品。",
+  "evidence": [
+    {
+      "quote": "> **Research prototype for reference only, not an official DeepSeek product.** This code grew out of our team's day-to-day development work, with much of the engineering done by coding agents. Treat it as research code, not production-ready software. It may still contain bugs, and its coding style a",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/README.md"
+    },
+    {
+      "quote": "dsh-superagent is a proactive coding agent for one GitHub repository, packaged as a bundle for [DeepSeek Harness](https://www.deepseek.com/en/harness/). It listens to GitHub and, optionally, Feishu. When someone allowed asks the agent for work, it opens a work item, works on it in its own agent sess",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/README.md"
+    },
+    {
+      "quote": "ion and directory, and answers in the original conversation, for example with a pull request. A web panel shows what needs a person.",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "08a9b211f7a61e6cf990ae24c3bca8927ec8c2773590f6fe7fa43487018d1d7e",
+  "readme_url": "https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/README.md"
+}

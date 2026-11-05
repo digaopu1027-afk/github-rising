@@ -1,6 +1,6 @@
 {
-  "summary_zh": "这是一个由社区人工整理维护的公共API集合列表，收录来自多个领域的免费公共API，可供开发者在自己的产品中使用。README还列出APILayer旗下API（如IP定位、邮件验证、汇率、航班状态等）以及可供AI代理调用的MCP服务器条目。",
-  "audience_zh": "适合需要查找公共API来开发产品的开发者、为AI客户端寻找可调用MCP服务器的用户，以及愿意参与整理和补充API列表的社区贡献者。",
+  "summary_zh": "该仓库是一份由社区成员手工维护的免费公共 API 汇总清单，覆盖多个领域的 API，可供开发者在自己的产品中选用；README 另列出 APILayer 系列 API 以及可供 AI 代理作为工具调用的 MCP 服务器条目。",
+  "audience_zh": "适合需要为项目寻找和选用公共 API 的开发者，以及希望将 API 作为工具接入 Claude、Cursor、VS Code 等 MCP 客户端的 AI 代理使用者。",
   "evidence": [
     {
       "quote": "A collective list of free APIs",
@@ -16,6 +16,6 @@
     }
   ],
   "content_status": "generated",
-  "material_hash": "bf20e8acb42842f349b4ad8ce69354b99e350c44c29d1becb1f098962649d2cb",
+  "material_hash": "ce5cbe45a49e10530684e62ba8528febbae33360e212f96c9a7ae656f6e9363b",
   "readme_url": "https://github.com/public-apis/public-apis/blob/master/README.md"
 }

@@ -1,17 +1,17 @@
 {
-  "summary_zh": "Ghostty 是一个快速、功能丰富且跨平台的终端模拟器，采用平台原生 UI 与 GPU 加速，并支持多窗口、标签页和分屏。它还提供 libghostty 库，可用于构建终端模拟器或将终端功能嵌入第三方应用。",
-  "audience_zh": "适合需要高性能、原生体验终端模拟器的日常用户，以及希望在 C 或 Zig 项目中嵌入终端功能或基于 libghostty 构建终端应用的开发者。",
+  "summary_zh": "Ghostty 是一款快速、功能丰富、跨平台的终端模拟器，采用平台原生 UI 与 GPU 加速；既可作为独立应用使用，也通过 libghostty 提供 C/Zig 库，用于构建终端模拟器或将终端功能嵌入第三方应用。",
+  "audience_zh": "适合需要高性能原生终端体验的日常用户，以及希望用 libghostty 在 C 或 Zig 项目中构建或嵌入终端功能的开发者。",
   "evidence": [
     {
       "quote": "👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.",
       "url": "https://github.com/ghostty-org/ghostty"
     },
     {
-      "quote": "Fast, native, feature-rich terminal emulator pushing modern features.",
+      "quote": "A native GUI or embeddable library via <code>libghostty</code>.",
       "url": "https://github.com/ghostty-org/ghostty/blob/main/README.md"
     },
     {
-      "quote": "A native GUI or embeddable library via <code>libghostty</code>.",
+      "quote": "**`libghostty`** is a cross-platform, zero-dependency C and Zig library",
       "url": "https://github.com/ghostty-org/ghostty/blob/main/README.md"
     },
     {
@@ -20,6 +20,6 @@
     }
   ],
   "content_status": "generated",
-  "material_hash": "ce753fc445f339d5d3b58bfd617d9b60afc016d3ccfb3018e9c3be41f440c227",
+  "material_hash": "9f7d5219272f1e3aac12bc913b2936b58f1a26ee9a335a47390504854c46ebba",
   "readme_url": "https://github.com/ghostty-org/ghostty/blob/main/README.md"
 }

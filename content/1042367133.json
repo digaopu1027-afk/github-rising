@@ -1,0 +1,25 @@
+{
+  "summary_zh": "Spec Kit 是面向 AI 编程代理的开源工具包，提供结构化流程、可复用模板和文档化产出。可用于规格驱动开发（SDD），也可安装缺陷修复与想法评估扩展，或按需定制、组合扩展、预设和工作流，打造自己的流程。",
+  "audience_zh": "适合使用受支持的 AI 编程代理、希望以结构化流程开展规格驱动开发、修复缺陷或评估想法的开发者与团队；需要 Python 3.11+、uv，并在 Linux、macOS 或 Windows 上运行。",
+  "evidence": [
+    {
+      "quote": "💫 Toolkit to help you get started with SDD or any other process!",
+      "url": "https://github.com/github/spec-kit"
+    },
+    {
+      "quote": "Spec Kit is an open source toolkit that gives AI coding agents structured",
+      "url": "https://github.com/github/spec-kit/blob/main/README.md"
+    },
+    {
+      "quote": "processes, reusable templates, and documented outcomes. Start with a ready-made",
+      "url": "https://github.com/github/spec-kit/blob/main/README.md"
+    },
+    {
+      "quote": "You need Python 3.11+, [uv](https://github.github.io/spec-kit/install/uv.html),",
+      "url": "https://github.com/github/spec-kit/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "d7484fa354a0df40905b9e72d6100404f0984272a8d4c6d6963dfec6878fa252",
+  "readme_url": "https://github.com/github/spec-kit/blob/main/README.md"
+}

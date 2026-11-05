@@ -1,13 +1,13 @@
 {
-  "summary_zh": "基于PyTorch的可微计算机视觉库，提供可微图像处理与几何视觉算法，支持批处理变换、自动求导和GPU加速，涵盖滤波、几何变换、特征检测与匹配、相机模型、RANSAC求解、数据增强和图像损失等算子。",
-  "audience_zh": "适合使用PyTorch进行空间AI、3D视觉、图像处理或深度学习增强的研究者和开发者，尤其在需要GPU批量处理、可微几何或手写实现冗长时更有价值。",
+  "summary_zh": "Kornia 是基于 PyTorch 的可微计算机视觉库，提供可微图像处理与几何视觉算法，支持批处理、自动求导和 GPU 加速，涵盖滤波、增强、边缘检测、形态学、相机模型、对极几何、最小求解器与 RANSAC、特征检测与匹配、深度到三维的投影与反投影、可逆标注增强以及图像损失与指标等。",
+  "audience_zh": "适合使用 PyTorch 开展空间 AI、三维视觉、SLAM 或多视图几何研究的开发者，也适合需要 GPU 批处理图像变换、可微几何计算、特征匹配与鲁棒估计的深度学习从业者；若只需单图 uint8 CPU 的固定参数操作，已有更轻量方案。",
   "evidence": [
     {
-      "quote": "**Kornia** is a differentiable computer vision library that provides a rich set of differentiable image processing and geometric vision algorithms. Built on top of [PyTorch](https://pytorch.org), Kornia integrates seamlessly into existing AI workflows, allowing you to leverage powerful [batch transf",
-      "url": "https://github.com/kornia/kornia/blob/main/README.md"
+      "quote": "🐍 Geometric Computer Vision Library for Spatial AI",
+      "url": "https://github.com/kornia/kornia"
     },
     {
-      "quote": "Kornia pays off where a hand-written version gets long or fragile, or where the alternatives leave the GPU:",
+      "quote": "**Kornia** is a differentiable computer vision library that provides a rich set of differentiable image processing and geometric vision algorithms. Built on top of [PyTorch](https://pytorch.org), Kornia integrates seamlessly into existing AI workflows, allowing you to leverage powerful [batch transf",
       "url": "https://github.com/kornia/kornia/blob/main/README.md"
     },
     {
@@ -15,11 +15,11 @@
       "url": "https://github.com/kornia/kornia/blob/main/README.md"
     },
     {
-      "quote": "5-point essential (`find_essential`), DLT homography and PnP (`solve_pnp_dlt`) solvers are there too. `RANSAC`",
+      "quote": "- **Differentiable geometry.** Depth to 3D and back (`depth_to_3d_v2`, `unproject_points`, `project_points`),",
       "url": "https://github.com/kornia/kornia/blob/main/README.md"
     }
   ],
   "content_status": "generated",
-  "material_hash": "0ddc1aedc878c84bf9b716c8ca1d39b5dccd3760d759587d1015406f807ab4a5",
+  "material_hash": "05609c8c9ddd17cfdb2c6c7c3dfc45b1c1fec0fee3a66cd8dfcc46eb634a97ab",
   "readme_url": "https://github.com/kornia/kornia/blob/main/README.md"
 }

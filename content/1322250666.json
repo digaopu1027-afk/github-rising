@@ -1,25 +1,25 @@
 {
-  "summary_zh": "用于将PS5可执行文件自动移植到Linux和Windows的工具，包含重链接器，把可执行文件转换为目标系统的原生格式，并提供适合动态链接的系统PRX库实现，不采用模拟或独立运行时进程。还包含能生成SPIR-V的着色器重编译器，支持SDL映射的游戏手柄及键盘鼠标配置。",
-  "audience_zh": "适合从事互操作性、研究、保存与兼容性工作的开发者，以及对PS5可执行文件移植和Linux/Windows原生运行感兴趣的技术用户；需自行确保所用二进制文件获取和使用合法。",
+  "summary_zh": "该工具用于将PS5可执行文件自动移植到Linux和Windows平台。它通过relinker把可执行文件转换为目标系统的原生格式，并提供适合动态链接的系统prx库实现，不使用模拟或独立运行时进程。仅含relinker的构建也可在macOS（含Apple silicon）上运行。",
+  "audience_zh": "适合对PS5可执行文件移植、互操作性研究、软件保存与兼容性工作感兴趣的研究者和开发者；也适合需要在Linux、Windows或macOS上使用relinker或参与相关开发的人员。",
   "evidence": [
     {
       "quote": "Tool for automatic PS5 executables porting to Linux and Windows",
       "url": "https://github.com/boykopovar/AnyPS5"
     },
     {
+      "quote": "Tool for automatic executables porting to Linux and Windows.",
+      "url": "https://github.com/boykopovar/AnyPS5/blob/main/README.md"
+    },
+    {
       "quote": "Includes a [relinker](core/relinker) that converts executable to the target system's native format and implementations of [system prx libraries](core/libs/prx) suitable for dynamic linking. No emulation or separate runtime process.",
       "url": "https://github.com/boykopovar/AnyPS5/blob/main/README.md"
     },
     {
-      "quote": "This project is intended for interoperability, research, preservation, and compatibility purposes. It does not include, distribute, or require copyrighted software, firmware, cryptographic keys, or proprietary libraries. Users are responsible for ensuring that any binaries used with this project are",
-      "url": "https://github.com/boykopovar/AnyPS5/blob/main/README.md"
-    },
-    {
-      "quote": "SDL-mapped game controllers are supported, including analog sticks and triggers. Keyboard and mouse controls can be configured with an `anyps5-input.ini` file. See [input mapping](docs/user/INPUT_MAPPING.md) for the supported devices and configuration format.",
+      "quote": "The relinker-only build runs on macOS, including Apple silicon.",
       "url": "https://github.com/boykopovar/AnyPS5/blob/main/README.md"
     }
   ],
   "content_status": "generated",
-  "material_hash": "9df47abd98cc26f3d72782b86a9da1e62dbe377f8f92e4997e97fcecab703d56",
+  "material_hash": "ec71776c132589808bf74c3f3eb61f6f37bf29226d172636128e9d9c69d67e17",
   "readme_url": "https://github.com/boykopovar/AnyPS5/blob/main/README.md"
 }

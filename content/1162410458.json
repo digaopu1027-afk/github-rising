@@ -1,0 +1,25 @@
+{
+  "summary_zh": "Horizon 是 AI 驱动的新闻聚合工具，可汇集 RSS、Hacker News、Reddit、Telegram、X、GitHub 和财经新闻等来源，经筛选、去重与评分后，按 profile 生成中英文每日简报，支持 Markdown、Pages、邮件和 webhook 等分发方式，并可为条目补充背景与社区讨论。",
+  "audience_zh": "适合希望把分散信息源整合为个性化每日简报的读者，也适合关注技术新闻、工程深度文章或 AI 创作素材、并愿意通过配置文件定制评分与输出的人；需要本地运行 CLI 或结合 AI 助手使用。",
+  "evidence": [
+    {
+      "quote": "📡 Your own AI-powered news radar. Generates daily briefings in English & Chinese. | 用 AI 构建你专属的新闻雷达",
+      "url": "https://github.com/Thysrael/Horizon"
+    },
+    {
+      "quote": "Good reads are scattered across feeds, forums, and timelines. Your attention isn't unlimited. Horizon collects, filters, and deduplicates them, then brings the worthwhile ones to you with context and community discussion.",
+      "url": "https://github.com/Thysrael/Horizon/blob/main/README.md"
+    },
+    {
+      "quote": "- **📡 Bring Your Sources Together** — Follow RSS, Hacker News, Reddit, Telegram, X, GitHub, financial news, and more.",
+      "url": "https://github.com/Thysrael/Horizon/blob/main/README.md"
+    },
+    {
+      "quote": "- **📬 Read Where You Already Are** — Generate English and Chinese briefings as Markdown, publish to Pages, or deliver by email and webhook.",
+      "url": "https://github.com/Thysrael/Horizon/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "94d6d71622db4e2c82267a3cd5e633f5ae2f187e1a8313dd1da9347bfceefdf1",
+  "readme_url": "https://github.com/Thysrael/Horizon/blob/main/README.md"
+}

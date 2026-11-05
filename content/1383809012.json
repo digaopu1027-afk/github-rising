@@ -1,17 +1,17 @@
 {
-  "summary_zh": "magpie 把多个 AI 编码代理的模型配置集中到一个菜单栏应用中。通过本地网关，可让 Claude Code、Codex、Gemini CLI 等代理使用任意已添加的模型或订阅；配额耗尽时自动切换到下一账号，并支持隐私掩码与路由分组。",
-  "audience_zh": "适合同时使用多个代理、多个模型供应商或多个账号的用户，希望在统一界面中切换模型并管理订阅；若只用一个代理和其官方套餐，则不需要。支持 macOS、Windows、Linux 等平台。",
+  "summary_zh": "magpie 通过一个本地网关和菜单栏应用，让 Claude Code、Codex、Gemini CLI、OpenCode 等编码代理统一选择任意模型或供应商，如 Claude Code 跑在 Kimi、Codex 跑在 DeepSeek 上；支持多账户配额耗尽后自动切换、路由组、配置档案与可选的隐私遮蔽。",
+  "audience_zh": "适合同时使用多个编码代理、多个模型供应商或多个订阅账户，希望集中管理和切换模型、避免额度中断的开发者。只用一个代理及其官方套餐且已够用的人则不需要。",
   "evidence": [
     {
-      "quote": "Switch any of them from the menu bar. One local gateway serves them all,<br>",
+      "quote": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+      "url": "https://github.com/yetone/magpie"
+    },
+    {
+      "quote": "**Claude Code on Kimi. Codex on DeepSeek. Gemini CLI on GLM. OpenCode on your ChatGPT plan.**<br>",
       "url": "https://github.com/yetone/magpie/blob/main/README.md"
     },
     {
-      "quote": "and when a quota runs out, it quietly moves on to your next account.",
-      "url": "https://github.com/yetone/magpie/blob/main/README.md"
-    },
-    {
-      "quote": "Each agent keeps its model in its own file, in its own format, with its own keys and base URLs. A subscription you pay for works in one agent and nowhere else. magpie puts all of that behind one app and one local gateway:",
+      "quote": "- **Keep going when a quota runs out**: a provider's next account takes over, and a routing group moves on to another model or provider, so the agent never sees the error. With one account and no group there is nothing to move to, and the error reaches the agent.",
       "url": "https://github.com/yetone/magpie/blob/main/README.md"
     },
     {
@@ -20,6 +20,6 @@
     }
   ],
   "content_status": "generated",
-  "material_hash": "b85bb53a2325bd8990e23300e284993b062b336561e907626b312e3f44a8ba8b",
+  "material_hash": "2c33a8e41189fc26e468bf7866577188a10d4a838ca5218b0692b985dc50e6fc",
   "readme_url": "https://github.com/yetone/magpie/blob/main/README.md"
 }

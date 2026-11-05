@@ -1,6 +1,6 @@
 {
-  "summary_zh": "codebase-memory-mcp 是一个本地 MCP 服务器，将代码、文档、配置与基础设施连接成持久知识图谱，支持符号/文本/语义搜索、跨服务调用追踪、文档与代码关联、通过 Docker/Kubernetes/Terraform 等追踪系统关系、变更影响分析与测试选择；并提供可选的可视化工具 CBM Lens。",
-  "audience_zh": "适合希望为编码代理提供仓库结构上下文的开发者，以及需要理解陌生代码库、追踪跨服务调用、评估变更影响和定位相关测试的开发与运维人员；支持 macOS、Linux、Windows。",
+  "summary_zh": "这是一个基于 MCP 的本地代码智能服务器，把代码、文档、配置和基础设施连接成持久知识图谱，支持符号与语义搜索、调用关系追踪、文档与实现关联、跨服务与部署路径追踪，以及变更影响和测试关联分析。附带 CBM Lens 可视化与 CLI 查询，索引和查询均在本地完成。",
+  "audience_zh": "适合需要理解陌生仓库、跨服务追踪调用或评估变更影响的开发者，以及希望通过 MCP 为编码代理提供结构化本地上下文的用户。支持通过安装器接入多种客户端，可选使用 CBM Lens 进行可视化浏览。",
   "evidence": [
     {
       "quote": "Local code intelligence for developers and AI agents. Connect code, docs and infrastructure in a persistent graph, with CBM Lens, MCP tools, agent integrations and change-aware test selection.",
@@ -15,11 +15,11 @@
       "url": "https://github.com/DeusData/codebase-memory-mcp/blob/main/README.md"
     },
     {
-      "quote": "- **Follow the system beyond source files**: trace supported relationships through Docker, Kubernetes, Helm, Kustomize, Terraform/OpenTofu, Terragrunt, Ansible, scripts, Make, and CI configuration.",
+      "quote": "- **Understand a change before running it**: inspect affected symbols, compare indexed snapshots, and find related tests. [Experimental Smart CI](#smart-ci-and-test-impact) combines static relationships and per-test coverage for supported C/C++ test harnesses, falling back to broader runs when evidence is insufficient.",
       "url": "https://github.com/DeusData/codebase-memory-mcp/blob/main/README.md"
     }
   ],
   "content_status": "generated",
-  "material_hash": "9e34b8f5204853825a7eb6387e73ceff217ae0b42fa3ead9dcc5015829af8ef8",
+  "material_hash": "814cc571fb3574906e18458aae7c063ff21eb54109874967ede657b9c08544a7",
   "readme_url": "https://github.com/DeusData/codebase-memory-mcp/blob/main/README.md"
 }
