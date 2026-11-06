@@ -702,5 +702,25 @@
   "1195360525": {
     "id": 1195360525,
     "full_name": "calesthio/OpenMontage"
+  },
+  "18106269": {
+    "id": 18106269,
+    "full_name": "lz4/lz4"
+  },
+  "1197652028": {
+    "id": 1197652028,
+    "full_name": "google/skills"
+  },
+  "1132001614": {
+    "id": 1132001614,
+    "full_name": "vercel-labs/agent-browser"
+  },
+  "1216954187": {
+    "id": 1216954187,
+    "full_name": "ConardLi/garden-skills"
+  },
+  "1044296738": {
+    "id": 1044296738,
+    "full_name": "microsoft/VibeVoice"
   }
 }
