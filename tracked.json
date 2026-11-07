@@ -722,5 +722,61 @@
   "1044296738": {
     "id": 1044296738,
     "full_name": "microsoft/VibeVoice"
+  },
+  "8514": {
+    "id": 8514,
+    "full_name": "rails/rails"
+  },
+  "340547520": {
+    "id": 340547520,
+    "full_name": "zed-industries/zed"
+  },
+  "6201092": {
+    "id": 6201092,
+    "full_name": "mpv-player/mpv"
+  },
+  "724712": {
+    "id": 724712,
+    "full_name": "rust-lang/rust"
+  },
+  "10270250": {
+    "id": 10270250,
+    "full_name": "react/react"
+  },
+  "458058": {
+    "id": 458058,
+    "full_name": "symfony/symfony"
+  },
+  "24195339": {
+    "id": 24195339,
+    "full_name": "angular/angular"
+  },
+  "6838921": {
+    "id": 6838921,
+    "full_name": "prometheus/prometheus"
+  },
+  "186024298": {
+    "id": 186024298,
+    "full_name": "nushell/nushell"
+  },
+  "41881900": {
+    "id": 41881900,
+    "full_name": "microsoft/vscode"
+  },
+  "11225014": {
+    "id": 11225014,
+    "full_name": "etcd-io/etcd"
+  },
+  "7634677": {
+    "id": 7634677,
+    "full_name": "openssl/openssl"
+  },
+  "523043277": {
+    "id": 523043277,
+    "full_name": "astral-sh/ruff"
+  },
+  "1332461149": {
+    "id": 1332461149,
+    "full_name": "nightly-labs/openbot"
   }
 }
