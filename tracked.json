@@ -810,5 +810,29 @@
   "912559512": {
     "id": 912559512,
     "full_name": "simstudioai/sim"
+  },
+  "849553306": {
+    "id": 849553306,
+    "full_name": "anthropics/claude-quickstarts"
+  },
+  "400501136": {
+    "id": 400501136,
+    "full_name": "google-deepmind/mujoco"
+  },
+  "1202057891": {
+    "id": 1202057891,
+    "full_name": "garrytan/gbrain"
+  },
+  "997737944": {
+    "id": 997737944,
+    "full_name": "ruvnet/RuView"
+  },
+  "1131513930": {
+    "id": 1131513930,
+    "full_name": "ZhuLinsen/daily_stock_analysis"
+  },
+  "1056618941": {
+    "id": 1056618941,
+    "full_name": "homeassistant-ai/ha-mcp"
   }
 }
