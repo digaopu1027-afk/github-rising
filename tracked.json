@@ -834,5 +834,25 @@
   "1056618941": {
     "id": 1056618941,
     "full_name": "homeassistant-ai/ha-mcp"
+  },
+  "688164459": {
+    "id": 688164459,
+    "full_name": "harvard-edge/cs249r_book"
+  },
+  "1432967563": {
+    "id": 1432967563,
+    "full_name": "ccch1mneyyy/dsh-Go"
+  },
+  "1158722119": {
+    "id": 1158722119,
+    "full_name": "addyosmani/agent-skills"
+  },
+  "1024661423": {
+    "id": 1024661423,
+    "full_name": "we-promise/sure"
+  },
+  "1200534650": {
+    "id": 1200534650,
+    "full_name": "tokio-rs/topcoat"
   }
 }
