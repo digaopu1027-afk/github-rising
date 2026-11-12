@@ -1,0 +1,25 @@
+{
+  "summary_zh": "利用普通WiFi信号和低成本ESP32传感器采集CSI，实现穿墙的人员存在与人数检测、呼吸与心率监测、活动与跌倒识别、环境测绘和睡眠质量分析，无需摄像头或穿戴设备；并可通过MQTT或Matter桥接接入Home Assistant、Apple Home、Google Home和Alexa。",
+  "audience_zh": "适合希望以无摄像头方式实现房间占用、生命体征与跌倒监测的智能家居用户，使用Home Assistant或Matter生态的开发者，以及基于ESP32做边缘感知与CSI模型训练的研究人员。",
+  "evidence": [
+    {
+      "quote": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "url": "https://github.com/ruvnet/RuView"
+    },
+    {
+      "quote": "**Turn ordinary WiFi into a spatial intelligence / sensing system.** Detect people, measure breathing and heart rate, track movement, and monitor rooms — through walls, in the dark, with no cameras or wearables. Just physics.",
+      "url": "https://github.com/ruvnet/RuView/blob/main/README.md"
+    },
+    {
+      "quote": "Works natively with the four major smart-home ecosystems: **[Home Assistant](docs/integrations/home-assistant.md)** via the HA-DISCO MQTT publisher, **[Apple Home & HomePod](docs/user-guide-apple-homepod.md)** as a discoverable HAP-1.1 bridge, **[Google Home](docs/integrations/home-assistant.md)** +",
+      "url": "https://github.com/ruvnet/RuView/blob/main/README.md"
+    },
+    {
+      "quote": "- **Presence and occupancy** — detect people through walls, count them, track entries and exits",
+      "url": "https://github.com/ruvnet/RuView/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "25d04227963652cab5f38f309c166ec7dcf8d960cb8d155d643214f64fadb418",
+  "readme_url": "https://github.com/ruvnet/RuView/blob/main/README.md"
+}

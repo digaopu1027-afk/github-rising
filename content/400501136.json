@@ -1,0 +1,25 @@
+{
+  "summary_zh": "MuJoCo（Multi-Joint dynamics with Contact）是通用物理模拟器/引擎，用于对与环境交互的关节结构进行快速、准确的仿真，提供 C API 及 Web/桌面可视化，并附带 Python 绑定和 Unity 插件，可用于机器人、生物力学、图形动画和机器学习等领域的研发。",
+  "audience_zh": "面向机器人、生物力学、图形与动画、机器学习等领域，需要快速准确模拟关节结构与环境交互的研究人员和开发者；README 明确说明它面向研究人员和开发者，并提供 C API 与 Python 绑定。",
+  "evidence": [
+    {
+      "quote": "general purpose physics engine that aims to facilitate research and development",
+      "url": "https://github.com/google-deepmind/mujoco/blob/main/README.md"
+    },
+    {
+      "quote": "in robotics, biomechanics, graphics and animation, machine learning, and other",
+      "url": "https://github.com/google-deepmind/mujoco/blob/main/README.md"
+    },
+    {
+      "quote": "areas which demand fast and accurate simulation of articulated structures",
+      "url": "https://github.com/google-deepmind/mujoco/blob/main/README.md"
+    },
+    {
+      "quote": "MuJoCo has a C API and is intended for researchers and developers. The runtime",
+      "url": "https://github.com/google-deepmind/mujoco/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "a470e9281baa667227f79c58498ab43d97e090fe370eeb2ea34f0e51953a4b84",
+  "readme_url": "https://github.com/google-deepmind/mujoco/blob/main/README.md"
+}

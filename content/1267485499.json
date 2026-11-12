@@ -1,6 +1,6 @@
 {
-  "summary_zh": "免费开源的 macOS 菜单栏工具集，将分应用音量、系统监控、窗口贴边、Dock 预览、剪贴板历史、截图录屏、应用卸载等多种实用功能整合在一个菜单栏图标下，可按需安装单项功能，无需账号、遥测或订阅。",
-  "audience_zh": "适合使用 Apple Silicon、运行 macOS 14 及以上版本，希望在单一菜单栏工具中集中获得多项实用功能并自行选择启用项的 Mac 用户；也适合关注开源与本地隐私的开发者。",
+  "summary_zh": "Vorssaint 是免费开源的 macOS 菜单栏工具箱，将分应用音量调节、系统监控、应用切换器、窗口吸附、Dock 预览、剪贴板历史、文本片段、文件搁架和卸载器等功能集合于一个菜单栏图标，可按需安装单功能，无需账户、无遥测、无订阅。",
+  "audience_zh": "适合使用 Apple Silicon 芯片、运行 macOS 14 Sonoma 或更新版本，希望用免费开源工具替代多项付费 Mac 应用，并重视本地数据与隐私、愿意按需启用功能的 macOS 用户。",
   "evidence": [
     {
       "quote": "Free and open-source macOS menu bar toolkit.",
@@ -13,9 +13,13 @@
     {
       "quote": "Choose individual features or start with a preset. Uninstalled features stop loading and disappear from the interface; reinstalling restores their settings. Setup asks only for the permissions your choices need.",
       "url": "https://github.com/vorssaint/vorssaint-utils/blob/main/README.md"
+    },
+    {
+      "quote": "Install only what you use.",
+      "url": "https://github.com/vorssaint/vorssaint-utils/blob/main/README.md"
     }
   ],
   "content_status": "generated",
-  "material_hash": "952f1b4a1a5c7f66bf68ab6f2dd4413fd068b3114a89ac7ea822fa9de8821ef2",
+  "material_hash": "1f0c7de2c0d3224a2b542127045a6910068f991bc4773ad220d4df33c6c9f1ad",
   "readme_url": "https://github.com/vorssaint/vorssaint-utils/blob/main/README.md"
 }

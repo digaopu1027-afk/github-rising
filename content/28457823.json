@@ -1,25 +1,25 @@
 {
-  "summary_zh": "freeCodeCamp.org 的开源代码库与课程项目，提供免费的全栈Web开发和机器学习课程，包含响应式网页设计、JavaScript、前端库、Python、关系数据库、后端开发与API等认证方向，并有数千个交互式编程挑战、语言认证以及面试准备材料。",
-  "audience_zh": "适合希望免费、自定进度学习编程、数学与计算机科学的自学者，尤其是想转入科技行业或准备开发者求职的忙碌成年人，也适合希望参与开源社区贡献的志愿者。",
+  "summary_zh": "这是freeCodeCamp.org的开源代码库与课程资源，提供免费、自定进度的全栈Web开发与机器学习课程，包含数千个互动编程挑战，以及响应式网页设计、JavaScript、Python、关系数据库、后端开发等认证路径，还提供面向开发者的语言认证。",
+  "audience_zh": "适合希望免费学习编程、数学与计算机科学的自学者，尤其是希望转入技术行业的在职成年人，以及准备通过项目与考试获得开发者认证、为求职或简历积累证明的学习者。",
   "evidence": [
     {
       "quote": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
       "url": "https://github.com/freeCodeCamp/freeCodeCamp"
     },
     {
-      "quote": "[freeCodeCamp.org](https://www.freecodecamp.org) is a friendly community where you can learn to code for free. It is run by a [donor-supported 501(c)(3) charity](https://www.freecodecamp.org/donate) to help millions of busy adults transition into tech. Our community has already helped more than 100,",
-      "url": "https://github.com/freeCodeCamp/freeCodeCamp/blob/main/README.md"
-    },
-    {
       "quote": "Our full-stack web development and machine learning curriculum is completely free and self-paced. We have thousands of interactive coding challenges to help you expand your skills.",
       "url": "https://github.com/freeCodeCamp/freeCodeCamp/blob/main/README.md"
     },
     {
-      "quote": "Each of these certifications involves completing interactive lessons, workshops, labs, reviews, and quizzes. Throughout the certification, you'll need to complete 5 required projects to qualify for the exam. Once you pass the exam, then you can claim the certification.",
+      "quote": "freeCodeCamp.org offers several free developer certifications that make up the [Full-Stack Developer Curriculum](https://www.freecodecamp.org/learn/full-stack-developer-v9/):",
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp/blob/main/README.md"
+    },
+    {
+      "quote": "[freeCodeCamp.org](https://www.freecodecamp.org) is a friendly community where you can learn to code for free. It is run by a [donor-supported 501(c)(3) charity](https://www.freecodecamp.org/donate) to help millions of busy adults transition into tech. Our community has already helped more than 100,",
       "url": "https://github.com/freeCodeCamp/freeCodeCamp/blob/main/README.md"
     }
   ],
   "content_status": "generated",
-  "material_hash": "31a6cad70ec41d49dc1bc93f208a90374daf63ed0298366f969467c83ecad7d3",
+  "material_hash": "5ff998b9818be052a2004ba296b57066cb0e50c1768e0441aa4ec72ad8a255ef",
   "readme_url": "https://github.com/freeCodeCamp/freeCodeCamp/blob/main/README.md"
 }

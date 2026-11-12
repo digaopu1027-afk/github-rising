@@ -1,0 +1,21 @@
+{
+  "summary_zh": "一组基于 Claude API 的快速入门项目，帮助开发者快速起步构建可部署应用。示例涵盖客服智能体、金融数据分析、桌面与浏览器自动化、自主编码智能体，以及接入 Slack、Linear、Sentry 等平台的管理型智能体，每个项目都提供可继续定制的基础。",
+  "audience_zh": "适合希望用 Claude API 快速搭建应用原型的开发者，包括需要客服、数据分析、浏览器或桌面自动化、编码智能体及平台集成示例的工程师；使用前需准备 Claude API 密钥。",
+  "evidence": [
+    {
+      "quote": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
+      "url": "https://github.com/anthropics/claude-quickstarts"
+    },
+    {
+      "quote": "Claude Quickstarts is a collection of projects designed to help developers quickly get started with building  applications using the Claude API. Each quickstart provides a foundation that you can easily build upon and customize for your specific needs.",
+      "url": "https://github.com/anthropics/claude-quickstarts/blob/main/README.md"
+    },
+    {
+      "quote": "To use these quickstarts, you'll need an Claude API key. If you don't have one yet, you can sign up for free at [console.anthropic.com](https://console.anthropic.com).",
+      "url": "https://github.com/anthropics/claude-quickstarts/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "9c0a42ccd3a0b1f3c57edd89f16e828d62bacbf9ceb1830a7137f4b85414529d",
+  "readme_url": "https://github.com/anthropics/claude-quickstarts/blob/main/README.md"
+}

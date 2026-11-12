@@ -1,0 +1,17 @@
+{
+  "summary_zh": "Tailwind CSS 是一个以实用工具类为核心的 CSS 框架，用于快速开发界面和快速构建自定义用户界面。",
+  "audience_zh": "适合需要快速开发界面、构建自定义用户界面的前端开发者与 CSS 使用者。",
+  "evidence": [
+    {
+      "quote": "A utility-first CSS framework for rapid UI development.",
+      "url": "https://github.com/tailwindlabs/tailwindcss"
+    },
+    {
+      "quote": "A utility-first CSS framework for rapidly building custom user interfaces.",
+      "url": "https://github.com/tailwindlabs/tailwindcss/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "1e32178a1a3b9b4cda7d688261a56ba4b80292a8bc834515741d6f241c5ced18",
+  "readme_url": "https://github.com/tailwindlabs/tailwindcss/blob/main/README.md"
+}

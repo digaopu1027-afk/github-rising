@@ -1,0 +1,25 @@
+{
+  "summary_zh": "Sure 是一个面向个人用户的财务管理应用，可用于查看现金流、净资产、支出与资金流出等信息，并提供 AI 助手回答储蓄相关问题。它是已停止开发的 Maybe Finance 项目的社区维护分支，可通过 Docker 自托管，并能从浏览器、macOS 桌面端、移动应用、API 客户端和 LLM 代理访问。",
+  "audience_zh": "适合希望自行部署个人财务管理工具的个人用户，以及愿意参与维护该社区分支、改进性能或进行二次开发的开发者；也适合需要从多客户端或 API 访问财务应用的使用者。",
+  "evidence": [
+    {
+      "quote": "The personal finance app for everyone (by everyone)",
+      "url": "https://github.com/we-promise/sure"
+    },
+    {
+      "quote": "Sure is a fully working personal finance app that can be [self hosted with Docker](docs/hosting/docker.md).",
+      "url": "https://github.com/we-promise/sure/blob/main/README.md"
+    },
+    {
+      "quote": "Sure can be accessed from a browser, the macOS desktop app, the mobile app, API",
+      "url": "https://github.com/we-promise/sure/blob/main/README.md"
+    },
+    {
+      "quote": "That also didn’t work out — at least not as a sustainable B2C business — so now here we are: hosting a community-maintained fork to keep the codebase alive and see where this can go next.",
+      "url": "https://github.com/we-promise/sure/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "699134b9ccbc30bc06f2018baadd9d0e51c46b92712b1112b04792543966a71a",
+  "readme_url": "https://github.com/we-promise/sure/blob/main/README.md"
+}

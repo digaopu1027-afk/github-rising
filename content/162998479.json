@@ -1,0 +1,25 @@
+{
+  "summary_zh": "通过用户名在多个社交网络查找对应的社交媒体账号，可一次查询一个或多个用户名，并将找到的账号结果保存为文本文件或其他格式。",
+  "audience_zh": "适合需要按用户名跨社交平台核对或查找账号的人员，例如安全研究、开源情报调查或账号归属核查场景的使用者。",
+  "evidence": [
+    {
+      "quote": "Hunt down social media accounts by username across social networks",
+      "url": "https://github.com/sherlock-project/sherlock"
+    },
+    {
+      "quote": "sherlock user123",
+      "url": "https://github.com/sherlock-project/sherlock/blob/master/docs/README.md"
+    },
+    {
+      "quote": "sherlock user1 user2 user3",
+      "url": "https://github.com/sherlock-project/sherlock/blob/master/docs/README.md"
+    },
+    {
+      "quote": "Accounts found will be stored in an individual text file with the corresponding username (e.g ```user123.txt```).",
+      "url": "https://github.com/sherlock-project/sherlock/blob/master/docs/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "7282fbef5b8bc9e76732dd4015cc16ac10db8b8c11f884c24bfd084384de82fb",
+  "readme_url": "https://github.com/sherlock-project/sherlock/blob/master/docs/README.md"
+}

@@ -1,0 +1,25 @@
+{
+  "summary_zh": "Codex Security 用于发现、调查并修复代码中的安全漏洞。可扫描仓库、指定路径或 Git 变更，校验候选发现、生成补丁并验证修复；还能起草 SECURITY.md、保存威胁模型、去重与评估严重度、导入第三方扫描结果并导出 SARIF/JSON/CSV。",
+  "audience_zh": "适合需要在终端或 Codex 中扫描代码漏洞、复核与修复安全问题的开发者，以及在 CI、容器中自动化扫描或通过 TypeScript SDK、GitHub Action 集成安全流程的团队。",
+  "evidence": [
+    {
+      "quote": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
+      "url": "https://github.com/openai/codex-security"
+    },
+    {
+      "quote": "Codex Security helps you find, investigate, and fix vulnerabilities in your code.",
+      "url": "https://github.com/openai/codex-security/blob/main/README.md"
+    },
+    {
+      "quote": "Use its security workflows in Codex, or automate them with the",
+      "url": "https://github.com/openai/codex-security/blob/main/README.md"
+    },
+    {
+      "quote": "`@openai/codex-security` CLI and TypeScript SDK.",
+      "url": "https://github.com/openai/codex-security/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "7095130a99b639504b4ede5fa348612cb58efaf764286994f1926f4e482a433a",
+  "readme_url": "https://github.com/openai/codex-security/blob/main/README.md"
+}

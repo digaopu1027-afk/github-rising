@@ -1,0 +1,25 @@
+{
+  "summary_zh": "Nushell 是一种新型 shell，把文件和命令输入视为有结构的数据而非纯文本流，支持通过管道生成、筛选和消费数据，并可将文件或 URL 内容按结构化数据加载、用 get 提取字段、用 where 筛选，还支持按 JSON-RPC 协议扩展的插件。",
+  "audience_zh": "适合日常使用命令行的开发者，尤其是希望用结构化数据与函数式管道替代纯文本处理、需要读取解析 toml 等配置文件，或希望扩展 shell 能力的用户；项目处于 MVP 质量阶段，部分命令可能不稳定。",
+  "evidence": [
+    {
+      "quote": "This project has reached a minimum-viable-product level of quality. Many people use it as their daily driver, but it may be unstable for some commands. Nu's design is subject to change as it matures.",
+      "url": "https://github.com/nushell/nushell/blob/main/README.md"
+    },
+    {
+      "quote": "A new type of shell.",
+      "url": "https://github.com/nushell/nushell/blob/main/README.md"
+    },
+    {
+      "quote": "- [Pipelines](#pipelines)",
+      "url": "https://github.com/nushell/nushell/blob/main/README.md"
+    },
+    {
+      "quote": "- [Opening files](#opening-files)",
+      "url": "https://github.com/nushell/nushell/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "8bdfdc54388951c9d509aa90216ab11031e3012c6e12beb07c4b773e737473a4",
+  "readme_url": "https://github.com/nushell/nushell/blob/main/README.md"
+}

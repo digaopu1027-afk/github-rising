@@ -1,6 +1,6 @@
 {
-  "summary_zh": "这是一组遵循 Agent Skills 格式的 AI 技能，可通过 Scenario MCP 生成和编辑图像、视频、音频、纹理、天空盒与 3D 资产，并在花费前选择模型、比价，保持角色与品牌一致；另含驱动 Blender、Maya、ZBrush、Unreal、Unity 等本地软件的专家工具组。",
-  "audience_zh": "适合使用 Claude Code、Cursor、Codex、Copilot 等 AI 编程代理，并从事游戏、娱乐或创意内容制作的开发者与美术人员；专家工具需本机装有对应 DCC 软件或游戏引擎。",
+  "summary_zh": "这套 Agent Skills 让 AI 编码代理通过 Scenario MCP 生成可用于生产的图像、视频、音频、贴图、天空盒、3D 资产和自定义训练模型，并帮助选择合适模型、在花费前估价、保持角色与品牌一致；另有驱动本机 DCC 软件和游戏引擎的专家技能组。",
+  "audience_zh": "适合使用 Claude Code、Cursor、Codex、Copilot 等 AI 编码代理，在游戏、娱乐及各类创意领域制作图像、视频、音频与 3D 内容的创作者；也适合需要操控本机 Blender、Maya、ZBrush、Unreal、Unity 等软件的专业用户。",
   "evidence": [
     {
       "quote": "Get production-ready images, video, audio, and 3D from any AI agent: skills that pick the right model, price before spending, and keep characters and brands consistent through the Scenario MCP, plus expert teams that drive Blender, Maya, ZBrush, Unreal, and Unity.",
@@ -11,15 +11,15 @@
       "url": "https://github.com/scenario-labs/skills/blob/main/README.md"
     },
     {
-      "quote": "content creation) software and game engines installed on your machine (ZBrush, Blender, Maya, Unreal",
+      "quote": "[Scenario MCP server](https://mcp.scenario.com): images, video, audio, textures, skyboxes, 3D",
       "url": "https://github.com/scenario-labs/skills/blob/main/README.md"
     },
     {
-      "quote": "official documentation. They need the application, not the Scenario MCP server, and each family",
+      "quote": "content creation) software and game engines installed on your machine (ZBrush, Blender, Maya, Unreal",
       "url": "https://github.com/scenario-labs/skills/blob/main/README.md"
     }
   ],
   "content_status": "generated",
-  "material_hash": "4b27f3b86bdef6ddff67bb9745849d859c19b9a689b21c993d5aa38e616bfac9",
+  "material_hash": "d638342f26e9fa57261b434b2699351a197db149d1390e54b2c499280529719d",
   "readme_url": "https://github.com/scenario-labs/skills/blob/main/README.md"
 }

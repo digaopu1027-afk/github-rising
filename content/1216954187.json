@@ -1,0 +1,25 @@
+{
+  "summary_zh": "这是面向 AI 编程代理的开源 Agent Skills 集合，包含网页设计、视频演示、代码短片、图像生成、文章美化与本地知识检索等技能，可按 README 提供的安装方式引入使用。",
+  "audience_zh": "适合使用 Claude Code、Cursor、Codex 等 AI 编程代理，并希望借助现成技能完成前端设计、演示视频、图像生成或知识检索的开发者和创作者。",
+  "evidence": [
+    {
+      "quote": "ConardLi's open-source Skills collection, featuring web design, knowledge retrieval, image generation, and more.",
+      "url": "https://github.com/ConardLi/garden-skills"
+    },
+    {
+      "quote": "**A curated collection of production-ready [Agent Skills](https://support.claude.com/en/articles/12512176-what-are-skills) for Claude Code, Cursor, Codex, and other AI coding agents.**",
+      "url": "https://github.com/ConardLi/garden-skills/blob/main/README.md"
+    },
+    {
+      "quote": "**Best for:** showreels, product films, UI motion, kinetic typography, logo/title sequences, generative loops, retrospectives and narrated explainers. Short pieces typically run 5–60 s; chapter-based films support up to 20 minutes.",
+      "url": "https://github.com/ConardLi/garden-skills/blob/main/README.md"
+    },
+    {
+      "quote": "`motion-showreel` delivers MP4 plus editable source. It confirms the topic, duration, orientation, independent music/SFX sources and narration mode, then writes a brief and confirms style frames. Deterministic `render(t)` pages are captured frame by frame on a shared audio/picture timeline. Narratio",
+      "url": "https://github.com/ConardLi/garden-skills/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "6fb7d6b79310b542af0b7988ee910dde36ba83c2159c78a253a9aecf30ace58a",
+  "readme_url": "https://github.com/ConardLi/garden-skills/blob/main/README.md"
+}

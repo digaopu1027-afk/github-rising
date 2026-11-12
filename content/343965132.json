@@ -1,6 +1,6 @@
 {
-  "summary_zh": "这是一套为期12周、共26课的经典机器学习入门课程，配有52个小测验。内容以Scikit-learn为主要工具，不涉及深度学习；每课包含课前与课后测验、书面讲解、解决方案和作业，并以项目式方式边做边学。",
-  "audience_zh": "适合希望系统学习经典机器学习的初学者，也适合学生按课程自主或分组练习；教师可参考课程中的教学建议组织课堂，并可与数据科学入门课程搭配学习。",
+  "summary_zh": "这是一个为期12周、包含26节课和52个小测验的经典机器学习课程，主要使用Scikit-learn，不涉及深度学习。课程以世界文化为主题，采用项目式教学，每课配有课前与课后测验、书面说明、解决方案和作业。",
+  "audience_zh": "适合希望系统入门经典机器学习的初学者，可按课程步骤边做项目边学习；也适合教师参考其中的教学建议；同时提供Python和R两种语言版本的课程内容。",
   "evidence": [
     {
       "quote": "12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all",
@@ -16,6 +16,6 @@
     }
   ],
   "content_status": "generated",
-  "material_hash": "51ee3948a526232ecf710909e3ae329f8e15f458a6499b3be4e29a2158fb701e",
+  "material_hash": "6ef03ddedbbab14a47f9f37ecb7bc2a74ca088b86e5abe67f245a90597786a81",
   "readme_url": "https://github.com/microsoft/ML-For-Beginners/blob/main/README.md"
 }

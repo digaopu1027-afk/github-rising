@@ -1,6 +1,6 @@
 {
-  "summary_zh": "ShareX 是面向 Windows 的免费开源屏幕截图与录屏工具，支持全屏、区域、滚动截图及视频/GIF 录制，并提供截图标注、OCR、二维码扫描、取色、文件上传与自定义热键工作流，可在截图后自动完成复制、保存、编辑或上传等任务。",
-  "audience_zh": "适合需要频繁截图、录制短片、分享文件或编写文档的开发者、设计师、支持团队、内容创作者、技术文档作者、QA 测试人员及希望精确控制截图与上传流程的高级用户；也可作为简单截图工具使用。",
+  "summary_zh": "ShareX 是面向 Windows 的免费开源工具，可用快捷键截取屏幕任意区域或录制视频/GIF，并对截图进行标注编辑，支持 OCR、二维码扫描、取色，以及将图片、文本和多种文件上传到多种目标，还能通过热键和任务链自定义自动化工作流。",
+  "audience_zh": "适合需要频繁截图、录制短片、分享文件或记录工作流的开发者、设计师、支持团队、内容创作者、技术文档编写者、QA 测试人员及希望精确控制截图后任务与上传目标的高级用户，也可作为简单截图应用使用。",
   "evidence": [
     {
       "quote": "ShareX is a free and open-source application that enables users to capture or record any area of their screen with a single keystroke. It also supports uploading images, text, and various file types to a wide range of destinations.",
@@ -20,6 +20,6 @@
     }
   ],
   "content_status": "generated",
-  "material_hash": "99f1d678b855d4518486e8fce6980250350982f2812c649ae6fb62498caf57ca",
+  "material_hash": "8401e637abaa770583eb3621311ebbd864a18161972983ed2b465af835653cb7",
   "readme_url": "https://github.com/ShareX/ShareX/blob/develop/README.md"
 }

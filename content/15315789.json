@@ -1,6 +1,6 @@
 {
-  "summary_zh": "Wox 是一款跨平台开源启动器，支持 Windows、macOS 和 Linux，采用原生 GPU 渲染。用户可通过单一输入框进行本地搜索、以键盘优先的方式执行操作，并借助插件系统扩展功能；官方称日常使用内存约 150 MB。它可作为 Raycast / Alfred 的开源替代品。",
-  "audience_zh": "适合需要在 Windows、macOS 或 Linux 上快速启动应用、查找文件并执行操作的用户，尤其是偏好键盘操作、希望后台常驻低内存启动器，或愿意通过插件扩展功能的人群。",
+  "summary_zh": "Wox 是面向 Windows、macOS 和 Linux 的开源启动器，各平台均采用原生 GPU 渲染，可作为 Raycast、Alfred 的替代选择。它把本地搜索、键盘优先操作和可扩展插件系统集中在同一个输入框中，日常使用内存约 150 MB，适合常驻后台。",
+  "audience_zh": "适合希望在 Windows、macOS 或 Linux 上用一个输入框快速打开应用、查找文件并执行操作的用户；也适合偏好键盘操作、需要轻量常驻启动器，并希望通过 Node.js、Python 或脚本插件扩展功能的人。",
   "evidence": [
     {
       "quote": "A cross-platform launcher that simply works",
@@ -16,6 +16,6 @@
     }
   ],
   "content_status": "generated",
-  "material_hash": "63ea7c45298439a5ef117b287957d5e9bc4709e796e3e09019598231d0cac904",
+  "material_hash": "35f23bb111100496cfbc58b24102a101efd119e7f792afde1c7744fdf0b88da0",
   "readme_url": "https://github.com/Wox-launcher/Wox/blob/master/README.md"
 }

@@ -1,6 +1,6 @@
 {
-  "summary_zh": "Ruflo 是面向 Claude Code 与 Codex 的智能体元执行框架（harness），可编排多智能体群体与自主工作流，提供自适应记忆、自学习、跨机器联邦通信、向量 RAG 集成，并可作为 MCP 服务接入客户端，另附可选终端界面与控制台。",
-  "audience_zh": "适合使用 Claude Code 或 Codex 等支持 MCP 客户端的开发者，尤其是需要多智能体协作、工作流自动化、跨会话记忆与 RAG 能力的工程团队；想先试用可只装插件，完整使用则走 CLI 安装。",
+  "summary_zh": "Ruflo 是面向 Claude Code 与 Codex 的智能体执行框架：用一条 npx ruflo init 命令为项目加入智能体、钩子、记忆和 MCP 服务器，可部署多智能体集群、协调自主工作流，并具备自适应记忆、联邦通信与向量 RAG 等能力，让多个智能体协同完成任务。",
+  "audience_zh": "适合使用 Claude Code 或 Codex 等 MCP 客户端、希望为项目加入多智能体协同与持久记忆的开发者；也适合想先通过插件轻量试用、再决定是否做完整项目安装的用户。",
   "evidence": [
     {
       "quote": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
@@ -11,15 +11,15 @@
       "url": "https://github.com/ruvnet/ruflo/blob/main/README.md"
     },
     {
-      "quote": "> **Agent = Model + Harness.** The model writes; the harness gives it tools, memory, loops, sandboxes, and controls so it can actually work. **Ruflo is the harness** — the execution layer around Claude Code and Codex that adds 100+ specialized agents, coordinated swarms, self-learning memory, federa",
+      "quote": "`init` adds ruflo's agents, hooks, memory and MCP server to the project, and Claude Code picks them up on its next start. Codex and other MCP clients work too: point them at `npx -y ruflo@latest mcp start`.",
       "url": "https://github.com/ruvnet/ruflo/blob/main/README.md"
     },
     {
-      "quote": "MCP exposes Ruflo tools to your client. The console and mods above are Claude Code integrations; hook support depends on the client.",
+      "quote": "**Claude Code plugins only.** This route installs core tools, the visual console and runtime mods, with no files added to your project. It needs Claude Code **2.1.287 or later**. Run inside Claude Code:",
       "url": "https://github.com/ruvnet/ruflo/blob/main/README.md"
     }
   ],
   "content_status": "generated",
-  "material_hash": "70cfdea1f3c42b2bd2474b0659b20cd1e3c39d7e3b57ada14a42755ae2226dbd",
+  "material_hash": "9bd4c59fa52d7f7c338d8d267d6cd06e74de25ab45066c17078b98b5bfed77b0",
   "readme_url": "https://github.com/ruvnet/ruflo/blob/main/README.md"
 }

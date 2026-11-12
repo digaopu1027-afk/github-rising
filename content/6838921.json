@@ -1,0 +1,25 @@
+{
+  "summary_zh": "Prometheus 是 CNCF 旗下的系统与服务监控系统和时间序列数据库，可按设定间隔从配置的目标采集指标、评估规则表达式、展示结果，并在满足条件时触发告警。其特点包括多维数据模型、PromQL 查询语言、HTTP 拉取采集、服务发现、图表与仪表板支持以及联邦能力。",
+  "audience_zh": "适合需要进行系统与服务指标监控、时间序列数据存储与查询的运维和开发人员，以及希望用 PromQL 分析指标、配置规则告警或搭建可视化仪表板的团队。",
+  "evidence": [
+    {
+      "quote": "The Prometheus monitoring system and time series database.",
+      "url": "https://github.com/prometheus/prometheus"
+    },
+    {
+      "quote": "Prometheus, a [Cloud Native Computing Foundation](https://cncf.io/) project, is a systems and service monitoring system. It collects metrics",
+      "url": "https://github.com/prometheus/prometheus/blob/main/README.md"
+    },
+    {
+      "quote": "displays the results, and can trigger alerts when specified conditions are observed.",
+      "url": "https://github.com/prometheus/prometheus/blob/main/README.md"
+    },
+    {
+      "quote": "* PromQL, a **powerful and flexible query language** to leverage this dimensionality",
+      "url": "https://github.com/prometheus/prometheus/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "0b5e28071d2a973b8e9281239021e83b1e32fb1836cb95b0d2fe2bb83d54cd95",
+  "readme_url": "https://github.com/prometheus/prometheus/blob/main/README.md"
+}

@@ -1,17 +1,17 @@
 {
-  "summary_zh": "PhotoCraft 是用纯 Rust 重写的开源图像编辑器，支持图层、蒙版、调整图层、图层样式、文字、矢量、笔刷和读写真实 PSD 文件，可打开、编辑并保存分层 Photoshop 文档，还提供独立的命令行与自动化控制通道。",
-  "audience_zh": "适合希望使用原生、离线、开源图像编辑器的用户，尤其是熟悉 Photoshop 操作、需要处理分层 PSD 文件或通过命令行与脚本驱动编辑流程的人。",
+  "summary_zh": "PhotoCraft 是用纯 Rust 从零编写的开源照片编辑器，支持图层、蒙版、调整图层、图层样式、文字、矢量、笔刷和真实 PSD 文件，可打开、编辑并保存分层 Photoshop 文档，也可通过命令行或 MCP 服务器驱动同一套命令引擎。",
+  "audience_zh": "适合需要离线原生图像编辑工具、熟悉 Photoshop 操作与快捷键的用户，以及希望用 CLI 或 AI 代理自动化图像处理流程的开发者；项目处于早期 alpha 阶段。",
   "evidence": [
+    {
+      "quote": "PhotoCraft: An open-source photo editor written from scratch in pure Rust",
+      "url": "https://github.com/storytold/photocraft"
+    },
     {
       "quote": "Layers, masks, adjustment layers, layer styles, type, vectors, brushes and real PSD files,<br>",
       "url": "https://github.com/storytold/photocraft/blob/main/README.md"
     },
     {
-      "quote": "The menus, shortcuts, panels and tools are where your hands expect them, from ⌘J to ⇧⌘D. If you know Photoshop, you already know PhotoCraft.",
-      "url": "https://github.com/storytold/photocraft/blob/main/README.md"
-    },
-    {
-      "quote": "Open, edit and save layered Photoshop documents. Re-saving keeps the render of 307 of the 309 psd-tools test files.",
+      "quote": "in a native app written entirely in Rust. Open source, offline, and yours.",
       "url": "https://github.com/storytold/photocraft/blob/main/README.md"
     },
     {
@@ -20,6 +20,6 @@
     }
   ],
   "content_status": "generated",
-  "material_hash": "26e5f6da0346f97482f1b09b32176c74c6c3032c0b34d8430c67710bb17fd8ed",
+  "material_hash": "89c26d3001e15583d3d88a81b2aad29bc56d109f48cdb09b05faf2e112635bb6",
   "readme_url": "https://github.com/storytold/photocraft/blob/main/README.md"
 }

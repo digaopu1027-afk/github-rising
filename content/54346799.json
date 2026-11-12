@@ -1,6 +1,6 @@
 {
-  "summary_zh": "该仓库是一份由社区成员手工维护的免费公共 API 汇总清单，覆盖多个领域的 API，可供开发者在自己的产品中选用；README 另列出 APILayer 系列 API 以及可供 AI 代理作为工具调用的 MCP 服务器条目。",
-  "audience_zh": "适合需要为项目寻找和选用公共 API 的开发者，以及希望将 API 作为工具接入 Claude、Cursor、VS Code 等 MCP 客户端的 AI 代理使用者。",
+  "summary_zh": "该项目是由社区维护的免费公共 API 汇总清单，按领域收录了大量可用的 API，适合在自有产品中查找和调用；README 还列出了 APILayer 系列 API 和 MCP 服务器条目，并说明可安装到 Claude、Cursor、VS Code 等客户端供 AI 代理调用。",
+  "audience_zh": "适合需要为产品寻找可用 API 的开发者、在多个领域查找接口的社区成员，以及想为 AI 代理配置 MCP 工具的用户。",
   "evidence": [
     {
       "quote": "A collective list of free APIs",
@@ -16,6 +16,6 @@
     }
   ],
   "content_status": "generated",
-  "material_hash": "ce5cbe45a49e10530684e62ba8528febbae33360e212f96c9a7ae656f6e9363b",
+  "material_hash": "8e5d98d76cf01f078548c55081421c03b2449f00130d8b92befbaf40d364609d",
   "readme_url": "https://github.com/public-apis/public-apis/blob/master/README.md"
 }

@@ -1,0 +1,25 @@
+{
+  "summary_zh": "etcd 是一个分布式、可靠的键值存储，面向分布式系统中的关键数据。它基于 Raft 共识算法管理高可用复制日志，提供 gRPC API，支持 TLS 与可选客户端证书认证，并附带 etcdctl 命令行客户端，可单机或集群部署。",
+  "audience_zh": "适合需要为分布式系统保存关键配置或协调数据的后端与基础设施开发者、运维人员，尤其是使用 Kubernetes 等系统并需要高可用复制键值存储的团队；也适合想用 etcdctl 或 Go 客户端接入的开发者。",
+  "evidence": [
+    {
+      "quote": "Distributed reliable key-value store for the most critical data of a distributed system",
+      "url": "https://github.com/etcd-io/etcd"
+    },
+    {
+      "quote": "* *Reliable*: properly distributed using Raft",
+      "url": "https://github.com/etcd-io/etcd/blob/main/README.md"
+    },
+    {
+      "quote": "etcd is written in Go and uses the [Raft][] consensus algorithm to manage a highly-available replicated log.",
+      "url": "https://github.com/etcd-io/etcd/blob/main/README.md"
+    },
+    {
+      "quote": "etcd is used [in production by many companies](./ADOPTERS.md), and the development team stands behind it in critical deployment scenarios, where etcd is frequently teamed with applications such as [Kubernetes][k8s], [locksmith][], [vulcand][], [Doorman][], and many others. Reliability is further ens",
+      "url": "https://github.com/etcd-io/etcd/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "0ba3b233456224f83290352d8415d45dd4840a750897bd417fcc26342ac2eb9b",
+  "readme_url": "https://github.com/etcd-io/etcd/blob/main/README.md"
+}

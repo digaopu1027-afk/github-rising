@@ -1,25 +1,25 @@
 {
-  "summary_zh": "magpie 通过一个本地网关和菜单栏应用，让 Claude Code、Codex、Gemini CLI、OpenCode 等编码代理统一选择任意模型或供应商，如 Claude Code 跑在 Kimi、Codex 跑在 DeepSeek 上；支持多账户配额耗尽后自动切换、路由组、配置档案与可选的隐私遮蔽。",
-  "audience_zh": "适合同时使用多个编码代理、多个模型供应商或多个订阅账户，希望集中管理和切换模型、避免额度中断的开发者。只用一个代理及其官方套餐且已够用的人则不需要。",
+  "summary_zh": "magpie 是一个本地模型网关，让各类编码代理自由选用任意模型：可从菜单栏把 Claude Code 切到 Kimi、Codex 切到 DeepSeek，并从同一列表为每个代理挑选模型；也能统一使用同一提供商（API 密钥、本地模型或已登录的订阅计划）。配额用尽时会自动改换账号或路由组，从而继续工作。",
+  "audience_zh": "适合同时使用多个代理、多个提供商或多个账号的用户；README 明确说明，如果只在一个代理上使用该厂商自己的套餐且已满足需求，就不需要它。运行于 macOS、Windows、Linux，也支持 Docker 和 Termux。",
   "evidence": [
     {
-      "quote": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
-      "url": "https://github.com/yetone/magpie"
-    },
-    {
-      "quote": "**Claude Code on Kimi. Codex on DeepSeek. Gemini CLI on GLM. OpenCode on your ChatGPT plan.**<br>",
+      "quote": "Each agent keeps its model in its own file, in its own format, with its own keys and base URLs. A subscription you pay for works in one agent and nowhere else. magpie puts all of that behind one app and one local gateway:",
       "url": "https://github.com/yetone/magpie/blob/main/README.md"
     },
     {
-      "quote": "- **Keep going when a quota runs out**: a provider's next account takes over, and a routing group moves on to another model or provider, so the agent never sees the error. With one account and no group there is nothing to move to, and the error reaches the agent.",
+      "quote": "- **Pick any model for any agent** from one list. magpie edits the one key that matters in the agent's own config.",
       "url": "https://github.com/yetone/magpie/blob/main/README.md"
     },
     {
       "quote": "It's for you if you use more than one agent, more than one provider, or more than one account. If you use one agent on its vendor's own plan and that's enough, you don't need it.",
       "url": "https://github.com/yetone/magpie/blob/main/README.md"
+    },
+    {
+      "quote": "Runs on macOS, Windows and Linux (menu bar app, window, TUI, web UI and CLI), in Docker, and on Termux.",
+      "url": "https://github.com/yetone/magpie/blob/main/README.md"
     }
   ],
   "content_status": "generated",
-  "material_hash": "2c33a8e41189fc26e468bf7866577188a10d4a838ca5218b0692b985dc50e6fc",
+  "material_hash": "d28763ec63f1bff0c988cf8718f3ecb46d75c145a9a84d474f6492698d242820",
   "readme_url": "https://github.com/yetone/magpie/blob/main/README.md"
 }

@@ -1,6 +1,6 @@
 {
-  "summary_zh": "Kornia 是基于 PyTorch 的可微计算机视觉库，提供可微图像处理与几何视觉算法，支持批处理、自动求导和 GPU 加速，涵盖滤波、增强、边缘检测、形态学、相机模型、对极几何、最小求解器与 RANSAC、特征检测与匹配、深度到三维的投影与反投影、可逆标注增强以及图像损失与指标等。",
-  "audience_zh": "适合使用 PyTorch 开展空间 AI、三维视觉、SLAM 或多视图几何研究的开发者，也适合需要 GPU 批处理图像变换、可微几何计算、特征匹配与鲁棒估计的深度学习从业者；若只需单图 uint8 CPU 的固定参数操作，已有更轻量方案。",
+  "summary_zh": "Kornia 是基于 PyTorch 的可微计算机视觉库，提供丰富的可微图像处理与几何视觉算子，涵盖滤波、几何变换、特征检测与匹配、相机模型、对极几何、RANSAC 鲁棒估计、数据增强、深度与三维投影等，支持批处理、自动微分和 GPU 加速。",
+  "audience_zh": "适合使用 PyTorch 从事空间 AI、三维视觉、图像处理或深度学习研究的开发者，尤其是需要批量算子、可微几何或在 GPU 上完成特征匹配与鲁棒估计的 AI 工作流用户。",
   "evidence": [
     {
       "quote": "🐍 Geometric Computer Vision Library for Spatial AI",
@@ -20,6 +20,6 @@
     }
   ],
   "content_status": "generated",
-  "material_hash": "05609c8c9ddd17cfdb2c6c7c3dfc45b1c1fec0fee3a66cd8dfcc46eb634a97ab",
+  "material_hash": "caf3f12c11daa3f0b4b29254781999e544fd1a18b94cad6eee49bf6e75c509f6",
   "readme_url": "https://github.com/kornia/kornia/blob/main/README.md"
 }

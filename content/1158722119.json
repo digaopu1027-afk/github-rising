@@ -1,0 +1,25 @@
+{
+  "summary_zh": "该项目为 AI 编码代理提供生产级工程技能包，把资深工程师的工作流、质量关卡和最佳实践编码成可复用技能，覆盖定义、规划、构建、验证、审查、发布等开发阶段，并提供 9 个斜杠命令和按场景自动激活的技能。",
+  "audience_zh": "适合使用 Claude Code、Cursor、Codex、Copilot 等 AI 编码代理的开发者，也适合希望让代理按规范工程流程工作、需要代码审查与测试等质量约束的团队。",
+  "evidence": [
+    {
+      "quote": "Production-grade engineering skills for AI coding agents.",
+      "url": "https://github.com/addyosmani/agent-skills"
+    },
+    {
+      "quote": "Skills encode the workflows, quality gates, and best practices that senior engineers use when building software. These ones are packaged so AI agents follow them consistently across every phase of development.",
+      "url": "https://github.com/addyosmani/agent-skills/blob/main/README.md"
+    },
+    {
+      "quote": "9 slash commands that map to the development lifecycle. Each one activates the right skills automatically.",
+      "url": "https://github.com/addyosmani/agent-skills/blob/main/README.md"
+    },
+    {
+      "quote": "**Fastest path — any agent, one command.** The open [skills CLI](https://github.com/vercel-labs/skills) installs into 70+ agents (Claude Code, Cursor, Codex, Copilot, Cline, and more):",
+      "url": "https://github.com/addyosmani/agent-skills/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "4c7f45f55fd0fc85a529b0b0ce05f9aa0ea714f6021207fb1a013d8543f03df1",
+  "readme_url": "https://github.com/addyosmani/agent-skills/blob/main/README.md"
+}

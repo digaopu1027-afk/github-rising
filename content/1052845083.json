@@ -1,17 +1,17 @@
 {
-  "summary_zh": "LifeOS 是一个通用 AI Harness 与个人生活操作系统，围绕从「当前状态」走向「理想状态」这一核心概念，记录你的身份、关注点与目标，再用了解你上下文的 AI 协助推进生活与工作中的事情，覆盖开发应用、创业、创作等场景。",
-  "audience_zh": "适合希望在生活与工作中借助 AI 推进目标、并愿意使用具备能力的 AI 编程 Harness（如 Claude Code、Cursor、Codex 等）及 bun 环境进行安装配置的用户。",
+  "summary_zh": "LifeOS 是一个通用型 AI harness（AI 代理运行框架），用于在生活和工作中借助 AI 完成各类任务。它会记录你的身份、关注点和目标，并利用掌握你完整上下文的 AI 帮助你从当前状态迈向理想状态；据 README，它还附带 97 个公开技能，涵盖研究、安全、写作、艺术、视频、发布和家庭等场景。",
+  "audience_zh": "适合已使用 Claude Code、Cursor、Codex 等具备能力的 AI 编码 harness（AI 代理运行框架），并希望让 AI 记住个人目标与上下文、把 AI 用于生活与工作多种任务的人。安装需 AI harness 和 bun；README 强调系统安全需自行负责。",
   "evidence": [
-    {
-      "quote": "⛰️ LifeOS — The universal AI Harness designed to move you from Current to Ideal state in both life and work.",
-      "url": "https://github.com/danielmiessler/LifeOS"
-    },
     {
       "quote": "**LifeOS** is a General Purpose AI Harness for doing anything you want to do in life and work with AI. It captures who you are, what you care about, and where you're trying to go, then uses AI that knows you to help you get there.",
       "url": "https://github.com/danielmiessler/LifeOS/blob/main/README.md"
     },
     {
-      "quote": "And because it has your full context, it makes everything you do more efficient and effective, from building apps, to starting a business, to creative projects…_basically anything_.",
+      "quote": "> The whole system works on one central concept: **moving from your Current State to your Ideal State** — in pursuit of Euphoric Surprise.",
+      "url": "https://github.com/danielmiessler/LifeOS/blob/main/README.md"
+    },
+    {
+      "quote": "LifeOS ships 97 public skills, from research, security, writing and art to video, publishing and your home. Browse them all on the site.",
       "url": "https://github.com/danielmiessler/LifeOS/blob/main/README.md"
     },
     {
@@ -20,6 +20,6 @@
     }
   ],
   "content_status": "generated",
-  "material_hash": "d41377d1ef8ae73e479d14dd176171623ad818ace1d4fe6cd98970f38cf321e0",
+  "material_hash": "2ba473f27330f6e5f8894f49b0f16554acba2ca016b534d0bb162e3c5aa633aa",
   "readme_url": "https://github.com/danielmiessler/LifeOS/blob/main/README.md"
 }

@@ -1,0 +1,25 @@
+{
+  "summary_zh": "Symfony 是面向 Web 与控制台应用的 PHP 框架，同时提供可复用的 PHP 组件，被大量 Web 应用和许多流行的 PHP 项目使用。它遵循语义化版本，发布长期支持版本，并可通过 Composer 安装。",
+  "audience_zh": "适合使用 PHP 开发 Web 或控制台应用的开发者，以及希望复用 PHP 组件、借助入门指南与演示应用学习 Symfony 的新手和有经验的开发者。",
+  "evidence": [
+    {
+      "quote": "[Symfony][1] is a **PHP framework** for web and console applications and a set",
+      "url": "https://github.com/symfony/symfony/blob/8.2/README.md"
+    },
+    {
+      "quote": "of reusable **PHP components**. Symfony is used by thousands of web",
+      "url": "https://github.com/symfony/symfony/blob/8.2/README.md"
+    },
+    {
+      "quote": "applications and most of the [popular PHP projects][2].",
+      "url": "https://github.com/symfony/symfony/blob/8.2/README.md"
+    },
+    {
+      "quote": "* Read the [Getting Started guide][7] if you are new to Symfony.",
+      "url": "https://github.com/symfony/symfony/blob/8.2/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "f55504968616e6d66dc003793ecde3a661995af0ee963e5550a11885ce805286",
+  "readme_url": "https://github.com/symfony/symfony/blob/8.2/README.md"
+}

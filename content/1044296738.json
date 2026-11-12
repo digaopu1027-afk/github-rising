@@ -1,0 +1,25 @@
+{
+  "summary_zh": "VibeVoice 是开源前沿语音 AI 模型系列，同时包含文本转语音（TTS）和自动语音识别（ASR）。ASR 支持单次处理最长 60 分钟音频，输出包含说话人、时间戳和内容的转写，支持自定义热词与流式识别；另有实时流式 TTS 模型。",
+  "audience_zh": "适合语音合成与语音识别方向的研究人员、开发者，以及需要处理长音频转写、多人对话合成或实时语音生成的研究与开发场景；官方说明其主要用于研究开发，不建议未经测试直接用于商业或实际应用。",
+  "evidence": [
+    {
+      "quote": "VibeVoice is a **family of open-source frontier voice AI models** that includes both Text-to-Speech (TTS) and Automatic Speech Recognition (ASR) models.",
+      "url": "https://github.com/microsoft/VibeVoice/blob/main/README.md"
+    },
+    {
+      "quote": "**VibeVoice-ASR** is a unified speech-to-text model designed to handle **60-minute long-form audio** in a single pass, generating structured transcriptions containing **Who (Speaker), When (Timestamps), and What (Content)**, with support for **Customized Hotwords**.",
+      "url": "https://github.com/microsoft/VibeVoice/blob/main/README.md"
+    },
+    {
+      "quote": "2025-12-03: 📣 We open-sourced <a href=\"docs/vibevoice-realtime-0.5b.md\"><strong>VibeVoice‑Realtime‑0.5B</strong></a>, a real‑time text‑to‑speech model that supports streaming text input and robust long-form speech generation. Try it on [Colab](https://colab.research.google.com/github/microsoft/VibeV",
+      "url": "https://github.com/microsoft/VibeVoice/blob/main/README.md"
+    },
+    {
+      "quote": "2025-09-05: VibeVoice is an open-source research framework intended to advance collaboration in the speech synthesis community. After release, we discovered instances where the tool was used in ways inconsistent with the stated intent. Since responsible use of AI is one of Microsoft’s guiding princi",
+      "url": "https://github.com/microsoft/VibeVoice/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "085cd450d806d95aedfbac256bb14753a92f3d10ee7cc3c1f2eb753a54dfc348",
+  "readme_url": "https://github.com/microsoft/VibeVoice/blob/main/README.md"
+}

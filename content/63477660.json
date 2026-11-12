@@ -1,0 +1,25 @@
+{
+  "summary_zh": "该项目收录用 Java 实现的各类算法，主要供学习使用；这些实现可能不如 Java 标准库高效。用户可在 Gitpod 在线环境中运行和编辑算法，或参与贡献。",
+  "audience_zh": "适合正在学习算法、希望阅读和动手修改 Java 算法实现的学习者，以及愿意遵循贡献指南参与该项目的贡献者。",
+  "evidence": [
+    {
+      "quote": "All Algorithms implemented in Java",
+      "url": "https://github.com/TheAlgorithms/Java"
+    },
+    {
+      "quote": "### All algorithms are implemented in Java (for educational purposes)",
+      "url": "https://github.com/TheAlgorithms/Java/blob/master/README.md"
+    },
+    {
+      "quote": "These implementations are intended for learning purposes. As such, they may be less efficient than the Java standard library.",
+      "url": "https://github.com/TheAlgorithms/Java/blob/master/README.md"
+    },
+    {
+      "quote": "You can run and edit the algorithms, or contribute to them using Gitpod.io (a free online development environment) with a single click.",
+      "url": "https://github.com/TheAlgorithms/Java/blob/master/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "1a6b0ab068fc6ec341ffcb9910466df4d7fd832eb439f6480c6486d464b54891",
+  "readme_url": "https://github.com/TheAlgorithms/Java/blob/master/README.md"
+}

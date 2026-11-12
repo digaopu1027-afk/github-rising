@@ -1,6 +1,6 @@
 {
-  "summary_zh": "REA 是一个面向智能体的 MCP 逆向工程工具，可分析原生二进制、JavaScript/Electron 应用、.NET 程序集、网站、APK、固件等多种目标。它能说明功能如何工作、给出证据与局限，并支持从终端直接使用；分析在本地运行。",
-  "audience_zh": "适合需要在不依赖源码的情况下理解应用或二进制行为、并据此实现类似功能的开发者与逆向工程人员；也适合使用 Claude Code、Codex、Cursor 等支持 MCP 的智能体工具的用户。",
+  "summary_zh": "REA 是一个 MCP 工具，让 AI 代理逆向分析应用程序和本地二进制文件。它可检查无源码应用的行为，追踪代码，返回证据与局限，帮助理解功能实现方式并在自己的项目中复现类似功能；也可从终端使用相同工具，静态 JavaScript 分析无需原生分析引擎。",
+  "audience_zh": "适合希望借助 AI 代理理解现有应用或二进制实现、并据此为自己的项目实现类似功能的开发者；也适合需要从终端检查原生二进制、JavaScript/Electron、.NET 程序集和网站的逆向工程人员。需 Node.js 22.x/24.x/26.12.1+ 及 npm。",
   "evidence": [
     {
       "quote": "Reverse engineer anything with agents, from app behavior down to native binaries.",
@@ -20,6 +20,6 @@
     }
   ],
   "content_status": "generated",
-  "material_hash": "9fb2c4fe9528f17a6eb92ddddecf6074c20b7117e8dc692d5e4264f51f3aeaee",
+  "material_hash": "a4bb610296f92d2d3668a0fa6e09b3308e0f9af58dd95d89fef45a51e915969f",
   "readme_url": "https://github.com/morluto/rea/blob/main/README.md"
 }

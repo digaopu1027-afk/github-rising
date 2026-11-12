@@ -1,0 +1,21 @@
+{
+  "summary_zh": "LocalThings 是 Home Assistant 集成，可在家庭局域网内控制三星洗衣机、烘干机、冰箱、空调、烤箱等 SmartThings 家电，无需云端账号；多数家电只需输入 IP 地址即可完成设置并生成对应控制与传感器，支持推送更新和定时轮询。",
+  "audience_zh": "适合使用 Home Assistant、希望以本地网络方式接入并控制三星 SmartThings 家电的用户，尤其是关注数据留在本地、不希望依赖云账号的家庭自动化爱好者；部分较老机型或电视需额外凭据。",
+  "evidence": [
+    {
+      "quote": "Control your Samsung appliances from Home Assistant over your home network, with no cloud account.",
+      "url": "https://github.com/mbillow/localthings"
+    },
+    {
+      "quote": "LocalThings connects Home Assistant to Samsung washers, dryers, refrigerators, air conditioners, ovens and other appliances that work with the SmartThings app. It talks to each appliance on your local network.",
+      "url": "https://github.com/mbillow/localthings/blob/main/README.md"
+    },
+    {
+      "quote": "- **Setup needs an IP address.** For most appliances, you enter the address and LocalThings works out the type and model, then creates matching controls and sensors.",
+      "url": "https://github.com/mbillow/localthings/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "428f6acea27197b754d8c81c61f40ebd5d6ce17e2059d74d461b2febcc7b0f65",
+  "readme_url": "https://github.com/mbillow/localthings/blob/main/README.md"
+}

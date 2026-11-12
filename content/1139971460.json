@@ -1,21 +1,25 @@
 {
-  "summary_zh": "RTK 是一个命令行代理工具，可在你的 AI 编程代理读取 shell 命令输出之前，对其过滤和压缩，从而减少 LLM 上下文中的 token；它支持 Git、测试、构建、Docker 等 100 多个命令，是一个开销低于 10ms 的 Rust 单二进制文件，并可通过钩子接入多种 AI 代理。",
-  "audience_zh": "适合使用 Claude Code、Copilot、Cursor、Gemini CLI 等 AI 编程代理，并希望降低代理读取命令输出所消耗 token 的开发者与团队；也适合需要按项目配置压缩流程并查看节省统计的用户。",
+  "summary_zh": "RTK 是一个 CLI 代理，在 AI 编码代理读取前压缩常见开发命令的输出（如测试、diff、日志、构建），覆盖 100 多条命令，官方称可减少最多 90% 的命令输出；还支持用 pipelines 进一步压缩更多内容、将大文件读取交给更便宜的模型。单 Rust 二进制，零依赖。",
+  "audience_zh": "使用 Claude Code、GitHub Copilot、Cursor、Codex 等 AI 编码代理、希望降低代理所读命令输出量并控制 token 消耗的开发者；需要团队级成本与安全管控的组织可了解 RTK Pro。",
   "evidence": [
     {
       "quote": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
       "url": "https://github.com/rtk-ai/rtk"
     },
     {
-      "quote": "rtk filters and compresses command outputs before they reach your LLM context. Single Rust binary, 100+ supported commands, <10ms overhead.",
+      "quote": "**① Install & forget: up to 90% less command output.**",
       "url": "https://github.com/rtk-ai/rtk/blob/develop/README.md"
     },
     {
-      "quote": "RTK intercepts shell commands and compresses their output before your agent reads it.",
+      "quote": "Test runs, diffs, logs and builds are compressed before your agent reads them. 100+ commands, under 25 ms per command, no config, nothing changes in how you work. `rtk gain` shows what you saved.",
+      "url": "https://github.com/rtk-ai/rtk/blob/develop/README.md"
+    },
+    {
+      "quote": "rtk init -g                      # Claude Code; every other agent: see \"Works in your agent\"",
       "url": "https://github.com/rtk-ai/rtk/blob/develop/README.md"
     }
   ],
   "content_status": "generated",
-  "material_hash": "f7cdbb885dec3cd785bc055d7442eb1a0d23a5e3444d95c745c35a084e1cb0c4",
+  "material_hash": "82ef9df0a884c9ce9d0af4a5ca78f3a96d416e513382800b0ac60334100975ff",
   "readme_url": "https://github.com/rtk-ai/rtk/blob/develop/README.md"
 }

@@ -1,0 +1,25 @@
+{
+  "summary_zh": "该技能用能力较强的模型审计代码库，发现正确性、安全、性能、测试、技术债等问题并评估影响与信心，再把选定问题写成自包含、带验证步骤和执行边界的中文实施计划，交给较便宜的模型执行。它自身不改源码，只产出计划。",
+  "audience_zh": "适合希望用强模型做代码审计与规划、再交给低成本模型执行的开发者或团队；也适合需要结构化实施计划和跨代理协作的工作流。支持 Agent Skills 格式的代理可使用及读取生成的 Markdown 计划。",
+  "evidence": [
+    {
+      "quote": "Use your most capable model to audit your codebase and write plans for cheaper models to execute.",
+      "url": "https://github.com/shadcn/improve"
+    },
+    {
+      "quote": "An agent skill that audits any codebase and writes implementation plans for other agents to execute.",
+      "url": "https://github.com/shadcn/improve/blob/main/README.md"
+    },
+    {
+      "quote": "The idea: use your most capable model for the part where intelligence compounds — understanding the codebase, judging what's worth doing, writing the spec — and hand execution to cheaper models. The skill never implements anything itself. The plan is the product.",
+      "url": "https://github.com/shadcn/improve/blob/main/README.md"
+    },
+    {
+      "quote": "Works in any agent that supports [Agent Skills](https://agentskills.io) format. The plans it writes are plain markdown, so any agent (or human) can pick them up.",
+      "url": "https://github.com/shadcn/improve/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "c31c04b45c9cd24151b6b18f921a47d9513a1edabc79936fc9db5b287d22be29",
+  "readme_url": "https://github.com/shadcn/improve/blob/main/README.md"
+}

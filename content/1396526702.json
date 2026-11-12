@@ -1,6 +1,6 @@
 {
-  "summary_zh": "一款免费开源的文件转换工具，按住按键拖放文件即可在光标处的环形菜单中选择目标格式，无需打开主窗口。支持图片、PDF、Word、Excel、PowerPoint、HWP/HWPX、视频、音频、电子书、压缩包、字体、CAD、3D 模型与地理数据等，无需安装 Office 等办公软件，完全离线在本机完成转换，不上传文件。",
-  "audience_zh": "需要频繁批量转换多种文档、图像、音视频或电子书格式的普通用户与办公人员；注重文件隐私、希望离线处理、不安装 Office/Hancom Office/LibreOffice 的人；以及希望用命令行或监视文件夹自动转换的进阶用户。",
+  "summary_zh": "免费开源的文件转换工具：按住 Ctrl（macOS 为 Option）拖放文件到光标处打开的格式环即可转换，支持图片、PDF、Word、Excel、PowerPoint、HWP/HWPX、电子书、音视频、压缩包、字体、CAD、3D 模型和地理数据等多种格式；离线在本机完成，不上传文件，并可将结果保存在原文件旁。",
+  "audience_zh": "适合需要在本地离线批量或频繁转换多种文件格式、注重文件隐私且不想安装 Office、Hancom Office 或 LibreOffice 的用户；使用 Windows 10/11、macOS 13+（预览版）或 Linux x64/ARM64（Ubuntu 22.04+）者均可尝试。",
   "evidence": [
     {
       "quote": "Free, open-source file converter. Convert 263 formats offline by drag & drop — images, PDF, Word, Excel, PowerPoint, HWP/HWPX, video, audio, e-books and archives. No upload, no Office needed.",
@@ -20,6 +20,6 @@
     }
   ],
   "content_status": "generated",
-  "material_hash": "8c4d55f5ceda5c8aefe9193241f76e4d8c282f66ab309f17c37b923e69c102c2",
+  "material_hash": "14d907b03007180a8f9d0af34e144fb52abcddd3f6fe838cf36bc377a450be4e",
   "readme_url": "https://github.com/KnifeLemon/Filee/blob/main/README.md"
 }

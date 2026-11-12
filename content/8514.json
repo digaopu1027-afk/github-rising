@@ -1,0 +1,25 @@
+{
+  "summary_zh": "Rails 是遵循 MVC 模式的 Web 应用框架，包含创建数据库驱动 Web 应用所需组件：模型层封装业务逻辑，视图层用模板生成响应，控制器层处理 HTTP 请求并返回 HTML、JSON 等。还附带邮件、任务队列、WebSocket、文件存储等库。",
+  "audience_zh": "适合使用 Ruby 开发数据库驱动 Web 应用的开发者，以及需要按 MVC 分层组织业务逻辑、视图与请求处理的团队；文中各组件也可在 Rails 外独立使用。",
+  "evidence": [
+    {
+      "quote": "Rails is a web application framework that includes everything needed to",
+      "url": "https://github.com/rails/rails/blob/main/README.md"
+    },
+    {
+      "quote": "create database-backed web applications according to the",
+      "url": "https://github.com/rails/rails/blob/main/README.md"
+    },
+    {
+      "quote": "[Model-View-Controller (MVC)](https://en.wikipedia.org/wiki/Model-view-controller)",
+      "url": "https://github.com/rails/rails/blob/main/README.md"
+    },
+    {
+      "quote": "application into three layers: Model, View, and Controller, each with a specific responsibility.",
+      "url": "https://github.com/rails/rails/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "8e90f338150038967332b965ad742ad1c9b243c64f160f4082dd5ff6595656d8",
+  "readme_url": "https://github.com/rails/rails/blob/main/README.md"
+}

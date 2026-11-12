@@ -1,25 +1,25 @@
 {
-  "summary_zh": "ThinkRail 是围绕 pi 编码智能体构建的智能体 IDE，用独立 git worktree 工作区隔离任务，让多个智能体并行工作而互不干扰；它以 SPEC.md 规格图和可复用技能为智能体提供持久项目知识，并提供可拆分编辑器、终端、多会话聊天、PR 与 CI 管理等完整开发界面，支持自带模型提供商。",
-  "audience_zh": "适合习惯使用编码智能体、希望在真实 IDE 中并行处理多个分支任务并管理 GitHub PR 的开发者；也适合重视项目规格文档、偏好自带模型凭据与自定义模型服务的团队和个人用户。",
+  "summary_zh": "ThinkRail 是一个围绕 pi 编码代理构建的智能体 IDE，支持规格驱动开发，并随使用逐步了解项目。它提供隔离的 git worktree 工作区、Monaco 编辑器、终端、多会话聊天与共享计划，以及持久化的 SPEC.md 规格图、可复用技能和 MCP 服务器连接。",
+  "audience_zh": "适合使用 Git 仓库、希望让 AI 代理并行处理开发任务并管理分支和拉取请求的开发者；也适合重视规格文档沉淀、想接入自有模型提供方或扩展/技能体系、偏好桌面应用或浏览器 CLI 工作流的技术用户。",
   "evidence": [
     {
-      "quote": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
+      "quote": "ThinkRail is the agentic IDE that gets better every time you use it",
       "url": "https://github.com/JetBrains/thinkrail"
     },
     {
-      "quote": "ThinkRail is the agentic IDE that gets better every time you use it — learning your project through",
+      "quote": "ThinkRail is an agentic IDE that gets better every time you use it. With Spec-Driven Development support, it learns your project as you work, becoming more capable and helpful over time.",
       "url": "https://github.com/JetBrains/thinkrail/blob/main/README.md"
     },
     {
-      "quote": "- **Isolated workspaces.** Open any git repo as a project and cut workspaces from it as `git worktree`s,",
+      "quote": "We built a rich interface around the `pi` coding agent, isolated work into separate workspaces, and gave the agent durable project knowledge through the spec graph and reusable skills. We are now adding full extension support, so ThinkRail can create the tools it needs based on how you work.",
       "url": "https://github.com/JetBrains/thinkrail/blob/main/README.md"
     },
     {
-      "quote": "- **A real IDE around the agent.** A splittable workbench of Monaco editor tabs, a Files tree with live git",
+      "quote": "- **Isolated workspaces.** Open any git repo as a project and create `git worktree` workspaces from it, each with its own branch and working directory. Agents can then work in parallel without touching your original codebase; when they finish, merge the results you want to keep and delete the rest. ",
       "url": "https://github.com/JetBrains/thinkrail/blob/main/README.md"
     }
   ],
   "content_status": "generated",
-  "material_hash": "a7468465b0e4ab376283dd589169db4d15a39b0e2bd6baa8d98b413bfe47f7d1",
+  "material_hash": "e3fff715050730f92ecfe831d3465e34d9135d63be1015a4a7b686b7fa43e459",
   "readme_url": "https://github.com/JetBrains/thinkrail/blob/main/README.md"
 }

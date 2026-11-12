@@ -1,7 +1,11 @@
 {
-  "summary_zh": "HyperFrames 是开源框架，可将 HTML、CSS、媒体和可定位动画转换为确定性 MP4 视频。支持通过 CLI 本地使用、借助 AI 编程代理的技能，或作为托管创作流程的渲染核心。",
-  "audience_zh": "适合使用 Claude Code、Codex、Cursor 等 AI 编程代理的视频创作者，也适合通过 CLI 本地制作视频的开发者。需要 Node.js 22+ 和 FFmpeg。",
+  "summary_zh": "一个开源框架，把 HTML、CSS、媒体和可定位动画渲染成确定性的 MP4 视频。可在本地通过 CLI 使用，也可配合 AI 编程代理的 skills 使用，或作为托管创作流程的渲染内核。",
+  "audience_zh": "适合用 HTML/CSS 制作视频的开发者、使用 Claude Code、Codex、Cursor 等 AI 编程代理生成视频的用户，以及需要可自动化渲染管线的团队。",
   "evidence": [
+    {
+      "quote": "Write HTML. Render video. Built for agents.",
+      "url": "https://github.com/heygen-com/hyperframes"
+    },
     {
       "quote": "HyperFrames is a free, open-source framework for turning HTML, CSS, media, and seekable animations into deterministic MP4 videos. Use it locally with the CLI, from AI coding agents with skills, or as the rendering core behind hosted authoring workflows.",
       "url": "https://github.com/heygen-com/hyperframes/blob/main/README.md"
@@ -12,6 +16,6 @@
     }
   ],
   "content_status": "generated",
-  "material_hash": "f1c3433806f082bcb524803e73da270054e29d6282512b153b5c8288b67a6cc7",
+  "material_hash": "6a4674f40781724ad9cab7243bc5b54e2a106b23dc80d8599a00f76150d5ed6e",
   "readme_url": "https://github.com/heygen-com/hyperframes/blob/main/README.md"
 }

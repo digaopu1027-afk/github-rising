@@ -1,25 +1,25 @@
 {
-  "summary_zh": "DroidDeck 将 SteamOS 体验带到 Android，提供 Steam 游戏模式、完整 Linux 桌面、GOG、Epic Games、Xbox 等商店整合以及 Steam VR 等功能。项目开源，安装需下载 APK 和 Linux 运行时，并登录 Steam。",
-  "audience_zh": "适合想在 Android 设备上运行 Steam 游戏、使用 Linux 桌面或体验多商店整合的 Android 用户；需 Android 9 及以上、Adreno 730 或更新（或 8xx 系列）GPU，旧款 Adreno 6xx 仅实验性支持。",
+  "summary_zh": "在 Android 设备上提供类似 SteamOS 的体验，包括 Steam Gaming Mode、完整 Linux 桌面，以及 GOG、Epic Games、Xbox 等商店整合和 Steam VR 等。项目开源，无广告、无遥测，安装需自行下载 APK 和 Linux 运行时。",
+  "audience_zh": "适合想在 Android 掌机或手机上运行 Steam 游戏、使用 Linux 桌面和尝试多商店游戏库的用户；需 Android 9 及以上且 GPU 为 Adreno 730 或 8xx 系列，无需 root，其他 GPU 为实验性。",
   "evidence": [
     {
       "quote": "DroidDeck brings the SteamOS experience to Android: Steam Gaming Mode, full Linux desktop, integration with GOG, Epic Games, Xbox, and other storefronts, Steam VR, and more!",
       "url": "https://github.com/Droid-Deck/DroidDeck/blob/main/README.md"
     },
     {
-      "quote": "1. Android 9 or newer on Adreno 730 or newer, or any 8xx. Adreno 6xx is experimental. Mali, Xclipse, PowerVR and Adreno 710 are unsupported. No root needed.",
+      "quote": "DroidDeck brings the SteamOS experience to Android",
+      "url": "https://github.com/Droid-Deck/DroidDeck"
+    },
+    {
+      "quote": "1. Android 9 or newer on Adreno 730 or newer, or any 8xx. Adreno 6xx, Mali, Xclipse and PowerVR are experimental. Adreno 710 is currently unsupported. No root needed.",
       "url": "https://github.com/Droid-Deck/DroidDeck/blob/main/README.md"
     },
     {
-      "quote": "3. Install the [APK](https://github.com/Droid-Deck/DroidDeck/releases/download/0.6.7/DroidDeck-0.6.7.apk), install the Linux runtime, press **Play** and sign in to Steam.",
-      "url": "https://github.com/Droid-Deck/DroidDeck/blob/main/README.md"
-    },
-    {
-      "quote": "Compatibility and performance vary by device. Desktop compositing is software rendered, and Firefox sandboxing is reduced under proot.",
+      "quote": "3. Install the [APK](https://github.com/Droid-Deck/DroidDeck/releases/download/0.7.1/DroidDeck-0.7.1.apk), install the Linux runtime, press **Play** and sign in to Steam.",
       "url": "https://github.com/Droid-Deck/DroidDeck/blob/main/README.md"
     }
   ],
   "content_status": "generated",
-  "material_hash": "b65b6b97f43b63a35e91f3caaab9a08f1b45e7a2c2b072da6047c90b81f654e8",
+  "material_hash": "7a22ca22a6e47636400cfbc90e36d179be0ff0bd8e9f350d42bff7a62b13a591",
   "readme_url": "https://github.com/Droid-Deck/DroidDeck/blob/main/README.md"
 }

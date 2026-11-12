@@ -1,6 +1,6 @@
 {
-  "summary_zh": "Orkas 是开源 MIT 的本地优先桌面多智能体应用：Commander 将目标拆解为待办，协调16个内置专职智能体及 Claude Code、Codex、OpenCode、OpenClaw、Hermes-Agent，支持项目记忆、定时自动化与连接器。",
-  "audience_zh": "适合希望以团队形式推进跨天持续工作、并让数据、密钥和智能体保存在本机的 macOS/Windows 用户，如做营销内容、电商运营、研究分析、客户交付、产品开发及小团队协作的人。",
+  "summary_zh": "Orkas 是开源（MIT）、本地优先的桌面多智能体应用。Commander 把目标拆成待办，调度 16 个内置专业智能体，并协同 Claude Code、Codex、OpenCode 等命令行智能体，可用项目、定时自动化与连接器持续推进任务，成果交由用户审核。",
+  "audience_zh": "适合希望以智能体团队而非单一助手推进跨天工作的 macOS/Windows 桌面用户，如市场内容、电商运营、研究与报告、开发与办公文档等场景；也适合重视数据本地保存、想接入自有模型密钥或本地端点的使用者。",
   "evidence": [
     {
       "quote": "Orkas is an open-source (MIT), local-first AI team for your desktop: a Commander turns your goal into to-dos and coordinates 16 built-in specialist agents plus Claude Code, Codex, OpenCode, OpenClaw and Hermes, with projects, scheduled automations and connectors. Free app for macOS & Windows; built-",
@@ -11,7 +11,7 @@
       "url": "https://github.com/Orkas-AI/Orkas/blob/main/README.md"
     },
     {
-      "quote": "Orkas is built to keep a project moving, not just answer one prompt. A **project** holds the goal, rules, memory and files, so every new conversation picks up where the last one left off. **To-dos** split the work between people and agents, **Auto-advance** lets the team take on the next to-do by it",
+      "quote": "- **Complex work that takes several agents** — the Commander splits it up, hands each part to the right agent and combines the results; for example, market research that becomes a report, a slide deck and a launch video",
       "url": "https://github.com/Orkas-AI/Orkas/blob/main/README.md"
     },
     {
@@ -20,6 +20,6 @@
     }
   ],
   "content_status": "generated",
-  "material_hash": "5ae2f18fa05045fe0c5e277b273c666e2b03f79ad919a591f41c4f952cb73aee",
+  "material_hash": "a86f4a4bda31c35d8d7047913aff8ddb6ffc9dbe32525d1ffd814fc1429b89fa",
   "readme_url": "https://github.com/Orkas-AI/Orkas/blob/main/README.md"
 }

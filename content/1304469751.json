@@ -1,10 +1,10 @@
 {
-  "summary_zh": "Hex 是一款跨平台的本地语音听写工具，适用于 Mac、Windows 和 Linux。按住快捷键说话，松开后即在设备上完成转写，并粘贴到当前使用的应用中。首次运行会下载语音模型，之后数据不离开本机。",
-  "audience_zh": "适合需要在 macOS、Windows 或 Linux 上通过语音快速输入文字、并希望语音处理在本地完成而减少数据外传的用户。",
+  "summary_zh": "Hex 是一款适用于 Mac、Windows 和 Linux 的本地语音听写工具：按住快捷键说话，松开后会在设备上完成转写，并粘贴到当前使用的应用中。首次运行会下载语音模型，此后数据不离开本机。",
+  "audience_zh": "适合在 Mac、Windows 或 Linux 上希望通过语音快速输入文字，并偏好在本机完成转写、不希望语音数据离开设备的人群。",
   "evidence": [
     {
-      "quote": "Hex is local voice dictation for Mac, Windows and Linux. Hold a key, speak, and",
-      "url": "https://github.com/anomalyco/hex/blob/dev/README.md"
+      "quote": "Local voice dictation for mac, windows and linux",
+      "url": "https://github.com/anomalyco/hex"
     },
     {
       "quote": "- hold the shortcut, speak, then let go",
@@ -20,6 +20,6 @@
     }
   ],
   "content_status": "generated",
-  "material_hash": "e6d123c10d1e41afe81d72e25adeefb1f816fbba3947082cad0116e830668524",
+  "material_hash": "57343f41b9e5cc190783c50530b217ac4cabaf180ed79007007c2fa4d6e32d90",
   "readme_url": "https://github.com/anomalyco/hex/blob/dev/README.md"
 }

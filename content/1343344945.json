@@ -1,6 +1,6 @@
 {
-  "summary_zh": "将图片转换为符合CD、DVD及单层BD-R物理层约束的数据，刻录后使盘面呈现肉眼可见图案；可导出ISO、RAW、WAV+CUE镜像并用刻录软件写入，另有实验性即时刻录和辅助标定流程。",
-  "audience_zh": "适合希望在CD、DVD或单层BD-R盘面刻出可见图像的用户，包括需生成镜像后自行刻录者，以及愿意为设备进行标定的用户。Windows 10 2004以上可使用桌面版；Linux/macOS仅有实验性CLI。",
+  "summary_zh": "可将图片转换为符合 CD、DVD 与单层 BD-R 光盘物理层约束的数据并刻录，使盘面呈现肉眼可见图案；支持导出 ISO、RAW、WAV+CUE 镜像，也提供实验性即时刻录和辅助标定流程。",
+  "audience_zh": "适合希望在 CD、DVD 或单层 BD-R 盘面制作可见图像的用户；Windows 桌面用户可直接使用发布包，Linux/macOS 用户可用实验性 CLI 生成镜像后自行刻录。",
   "evidence": [
     {
       "quote": "Disc Image Studio 是一个多平台的光盘盘面图像生成与刻录工具，帮助您使用任何刻录光驱在任何 DVD / CD / 单层蓝光 光盘上刻蚀出肉眼可见的图像。",
@@ -11,15 +11,15 @@
       "url": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio/blob/main/README.md"
     },
     {
-      "quote": "在预览页核对盘面投影，在导出页生成 ISO / RAW / WAV+CUE，或使用即时刻录功能直接写入空白盘片。",
+      "quote": "- **镜像文件输出**：您可以导出完整 ISO / RAW 文件并使用合适的刻录软件手动刻录。",
       "url": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio/blob/main/README.md"
     },
     {
-      "quote": "Disc Image Studio 提供粗标定、边界标定和精细标定流程，通过盘面照片估计内外半径与轨距分布。下面的历史实盘对比中，校准前采用恒定轨距，十字线的径向线条出现明显弯曲；使用辅助标定得到的三次轨距参数重新生成并刻录后，线条更接近径向直线。实测精度取决于照片矫正、取点和复刻验证，参数保存的小数位数不代表测量精度。",
+      "quote": "Windows x64 下载以 `win-x64.exe` 结尾的文件；Windows 11 ARM64 下载以 `win-arm64.exe` 结尾的原生版本，均可直接运行。Linux 或 macOS 请下载与 CPU 匹配的**实验性 CLI** 压缩包，解压后运行 `./disc-image-studio --help`。这些发布包均自带 .NET 运行时。 [GitHub Releases](https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio/releases)",
       "url": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio/blob/main/README.md"
     }
   ],
   "content_status": "generated",
-  "material_hash": "e631b64beb829d31f414d0f1ba6e3fbc836d7c31a23a4b8e84fb8e52eb7e958c",
+  "material_hash": "d32693f12818d00de5e0a4d21c60fbe42fd584ba26e8297ed33b0f7712ea5223",
   "readme_url": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio/blob/main/README.md"
 }

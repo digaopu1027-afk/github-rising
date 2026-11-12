@@ -1,0 +1,25 @@
+{
+  "summary_zh": "让 Claude、ChatGPT 等 AI 助手通过 MCP 连接 Home Assistant，用自然语言搜索并控制实体、创建和修改自动化与脚本、编辑仪表板、查看历史与调试执行轨迹，并提供备份、只读模式等安全选项。",
+  "audience_zh": "适合希望用 AI 助手简化和自动化 Home Assistant 配置与日常控制的家居用户，尤其是希望通过 HACS 集成或插件方式部署，并使用 Claude、ChatGPT 等 MCP 客户端的用户。",
+  "evidence": [
+    {
+      "quote": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
+      "url": "https://github.com/homeassistant-ai/ha-mcp"
+    },
+    {
+      "quote": "The recommended way to run ha-mcp is the **HA-MCP integration**. It installs into Home Assistant through HACS (the built-in Marketplace on Home Assistant 2026.11+), runs the full server **in-process**, and works on **every** Home Assistant installation type — Home Assistant OS, Supervised, Container",
+      "url": "https://github.com/homeassistant-ai/ha-mcp/blob/master/README.md"
+    },
+    {
+      "quote": "# HA-MCP — Manage Home Assistant with AI",
+      "url": "https://github.com/homeassistant-ai/ha-mcp/blob/master/README.md"
+    },
+    {
+      "quote": "**Connect URL.** The Configure screen gives you a Home Assistant webhook URL for remote clients — `https://<your-ha-domain>/api/webhook/<webhook-id>` through Nabu Casa or any reverse proxy already pointed at Home Assistant (locally, `http://<ha-host>:8123/api/webhook/<webhook-id>`). For clients on t",
+      "url": "https://github.com/homeassistant-ai/ha-mcp/blob/master/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "c766227207eda777289f01586b95661257a12abd70a5fb2eea4f6c1897ec4c22",
+  "readme_url": "https://github.com/homeassistant-ai/ha-mcp/blob/master/README.md"
+}

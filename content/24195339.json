@@ -1,0 +1,25 @@
+{
+  "summary_zh": "Angular 是一个使用 TypeScript/JavaScript 等语言构建移动端和桌面端 Web 应用的开发平台。它提供 CLI 工具安装、工作区创建与应用运行流程，并涵盖组件与模板、表单、架构、API、服务端渲染、Schematics、懒加载和动画等文档主题。",
+  "audience_zh": "适合使用 TypeScript/JavaScript 开发移动端或桌面端 Web 应用的开发者；也适合希望按官方文档学习基础与进阶主题、或想参与 Angular 文档贡献的人。",
+  "evidence": [
+    {
+      "quote": "Deliver web apps with confidence 🚀",
+      "url": "https://github.com/angular/angular"
+    },
+    {
+      "quote": "Get started with Angular, learn the fundamentals and explore advanced topics on our documentation website.",
+      "url": "https://github.com/angular/angular/blob/main/README.md"
+    },
+    {
+      "quote": "Install the Angular CLI globally:",
+      "url": "https://github.com/angular/angular/blob/main/README.md"
+    },
+    {
+      "quote": "ng new [PROJECT NAME]",
+      "url": "https://github.com/angular/angular/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "d63586c21ca33632049b1327d2bd00dabaf4181616140f2e40bffe302674cf28",
+  "readme_url": "https://github.com/angular/angular/blob/main/README.md"
+}

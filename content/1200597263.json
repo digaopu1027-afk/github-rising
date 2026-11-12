@@ -1,6 +1,6 @@
 {
-  "summary_zh": "将代码库及其文档、SQL模式、配置和PDF转为可查询的知识图谱。通过/graphify技能在AI编程助手中使用，以查询图谱替代逐文件搜索；代码用tree-sitter做本地确定性AST解析，每条关系边标注为EXTRACTED或INFERRED，不使用向量存储。还可查询、追踪路径和解释概念。",
-  "audience_zh": "使用Claude Code、Cursor、Codex、Gemini CLI、GitHub Copilot等AI编程助手，希望用图谱查询代替搜索来理解代码库、文档与跨文件关系的开发者；本机需Python 3.10+及uv或pipx。",
+  "summary_zh": "把代码库及其文档、SQL、配置和 PDF 构建成可查询的知识图谱。可在 AI 编码助手中输入 /graphify 生成图谱，支持查询、路径追踪和概念解释；代码通过 tree-sitter AST 本地解析，每条边标注来源为显式提取或推断。",
+  "audience_zh": "适合使用 Claude Code、Cursor、Codex、Gemini CLI 等 AI 编码助手，希望用图谱查询代替逐文件检索来理解项目结构的开发者；需 Python 3.10+ 及 uv 或 pipx。",
   "evidence": [
     {
       "quote": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
@@ -11,15 +11,15 @@
       "url": "https://github.com/Graphify-Labs/graphify/blob/v8/README.md"
     },
     {
-      "quote": "- **Code maps for free, fully local.** Code is parsed with tree-sitter AST: deterministic, no LLM, nothing leaves your machine. (Docs, PDFs, images and video use your assistant's model, or a configured API key, for a semantic pass.)",
+      "quote": "- **Every edge is explained.** Each connection is tagged `EXTRACTED` (explicit in the source) or `INFERRED` (resolved by graphify), so you can tell what was read directly from what was inferred.",
       "url": "https://github.com/Graphify-Labs/graphify/blob/v8/README.md"
     },
     {
-      "quote": "- **Not a vector index.** No embeddings, no vector store: a real graph you traverse. Ask a question, trace the path between two things, or explain one concept.",
+      "quote": "**One install, any assistant, any OS.** Claude Code, Cursor, Codex, Gemini CLI, GitHub Copilot, and 20+ more, on macOS, Linux, and Windows: [pick your platform](#install).",
       "url": "https://github.com/Graphify-Labs/graphify/blob/v8/README.md"
     }
   ],
   "content_status": "generated",
-  "material_hash": "796f916ffc704554db6504d070e8553a227b019ff5523ae6e40566c79ab6bb6f",
+  "material_hash": "f8e72d84ce906d35275058bfce986dfef765de432f0c10407422c7f129225e8b",
   "readme_url": "https://github.com/Graphify-Labs/graphify/blob/v8/README.md"
 }

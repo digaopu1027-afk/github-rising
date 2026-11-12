@@ -1,0 +1,25 @@
+{
+  "summary_zh": "Sim 是一个协作工作区，用于构建、部署和监控 AI 智能体与工作流。它支持连接 270 多个集成和主流大模型，可通过可视化、对话或代码方式构建智能体，导入文件、知识库和表格数据，并监控运行、日志、调度与工作流活动。还可通过 MCP 服务器连接 Claude 等客户端管理相关工作区。",
+  "audience_zh": "适合需要搭建和管理 AI 智能体及工作流的开发者与团队。可选用云托管、自托管（需 Node.js 20+ 和 Docker）或 macOS 桌面版；关注企业安全治理（SSO、SCIM、审计日志、权限组）的团队可参考其企业版功能。",
+  "evidence": [
+    {
+      "quote": "Sim is the collaborative workspace to build, deploy, and monitor AI agents and workflows. Used by 100,000+ builders.",
+      "url": "https://github.com/simstudioai/sim"
+    },
+    {
+      "quote": "- Connect 270+ integrations (5,400+ actions, 520+ triggers) and every major LLM",
+      "url": "https://github.com/simstudioai/sim/blob/main/README.md"
+    },
+    {
+      "quote": "- Build agents visually, conversationally, or with code",
+      "url": "https://github.com/simstudioai/sim/blob/main/README.md"
+    },
+    {
+      "quote": "- Ingest files, knowledge bases, and structured table data",
+      "url": "https://github.com/simstudioai/sim/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "089fc7f04cbd4b16b32aeb4cab6dd0431cfc75c4c783c6d8be112bcb2c47b97f",
+  "readme_url": "https://github.com/simstudioai/sim/blob/main/README.md"
+}

@@ -1,0 +1,25 @@
+{
+  "summary_zh": "React 是用于构建 Web 与原生用户界面的 JavaScript 库。它采用声明式方式创建交互式界面，将界面拆分为可管理自身状态的封装组件再组合成复杂 UI，并支持服务端渲染与通过 React Native 开发移动应用。",
+  "audience_zh": "适合需要构建交互式用户界面的 JavaScript 开发者，尤其是希望以组件化方式组织代码、逐步在现有项目中引入 React，或需要同时面向 Web、服务端及移动端开发界面的前端与全栈开发者。",
+  "evidence": [
+    {
+      "quote": "The library for web and native user interfaces.",
+      "url": "https://github.com/react/react"
+    },
+    {
+      "quote": "React is a JavaScript library for building user interfaces.",
+      "url": "https://github.com/react/react/blob/main/README.md"
+    },
+    {
+      "quote": "* **Learn Once, Write Anywhere:** We don't make assumptions about the rest of your technology stack, so you can develop new features in React without rewriting existing code. React can also render on the server using [Node](https://nodejs.org/en) and power mobile apps using [React Native](https://reactnative.dev/).",
+      "url": "https://github.com/react/react/blob/main/README.md"
+    },
+    {
+      "quote": "React has been designed for gradual adoption from the start, and **you can use as little or as much React as you need**:",
+      "url": "https://github.com/react/react/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "4b6f33abd9f9edd6876ca452b02925d78b8bdc06ac1794c48f039423260c6a13",
+  "readme_url": "https://github.com/react/react/blob/main/README.md"
+}

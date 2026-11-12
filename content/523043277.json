@@ -1,0 +1,25 @@
+{
+  "summary_zh": "Ruff 是用 Rust 编写的 Python 代码检查器（linter）与格式化工具，可对当前目录或指定路径执行代码检查与格式化，支持自动修复、内置缓存、900 余条规则，并可通过 pyproject.toml 配置，也可作为 pre-commit 钩子、VS Code 扩展或 GitHub Action 使用。",
+  "audience_zh": "适合需要检查和统一 Python 代码风格的个人开发者与团队，尤其是希望以单一工具替代 Flake8、Black、isort 等多个工具，或需要在编辑器、提交钩子和 CI 中集成代码检查与格式化的项目。",
+  "evidence": [
+    {
+      "quote": "An extremely fast Python linter and code formatter, written in Rust.",
+      "url": "https://github.com/astral-sh/ruff"
+    },
+    {
+      "quote": "- 🔧 Fix support, for automatic error correction (e.g., automatically remove unused imports)",
+      "url": "https://github.com/astral-sh/ruff/blob/main/README.md"
+    },
+    {
+      "quote": "- 📏 Over [900 built-in rules](https://docs.astral.sh/ruff/rules/), with native re-implementations",
+      "url": "https://github.com/astral-sh/ruff/blob/main/README.md"
+    },
+    {
+      "quote": "Ruff can be used to replace [Flake8](https://pypi.org/project/flake8/) (plus dozens of plugins),",
+      "url": "https://github.com/astral-sh/ruff/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "4bc0a8af6f6c8b8d80b89e602d109dbb7f8c3f4b630e896724f17a313b2b7f1c",
+  "readme_url": "https://github.com/astral-sh/ruff/blob/main/README.md"
+}

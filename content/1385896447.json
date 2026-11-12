@@ -1,21 +1,25 @@
 {
-  "summary_zh": "在 dsh 中安装后可免登录、免注册、免 API Key 使用 DeepSeek V4.1 Flash、Kimi K3 等前沿模型，声称免费且不限量。插件另提供跟随上游刷新的模型清单、本地 OpenAI 兼容转发端口、用量看板与应用内升级等功能。",
-  "audience_zh": "适合使用 dsh 并希望在无账号、无 Key 条件下调用前沿模型的用户；需要本机转发端口供其它工具调用的开发者；以及关注本地用量统计与插件热重载的 dsh 用户。",
+  "summary_zh": "在 dsh 中安装该插件后，无需登录、注册或填写 API Key，即可使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型；插件提供思考强度调节、OpenAI 兼容的本地转发端口，并支持不依赖浏览器界面的启动方式。",
+  "audience_zh": "适合在 dsht 中使用前沿模型、希望免账号和 Key 快速上手的用户，也适合需要本地兼容转发接口或在不含 web server 的运行环境中加载模型的用户。",
   "evidence": [
     {
       "quote": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.",
       "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model"
     },
     {
-      "quote": "- **开箱即用，无配置环节**——不需要账号、不需要 Key、不需要在后台申请配额。",
+      "quote": "> 你只需在 dsh 里装上这个插件，无需登录、注册、填 API Key 或任何其它操作，",
       "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model/blob/main/README.md"
     },
     {
       "quote": "> 思考强度下发的是真实预算而不是提示词，另附一个 OpenAI 兼容的本地转发端口。",
       "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model/blob/main/README.md"
+    },
+    {
+      "quote": "> 纯插件挂载：不改内核、无构建步骤、零依赖。",
+      "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model/blob/main/README.md"
     }
   ],
   "content_status": "generated",
-  "material_hash": "d9d0fbad8a257eb629ef338adb419623f9f6797be7f582cf1d6dbc9423d8a335",
+  "material_hash": "e662bf75ef61f7a60b92a302193a86aeb9a47d9c2710afbebee5c31c07734327",
   "readme_url": "https://github.com/Ebony-Vinyl/dsh-our-free-model/blob/main/README.md"
 }

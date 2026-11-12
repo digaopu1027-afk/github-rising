@@ -1,6 +1,6 @@
 {
-  "summary_zh": "Floci 是免费开源的本机 AWS 模拟器，可用于开发、测试和 CI。它在本地提供 AWS 形态的服务，无需云账户、鉴权令牌或付费功能门槛，让现有的 AWS SDK、CLI、Terraform、CDK、OpenTofu 或测试套件指向 http://localhost:4566 即可继续使用原有工作流。",
-  "audience_zh": "适合需要在本机进行 AWS 开发、测试与 CI 的开发者与团队；也适合正在使用 LocalStack、希望换用可直接替代镜像并保留现有工作流的人员。",
+  "summary_zh": "Floci 是免费开源的本机 AWS 模拟器，可在无需云账号、认证令牌或付费功能门槛的情况下，在本机提供 AWS 形态的服务。让 AWS SDK、CLI、Terraform、CDK、OpenTofu 或测试套件指向 http://localhost:4566，即沿用原有工作流；也可作为 LocalStack 的替代品。",
+  "audience_zh": "适合需要本地开发、测试和 CI 中使用 AWS 服务的开发者与测试人员，包括使用 AWS SDK、CLI、Terraform、CDK、OpenTofu 或测试套件的人群，以及正在使用 LocalStack 并寻求替代方案的用户。",
   "evidence": [
     {
       "quote": "Floci is a free, open-source local AWS emulator for development, testing, and CI.",
@@ -11,11 +11,15 @@
       "url": "https://github.com/floci-io/floci/blob/main/README.md"
     },
     {
+      "quote": "No account. No auth token. No feature gates. Just <code>docker compose up</code>.",
+      "url": "https://github.com/floci-io/floci/blob/main/README.md"
+    },
+    {
       "quote": "Already using LocalStack? Floci is a drop-in replacement: swap the image and keep going. See [Migrating from LocalStack](#migrating-from-localstack).",
       "url": "https://github.com/floci-io/floci/blob/main/README.md"
     }
   ],
   "content_status": "generated",
-  "material_hash": "c7992c911e88caa75464aeccc45c836ab17523928e1517b38775944da9790287",
+  "material_hash": "cbca19a89367ddbc262fde44e0758b469a97e54dee21404193f12ded0b20b416",
   "readme_url": "https://github.com/floci-io/floci/blob/main/README.md"
 }

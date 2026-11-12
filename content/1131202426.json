@@ -1,0 +1,25 @@
+{
+  "summary_zh": "Astryx 是一个开源设计系统，基于 React 19+ 与 StyleX 构建，提供 150+ 可访问组件、品牌级主题、暗色模式、模板和 CLI。支持用现有 CSS 方式覆盖样式，主题通过 CSS 自定义属性定制，组件可按层级组合或导出源码，兼顾开发者与 AI 助手协同使用。",
+  "audience_zh": "适合使用 React 19+ 的前端开发者、设计师和产品团队，尤其是需要可深度定制设计系统、不希望锁定样式方案，或希望人与 AI 助手基于同一套 API、文档和 CLI 协作开发的团队。项目目前处于 Beta 阶段。",
+  "evidence": [
+    {
+      "quote": "An open source design system that's fully customizable and agent ready",
+      "url": "https://github.com/meta/astryx"
+    },
+    {
+      "quote": "**Currently in Beta** · Built on [React 19+](https://react.dev) and [StyleX](https://stylexjs.com)",
+      "url": "https://github.com/meta/astryx/blob/main/README.md"
+    },
+    {
+      "quote": "It ships 150+ accessible components, brand-level theming, dark mode, ready-to-ship templates, and a CLI as one cohesive system. You import pre-built CSS and use typed React components — no build plugin, no styling library to adopt — and both people and AI assistants build with the same tooling.",
+      "url": "https://github.com/meta/astryx/blob/main/README.md"
+    },
+    {
+      "quote": "- **Built for people and agents.** The API, docs, and CLI are designed together so a person and an AI assistant build the same way, from the same reference.",
+      "url": "https://github.com/meta/astryx/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "cd100920a5aa9a24e327996674dcae585299256dadedc96524ae6a394addc1a9",
+  "readme_url": "https://github.com/meta/astryx/blob/main/README.md"
+}

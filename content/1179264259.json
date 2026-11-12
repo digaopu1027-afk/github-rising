@@ -1,7 +1,11 @@
 {
-  "summary_zh": "gstack 将 Claude Code 等编程代理转为虚拟工程团队，通过一组斜杠命令提供产品重审、架构评审、设计审查、代码评审、QA 测试、安全审计与发布上线等流程化角色，各技能按冲刺顺序衔接。",
-  "audience_zh": "适合希望持续交付的技术型创始人/CEO、想用结构化角色替代空白提示词的 Claude Code 新用户，以及需要严格代码评审、QA 和发布自动化的技术负责人与资深工程师。",
+  "summary_zh": "gstack 是一套面向 Claude Code 及其他编码助手的斜杠命令工具集，把产品、设计、工程、QA、安全和发布等角色引入开发流程：帮用户重新审视产品定位、审查计划与代码、发现能过 CI 却在生产环境出错的缺陷、用真实浏览器做 QA，并联通测试与 PR 提交。",
+  "audience_zh": "适合希望用结构化角色而非空白提示词的 Claude Code（及其他编码助手）新用户，希望仍能亲自交付的技术型创始人/CEO，以及需要在每个 PR 上做严格评审、QA 和发布自动化的技术负责人和资深工程师。",
   "evidence": [
+    {
+      "quote": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+      "url": "https://github.com/garrytan/gstack"
+    },
     {
       "quote": "gstack turns Claude Code (and other coding agents) into a virtual engineering team: a CEO who rethinks the product, an eng manager who locks architecture, a designer who catches AI slop, a reviewer who finds production bugs, a QA lead who opens a real browser, a security officer who runs OWASP + STR",
       "url": "https://github.com/garrytan/gstack/blob/main/README.md"
@@ -11,15 +15,11 @@
       "url": "https://github.com/garrytan/gstack/blob/main/README.md"
     },
     {
-      "quote": "- **Tech leads and staff engineers** — rigorous review, QA, and release automation on every PR",
-      "url": "https://github.com/garrytan/gstack/blob/main/README.md"
-    },
-    {
       "quote": "- **First-time Claude Code users** — structured roles instead of a blank prompt",
       "url": "https://github.com/garrytan/gstack/blob/main/README.md"
     }
   ],
   "content_status": "generated",
-  "material_hash": "76af4da2d54676c2224eb8aec318c18919a94b5db6db2103b7a5886b4ecd7b97",
+  "material_hash": "4483b5d235ea42b2bb08dfc2681d7dabd11702cf38e1ede977cc9cd4f959b1ce",
   "readme_url": "https://github.com/garrytan/gstack/blob/main/README.md"
 }

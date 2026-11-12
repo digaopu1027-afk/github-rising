@@ -1,9 +1,9 @@
 {
-  "summary_zh": "这是一个浏览器智能体：给出一个自然语言目标，它会基于动态索引的动作空间选择操作与页面元素，仅在需要输入文本时由小型语言模型生成文字。支持点击、输入、选择、滚动、等待、完成与受阻等操作，并提供本地检查器查看元素编号与决策概率。",
-  "audience_zh": "适合希望用一条自然语言目标自动操作网页的开发者，以及想阅读、复用或扩展其轻量库与检查器的研究人员；可通过示例运行航班搜索、维基百科等任务。",
+  "summary_zh": "提供自然语言目标，由策略选择操作与页面编号元素来驱动浏览器；支持 CLICK、TYPE_TEXT、SELECT、滚动、等待、DONE 等操作，仅当操作为 TYPE_TEXT 时用小模型生成文本。示例包含 Google Flights 搜索与打开维基百科条目，并附本地检查器查看决策过程。",
+  "audience_zh": "适合想了解或试验浏览器智能体实现、关注基于结构化页面元素而非截图决策的开发者；也适合需要按 README 示例跑通演示、研究单次请求完成操作与目标选择机制的技术人员。",
   "evidence": [
     {
-      "quote": "**A browser agent with a dynamic, indexed action space.**",
+      "quote": "> **Jev Ultrafast is now ultrafast mode in [Browser Use](https://github.com/browser-use/browser-use).** Same idea, built in: the agent acts on numbered page elements. Browser Use also handles long multi-step tasks.",
       "url": "https://github.com/browser-use/jev-ultrafast/blob/main/README.md"
     },
     {
@@ -13,9 +13,13 @@
     {
       "quote": "The operations are `CLICK`, `TYPE_TEXT`, `SELECT`, `SCROLL_UP`, `SCROLL_DOWN`, `WAIT`, `DONE`, and `BLOCKED`. Only supported operations and targets are offered.",
       "url": "https://github.com/browser-use/jev-ultrafast/blob/main/README.md"
+    },
+    {
+      "quote": "**Zürich → London on Google Flights in 7.1 seconds.** One natural-language goal, actual text generation, and loading waits included.",
+      "url": "https://github.com/browser-use/jev-ultrafast/blob/main/README.md"
     }
   ],
   "content_status": "generated",
-  "material_hash": "e1cc93a60e49105e6790c953ba42cb564443f9442e411934a1c956f862518502",
+  "material_hash": "2c56757149b9e5e4dd912a08e2eadc2188ac8a125efeb6385922168cf68a2b14",
   "readme_url": "https://github.com/browser-use/jev-ultrafast/blob/main/README.md"
 }

@@ -1,6 +1,6 @@
 {
-  "summary_zh": "一款可装在 Claude Code、Codex、Cursor 等 agent 中的设计技能：用一句话生成网页、可点击 App 原型、可编辑 PPTX、动画、信息图和 3:4 图文；先出六张缩略图再挑三版，配有带样张的风格库、设计体检与外观账本。",
-  "audience_zh": "适合习惯在终端或 agent 里对话完成设计、不想打开图形界面的开发者、独立创作者与中小团队，用于原型、演示幻灯片、动效、信息图及小红书图文等交付。",
+  "summary_zh": "在 Claude Code、Codex、Cursor 等兼容 agent 中用一句话生成可交付设计：网页、可点击 App 原型、可编辑 PPTX、动画、信息图和小红书图文；支持六候选挑三方向、风格库、外观账本与设计体检。",
+  "audience_zh": "适合希望在终端或 agent 对话中直接产出设计交付物的开发者、产品与内容创作者，以及跨 Claude Code、Cursor、Codex 等 agent 工作、需要网页、原型、演示或图文设计的人。",
   "evidence": [
     {
       "quote": "Huashu Design 3.0 · 在 agent 里打一句话，拿回能交付的设计：网页 / App 原型 / 可编辑 PPTX / 动画 / 信息图 · 六个候选挑三个方向 · 84 种带样张的风格库 · 越用越懂你的外观账本与设计体检 · HTML-native design skill for Claude Code, Codex, Cursor & any agent",
@@ -15,11 +15,11 @@
       "url": "https://github.com/alchaincyf/huashu-design/blob/master/README.md"
     },
     {
-      "quote": "**在你的 agent 里打一句话，拿回一份能交付的设计。**",
+      "quote": "> 🆕 **3.1：新增小红书图文。** 一组 3:4 竖图的八种范式——标本志、贴纸本、索引、长卷、日报、集换卡、留白、信息图，每个样张同时是能直接改的模板；一条命令切成成图，顺手查字号、出界、长卷跨缝和压字。[看样张](#设计方向顾问)",
       "url": "https://github.com/alchaincyf/huashu-design/blob/master/README.md"
     }
   ],
   "content_status": "generated",
-  "material_hash": "8362bffd9a8772908c0c27cc918f525a7eeca285ae6096bb9e14a56926081405",
+  "material_hash": "a50c20f4594cbdecbd32cc2bc4f9ddc7e9ffe1c6f37ff141338ec7076f5a54d5",
   "readme_url": "https://github.com/alchaincyf/huashu-design/blob/master/README.md"
 }

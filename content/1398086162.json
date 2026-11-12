@@ -1,9 +1,9 @@
 {
-  "summary_zh": "PdfCraft 是一款用纯 Rust 从零编写的开源 PDF 阅读器与编辑器，可阅读、整理、合并、拆分和加密 PDF，支持多语言排版、深缩放、页面组织、表单图层及命令行工具，文档本地处理，无需账号。",
-  "audience_zh": "适合需要跨平台原生阅读与编辑 PDF 的用户，包括处理多语言或复杂排版文档的读者、需整理合并拆分的办公用户，以及希望通过 CLI 或 MCP 自动化处理 PDF 的开发者与 AI 代理使用者。",
+  "summary_zh": "PdfCraft 是一款用纯 Rust 从零编写的开源 PDF 阅读与编辑工具，可用于阅读、整理、合并、拆分和加密 PDF，支持搜索选中复制、页面组织、表单、图层、批注与附件，并提供命令行工具。",
+  "audience_zh": "适合需要在 macOS、Windows、Linux、FreeBSD 或网页上阅读和编辑 PDF 的普通用户，也适合偏好离线、无账号无遥测、重视原生性能与开源引擎的开发者及技术用户。",
   "evidence": [
     {
-      "quote": "PdfCraft: An open-source PDF reader and editor written by scratch in pure Rust",
+      "quote": "PdfCraft: An open-source PDF reader and editor written from scratch in pure Rust",
       "url": "https://github.com/storytold/pdfcraft"
     },
     {
@@ -20,6 +20,6 @@
     }
   ],
   "content_status": "generated",
-  "material_hash": "14a97e5ddee33b294477582cbb5985e9d25bb58611e5f84699ae30f8278c6732",
+  "material_hash": "f3c8d8768685cd87c7bcd11224d06cfc1a467b1562d12d33d318a85ac3bb2bc4",
   "readme_url": "https://github.com/storytold/pdfcraft/blob/main/README.md"
 }

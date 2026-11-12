@@ -1,7 +1,11 @@
 {
-  "summary_zh": "为 AI 智能体提供电脑操作能力，通过操作系统无障碍树读取桌面应用界面并以 JSON 返回，每个可操作元素带 ref；智能体据此点击、输入并再次读取验证，无需截图或像素匹配。提供 CLI 与 C 库，支持 macOS、Windows、Linux。",
-  "audience_zh": "适合构建或集成桌面自动化能力的 AI 智能体开发者，以及需要在 macOS、Windows 或 Linux 上通过 CLI 或 C 库以无头方式操作桌面应用、并自行控制智能体循环的开发者。",
+  "summary_zh": "为 AI 代理提供计算机操作能力的命令行工具：通过操作系统辅助功能树读取桌面应用界面并以 JSON 返回可操作元素引用，代理据此点击、输入并再次读取验证；不含内置模型，提供 CLI 与 C 库。",
+  "audience_zh": "需要让 AI 代理在 macOS、Windows 或 Linux 上无截图地观察并操作桌面应用的开发者；适合自行编写代理循环、需要 CLI 或进程内 C 库集成，并自行处理私密桌面内容的团队。",
   "evidence": [
+    {
+      "quote": "Computer use CLI for AI agents",
+      "url": "https://github.com/vercel-labs/agent-desktop"
+    },
     {
       "quote": "Computer use for AI agents: see and operate desktop apps on macOS, Windows, and Linux through the OS accessibility tree.",
       "url": "https://github.com/vercel-labs/agent-desktop/blob/main/README.md"
@@ -16,6 +20,6 @@
     }
   ],
   "content_status": "generated",
-  "material_hash": "1c9b288d2a7d7b8634b919799818f1dc13573085a09d3ec5f46fb9f88f8fcf8b",
+  "material_hash": "387a4795c852f805e7a3fa38da5a26a98e43318fee8a432e9d1e10795b11f17c",
   "readme_url": "https://github.com/vercel-labs/agent-desktop/blob/main/README.md"
 }

@@ -1,0 +1,25 @@
+{
+  "summary_zh": "这是 Rust 编程语言的主源码仓库，包含编译器、标准库和文档。Rust 强调性能与内存效率，适合关键服务、嵌入式设备并便于与其他语言集成；其类型系统和所有权模型用于保障内存与线程安全，在编译期减少错误。",
+  "audience_zh": "适合希望构建可靠、高效软件并关注内存与线程安全的开发者，也适合需要对关键服务、嵌入式场景开发或与其他语言集成的程序员；初学者可从安装文档和 The Book 入门，贡献者可参阅贡献指南与编译器开发指南。",
+  "evidence": [
+    {
+      "quote": "Empowering everyone to build reliable and efficient software.",
+      "url": "https://github.com/rust-lang/rust"
+    },
+    {
+      "quote": "This is the main source code repository for [Rust]. It contains the compiler,",
+      "url": "https://github.com/rust-lang/rust/blob/main/README.md"
+    },
+    {
+      "quote": "- **Performance:** Fast and memory-efficient, suitable for critical services, embedded devices, and easily integrated with other languages.",
+      "url": "https://github.com/rust-lang/rust/blob/main/README.md"
+    },
+    {
+      "quote": "- **Reliability:** Our rich type system and ownership model ensure memory and thread safety, reducing bugs at compile-time.",
+      "url": "https://github.com/rust-lang/rust/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "6151b20e520431ab06130040b70188e6e3935223c762e8c174e4996ce3ec9ad9",
+  "readme_url": "https://github.com/rust-lang/rust/blob/main/README.md"
+}

@@ -1,21 +1,21 @@
 {
-  "summary_zh": "OpenMontage 是开源智能体视频制作系统，含12条制作流水线、100余工具和700余份智能体技能与制作知识文件。用户可用自然语言描述需求，由 AI 编程助手完成调研、脚本、素材生成、剪辑与最终合成，也支持从参考视频反推制作方案。",
-  "audience_zh": "适合使用 Claude Code、Cursor、Copilot、Windsurf 或 Codex 等 AI 编程助手的内容创作者与视频制作人员，包括需要做解说、纪录片蒙太奇、动画短片或产品展示片的用户。",
+  "summary_zh": "把AI编码助手变成视频制作工作室：用自然语言描述需求，由代理完成调研、脚本、素材生成、剪辑与合成；支持图像视频、真实素材视频及多种制作管线。",
+  "audience_zh": "适合使用Claude Code、Cursor、Copilot、Windsurf或Codex等AI编码助手，希望用自然语言完成视频制作的创作者和开发者。",
   "evidence": [
     {
       "quote": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
-      "url": "https://github.com/calesthio/OpenMontage"
+      "url": "https://github.com/OpenMontageInc/OpenMontage"
     },
     {
       "quote": "Turn your AI coding assistant into a full video production studio. Describe what you want in plain language — your agent handles research, scripting, asset generation, editing, and final composition.",
-      "url": "https://github.com/calesthio/OpenMontage/blob/main/README.md"
+      "url": "https://github.com/OpenMontageInc/OpenMontage/blob/main/README.md"
     },
     {
-      "quote": "OpenMontage can start from a **YouTube video, Short, Reel, TikTok, or local clip** and turn it into a grounded production plan:",
-      "url": "https://github.com/calesthio/OpenMontage/blob/main/README.md"
+      "quote": "**Important distinction:** OpenMontage can make image-based videos, but it can also make a real **video video** for free/open-source workflows: the agent builds a corpus from free stock footage and open archives, retrieves actual motion clips, edits them into a timeline, and renders a finished piece",
+      "url": "https://github.com/OpenMontageInc/OpenMontage/blob/main/README.md"
     }
   ],
   "content_status": "generated",
-  "material_hash": "fee9558a492107b06b62544e00a41100af864b53558d01f8941494660246ace3",
-  "readme_url": "https://github.com/calesthio/OpenMontage/blob/main/README.md"
+  "material_hash": "b14c639b1bb8a347da8761fdf501f3f1202926628d01b1b25d2e7b6d368b05a9",
+  "readme_url": "https://github.com/OpenMontageInc/OpenMontage/blob/main/README.md"
 }

@@ -1,25 +1,21 @@
 {
-  "summary_zh": "开源AI代码审查代理，可作为PR评论或命令行工具生成描述、审查、改进建议，支持就PR提问及查找相似issue。支持GitHub、GitLab、Bitbucket、Azure DevOps、Gitea，可本地或自托管部署，并可接入多种大模型。它是Qodo社区维护的开源项目，并非Qodo免费版。",
-  "audience_zh": "适合使用上述Git平台、希望以开源方式为拉取请求引入自动审查与描述生成的开发团队；也适合需要自托管、可自定义提示词并自由选择AI模型、重视数据与基础设施掌控的开发者及开源维护者。",
+  "summary_zh": "PR-Agent 是开源、AI 驱动的代码审查代理，可自动审查拉取请求，支持 /describe、/review、/improve、/ask 等评论命令，也可通过 CLI 在本地运行。可通过 GitHub Action、Docker、自托管或 webhook 部署，并接入多种 Git 平台与 AI 模型。",
+  "audience_zh": "适合希望在 GitHub、GitLab、Bitbucket、Azure DevOps 等平台自动审查 PR 的开发团队，以及需要自托管、掌控数据与基础设施、可定制提示词和审查行为的开源项目维护者与开发者。",
   "evidence": [
-    {
-      "quote": "🚀 PR Agent: The Original Open-Source PR Reviewer. This project is not the Qodo free tier.",
-      "url": "https://github.com/The-PR-Agent/pr-agent"
-    },
     {
       "quote": "PR-Agent is an open-source, AI-powered code review agent and a community-maintained legacy project of Qodo. It is distinct from Qodo's primary AI code review offering, which provides a feature-rich, context-aware experience. Qodo offers a free version for open-source projects and integrates seamless",
       "url": "https://github.com/The-PR-Agent/pr-agent/blob/main/README.md"
     },
     {
-      "quote": "ly with GitHub, GitLab, Bitbucket, and Azure DevOps for high-quality automated reviews.",
+      "quote": "Add automated PR reviews to your repository with a simple workflow file:",
       "url": "https://github.com/The-PR-Agent/pr-agent/blob/main/README.md"
     },
     {
-      "quote": "Add automated PR reviews to your repository with a simple workflow file:",
+      "quote": "This repository contains the open-source PR Agent Project.",
       "url": "https://github.com/The-PR-Agent/pr-agent/blob/main/README.md"
     }
   ],
   "content_status": "generated",
-  "material_hash": "470ec3f48c14625b2671c989f56041e2c76cf4ccd48fa373b6872afb01fd058f",
+  "material_hash": "fb2c5f72c0963694fb8c093dc0c9e80013596e79eee5fc6a4fc3fa0d95b95e57",
   "readme_url": "https://github.com/The-PR-Agent/pr-agent/blob/main/README.md"
 }

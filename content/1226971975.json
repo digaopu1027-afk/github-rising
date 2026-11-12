@@ -1,6 +1,6 @@
 {
-  "summary_zh": "开源、可自托管的 AI 安全运营中心：接收并规整安全遥测，运行检测规则并关联威胁，由 AI 代理调查且全程记录提示与工具调用，提出需人工批准的动作；支持 MCP 服务器接入 Claude、Cursor 和 Continue。",
-  "audience_zh": "适合希望自托管安全告警与事件调查流程的安全运营团队，以及需要可审计 AI 代理决策、本地运行模型且无 API 密钥依赖的开发者与安全工程师。",
+  "summary_zh": "开源、可自托管的 AI 安全运营中心：接收并规范化安全遥测，用检测规则做关联与告警分组，再由 LLM 智能体分诊与调查，记录每步提示和工具调用供审计，并由人工批准响应动作。附带 MCP 服务器，无 API 密钥也能运行。",
+  "audience_zh": "适合希望自托管安全事件检测与 AI 辅助分诊的安全运营团队、需要可审计智能体决策的安全工程师，以及用 Claude、Cursor 等 MCP 客户端做安全调查的开发与研究人员。",
   "evidence": [
     {
       "quote": "Open-source AI Security Operations Center: alert fusion, LLM-agent triage, MITRE ATT&CK investigation, and a replayable decision ledger for every agent step. Self-hostable, runs with no API keys, MIT licensed. Ships an MCP server for Claude, Cursor and Continue.",
@@ -11,15 +11,15 @@
       "url": "https://github.com/beenuar/AiSOC/blob/main/README.md"
     },
     {
-      "quote": "its 7407-rule library, groups what fires into incidents, investigates each one with an AI agent whose",
+      "quote": "its 7408-rule library, groups what fires into incidents, investigates each one with an AI agent whose",
       "url": "https://github.com/beenuar/AiSOC/blob/main/README.md"
     },
     {
-      "quote": "history you already collected, and a human approves before anything reaches a vendor.",
+      "quote": "every prompt and tool call is recorded, and proposes an action. New threat intelligence re-sweeps the",
       "url": "https://github.com/beenuar/AiSOC/blob/main/README.md"
     }
   ],
   "content_status": "generated",
-  "material_hash": "d961bf1d9f2929a52eecfa4486f5553ef32bf8e116547a62c6feff253f92409b",
+  "material_hash": "b90b2eae5a0ce51350c629afdc2266b8c09d7ce780cd2617d659dc281d30d581",
   "readme_url": "https://github.com/beenuar/AiSOC/blob/main/README.md"
 }

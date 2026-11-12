@@ -1,0 +1,25 @@
+{
+  "summary_zh": "可指向网站、应用或游戏，用真实检查工具研究其构建与行为，再由编码代理按指定技术栈生成新项目，并与原目标比对、迭代细化。提供简易与高级两种模式，工具也可作为 CLI 命令和 MCP 工具供代理调用。",
+  "audience_zh": "适合想了解现有软件实现、并据此重建自有版本的开发者与创作者，包括从事网站、桌面应用、手机应用或游戏开发的人；使用构建功能需在本机安装并登录受支持的编码代理。",
+  "evidence": [
+    {
+      "quote": "Point it at a target, say what you want, and it studies the original with real inspection tools,<br>",
+      "url": "https://github.com/storytold/craft-anything/blob/main/README.md"
+    },
+    {
+      "quote": "Websites, desktop apps, phone apps, games and files: real inspection tools find out how they're built and what they do, with the evidence behind every answer.",
+      "url": "https://github.com/storytold/craft-anything/blob/main/README.md"
+    },
+    {
+      "quote": "Say what you want (\"Recreate this website\", \"Recreate this game's gameplay in Rust\") and a coding agent builds a new project in the stack you ask for.",
+      "url": "https://github.com/storytold/craft-anything/blob/main/README.md"
+    },
+    {
+      "quote": "320 tools, each one a CLI command and an MCP tool, so any agent can drive the same engine the app uses. No AI is needed to inspect.",
+      "url": "https://github.com/storytold/craft-anything/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "0d9b5d79170bce5ae2d1561baa45761d852536828a961c5c0a4be8a8c7a5aca0",
+  "readme_url": "https://github.com/storytold/craft-anything/blob/main/README.md"
+}

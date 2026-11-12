@@ -1,0 +1,21 @@
+{
+  "summary_zh": "面向AI代理的浏览器自动化命令行工具：可从shell打开页面、以可访问性树快照读取页面，并通过@e1等引用逐条点击、填写等操作元素，每条命令后复查结果。浏览器在命令间保持打开，命令由后台守护进程通过Chrome DevTools协议控制。",
+  "audience_zh": "适合需要用命令行或shell脚本驱动浏览器完成网页操作的AI代理开发者与自动化工程人员，也适合为其代理接入浏览器能力、使用MCP客户端或Vercel相关环境的团队。",
+  "evidence": [
+    {
+      "quote": "Browser automation CLI for AI agents",
+      "url": "https://github.com/vercel-labs/agent-browser"
+    },
+    {
+      "quote": "Browser automation for AI agents: open pages, read them as an accessibility tree, and act on elements from the shell.",
+      "url": "https://github.com/vercel-labs/agent-browser/blob/main/README.md"
+    },
+    {
+      "quote": "agent-browser is a native Rust CLI that gives an AI agent a browser it can drive one command at a time. `snapshot` returns the page as compact text with a ref such as `@e1` for each element. The agent acts on a ref, reads the page again to check the result, and repeats. The browser stays open betwee",
+      "url": "https://github.com/vercel-labs/agent-browser/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "f9258c3d96c00b7728d6a0a11ec348e3dbc4084f1e4d566723298e24dda032db",
+  "readme_url": "https://github.com/vercel-labs/agent-browser/blob/main/README.md"
+}

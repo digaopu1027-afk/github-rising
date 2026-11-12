@@ -1,17 +1,17 @@
 {
-  "summary_zh": "Graphite 是一个社区构建的综合性 2D 内容创作应用，可用于平面设计、数字艺术和交互式实时动态图形。它以基于节点的程序化图形引擎为核心，提供矢量与栅格图形编辑、图层合成与节点式生成设计相结合的非破坏性工作流。",
-  "audience_zh": "适合从事平面设计、数字艺术和实时动态图形创作的用户，以及关注矢量与栅格非破坏性编辑和节点式程序化设计的人；也适合有兴趣参与开源项目建设的图形程序员或 Rust 开发者参考。",
+  "summary_zh": "Graphite 是社区共建的 2D 内容创作应用，用基于节点的程序化图形引擎驱动，结合图层合成与节点式生成设计，提供非破坏性编辑流程，可进行矢量与栅格图形制作。项目目前处于 alpha 阶段。",
+  "audience_zh": "适合从事平面设计、数字艺术和交互式实时动态图形创作的艺术家与设计师；README 还提到欢迎图形程序员或 Rust 开发者参与项目开发。",
   "evidence": [
     {
       "quote": "Community-built comprehensive 2D content creation appplication for graphic design, digital art, and interactive real-time motion graphics powered by a node-based procedural graphics engine",
       "url": "https://github.com/GraphiteEditor/Graphite"
     },
     {
-      "quote": "# Your procedural toolbox for 2D content creation",
+      "quote": "**Graphite is a free, open source vector and raster graphics engine, [available now](https://editor.graphite.art) in alpha. Get creative with a fully nondestructive editing workflow that combines layer-based compositing with node-based generative design.**",
       "url": "https://github.com/GraphiteEditor/Graphite/blob/master/README.md"
     },
     {
-      "quote": "**Graphite is a free, open source vector and raster graphics engine, [available now](https://editor.graphite.art) in alpha. Get creative with a fully nondestructive editing workflow that combines layer-based compositing with node-based generative design.**",
+      "quote": "Having begun life as a vector editor, Graphite continues evolving into a generalized, all-in-one graphics toolbox that's built more like a game engine than a conventional creative app. The editor's tools wrap its node graph core, providing user-friendly workflows for vector, raster, and beyond. Phot",
       "url": "https://github.com/GraphiteEditor/Graphite/blob/master/README.md"
     },
     {
@@ -20,6 +20,6 @@
     }
   ],
   "content_status": "generated",
-  "material_hash": "4b3de61a8385a46ecd1008ec56229325125d69a5d92d91185793295998420afb",
+  "material_hash": "b7d1cceac4c60ac0d8f4c68f1ada8a42d4eee8f278208e4198f35578da9de787",
   "readme_url": "https://github.com/GraphiteEditor/Graphite/blob/master/README.md"
 }

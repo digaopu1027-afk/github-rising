@@ -1,0 +1,25 @@
+{
+  "summary_zh": "DSH Go 是 DeepSeek Harness 的 Android 客户端，可在手机本机安装 Ubuntu、Node.js 与 DSH 运行环境，也能通过 SSH 或 DSHarness Remote 连接电脑或服务器上的 DSH。提供聊天、工具审批、手机操控、对话分享与主题外观等功能。",
+  "audience_zh": "适合使用 Android 8.0 及以上设备、希望在手机上运行或远程连接 DeepSeek Harness 的用户，包括需要移动端聊天与工具操作、手机屏幕操控或对话分享回放的人；仅连远程主机时无需安装本机运行环境。",
+  "evidence": [
+    {
+      "quote": "DeepSeek Harness 的 Android 客户端。手机上直接跑，也能遥控你电脑上的 DSH。",
+      "url": "https://github.com/ccch1mneyyy/dsh-Go/blob/main/README.md"
+    },
+    {
+      "quote": "DSH Go 提供聊天界面、本机运行环境和远程连接，是基于 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 的第三方项目。运行在手机上的是 DSH 引擎；模型请求仍由你配置的模型提供方处理。",
+      "url": "https://github.com/ccch1mneyyy/dsh-Go/blob/main/README.md"
+    },
+    {
+      "quote": "- **本机运行**：在 App 内安装 Ubuntu、Node.js 与 DSH 运行环境，无需 Root 或另装 Termux。",
+      "url": "https://github.com/ccch1mneyyy/dsh-Go/blob/main/README.md"
+    },
+    {
+      "quote": "安装要求为 Android 8.0（API 26）及以上。Release 页面上的 **arm64** 安装包适用于常见的 64 位 Android 手机；x86_64 设备和模拟器用的 x64 包在发布说明末尾的「其他版本下载」里。仓库没有 32 位 ARM 构建。",
+      "url": "https://github.com/ccch1mneyyy/dsh-Go/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "b763d3a5887b83b1f8789115bb19c336159136cd2e0fb72de7027f4d2f0ced53",
+  "readme_url": "https://github.com/ccch1mneyyy/dsh-Go/blob/main/README.md"
+}

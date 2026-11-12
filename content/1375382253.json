@@ -1,6 +1,6 @@
 {
-  "summary_zh": "一个非自回归的System 1决策引擎，可在单次前向传播中对任意文本做出类型化选择、评分和是/否判断，覆盖100多种语言，并由路由器按请求选择合适的检查点；还支持文本、图像、语音、视频和长文档，并提供校准与预测集输出。",
-  "audience_zh": "适合需要在Python、TypeScript/Node.js或浏览器中做快速分类、优先级评分、是/否判断和多语言路由的开发者，也适合通过LangChain、LlamaIndex、CrewAI或HTTP、MCP服务集成的团队。",
+  "summary_zh": "非自回归的 System 1 决策引擎，可在一次前向传播中对任意文本做类型化选择、评分和是/否判断，支持 100 多种语言，并由路由器按请求选择合适检查点；还提供同名 Python 包，可对文本、图像、语音、视频和长文档做决策，并输出概率、预测集、弃答与路由标记。",
+  "audience_zh": "适合需要低延迟、多语言文本分类或打分决策的开发者，例如客服工单分派、紧急程度评分、风险判断等场景；也适合希望用自有标签做小型逻辑头拟合并校准的 Python 使用者。",
   "evidence": [
     {
       "quote": "Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right checkpoint per request.",
@@ -11,15 +11,15 @@
       "url": "https://github.com/NandhaKishorM/laya/blob/main/README.md"
     },
     {
-      "quote": "For TypeScript / Node.js / browser, see [`laya-ts/`](https://github.com/NandhaKishorM/laya/tree/main/laya-ts/). npm releases (`npm install laya-ts`) are published from this repository's `laya-ts-v*` release tags.",
+      "quote": "One argument puts vegaml's engine under laya's names: a frozen 0.8B reader with a small physics engine on top, so every answer carries a conformal prediction set, an abstain flag, an out-of-distribution flag and a route decided without a threshold you had to guess at. Text, images, speech and 73k-to",
       "url": "https://github.com/NandhaKishorM/laya/blob/main/README.md"
     },
     {
-      "quote": "One argument puts vegaml's engine under laya's names: a frozen 0.8B reader with a small physics engine on top, so every answer carries a conformal prediction set, an abstain flag, an out-of-distribution flag and a route decided without a threshold you had to guess at. Text, images, speech and 73k-to",
+      "quote": "ken documents go through the same call. Python 3.10 or newer; details in [vega inside laya](#vega-inside-laya-agentvegamltrue).",
       "url": "https://github.com/NandhaKishorM/laya/blob/main/README.md"
     }
   ],
   "content_status": "generated",
-  "material_hash": "89cf0ce9d36712419be3309883e5d1996deb0b5f9a1dfe43099bcfcfc9a10956",
+  "material_hash": "827377462bf909b38c1deec65f4ac9dc70a690f025ad0752e64cdf1920ff51b4",
   "readme_url": "https://github.com/NandhaKishorM/laya/blob/main/README.md"
 }

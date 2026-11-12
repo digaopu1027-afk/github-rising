@@ -1,0 +1,25 @@
+{
+  "summary_zh": "该仓库是微软与社区共同开发 Visual Studio Code 的开源代码库（Code - OSS），采用 MIT 许可证。产品本身结合简洁的代码编辑器与编辑、构建、调试核心流程所需能力，提供代码编辑、导航与理解支持，以及轻量调试、扩展模型和与现有工具的集成。",
+  "audience_zh": "适合使用 Windows、macOS 或 Linux 的开发者日常编写、导航和调试代码；也适合希望参与开源贡献的人，包括提交缺陷与功能请求、审查代码改动、改进文档或参与翻译。",
+  "evidence": [
+    {
+      "quote": "This repository (\"`Code - OSS`\") is where we (Microsoft) develop the [Visual Studio Code](https://code.visualstudio.com) product together with the community. Not only do we work on code and issues here, but we also publish our [roadmap](https://github.com/microsoft/vscode/wiki/Roadmap), [monthly ite",
+      "url": "https://github.com/microsoft/vscode/blob/main/README.md"
+    },
+    {
+      "quote": "[Visual Studio Code](https://code.visualstudio.com) combines the simplicity of a code editor with what developers need for their core edit-build-debug cycle. It provides comprehensive code editing, navigation, and understanding support along with lightweight debugging, a rich extensibility model, an",
+      "url": "https://github.com/microsoft/vscode/blob/main/README.md"
+    },
+    {
+      "quote": "Visual Studio Code is updated monthly with new features and bug fixes. You can download it for Windows, macOS, and Linux on the [Visual Studio Code website](https://code.visualstudio.com/Download). To get the latest releases every day, install the [Insiders build](https://code.visualstudio.com/insiders).",
+      "url": "https://github.com/microsoft/vscode/blob/main/README.md"
+    },
+    {
+      "quote": "* [Submit bugs and feature requests](https://github.com/microsoft/vscode/issues), and help us verify them as they are checked in",
+      "url": "https://github.com/microsoft/vscode/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "1950c5b33f144e11cda9dd074b35bff9d43141c4459134279bf932819e7ed496",
+  "readme_url": "https://github.com/microsoft/vscode/blob/main/README.md"
+}

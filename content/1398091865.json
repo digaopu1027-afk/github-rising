@@ -1,0 +1,21 @@
+{
+  "summary_zh": "FilmCraft 是一款用纯 Rust 从零编写的开源非线性视频编辑器，支持剪辑、调色、特效、音频、字幕与导出，内置自研 H.264、HEVC、ProRes、AAC 等编解码器，可原生运行于 macOS、Windows、Linux，也可在浏览器通过 WebAssembly 使用。",
+  "audience_zh": "适合需要跨平台非线性剪辑与调色的视频创作者、剪辑师和调色师，也适合关注纯 Rust 实现、自研编解码器及希望用 AI 代理精确驱动编辑操作的开源开发者与技术用户。",
+  "evidence": [
+    {
+      "quote": "FilmCraft: An open-source, nonlinear video editor written from scratch in pure Rust",
+      "url": "https://github.com/storytold/filmcraft"
+    },
+    {
+      "quote": "An open-source, modern non-linear video editing workflow: native on macOS, Windows and Linux, and in the browser via WebAssembly.<br>",
+      "url": "https://github.com/storytold/filmcraft/blob/main/README.md"
+    },
+    {
+      "quote": "FilmCraft is a professional non-linear editor: familiar panels, workspaces, tools and shortcuts, so your hands already know where everything is. Underneath, it is new from the bitstream up. The H.264, HEVC, ProRes and AAC codecs are our own, written in Rust from the public specifications. A GPU comp",
+      "url": "https://github.com/storytold/filmcraft/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "9baf4a0bcc5b0ad8c1a309691803059393adde9a73750378f27bfcd18794c311",
+  "readme_url": "https://github.com/storytold/filmcraft/blob/main/README.md"
+}
