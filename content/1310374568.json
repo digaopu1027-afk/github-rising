@@ -1,0 +1,25 @@
+{
+  "summary_zh": "该插件将Spotify Portal集成到Claude Code、Codex、Cursor和pi等编码代理环境，提供Portal CLI工作流：配置认证、搜索软件目录与技术文档、生成服务简报、运行只读诊断、安全调用Portal操作，并创建、运行和排查Fleetshift shift及从完成运行打开PR。",
+  "audience_zh": "适合使用Claude Code、Codex、Cursor或pi，并通过Portal CLI查询软件目录、了解服务归属与健康状况、执行Portal操作或管理Fleetshift的开发者与工程团队。",
+  "evidence": [
+    {
+      "quote": "Bring [Spotify Portal](https://portal.spotify.com) into Claude Code, Codex, Cursor, and pi.",
+      "url": "https://github.com/spotify/portal-ai-plugins/blob/main/README.md"
+    },
+    {
+      "quote": "- Set up the Portal CLI for your current coding-agent environment.",
+      "url": "https://github.com/spotify/portal-ai-plugins/blob/main/README.md"
+    },
+    {
+      "quote": "- Search the software catalog and technical documentation using natural language queries.",
+      "url": "https://github.com/spotify/portal-ai-plugins/blob/main/README.md"
+    },
+    {
+      "quote": "- Generate concise service briefings with available ownership, health, incident, and documentation details.",
+      "url": "https://github.com/spotify/portal-ai-plugins/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "d923481ad80f3f7816a07574a5b750042a1e7f4ac5fcfc521a8318bbfdce4593",
+  "readme_url": "https://github.com/spotify/portal-ai-plugins/blob/main/README.md"
+}

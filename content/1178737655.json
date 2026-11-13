@@ -1,21 +1,21 @@
 {
-  "summary_zh": "OpenMAIC 是一个开源多智能体互动课堂平台，可把任意主题或文档转化为交互式课程，自动生成幻灯片、测验、互动模拟和项目式学习活动，由能说话、在白板绘图并实时讨论的 AI 教师与 AI 同学授课。支持一键生成课程及导出 PPTX、离线 HTML 或 ZIP。",
-  "audience_zh": "适合希望用 AI 快速创建互动课程的教师与课程设计者、想通过项目式学习动手实践的学习者，以及需在飞书、Slack、Telegram 或 IDE 中生成课堂的使用者。部署需 Node.js、pnpm 和 PostgreSQL。",
+  "summary_zh": "OpenMAIC 是一个开源 AI 教学平台，可将任意主题或文档转化为交互式课堂体验。它依托多智能体编排，生成幻灯片、测验、交互式模拟和基于项目的学习活动，并由能说话、在白板上绘图、可实时讨论的 AI 教师和 AI 同学来呈现。",
+  "audience_zh": "适合希望快速把主题或材料变成互动课程的学习者，也适合想通过多智能体课堂开展讲解、讨论与项目式学习的教学或演示场景；README 还说明它可配合 OpenClaw、Codex 等智能体工作台，从飞书、Slack、Telegram 或 IDE 生成课堂。",
   "evidence": [
     {
       "quote": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
       "url": "https://github.com/THU-MAIC/OpenMAIC"
     },
     {
-      "quote": "- **2026-11-04** — [v1.4.0](https://github.com/THU-MAIC/OpenMAIC/releases/tag/v1.4.0): **project-based learning PBL v3, a new way into vibe coding: build the project, understand how it works.** Learn by doing, turning concepts into hands-on tasks and getting the project running yourself. An AI tutor",
+      "quote": "Get an immersive, multi-agent learning experience in just one click",
       "url": "https://github.com/THU-MAIC/OpenMAIC/blob/main/README.md"
     },
     {
-      "quote": "sed as soon as they are attached, and the web app and the API share one pipeline. New: [classroom export](packages/docs/content/docs/getting-started.mdx#export-a-classroom), as a PPTX that keeps every scene or as one offline HTML file that plays the lesson. It needs PostgreSQL and a long-running ser",
+      "quote": "- **2026-11-04** — [v1.4.0](https://github.com/THU-MAIC/OpenMAIC/releases/tag/v1.4.0): **PBL v3** — build a working project with an AI tutor, milestone by milestone. One-way upgrade.",
       "url": "https://github.com/THU-MAIC/OpenMAIC/blob/main/README.md"
     }
   ],
   "content_status": "generated",
-  "material_hash": "54357b4e66fbecb044779afdac35eb61142fba0b7872270a8fd0e3bc2a677138",
+  "material_hash": "30736deca8898f0048259ddb957962689b755a338f2446445f2c3ddbe9ea75c8",
   "readme_url": "https://github.com/THU-MAIC/OpenMAIC/blob/main/README.md"
 }

@@ -1,6 +1,6 @@
 {
-  "summary_zh": "Kornia 是基于 PyTorch 的可微计算机视觉库，提供丰富的可微图像处理与几何视觉算子，涵盖滤波、几何变换、特征检测与匹配、相机模型、对极几何、RANSAC 鲁棒估计、数据增强、深度与三维投影等，支持批处理、自动微分和 GPU 加速。",
-  "audience_zh": "适合使用 PyTorch 从事空间 AI、三维视觉、图像处理或深度学习研究的开发者，尤其是需要批量算子、可微几何或在 GPU 上完成特征匹配与鲁棒估计的 AI 工作流用户。",
+  "summary_zh": "Kornia 是基于 PyTorch 的可微分计算机视觉库，提供丰富的可微图像处理与几何视觉算法，覆盖滤波、变换、增强、边缘检测、相机模型、对极几何、特征检测与匹配、RANSAC 鲁棒估计、深度与三维几何、形态学及图像损失等，支持批处理、自动微分和 GPU 加速，并可编译和导出。",
+  "audience_zh": "适合在 PyTorch 生态中开发空间 AI、三维视觉、图像变换与增强、特征匹配、位姿估计等任务的深度学习研究者与工程师，尤其是需要批处理、可微几何和 GPU 加速的计算机视觉从业者。",
   "evidence": [
     {
       "quote": "🐍 Geometric Computer Vision Library for Spatial AI",
@@ -11,15 +11,15 @@
       "url": "https://github.com/kornia/kornia/blob/main/README.md"
     },
     {
-      "quote": "- **Breadth.** 1,200+ public operators, most with no torchvision equivalent: camera models and",
+      "quote": "working on image transformations, augmentations, or AI-driven image processing, Kornia equips you with the tools you need to bring your ideas to life.",
       "url": "https://github.com/kornia/kornia/blob/main/README.md"
     },
     {
-      "quote": "- **Differentiable geometry.** Depth to 3D and back (`depth_to_3d_v2`, `unproject_points`, `project_points`),",
+      "quote": "- **Breadth.** 1,200+ public operators, most with no torchvision equivalent: camera models and",
       "url": "https://github.com/kornia/kornia/blob/main/README.md"
     }
   ],
   "content_status": "generated",
-  "material_hash": "caf3f12c11daa3f0b4b29254781999e544fd1a18b94cad6eee49bf6e75c509f6",
+  "material_hash": "c60c35a5cb5a2bd7410de93521bfbc06f973fa070c7b7c5cfbe2df1192bc69d6",
   "readme_url": "https://github.com/kornia/kornia/blob/main/README.md"
 }

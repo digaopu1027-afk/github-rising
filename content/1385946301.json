@@ -1,6 +1,6 @@
 {
-  "summary_zh": "Strata 是一个本地 AI 运行工具，可在 Windows、Linux 和 Mac 上安装桌面应用或终端工具，选择模型后直接聊天、写代码和处理图片；并在 localhost 提供兼容 OpenAI/Anthropic 的 API，供常用编程工具连接。",
-  "audience_zh": "适合希望在个人电脑上本地运行模型、注重隐私或不愿注册账号的用户，也适合使用 Claude Code、Codex CLI 等兼容 OpenAI/Anthropic API 工具的开发者和需要图像输入的桌面用户；需按显卡和显存选择模型。",
+  "summary_zh": "Strata 是一款本地运行 AI 模型的推理工具，支持在 Windows/Linux 上安装桌面应用或命令行，运行 Qwen3.8-Flash-Next 等模型，提供本地 OpenAI/Anthropic 兼容 API，可选图像输入，可用于聊天、编程和图像处理。",
+  "audience_zh": "适合希望在自有电脑上本地运行 AI 模型、注重无需账号与开源、并需要在桌面或终端中配合 Claude Code、Codex CLI 等编程工具使用的开发者与用户。",
   "evidence": [
     {
       "quote": "Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.",
@@ -15,11 +15,11 @@
       "url": "https://github.com/Niko1221/Strata/blob/main/README.md"
     },
     {
-      "quote": "### Terminal app",
+      "quote": "Prefer the terminal? Install Strata, then run **`strata launch`**.",
       "url": "https://github.com/Niko1221/Strata/blob/main/README.md"
     }
   ],
   "content_status": "generated",
-  "material_hash": "ceb87848ee907a26ad888535f9461763bf49ce11eb3fb6072c1a5a0e0abffea8",
+  "material_hash": "3293e6f07361a29dd7d2f326f5da4e8ef1d94684cb00576a54696fdb5f70bc5f",
   "readme_url": "https://github.com/Niko1221/Strata/blob/main/README.md"
 }

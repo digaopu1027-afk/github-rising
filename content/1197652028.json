@@ -1,0 +1,25 @@
+{
+  "summary_zh": "该仓库提供面向 Google 产品与技术的 Agent Skills（智能体技能），涵盖 Google Cloud 等，包含入门、IAM 认证授权、解决方案架构、AI/ML 与多产品方案等技能，可通过 npx 安装并更新。",
+  "audience_zh": "适合使用 Google 产品与 Google Cloud、希望为智能体配置技能以完成云上认证、架构设计、AI/ML 等任务的开发者与技术人员。",
+  "evidence": [
+    {
+      "quote": "Agent Skills for Google products and technologies",
+      "url": "https://github.com/google/skills"
+    },
+    {
+      "quote": "This repository contains [Agent Skills](https://agentskills.io/home) for Google",
+      "url": "https://github.com/google/skills/blob/main/README.md"
+    },
+    {
+      "quote": "npx skills add google/skills",
+      "url": "https://github.com/google/skills/blob/main/README.md"
+    },
+    {
+      "quote": "- [**Authenticating and Authorizing to Google Cloud (IAM)**](./skills/cloud/google-cloud-recipe-auth)",
+      "url": "https://github.com/google/skills/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "5366b666bf447bfbed7e5aca09245323cad1b811d162d0586525020a35407022",
+  "readme_url": "https://github.com/google/skills/blob/main/README.md"
+}

@@ -878,5 +878,37 @@
   "63477660": {
     "id": 63477660,
     "full_name": "TheAlgorithms/Java"
+  },
+  "1368596582": {
+    "id": 1368596582,
+    "full_name": "google/elephant-goldfish-model"
+  },
+  "612230": {
+    "id": 612230,
+    "full_name": "nvm-sh/nvm"
+  },
+  "1008713177": {
+    "id": 1008713177,
+    "full_name": "QwenLM/qwen-code"
+  },
+  "903349957": {
+    "id": 903349957,
+    "full_name": "pookjw/HermesEnabler"
+  },
+  "1274723381": {
+    "id": 1274723381,
+    "full_name": "ashhart/TensorFold"
+  },
+  "27193779": {
+    "id": 27193779,
+    "full_name": "nodejs/node"
+  },
+  "1144520675": {
+    "id": 1144520675,
+    "full_name": "Alishahryar1/free-claude-code"
+  },
+  "612354784": {
+    "id": 612354784,
+    "full_name": "ggml-org/llama.cpp"
   }
 }

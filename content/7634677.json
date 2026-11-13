@@ -1,0 +1,25 @@
+{
+  "summary_zh": "OpenSSL 是开源工具包，提供 TLS、DTLS 和 QUIC 协议实现，并基于通用密码库；该密码库可独立使用，还包含符合 FIPS 标准的密码模块。工具包内含 libssl、libcrypto 和 openssl 命令行工具，可用于生成密钥、创建证书、计算摘要、加解密及协议测试等。",
+  "audience_zh": "适合需要在应用中集成 TLS/DTLS/QUIC 协议或通用密码功能的开发者，也适合使用命令行工具做证书、密钥、摘要、加解密及协议测试的运维和开发人员；关注 FIPS 合规密码模块者亦可参考。",
+  "evidence": [
+    {
+      "quote": "General purpose TLS and crypto library",
+      "url": "https://github.com/openssl/openssl"
+    },
+    {
+      "quote": "OpenSSL is a robust, commercial-grade, full-featured Open Source Toolkit",
+      "url": "https://github.com/openssl/openssl/blob/master/README.md"
+    },
+    {
+      "quote": "for the Transport Layer Security (TLS, formerly SSL), Datagram TLS (DTLS), and QUIC protocols.",
+      "url": "https://github.com/openssl/openssl/blob/master/README.md"
+    },
+    {
+      "quote": "cryptographic module validated to conform with FIPS standards.",
+      "url": "https://github.com/openssl/openssl/blob/master/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "a5baa3d4ac68a4ab7bb87ebe0623425556b5d3e38d51c8ed825205b1a79930f3",
+  "readme_url": "https://github.com/openssl/openssl/blob/master/README.md"
+}

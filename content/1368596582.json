@@ -1,0 +1,25 @@
+{
+  "summary_zh": "一个面向 AI 助手（如 Claude Code、Codex、Antigravity 等）的开源插件，用于设计软件规格并审查文档。它让持有上下文的“大象”起草规格，再由不带先前对话的“金鱼”审阅者检查草稿与所引用的源材料，帮助发现未说明的假设和盲点；也可审查已有设计文档或 PR 计划，并比对文档与代码是否偏离。",
+  "audience_zh": "适合使用支持子代理的编码代理、需要为软件功能做设计决策并审查规格的开发团队；也适合想审查已有设计文档或 PR 计划、检查文档与代码是否一致的人员。内置设计工作流面向软件规格，代码引导与偏离报告面向代码库。",
+  "evidence": [
+    {
+      "quote": "Open-source plugin for designing and reviewing software with agents",
+      "url": "https://github.com/google/elephant-goldfish-model"
+    },
+    {
+      "quote": "Develop ideas with context and review documents with fresh eyes. EGM is an open-source plugin for AI assistants.",
+      "url": "https://github.com/google/elephant-goldfish-model/blob/main/README.md"
+    },
+    {
+      "quote": "**Elephant** holds your project context and drafts the specification. **Goldfish** reviewers examine the draft and referenced source material without the earlier conversation, helping expose unstated assumptions and blind spots. **You** make the architectural trade-offs and approve the specification",
+      "url": "https://github.com/google/elephant-goldfish-model/blob/main/README.md"
+    },
+    {
+      "quote": "The built-in draft and design-review workflow targets software specifications. For other documents, choose reviewers and standards with `/egm-review-loop`. Bootstrap and drift reporting apply to software codebases.",
+      "url": "https://github.com/google/elephant-goldfish-model/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "dbe09d426556d1acee64e0698b6dde34a74d10885d21a34f88ba96706cf55337",
+  "readme_url": "https://github.com/google/elephant-goldfish-model/blob/main/README.md"
+}

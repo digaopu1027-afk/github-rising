@@ -1,25 +1,25 @@
 {
-  "summary_zh": "magpie 是一个本地模型网关，让各类编码代理自由选用任意模型：可从菜单栏把 Claude Code 切到 Kimi、Codex 切到 DeepSeek，并从同一列表为每个代理挑选模型；也能统一使用同一提供商（API 密钥、本地模型或已登录的订阅计划）。配额用尽时会自动改换账号或路由组，从而继续工作。",
-  "audience_zh": "适合同时使用多个代理、多个提供商或多个账号的用户；README 明确说明，如果只在一个代理上使用该厂商自己的套餐且已满足需求，就不需要它。运行于 macOS、Windows、Linux，也支持 Docker 和 Termux。",
+  "summary_zh": "magpie 把多个编码代理的模型配置集中到一个本地网关，支持从菜单栏或命令行给 Claude Code、Codex、Gemini CLI 等代理选择任意供应商的模型，并在配额耗尽时切换到下一个账号或路由组。可选隐私脱敏会在请求离开本机前遮蔽密钥、密码和邮箱。",
+  "audience_zh": "适合同时使用多个编码代理、多个模型供应商或多个账号的用户，也适合需要在不同订阅之间自动故障转移的人。若只用单个代理的官方方案即可满足需求，则不需要它。",
   "evidence": [
     {
-      "quote": "Each agent keeps its model in its own file, in its own format, with its own keys and base URLs. A subscription you pay for works in one agent and nowhere else. magpie puts all of that behind one app and one local gateway:",
-      "url": "https://github.com/yetone/magpie/blob/main/README.md"
+      "quote": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+      "url": "https://github.com/yetone/magpie"
     },
     {
       "quote": "- **Pick any model for any agent** from one list. magpie edits the one key that matters in the agent's own config.",
       "url": "https://github.com/yetone/magpie/blob/main/README.md"
     },
     {
-      "quote": "It's for you if you use more than one agent, more than one provider, or more than one account. If you use one agent on its vendor's own plan and that's enough, you don't need it.",
+      "quote": "- **Keep going when a quota runs out**: a provider's next account takes over, and a routing group moves on to another model or provider, so the agent never sees the error. With one account and no group there is nothing to move to, and the error reaches the agent.",
       "url": "https://github.com/yetone/magpie/blob/main/README.md"
     },
     {
-      "quote": "Runs on macOS, Windows and Linux (menu bar app, window, TUI, web UI and CLI), in Docker, and on Termux.",
+      "quote": "It's for you if you use more than one agent, more than one provider, or more than one account. If you use one agent on its vendor's own plan and that's enough, you don't need it.",
       "url": "https://github.com/yetone/magpie/blob/main/README.md"
     }
   ],
   "content_status": "generated",
-  "material_hash": "d28763ec63f1bff0c988cf8718f3ecb46d75c145a9a84d474f6492698d242820",
+  "material_hash": "3da7e47a59638052afd759d28e6fb3bb8cb0caa778963a1effa83ac95224c0fb",
   "readme_url": "https://github.com/yetone/magpie/blob/main/README.md"
 }

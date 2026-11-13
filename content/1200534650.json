@@ -1,0 +1,21 @@
+{
+  "summary_zh": "Topcoat 是模块化、功能齐备的 Rust 全栈 Web 应用框架，强调简单与高效。它支持服务端渲染与组件、模块路由、客户端响应式表达式、可编辑的 UI 组件库、资源打包及 Tailwind 集成等。项目处于早期实验阶段，可能出现破坏性变更。",
+  "audience_zh": "适合希望用 Rust 从服务端到客户端构建全栈 Web 应用的开发者，尤其是重视简单性和生产力、能接受早期实验阶段与破坏性变更的 Rust 使用者。",
+  "evidence": [
+    {
+      "quote": "A batteries-included framework for building web apps",
+      "url": "https://github.com/tokio-rs/topcoat"
+    },
+    {
+      "quote": "Topcoat is a modular, batteries-included Rust framework for building full-stack apps. It prioritizes simplicity and productivity. See [Learn Topcoat](#learn-topcoat) to get started, or the [Roadmap](#roadmap) for what's coming next.",
+      "url": "https://github.com/tokio-rs/topcoat/blob/main/README.md"
+    },
+    {
+      "quote": "**Early-stage and experimental. Expect breaking changes.**",
+      "url": "https://github.com/tokio-rs/topcoat/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "69111b162cb6513d5db0ec3b34d946b89fbf347b18382d13adc6215ccf30561f",
+  "readme_url": "https://github.com/tokio-rs/topcoat/blob/main/README.md"
+}

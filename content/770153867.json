@@ -1,21 +1,17 @@
 {
-  "summary_zh": "根据视频主题或关键词，自动生成视频脚本、匹配素材、生成字幕与背景音乐，并合成高清短视频；提供 AI Agent、WebUI、API、CLI 四种使用方式，支持批量生成多条成片与自定义各环节内容。",
-  "audience_zh": "适合需要按主题快速产出短视频的内容创作者与运营人员，以及希望通过 API 或 CLI 接入自动化流程、并愿意自行配置模型与素材服务的开发者。",
+  "summary_zh": "根据主题或关键词，自动生成视频脚本、匹配素材、生成字幕与背景音乐，并合成高清短视频。提供 AI Agent、WebUI、API 和 CLI 四种使用方式，支持自定义各环节内容与批量生成。",
+  "audience_zh": "适合需要快速制作短视频的内容创作者，以及希望以 API 或命令行将视频生成接入自动化流程的开发者。",
   "evidence": [
-    {
-      "quote": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
-      "url": "https://github.com/harry0703/MoneyPrinterTurbo"
-    },
-    {
-      "quote": "### 一站式 AI 短视频生成工具",
-      "url": "https://github.com/harry0703/MoneyPrinterTurbo/blob/main/README.md"
-    },
     {
       "quote": "只需提供视频<b>主题</b>或<b>关键词</b>，即可自动生成视频脚本、匹配素材、生成字幕和背景音乐，并合成高清短视频。",
       "url": "https://github.com/harry0703/MoneyPrinterTurbo/blob/main/README.md"
+    },
+    {
+      "quote": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo"
     }
   ],
   "content_status": "generated",
-  "material_hash": "b2e9bb60b80040a3577107618c3711a45f30caa510f1424402bf81470d4cd5fb",
+  "material_hash": "9dcc71ed6a135481623ec62c9f5db9682f77f27a626628afbef5206899eda9f3",
   "readme_url": "https://github.com/harry0703/MoneyPrinterTurbo/blob/main/README.md"
 }

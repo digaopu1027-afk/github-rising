@@ -1,6 +1,6 @@
 {
-  "summary_zh": "面向开发者和 AI 代理的本地代码智能工具：通过 MCP 服务器把代码、文档、配置与基础设施连接成持久化本地知识图谱，支持符号检索、跨服务调用追踪、部署溯源、变更影响评估和测试关联查找，并提供可选的图形化浏览界面 CBM Lens。",
-  "audience_zh": "适合希望为编码代理补充结构化代码上下文、在本地索引并查询仓库的开发者，以及需要跨源码、文档和基础设施梳理调用链、评估改动影响的工程团队。",
+  "summary_zh": "本地代码智能工具：通过 MCP 服务器把代码、文档、配置和基础设施连接进持久化本地知识图谱，支持代码搜索、调用链追踪、影响分析、变更相关测试选择，并提供 CLI 查询与可选可视化界面 CBM Lens。",
+  "audience_zh": "需要为 AI 编程代理补充项目结构上下文的开发者，以及希望在不依赖托管服务或 API 密钥的情况下，探索陌生代码库、追踪跨服务调用、评估改动影响并定位相关测试的工程团队。",
   "evidence": [
     {
       "quote": "Local code intelligence for developers and AI agents. Connect code, docs and infrastructure in a persistent graph, with CBM Lens, MCP tools, agent integrations and change-aware test selection.",
@@ -11,11 +11,15 @@
       "url": "https://github.com/DeusData/codebase-memory-mcp/blob/main/README.md"
     },
     {
-      "quote": "Give your coding agent structural context through [Model Context Protocol](https://modelcontextprotocol.io/) (MCP), or query the graph directly from the CLI. **The MCP server is the core of the project.** Its optional visual companion, **CBM Lens, is in open beta (v0.0.1)**, with a source reader, ar",
+      "quote": "guration, skills, agent profiles, and applicable hooks. Indexing and graph queries need no hosted service or API key. Focused graph queries can reduce repeated file reads and token use; see the [measured results](#performance).",
+      "url": "https://github.com/DeusData/codebase-memory-mcp/blob/main/README.md"
+    },
+    {
+      "quote": "- **Understand a change before running it**: inspect affected symbols, compare indexed snapshots, and find related tests. [Experimental Smart CI](#smart-ci-and-test-impact) combines static relationships and per-test coverage for supported C/C++ test harnesses, falling back to broader runs when evidence is insufficient.",
       "url": "https://github.com/DeusData/codebase-memory-mcp/blob/main/README.md"
     }
   ],
   "content_status": "generated",
-  "material_hash": "e7391c58749299c35e899f4224961a2991d4612d8a99e288e65e838ab3f1f96e",
+  "material_hash": "74af6fe2a8d6378bc4b4d3c9945801e874b403dad99cbaf62608c6c32ca3f2f6",
   "readme_url": "https://github.com/DeusData/codebase-memory-mcp/blob/main/README.md"
 }

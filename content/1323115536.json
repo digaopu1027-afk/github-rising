@@ -1,6 +1,6 @@
 {
-  "summary_zh": "NVKE 是一个面向裸金属 NVIDIA GPU 基础设施的 Kubernetes 管理平面：平台团队安装后可创建并运营独立的工作负载集群，每个集群拥有自己的控制平面、etcd 和节点池，支持节点池扩缩删、Kubernetes 升级与节点替换。当前为预览版，不建议用于生产。",
-  "audience_zh": "适合在自有 NVIDIA GPU 裸金属环境中搭建托管 Kubernetes 服务的平台团队与运维人员；也适合在 Linux 或 macOS 上用模拟机器做无 GPU 评估的开发者，以及从源码构建和参与贡献的开发者。",
+  "summary_zh": "NVKE 是面向裸金属 GPU 基础设施的 Kubernetes 管理平面，平台团队安装后可创建并运维带有独立控制平面、etcd 和节点池的工作负载集群，通过 API 或 nvkectl 完成扩缩容、升级与节点替换，客户则用 kubectl 访问自己的集群。当前为预览版，不建议用于生产。",
+  "audience_zh": "适合在自己 NVIDIA GPU 裸金属机器上自建托管式 Kubernetes 服务的平台团队与运维人员；也适合想先在 Linux 主机或 macOS 虚拟机中用模拟环境评估、或从源码构建参与贡献的开发者。",
   "evidence": [
     {
       "quote": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.",
@@ -15,11 +15,11 @@
       "url": "https://github.com/dsx-ai-factory/nvke/blob/main/README.md"
     },
     {
-      "quote": "> can change between releases, and we do not recommend NVKE for production",
+      "quote": "plane; your customers use their clusters through the Kubernetes API and `kubectl`.",
       "url": "https://github.com/dsx-ai-factory/nvke/blob/main/README.md"
     }
   ],
   "content_status": "generated",
-  "material_hash": "dc8ecc288c1c7c7fa81a5bb4a3bf7a5e482040d2a435787a1de1f6dfe883aeb8",
+  "material_hash": "2485901b280ed82f79bfc8d199816f359f2585d9a67fffb81c42691d45eb0ce2",
   "readme_url": "https://github.com/dsx-ai-factory/nvke/blob/main/README.md"
 }

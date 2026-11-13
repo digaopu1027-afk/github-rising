@@ -1,13 +1,13 @@
 {
-  "summary_zh": "Moli 是面向 AI 智能体的生产就绪无头浏览器，采用 Rust 构建，通过按需布局与渲染兼顾完整浏览器运行时与轻量资源占用，可帮助智能体抓取和提取网页、搜索网页并自动化浏览器任务，支持通过 CLI、CDP、WebDriver Classic 或 WebDriver BiDi 使用。",
-  "audience_zh": "适用于为 AI 智能体、网页抓取、浏览器自动化或评测环境寻找无头浏览器的开发者；需要 CLI 或标准自动化协议操作网页，并在 Linux、macOS 或 Windows 上运行的人群。",
+  "summary_zh": "Moli 是面向 AI 智能体的无头浏览器，用 Rust 构建，可按需进行布局和渲染。它能帮助智能体抓取和提取网页、搜索网页并自动化浏览器任务，支持通过 CLI、CDP、WebDriver Classic 或 WebDriver BiDi 使用。",
+  "audience_zh": "适合需要为 AI 智能体提供浏览器能力的开发者，涵盖网页抓取、内容提取、检索流水线、评测及强化学习等场景；支持 Linux、macOS 和 Windows。",
   "evidence": [
     {
-      "quote": "Best headless browser for AI agents. Lite, Fast, High-Compatibility. Built in Rust",
-      "url": "https://github.com/lexmount/moli"
+      "quote": "Moli is a production-ready headless browser for AI agents. Its on-demand layout",
+      "url": "https://github.com/lexmount/moli/blob/main/README.md"
     },
     {
-      "quote": "Moli is a production-ready headless browser for AI agents. Its on-demand layout",
+      "quote": "alt=\"Moli Browser — Structure first. Pixels on demand. Open source browser for AI agents.\"",
       "url": "https://github.com/lexmount/moli/blob/main/README.md"
     },
     {
@@ -20,6 +20,6 @@
     }
   ],
   "content_status": "generated",
-  "material_hash": "cc30f83461f8e594dbb6654642c8638e648d8164c89b49fbed0de9224fb6bd55",
+  "material_hash": "b53c912fce79782fc3ee44cbceac7ee21a322775cd08b72316c3769870ffb317",
   "readme_url": "https://github.com/lexmount/moli/blob/main/README.md"
 }

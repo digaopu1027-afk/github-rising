@@ -1,25 +1,25 @@
 {
-  "summary_zh": "这是一套嵌入编码智能体的 Web 平台技能指南，提供现代浏览器 API、最佳实践与兼容性数据，帮助智能体避开旧式写法，优先采用平台原生方案、性能与无障碍设计，并提供轻量回退建议。仓库本身是编写、校准和评估这些内容的源码库。",
-  "audience_zh": "适合使用编码智能体进行 Web 开发的开发者与团队，以及希望参与编写、校准、评估该指南内容并改进代码库的贡献者和 Web 开发社区成员。",
+  "summary_zh": "为编码助手提供现代 Web 最佳实践技能包，将平台知识、专家指南和浏览器兼容数据注入代理上下文，帮助避免旧式模式与冗余 JavaScript，并可通过 CLI 搜索、检索指南及扫描旧模式。",
+  "audience_zh": "适合使用编码代理进行 Web 开发、希望生成更符合现代浏览器 API、性能与无障碍实践代码的开发者，以及参与该指南编写和评估的贡献者。",
   "evidence": [
+    {
+      "quote": "Keep your coding agent up to date with the latest web best practices",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance-src"
+    },
     {
       "quote": "[**Modern Web Guidance**](https://developer.chrome.com/docs/modern-web-guidance) is a set of skills that embed web platform expertise, best practices, and browser compatibility data directly into your coding agents. It helps to steer your coding agents away from legacy patterns, and instead toward s",
       "url": "https://github.com/GoogleChrome/modern-web-guidance-src/blob/main/README.md"
     },
     {
-      "quote": "This repo is the source repository for [GoogleChrome/modern-web-guidance](https://github.com/GoogleChrome/modern-web-guidance) and includes the code and documentation for authoring, calibrating, and evaluating its contents.",
+      "quote": "npx modern-web-guidance@latest search \"animate a dialog modal backdrop\"",
       "url": "https://github.com/GoogleChrome/modern-web-guidance-src/blob/main/README.md"
     },
     {
       "quote": "**Modern Web Guidance bridges this gap.** Our skill's CLI returns targeted, expert-curated guidelines directly into your agent's context window, focusing on:",
       "url": "https://github.com/GoogleChrome/modern-web-guidance-src/blob/main/README.md"
-    },
-    {
-      "quote": "Coding agents often default to older patterns because LLM training data contains vast amounts of legacy code. This often leads them to generate bloated JavaScript for tasks that now have native, high-performance web platform solutions.",
-      "url": "https://github.com/GoogleChrome/modern-web-guidance-src/blob/main/README.md"
     }
   ],
   "content_status": "generated",
-  "material_hash": "6e14be0da02da68e33c5f848a11c1ce5cfaa557afce65185913c7e9bb7a93a0d",
+  "material_hash": "6b1d8f5419dafb2d00d65dec0bc245c25302f62324648162f835310d4597234f",
   "readme_url": "https://github.com/GoogleChrome/modern-web-guidance-src/blob/main/README.md"
 }

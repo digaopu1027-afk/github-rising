@@ -1,17 +1,17 @@
 {
-  "summary_zh": "Ruff 是用 Rust 编写的 Python 代码检查器（linter）与格式化工具，可对当前目录或指定路径执行代码检查与格式化，支持自动修复、内置缓存、900 余条规则，并可通过 pyproject.toml 配置，也可作为 pre-commit 钩子、VS Code 扩展或 GitHub Action 使用。",
-  "audience_zh": "适合需要检查和统一 Python 代码风格的个人开发者与团队，尤其是希望以单一工具替代 Flake8、Black、isort 等多个工具，或需要在编辑器、提交钩子和 CI 中集成代码检查与格式化的项目。",
+  "summary_zh": "Ruff 是用 Rust 编写的极快 Python 代码检查器（linter）和格式化工具，可运行 check 检查代码、format 格式化代码，支持自动修复常见错误、内置缓存及 900 多条规则，并可替代 Flake8、Black、isort 等多个工具。",
+  "audience_zh": "适合需要检查和格式化 Python 代码的开发者与团队，尤其是希望用单一工具替代 Flake8、Black、isort 等的项目，以及关注速度、使用 pyproject.toml 配置或采用 monorepo 的组织。",
   "evidence": [
     {
       "quote": "An extremely fast Python linter and code formatter, written in Rust.",
       "url": "https://github.com/astral-sh/ruff"
     },
     {
-      "quote": "- 🔧 Fix support, for automatic error correction (e.g., automatically remove unused imports)",
+      "quote": "- ⚡️ 10-100x faster than existing linters (like Flake8) and formatters (like Black)",
       "url": "https://github.com/astral-sh/ruff/blob/main/README.md"
     },
     {
-      "quote": "- 📏 Over [900 built-in rules](https://docs.astral.sh/ruff/rules/), with native re-implementations",
+      "quote": "- ⚖️ Drop-in parity with [Flake8](https://docs.astral.sh/ruff/faq/#how-does-ruffs-linter-compare-to-flake8), [isort](https://docs.astral.sh/ruff/faq/#how-does-ruffs-import-sorting-compare-to-isort), and [Black](https://docs.astral.sh/ruff/faq/#how-does-ruffs-formatter-compare-to-black)",
       "url": "https://github.com/astral-sh/ruff/blob/main/README.md"
     },
     {
@@ -20,6 +20,6 @@
     }
   ],
   "content_status": "generated",
-  "material_hash": "4bc0a8af6f6c8b8d80b89e602d109dbb7f8c3f4b630e896724f17a313b2b7f1c",
+  "material_hash": "ec939010d2d07b86609df33f98ddb78a8a39768e9cdcf8c28d52c111a1ab2f47",
   "readme_url": "https://github.com/astral-sh/ruff/blob/main/README.md"
 }

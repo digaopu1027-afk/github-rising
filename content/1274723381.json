@@ -1,0 +1,21 @@
+{
+  "summary_zh": "TensorFold 是一个用 Zig 编写的 LLM 推理引擎，可直接读取检查点、对请求分词并在 Apple Silicon 与 NVIDIA GPU 上运行 Metal 或 CUDA 内核来提供语言模型服务，提供与 OpenAI 兼容的聊天补全等接口，并附带本地 Web 应用和 Mac 桌面应用。",
+  "audience_zh": "适合希望在 Apple Silicon Mac 或 NVIDIA GPU Linux 主机上本地部署并调用语言模型、且不想额外安装 Python 或 MLX 的用户；也适合想通过 Homebrew 或发布压缩包快速启动推理服务的开发者。",
+  "evidence": [
+    {
+      "quote": "TensorFold serves language models from a Zig binary on Apple Silicon and NVIDIA GPUs.",
+      "url": "https://github.com/ashhart/TensorFold/blob/main/README.md"
+    },
+    {
+      "quote": "The engine reads checkpoints, tokenizes requests and runs Metal or CUDA kernels directly.",
+      "url": "https://github.com/ashhart/TensorFold/blob/main/README.md"
+    },
+    {
+      "quote": "Serving needs no Python or MLX installation.",
+      "url": "https://github.com/ashhart/TensorFold/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "b7f72f0755b1675ba29b18148b130ca382904d1cd7b3f2dcc9f2d46a5816f026",
+  "readme_url": "https://github.com/ashhart/TensorFold/blob/main/README.md"
+}

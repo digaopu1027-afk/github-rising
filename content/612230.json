@@ -1,0 +1,13 @@
+{
+  "summary_zh": "nvm 是遵循 POSIX 的 shell 脚本版 Node.js 版本管理器，用于在命令行快速安装和切换多个 node 版本，可按项目使用不同版本，并可配合 .nvmrc、Docker 与 CI/CD 使用。",
+  "audience_zh": "适合在 unix、macOS 或 Windows WSL 上使用 POSIX 兼容 shell（sh、dash、ksh、zsh、bash）开发，需要在同一台机器上管理多个 Node.js 版本的开发者。",
+  "evidence": [
+    {
+      "quote": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.",
+      "url": "https://github.com/nvm-sh/nvm"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "b66a551f30131cc607aca288d11baae5a36c7720dd8c460b0d312144f796f96b",
+  "readme_url": "https://github.com/nvm-sh/nvm/blob/master/README.md"
+}

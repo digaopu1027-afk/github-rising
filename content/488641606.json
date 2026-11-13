@@ -1,6 +1,6 @@
 {
-  "summary_zh": "Agno 是自管理智能体平台：可用 Agno、Claude Agent 或 Codex SDK 构建智能体，组合成团队与工作流；通过 AgentOS 以持久服务运行，内置 API、MCP、认证、角色权限、人工审批、调度与持久执行；还可用 Company OS 将工作组织为项目、任务和例程，自动化公司运营。",
-  "audience_zh": "适合希望为公司、产品或客户构建并运行智能体的开发者和企业团队，包括需要 REST API、MCP 接入产品及 Claude、ChatGPT、Slack 等渠道，或在自有云中管控数据、查看对话与追踪、审批敏感操作并安排定期任务的人员。",
+  "summary_zh": "Agno 是自管理智能体平台，支持用多种 SDK 构建智能体并组合为团队和工作流，在 AgentOS 上以持久服务运行，内置 API、MCP、认证、权限、人工审批、调度和持久执行，还可通过 Company OS 将工作组织为项目、任务和例行流程，用于自动化公司运营。",
+  "audience_zh": "适合希望为公司、产品或客户构建并托管智能体的开发者与团队，包括需要将智能体接入自有产品、Claude/ChatGPT 或 Slack 等聊天应用，以及在自有云中保留数据控制并集中管理智能体运行的用户。",
   "evidence": [
     {
       "quote": "Agno is a self-managing agent platform. Build agents for your company, product, or customers. Run them as durable services on AgentOS. Put them to work automating company operations.",
@@ -15,11 +15,11 @@
       "url": "https://github.com/agno-agi/agno/blob/main/README.md"
     },
     {
-      "quote": "Run your platform in your own cloud and keep your data in your control. Review conversations, inspect traces, manage knowledge, and track your agent activity using the [AgentOS UI](https://os.agno.com).",
+      "quote": "Agno provides the orchestration and service layer around your agents, making them available in:",
       "url": "https://github.com/agno-agi/agno/blob/main/README.md"
     }
   ],
   "content_status": "generated",
-  "material_hash": "0aed5d48e7495ff69ad5379995a75c2dd97dc96de1966786cece55cac9cb6db5",
+  "material_hash": "32c6bf14cfa755ff507c4b3f533395b9ee3159fcb9bd9a979009cccfb04c3fcc",
   "readme_url": "https://github.com/agno-agi/agno/blob/main/README.md"
 }
