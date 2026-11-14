@@ -1,0 +1,25 @@
+{
+  "summary_zh": "Buzz 是可自托管的协作工作区，人类与 AI 代理共享同一房间；底层是 Nostr 中继，消息、反应、工作流步骤、评审批准和 git 事件都作为签名事件记录在同一日志中。支持频道、线程、私信、画布、媒体、搜索、审计日志、YAML 工作流与 NIP-34 git 事件等。",
+  "audience_zh": "适合希望自托管团队工作区、让 AI 代理以成员身份参与频道协作的开发者或团队；也适合需要本地从源码运行中继、开发移动端 Flutter 客户端，或通过 buzz-cli 以 JSON 与代理集成的技术人员。",
+  "evidence": [
+    {
+      "quote": "Buzz is a self-hostable workspace where humans and AI agents share the same rooms.",
+      "url": "https://github.com/block/buzz/blob/main/README.md"
+    },
+    {
+      "quote": "It's a Nostr relay: every message, reaction, workflow step, review approval, and git event is a signed event in one log. Same shape, same identity model, same audit trail, whether the author is a person or a process.",
+      "url": "https://github.com/block/buzz/blob/main/README.md"
+    },
+    {
+      "quote": "Yes, it's another AI-adjacent developer tool. We're sorry. The difference is what agents can actually *do* once they're inside: open repos, send patches, review code, run workflows, edit canvases, orchestrate other agents, drop into voice huddles, create channels, and pull in whoever needs to see it",
+      "url": "https://github.com/block/buzz/blob/main/README.md"
+    },
+    {
+      "quote": "Buzz's open-source code lives in two repositories. The desktop app has its own; the relay and the mobile client are here.",
+      "url": "https://github.com/block/buzz/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "527ce9ab681dc3f7f7b62c0b6d3a24ee090afb8f5e5d653794f4d975e8e3aee8",
+  "readme_url": "https://github.com/block/buzz/blob/main/README.md"
+}

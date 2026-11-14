@@ -1,0 +1,25 @@
+{
+  "summary_zh": "类似 netcat 的用户态工具与 Go 库，利用 Tailscale 数据面（magicsock）在两台机器间建立点对点 WireGuard 端到端加密隧道，不依赖 Tailscale 控制面，连接元数据通过带外方式交换。支持管道传输、端口转发、文件收发、SSH、吞吐测试等。",
+  "audience_zh": "需要在不使用 Tailscale 账号、无需 root 权限、不改动系统路由或 DNS 的情况下，在两台机器间建立加密点对点通道的开发者或运维人员，也适合以 Go 库形式集成该能力的开发者。",
+  "evidence": [
+    {
+      "quote": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
+      "url": "https://github.com/tailscale/tailcat"
+    },
+    {
+      "quote": "Whether you use `tailcat` as a CLI tool or library, one side runs a `tailcat`",
+      "url": "https://github.com/tailscale/tailcat/blob/main/README.md"
+    },
+    {
+      "quote": "You don't need a Tailscale account, root/admin access on the machine",
+      "url": "https://github.com/tailscale/tailcat/blob/main/README.md"
+    },
+    {
+      "quote": "a userspace library and CLI tool.",
+      "url": "https://github.com/tailscale/tailcat/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "b8c47c65fff4ee1dcfeddb971a99b61774a7bfefc80844a585b3b6efe991fe09",
+  "readme_url": "https://github.com/tailscale/tailcat/blob/main/README.md"
+}

@@ -1,6 +1,6 @@
 {
-  "summary_zh": "Blueprint 是基于 React 的 Web UI 工具包，提供核心样式与组件，以及图标、日期时间、列表选择、类电子表格表格等组件库；它针对在现代浏览器中运行的桌面应用，可用于构建复杂、数据密集的 Web 界面。",
-  "audience_zh": "适合使用 React 开发桌面端 Web 应用的开发者，尤其是需要构建复杂、数据密集界面并需要表格、选择、日期时间等组件的人群；它并非面向移动优先场景。",
+  "summary_zh": "Blueprint 是一个基于 React 的 Web UI 工具包，包含核心样式与组件、图标、日期时间、列表选择以及可扩展的交互式表格等组件库，面向现代浏览器中的桌面应用，适合构建复杂、数据密集的网页界面。",
+  "audience_zh": "适合使用 React 开发桌面端 Web 应用、需要构建复杂且数据密集界面（如表格、选择器、日期时间交互）的前端开发者与设计系统团队；不面向移动优先的项目。",
   "evidence": [
     {
       "quote": "Blueprint is a React-based UI toolkit for the web.",
@@ -11,15 +11,15 @@
       "url": "https://github.com/palantir/blueprint/blob/develop/README.md"
     },
     {
-      "quote": "- [![npm](https://img.shields.io/npm/v/@blueprintjs/table.svg?label=@blueprintjs/table)](https://www.npmjs.com/package/@blueprintjs/table) &ndash; Scalable & interactive spreadsheet-like table component.",
+      "quote": "This is not a mobile-first UI toolkit.",
       "url": "https://github.com/palantir/blueprint/blob/develop/README.md"
     },
     {
-      "quote": "This is not a mobile-first UI toolkit.",
+      "quote": "- [![npm](https://img.shields.io/npm/v/@blueprintjs/table.svg?label=@blueprintjs/table)](https://www.npmjs.com/package/@blueprintjs/table) &ndash; Scalable & interactive spreadsheet-like table component.",
       "url": "https://github.com/palantir/blueprint/blob/develop/README.md"
     }
   ],
   "content_status": "generated",
-  "material_hash": "e6eb9103fa022eda47469dfbe097ee8fa9240b8651ab01ad1f1b4fb7739ad8ec",
+  "material_hash": "8568a3a9d73a142549a2b684d059d2ccfebfc3d97f2abd9dce3b42da466694c6",
   "readme_url": "https://github.com/palantir/blueprint/blob/develop/README.md"
 }

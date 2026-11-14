@@ -1,6 +1,6 @@
 {
-  "summary_zh": "Filee 是一款免费开源的文件转换工具，用户按住按键拖拽文件到光标处的格式圆环即可完成转换，支持图片、PDF、Word、Excel、PowerPoint、HWP/HWPX、视频、音频、电子书、压缩包等多种类别。转换在本机离线完成，不上传文件，结果保存在原文件旁。",
-  "audience_zh": "适合需要频繁批量转换多种格式文件、注重隐私不愿上传文件的普通用户和办公人群，也适合在 Windows、macOS 或 Linux 上使用图形界面或命令行进行转换的用户。",
+  "summary_zh": "免费开源的文件转换工具：按住按键拖拽文件到光标处的环形菜单，即可在本地离线转换图片、PDF、Word、Excel、PowerPoint、HWP/HWPX、音视频、电子书、压缩包等格式，文件不上传，也不需要安装 Office。",
+  "audience_zh": "适合需要频繁在多种文档、图片、音视频、电子书、压缩包格式间转换的用户，尤其是注重隐私、希望离线处理且电脑未装 Office、Hancom Office 或 LibreOffice 的人；提供 Windows、macOS 预览版和 Linux 版本。",
   "evidence": [
     {
       "quote": "Free, open-source file converter. Convert 263 formats offline by drag & drop — images, PDF, Word, Excel, PowerPoint, HWP/HWPX, video, audio, e-books and archives. No upload, no Office needed.",
@@ -11,7 +11,7 @@
       "url": "https://github.com/KnifeLemon/Filee/blob/main/README.md"
     },
     {
-      "quote": "Nothing is uploaded.",
+      "quote": "Images, PDF, Word, Excel, PowerPoint, HWP, e-books, archives, fonts, CAD, 3D models and geospatial data work without Office, Hancom Office or LibreOffice.",
       "url": "https://github.com/KnifeLemon/Filee/blob/main/README.md"
     },
     {
@@ -20,6 +20,6 @@
     }
   ],
   "content_status": "generated",
-  "material_hash": "5ed86769e3030aac8e8bd3ed226564c488aca1f53baa94ff05e50660962f571c",
+  "material_hash": "1b3730127971485276476e61968a52df3f451484e1bb7e6a674dbf16bb3868c2",
   "readme_url": "https://github.com/KnifeLemon/Filee/blob/main/README.md"
 }

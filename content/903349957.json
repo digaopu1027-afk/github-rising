@@ -1,0 +1,25 @@
+{
+  "summary_zh": "在任意 Apple Watch 上启用 Hermès 表盘。仅支持 watchOS 27.0 至 27.3 beta 1，需将 iPhone 与目标手表配对；可通过 macOS 的 Sideloadly 安装 IPA、用 Xcode 构建，或使用 Windows 的 WatchBridge 安装。",
+  "audience_zh": "适合拥有与目标 Apple Watch 配对的 iPhone、手表运行受支持 watchOS 版本，并愿意使用 Sideloadly、Xcode 或 WatchBridge 进行安装的用户；需付费 Apple 开发者账号，且需自行承担风险。",
+  "evidence": [
+    {
+      "quote": "Enable Hermès Watch Faces on any Apple Watch devices",
+      "url": "https://github.com/pookjw/HermesEnabler"
+    },
+    {
+      "quote": "> Supported only on watchOS 27.0 through 27.3 beta 1.",
+      "url": "https://github.com/pookjw/HermesEnabler/blob/main/README.md"
+    },
+    {
+      "quote": "On macOS you can install the prebuilt IPA with Sideloadly or build the app directly with Xcode. Either way, the iPhone must be paired with the target Apple Watch, and the Watch must run a supported watchOS version.",
+      "url": "https://github.com/pookjw/HermesEnabler/blob/main/README.md"
+    },
+    {
+      "quote": "Windows uses [WatchBridge](https://github.com/AdminZachary/iloader-for-windows), a community tool that prepares Developer Mode and installs an IPA containing both an iPhone host app and a Watch app. It is not affiliated with Apple or with this project.",
+      "url": "https://github.com/pookjw/HermesEnabler/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "7434f049ca3f0c6659a805ca6598ebea3cb47ab25e80730ab72326b4d0a4962e",
+  "readme_url": "https://github.com/pookjw/HermesEnabler/blob/main/README.md"
+}

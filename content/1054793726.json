@@ -1,0 +1,25 @@
+{
+  "summary_zh": "这是一个面向编程智能体的 Chrome DevTools 工具，以 MCP 服务器和 CLI 形式提供，让 AI 编程助手控制并检查正在运行的 Chrome 浏览器，支持可靠的浏览器自动化、网络请求与控制台调试、截图，以及录制性能追踪并提取性能洞察。",
+  "audience_zh": "适合使用 Antigravity、Claude、Cursor、Copilot 等 AI 编程助手进行浏览器自动化、前端调试和性能分析的开发者，也适合在终端通过 CLI 操作浏览器的用户。需使用 Node.js LTS 与 Google Chrome 或 Chrome for Testing。",
+  "evidence": [
+    {
+      "quote": "Chrome DevTools for agents (`chrome-devtools-mcp`) lets your coding agent (such as Antigravity, Claude, Cursor or Copilot)",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/main/README.md"
+    },
+    {
+      "quote": "control and inspect a live Chrome browser. It is available as a",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/main/README.md"
+    },
+    {
+      "quote": "Model-Context-Protocol (MCP) server and as a [CLI][cli]. Both give your AI",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/main/README.md"
+    },
+    {
+      "quote": "automation, in-depth debugging, and performance analysis.",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "4fe66e31ba7f35bfc40f897dbe093daa68be9b5311b287e2ee261d6e49192851",
+  "readme_url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/main/README.md"
+}

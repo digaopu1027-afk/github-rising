@@ -1,13 +1,13 @@
 {
-  "summary_zh": "该仓库提供面向 Google 产品与技术的 Agent Skills（智能体技能），涵盖 Google Cloud 等，包含入门、IAM 认证授权、解决方案架构、AI/ML 与多产品方案等技能，可通过 npx 安装并更新。",
-  "audience_zh": "适合使用 Google 产品与 Google Cloud、希望为智能体配置技能以完成云上认证、架构设计、AI/ML 等任务的开发者与技术人员。",
+  "summary_zh": "该仓库汇集面向 Google 产品与技术的 Agent Skills，涵盖 Google Cloud 的入门、架构、AI/ML、基础设施、数据库分析、开发工具、安全身份与管理工具等技能，可通过 npx 命令安装并按需选择技能、目标代理及安装范围，也可更新已安装技能。",
+  "audience_zh": "适合使用 Google 产品与技术（尤其 Google Cloud）的开发者、架构师和运维人员，也面向需要为 AI 代理配置 Google 相关技能、进行云上解决方案设计与故障排查的用户。",
   "evidence": [
     {
-      "quote": "Agent Skills for Google products and technologies",
-      "url": "https://github.com/google/skills"
+      "quote": "This repository contains [Agent Skills](https://agentskills.io/home) for Google",
+      "url": "https://github.com/google/skills/blob/main/README.md"
     },
     {
-      "quote": "This repository contains [Agent Skills](https://agentskills.io/home) for Google",
+      "quote": "products and technologies, including [Google Cloud](https://cloud.google.com).",
       "url": "https://github.com/google/skills/blob/main/README.md"
     },
     {
@@ -15,11 +15,11 @@
       "url": "https://github.com/google/skills/blob/main/README.md"
     },
     {
-      "quote": "- [**Authenticating and Authorizing to Google Cloud (IAM)**](./skills/cloud/google-cloud-recipe-auth)",
+      "quote": "configure, and the installation scope (project or global).",
       "url": "https://github.com/google/skills/blob/main/README.md"
     }
   ],
   "content_status": "generated",
-  "material_hash": "5366b666bf447bfbed7e5aca09245323cad1b811d162d0586525020a35407022",
+  "material_hash": "b788c5d99ab8361b25010cc2f42e1b4dcaaa2b2a97d419d311f4f068f0131e13",
   "readme_url": "https://github.com/google/skills/blob/main/README.md"
 }

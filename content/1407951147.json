@@ -1,0 +1,25 @@
+{
+  "summary_zh": "Harness² 是一个即插即用的递归式智能体框架优化框架，在保持模型权重不变的前提下，借助任务级递归（Propose–Probe–Compose）与优化级递归，改进模型周围的提示、工具、记忆、技能等组件，并支持并行与串行递归，以及 OpenCode、Codex 执行器。",
+  "audience_zh": "适合研究或开发智能体、希望在不微调模型权重的情况下优化智能体外围系统，并想在 JobBench、LAB、WorkBuddy-Bench 等专业基准上评测的开发者与研究者。",
+  "evidence": [
+    {
+      "quote": "Harness² is a plug-and-play framework for **recursive agent harnessing** in an",
+      "url": "https://github.com/google-research/harness2/blob/main/README.md"
+    },
+    {
+      "quote": "connects two levels of recursion while keeping model weights fixed:",
+      "url": "https://github.com/google-research/harness2/blob/main/README.md"
+    },
+    {
+      "quote": "The release supports **parallel and sequential recursion**, **OpenCode and",
+      "url": "https://github.com/google-research/harness2/blob/main/README.md"
+    },
+    {
+      "quote": "Codex executors**, and **JobBench, LAB, and WorkBuddy-Bench**.",
+      "url": "https://github.com/google-research/harness2/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "62e98c2c08e0a5d0bb36f725050aaa2a723d04cc81deaa4768397a09337d4adf",
+  "readme_url": "https://github.com/google-research/harness2/blob/main/README.md"
+}

@@ -1,0 +1,21 @@
+{
+  "summary_zh": "Veyra 是一款 Windows 实时 GPU 视频增强工具，支持播放视频、图片及采集卡信号，并将本地视频、采集卡和游戏串流统一为实时增强流程，集成超分辨率、降噪、HDR、帧生成及截图/录制等功能，还支持 PS5、Xbox、PC 串流接入。",
+  "audience_zh": "适合使用 Windows 11、具备 DirectX 12 与 NVIDIA 或 AMD 显卡，希望实时提升视频、采集卡画面或 PS5/Xbox/PC 串流画质，并进行降噪、HDR、帧生成与导出处理的视频与游戏串流用户。",
+  "evidence": [
+    {
+      "quote": "### Real-time GPU Video Enhancement for Windows",
+      "url": "https://github.com/Likely7/Veyra-NRVideo/blob/main/README.md"
+    },
+    {
+      "quote": "**Super Resolution · Denoising · HDR · Frame Generation · Capture · PS5 / Xbox / PC Streaming**",
+      "url": "https://github.com/Likely7/Veyra-NRVideo/blob/main/README.md"
+    },
+    {
+      "quote": "Turn local video, capture cards and game streaming into one real-time GPU enhancement pipeline.",
+      "url": "https://github.com/Likely7/Veyra-NRVideo/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "5b4d2012592a6bc8d163788c0eece2063bf54507bb817d9c7d9b79ce9db29670",
+  "readme_url": "https://github.com/Likely7/Veyra-NRVideo/blob/main/README.md"
+}

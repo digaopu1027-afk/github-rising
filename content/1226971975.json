@@ -1,6 +1,6 @@
 {
-  "summary_zh": "开源、可自托管的 AI 安全运营中心：接入安全遥测，规范化后用可执行检测规则发现并关联威胁，由 AI 代理调查并记录每一步推理，提出需人工批准的动作；附带 MCP 服务器，支持 MITRE ATT&CK 调查与可回放决策账本。",
-  "audience_zh": "适合需要自建安全运营与告警调查流程的 SOC 团队、安全工程师，以及希望审计 AI 代理调查过程、部署时无需托管 API 密钥并偏好开源 MIT 方案的组织。",
+  "summary_zh": "开源自托管 AI 安全运营中心：接入安全遥测，先归一化数据，再用可执行检测规则发现并关联威胁，生成事件，由 AI 代理调查并记录每步推理，最终提出处置建议，交由人工审批。支持 MCP 服务器，可接入 Claude、Cursor 等工具。",
+  "audience_zh": "适合希望自托管安全运营平台的安全团队、SOC 运维人员及需要可审计 AI 辅助告警研判与威胁调查的开发者；也适合想通过 MCP 在 Claude、Cursor 等工具中调用该能力的用户。",
   "evidence": [
     {
       "quote": "Open-source AI Security Operations Center: alert fusion, LLM-agent triage, MITRE ATT&CK investigation, and a replayable decision ledger for every agent step. Self-hostable, runs with no API keys, MIT licensed. Ships an MCP server for Claude, Cursor and Continue.",
@@ -20,6 +20,6 @@
     }
   ],
   "content_status": "generated",
-  "material_hash": "b91a389fb4cc1b9728cf436489acb390e94e0e49a87263741a2fcebb39081df2",
+  "material_hash": "c00f0e5b47b347a0e4c0f2702e0b6ab48930b8fb6586006096c2fea81a8da07f",
   "readme_url": "https://github.com/beenuar/AiSOC/blob/main/README.md"
 }

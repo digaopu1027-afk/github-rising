@@ -1,6 +1,6 @@
 {
-  "summary_zh": "Archify 是一个面向 AI 编程代理的代理技能（agent skill），可把想法、计划或代码库转成可交互的 HTML 图表；也能让代理以“一页式回答”形式输出，先给结论，再分面板搭配表格、步骤、图表和经校验的示意图，并支持导出分享。",
-  "audience_zh": "适合在 Cursor、Claude Code、Codex CLI、OpenCode 等代理环境中，需要把系统架构、请求流程或问题分析做成可交互图与一页式说明来理解、核对和分享的开发者及团队。",
+  "summary_zh": "Archify 是一个面向 AI 编程代理的绘图技能，能把想法、计划或代码库转成可交互的 HTML 图表。你可以用一句话描述系统让代理生成架构图、流程图，并继续追加改动；也可以让代理读取仓库，生成有源码依据的架构图。除图表外，还能把问题整理成结论先行的单页说明，并导出图片或 PDF。",
+  "audience_zh": "适合使用 Claude Code、Codex CLI、Cursor 或 OpenCode 等代理工具的开发者与技术人员，用来理解代码库架构、梳理系统流程，或制作便于分享和讲解的交互式技术图解；也适合需要把复杂信息整理成可浏览页面的非编码用户。",
   "evidence": [
     {
       "quote": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
@@ -20,6 +20,6 @@
     }
   ],
   "content_status": "generated",
-  "material_hash": "e3e59a66c7f5f5ab5d3666419d3181fcc188e1ec384637ddfa20e82642cdc266",
+  "material_hash": "d041c8e3ba6648318764cf6fae04e3620a90299ede7ca546160ad531a9ba35cd",
   "readme_url": "https://github.com/tt-a1i/archify/blob/main/README.md"
 }

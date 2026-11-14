@@ -1,6 +1,6 @@
 {
-  "summary_zh": "PhotoCraft 是用纯 Rust 从零编写的开源照片编辑器，支持图层、蒙版、调整图层、图层样式、文字、矢量、笔刷和真实 PSD 文件，可打开、编辑并保存分层 Photoshop 文档，也可通过命令行或 MCP 服务器驱动同一套命令引擎。",
-  "audience_zh": "适合需要离线原生图像编辑工具、熟悉 Photoshop 操作与快捷键的用户，以及希望用 CLI 或 AI 代理自动化图像处理流程的开发者；项目处于早期 alpha 阶段。",
+  "summary_zh": "PhotoCraft 是一款用纯 Rust 从零编写的开源照片编辑器，提供图层、蒙版、调整图层、图层样式、文字、矢量、画笔和真实 PSD 文件读写等功能，是一款原生应用，可离线使用。",
+  "audience_zh": "适合需要图层式图像编辑、Photoshop 式操作习惯、PSD 兼容和离线原生编辑的用户，也适合希望通过 CLI、JSON 控制通道或 MCP 服务器用脚本或 AI 代理驱动编辑流程的人。",
   "evidence": [
     {
       "quote": "PhotoCraft: An open-source photo editor written from scratch in pure Rust",
@@ -20,6 +20,6 @@
     }
   ],
   "content_status": "generated",
-  "material_hash": "89c26d3001e15583d3d88a81b2aad29bc56d109f48cdb09b05faf2e112635bb6",
+  "material_hash": "28c130786699c7aabf181a7c63d126978052fd49f00389ef03055366c91d22f3",
   "readme_url": "https://github.com/storytold/photocraft/blob/main/README.md"
 }

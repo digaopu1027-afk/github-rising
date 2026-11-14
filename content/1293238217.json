@@ -1,11 +1,7 @@
 {
-  "summary_zh": "ThinkRail 是一个围绕 pi 编码代理构建的智能体 IDE，支持规格驱动开发，并随使用逐步了解项目。它提供隔离的 git worktree 工作区、Monaco 编辑器、终端、多会话聊天与共享计划，以及持久化的 SPEC.md 规格图、可复用技能和 MCP 服务器连接。",
-  "audience_zh": "适合使用 Git 仓库、希望让 AI 代理并行处理开发任务并管理分支和拉取请求的开发者；也适合重视规格文档沉淀、想接入自有模型提供方或扩展/技能体系、偏好桌面应用或浏览器 CLI 工作流的技术用户。",
+  "summary_zh": "ThinkRail 是一个围绕 pi 编码代理构建的代理式 IDE，支持规格驱动开发，能随使用逐步学习项目；提供隔离的 git worktree 工作区以并行运行代理、Monaco 编辑器、终端、多功能聊天、规格图、技能与扩展、MCP 服务器、自定义模型提供方，以及桌面端和 CLI 两种形式。",
+  "audience_zh": "适合希望在多工作区中并行运行 AI 编码代理、用规格图维护项目知识，并需要编辑器、终端、PR 与 CI 集成、MCP 及自定义模型的开发者；也适合只用 CLI 或在浏览器中使用的用户。",
   "evidence": [
-    {
-      "quote": "ThinkRail is the agentic IDE that gets better every time you use it",
-      "url": "https://github.com/JetBrains/thinkrail"
-    },
     {
       "quote": "ThinkRail is an agentic IDE that gets better every time you use it. With Spec-Driven Development support, it learns your project as you work, becoming more capable and helpful over time.",
       "url": "https://github.com/JetBrains/thinkrail/blob/main/README.md"
@@ -17,9 +13,13 @@
     {
       "quote": "- **Isolated workspaces.** Open any git repo as a project and create `git worktree` workspaces from it, each with its own branch and working directory. Agents can then work in parallel without touching your original codebase; when they finish, merge the results you want to keep and delete the rest. ",
       "url": "https://github.com/JetBrains/thinkrail/blob/main/README.md"
+    },
+    {
+      "quote": "- **An IDE around the agent.** ThinkRail comes with Monaco editor tabs, a file tree integrated with git to show code changes as they happen, terminals, and document support. Rendered Markdown previews have a heading outline that follows the section you're reading; hide it or move it to either side. ",
+      "url": "https://github.com/JetBrains/thinkrail/blob/main/README.md"
     }
   ],
   "content_status": "generated",
-  "material_hash": "e3fff715050730f92ecfe831d3465e34d9135d63be1015a4a7b686b7fa43e459",
+  "material_hash": "45dfe54317bc52f02a06ecdfd1412111d6ab857a3a5b2b52e1db09b4da852986",
   "readme_url": "https://github.com/JetBrains/thinkrail/blob/main/README.md"
 }

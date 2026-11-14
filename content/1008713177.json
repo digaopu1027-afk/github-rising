@@ -1,0 +1,25 @@
+{
+  "summary_zh": "Qwen Code 是开源 AI 编码代理，可在终端中运行，并用自然语言解释代码库、辅助编程任务。它支持子代理、Agent Teams、记忆、技能、MCP 与多模型协议，还能通过 IDE 插件、桌面端、Web、SDK 和聊天渠道使用。",
+  "audience_zh": "适合希望在终端或编辑器内用 AI 辅助理解仓库、编写和审查代码的开发者；也适合需要接入 OpenAI、Anthropic、Gemini、Qwen 或本地模型，并通过 Web、桌面、SDK、聊天渠道或脚本自动化使用编码代理的团队。",
+  "evidence": [
+    {
+      "quote": "An open-source AI coding agent that lives in your terminal.",
+      "url": "https://github.com/QwenLM/qwen-code"
+    },
+    {
+      "quote": "**The open-source AI coding agent for your terminal, editor, desktop, browser, and chat.**",
+      "url": "https://github.com/QwenLM/qwen-code/blob/main/README.md"
+    },
+    {
+      "quote": "- **Beyond the terminal** — IDE plugins, Desktop app, Web UI, SDKs, and chat integrations (Telegram / DingTalk / WeChat / Feishu).",
+      "url": "https://github.com/QwenLM/qwen-code/blob/main/README.md"
+    },
+    {
+      "quote": "- **Multi-protocol** — Supports OpenAI, Anthropic, Gemini, and Qwen APIs. Any third-party provider or local model (Ollama / vLLM). Switch at runtime.",
+      "url": "https://github.com/QwenLM/qwen-code/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "2d8bbf8c3920302a1c35b94ebadd4eeb06150c151362ec41ad2a6ddb41c9c63d",
+  "readme_url": "https://github.com/QwenLM/qwen-code/blob/main/README.md"
+}

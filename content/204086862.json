@@ -1,25 +1,25 @@
 {
-  "summary_zh": "Streamlit 可将 Python 脚本快速转换为交互式 Web 应用，用于构建仪表盘、生成报告或创建聊天应用，并可通过 Community Cloud 部署、管理和分享。支持输入控件、数据表格、图表、布局和多页应用，编辑脚本时应用实时更新。",
-  "audience_zh": "适合希望用 Python 快速制作交互式数据应用、仪表盘或报告并进行分享的开发者与数据工作者，也适合需要让他人快速体验数据并获得反馈的原型开发者。",
+  "summary_zh": "用 Python 构建数据应用与仪表盘，无需单独前端或 API 层，可用于仪表盘、预测与模拟工具、审核审批流程，以及围绕数据的 AI 聊天、机器学习工具和内部数据工具。",
+  "audience_zh": "适合用 Python 处理数据、希望以单一语言快速搭建并长期维护数据应用的团队，包括从 BI 工具迁移仪表盘的团队，以及由人或编码智能体开发应用的场景。",
   "evidence": [
     {
-      "quote": "Streamlit lets you transform Python scripts into interactive web apps in minutes, instead of weeks. Build dashboards, generate reports, or create chat apps. Once you’ve created an app, you can use our [Community Cloud platform](https://streamlit.io/cloud) to deploy, manage, and share your app.",
+      "quote": "**Streamlit is the agent-native data app framework.** Use it for dashboards, forecasting",
       "url": "https://github.com/streamlit/streamlit/blob/develop/README.md"
     },
     {
-      "quote": "- **Fast, interactive prototyping:** Let others interact with your data and provide feedback quickly.",
+      "quote": "tools, review-and-approval workflows, and any other app built around your data.",
       "url": "https://github.com/streamlit/streamlit/blob/develop/README.md"
     },
     {
-      "quote": "- **Live editing:** See your app update instantly as you edit your script.",
+      "quote": "A Streamlit app is just Python, with no separate frontend or API layer. Streamlit is",
       "url": "https://github.com/streamlit/streamlit/blob/develop/README.md"
     },
     {
-      "quote": "- **Simple and Pythonic:** Write beautiful, easy-to-read code.",
+      "quote": "Streamlit is also great for AI and chat apps over your data (`st.chat_input`,",
       "url": "https://github.com/streamlit/streamlit/blob/develop/README.md"
     }
   ],
   "content_status": "generated",
-  "material_hash": "09283cdfc63d34829fd3efab0d79aa574257fbfbaea70c0b40bc3732f314e4db",
+  "material_hash": "4d813f91b2accf36aa71774b73c8f05f6ff86ec672eb02d6aa90bdcb916414ff",
   "readme_url": "https://github.com/streamlit/streamlit/blob/develop/README.md"
 }

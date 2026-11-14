@@ -1,0 +1,25 @@
+{
+  "summary_zh": "基于Git差异的AI代码审查CLI工具，采用确定性管线与LLM Agent混合架构，可生成行级精确的结构化审查意见，并内置空指针、线程安全、XSS、SQL注入等多语言规则集；也支持整文件扫描与CI集成。",
+  "audience_zh": "适合需要自动化代码审查的开发者与团队，尤其是大规模代码库、希望接入CI/CD流程或使用兼容OpenAI与Anthropic模型端点的工程团队。",
+  "evidence": [
+    {
+      "quote": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "url": "https://github.com/alibaba/open-code-review"
+    },
+    {
+      "quote": "Open Code Review is an AI-powered code review CLI tool. It originated as Alibaba Group's internal official AI code review assistant — over the past two years, it has served tens of thousands of developers and identified millions of code defects. After thorough validation at massive scale, we incubat",
+      "url": "https://github.com/alibaba/open-code-review/blob/main/README.md"
+    },
+    {
+      "quote": "It reads Git diffs, sends changed files to a configurable LLM via an agent with tool-use capabilities, and generates structured review comments with line-level precision. The agent can read full file contents, search the codebase, inspect other changed files for context, and produce deep reviews — n",
+      "url": "https://github.com/alibaba/open-code-review/blob/main/README.md"
+    },
+    {
+      "quote": "ot just surface-level diff feedback. Beyond diff review, `ocr scan` reviews entire files for auditing unfamiliar codebases or directories that have no meaningful diff.",
+      "url": "https://github.com/alibaba/open-code-review/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "9924d2e291799235a0a36e8e11140fa5322685fce73ed892411fa4645d3c1b32",
+  "readme_url": "https://github.com/alibaba/open-code-review/blob/main/README.md"
+}

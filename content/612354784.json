@@ -1,6 +1,6 @@
 {
-  "summary_zh": "llama.cpp 是一个用 C/C++ 实现的 LLM（及 VLM）推理项目，目标是在本地或云端以较少配置和较好性能运行模型。它提供命令行工具，可直接下载并运行 Hugging Face 上的模型，也可启动兼容 OpenAI 的 API 服务；支持量化以及多种 CPU/GPU 后端。",
-  "audience_zh": "适合希望在本地或云端部署和运行大语言模型或多模态模型的 C/C++ 开发者、需要兼容 OpenAI API 服务接口的工程人员，以及关注 Apple Silicon、x86、RISC-V、NVIDIA/AMD GPU 等多硬件后端推理的用户。",
+  "summary_zh": "llama.cpp 是一个用 C/C++ 实现的大语言模型（LLM）与视觉语言模型（VLM）推理工具，目标是在尽量少的配置下，在多种硬件上本地或云端运行模型，并提供命令行工具和兼容 OpenAI 的 API 服务器。",
+  "audience_zh": "适合希望在本地或云端运行 LLM/VLM 推理、关注 C/C++ 实现与多硬件后端支持（如 Apple Silicon、x86、RISC-V、NVIDIA/AMD GPU 等）的开发者与部署人员。",
   "evidence": [
     {
       "quote": "LLM inference in C/C++",
@@ -15,11 +15,11 @@
       "url": "https://github.com/ggml-org/llama.cpp/blob/master/README.md"
     },
     {
-      "quote": "# Launch OpenAI-compatible API server",
+      "quote": "- Plain C/C++ implementation without any dependencies",
       "url": "https://github.com/ggml-org/llama.cpp/blob/master/README.md"
     }
   ],
   "content_status": "generated",
-  "material_hash": "54b43793bc3e3a5f025a1ad8c7c09b564419844a43d76a1dc727717d4e75d5d2",
+  "material_hash": "b5e430cdcba5dfabed648b670840d4ca63128be2e9f5a5a4fc9aabb9e1b98ee0",
   "readme_url": "https://github.com/ggml-org/llama.cpp/blob/master/README.md"
 }

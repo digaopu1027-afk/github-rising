@@ -1,6 +1,6 @@
 {
-  "summary_zh": "GBrain 是为已有 AI 代理添加可控长期记忆的开源工具：存储带来源的明确事实，支持更正与撤回，并让多个代理共享同一份记忆。可从无密钥的关键词检索起步，按需加入语义检索、综合回答和后台丰富化。",
-  "audience_zh": "适合已在用 Grok Bot、Muse、Codex、Claude Code 等 AI 代理并希望为其加入持久、可溯源记忆的使用者；也适合需要自托管或团队共享知识库的开发者与公司。",
+  "summary_zh": "GBrain 是面向 AI 代理的记忆层：它存储带来源的明确事实，支持更正与撤回，让多个代理共享同一份可控记忆。可先从无需密钥的关键词检索起步，再按需加入语义搜索、合成回答与后台信息补全。",
+  "audience_zh": "适合已经使用 AI 代理、希望为其增加可自行掌控的长期记忆的用户，包括想为现有代理补充记忆的开发者、需要跨代理共享事实的个人，以及考虑搭建团队或公司共享脑的团队。",
   "evidence": [
     {
       "quote": "**Give the agent you already use a memory you control.** GBrain stores explicit facts with their sources, supports corrections and withdrawal, and makes the same memory available across your agents. Start with keyless memory and keyword retrieval; add semantic search, synthesis, and background enric",
@@ -11,15 +11,11 @@
       "url": "https://github.com/garrytan/gbrain/blob/master/README.md"
     },
     {
-      "quote": "GBrain is MIT-licensed and free to self-host; gbrain.io is optional paid hosting.",
-      "url": "https://github.com/garrytan/gbrain/blob/master/README.md"
-    },
-    {
       "quote": "**It works as a company brain too.** Authenticated remote clients are constrained by source and operation grants plus visibility filters. Local files and shared database credentials are a different trust boundary: sources alone do not isolate those callers. The authorization tests exercise specific ",
       "url": "https://github.com/garrytan/gbrain/blob/master/README.md"
     }
   ],
   "content_status": "generated",
-  "material_hash": "7e6a10438ef4825e12858b70ab4a7fc1e8d14a82b6daa1f4f01013448eaba7d2",
+  "material_hash": "1b745e63fc32add4b01200599985c184fc661c2bab7138b3e7a453409d48e138",
   "readme_url": "https://github.com/garrytan/gbrain/blob/master/README.md"
 }

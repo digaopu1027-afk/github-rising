@@ -1,0 +1,25 @@
+{
+  "summary_zh": "该项目是一套面向股票投资者与交易者的 Claude Skills 交易工作流工具包，提供市场行情分析、技术图表解读、经济日历、选股筛选及交易策略开发等技能，用于结构化市场复盘、风险管理、交易计划、交易日志与持续改进，而非代替用户做出买卖决策。",
+  "audience_zh": "适合时间有限的个人投资者；以长期投资、ETF 和股息股为核心，并在条件有利时进行有纪律波段交易的投资者；希望先管理风险再寻找交易标的，以及希望记录日志并改进决策流程的投资者。不适用于全自动交易或短线剥头皮。",
+  "evidence": [
+    {
+      "quote": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+      "url": "https://github.com/tradermonty/claude-trading-skills"
+    },
+    {
+      "quote": "Claude Trading Skills is a Claude Skills-based trading workflow toolkit for time-constrained individual investors.",
+      "url": "https://github.com/tradermonty/claude-trading-skills/blob/main/README.md"
+    },
+    {
+      "quote": "The goal is not to outsource buy/sell decisions to AI. The goal is to structure market review, risk management, trade planning, journaling, and continuous improvement. It is open source because the workflows, checklists, and review habits behind better trading decisions can improve through shared practice.",
+      "url": "https://github.com/tradermonty/claude-trading-skills/blob/main/README.md"
+    },
+    {
+      "quote": "- Time-constrained individual investors",
+      "url": "https://github.com/tradermonty/claude-trading-skills/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "6e58b08ccb71a60739d2eade97538f1ed4e6a6ffe337356ff3e167955fcc5ee8",
+  "readme_url": "https://github.com/tradermonty/claude-trading-skills/blob/main/README.md"
+}

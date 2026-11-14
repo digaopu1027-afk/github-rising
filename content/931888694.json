@@ -1,11 +1,7 @@
 {
-  "summary_zh": "Handy 是一款免费、开源、可扩展的离线语音转文字桌面应用。按下可配置快捷键说话，语音在本地经 Whisper 等模型识别后，文字会直接粘贴到当前使用的任意文本框中，无需将音频上传云端。",
-  "audience_zh": "适合在 Windows、macOS 或 Linux 上希望快速听写、且注重隐私、不愿将语音发送到云端的用户，也适合喜欢开源工具并可自行扩展的开发者。",
+  "summary_zh": "Handy 是一款免费、开源的跨平台桌面语音转文字应用，可完全离线运行。按下可配置的快捷键后说话，语音经 VAD 过滤并用 Whisper 或 Parakeet V3 等模型在本地转写，结果直接粘贴到当前使用的任意文本框，无需把音频发送到云端。",
+  "audience_zh": "适合需要跨平台桌面听写、看重隐私并希望语音数据留在本机处理的用户，也适合关注开源可扩展工具、希望自行扩展或参与贡献的开发者。",
   "evidence": [
-    {
-      "quote": "A free, open source, and extensible speech-to-text application that works completely offline.",
-      "url": "https://github.com/cjpais/Handy"
-    },
     {
       "quote": "Handy is a cross-platform desktop application that provides simple, privacy-focused speech transcription. Press a shortcut, speak, and have your words appear in any text field. This happens on your own computer without sending any information to the cloud.",
       "url": "https://github.com/cjpais/Handy/blob/main/README.md"
@@ -17,9 +13,13 @@
     {
       "quote": "- Works on Windows, macOS, and Linux",
       "url": "https://github.com/cjpais/Handy/blob/main/README.md"
+    },
+    {
+      "quote": "- **Open Source**: Together we can build further. Extend Handy for yourself and contribute to something bigger",
+      "url": "https://github.com/cjpais/Handy/blob/main/README.md"
     }
   ],
   "content_status": "generated",
-  "material_hash": "b4e3964abd4278f5ba36f229b77d6dfa35457652aa91cf7a5e0a2992b4f84727",
+  "material_hash": "2cafa9ed9d7f72f9a99de4c8da980666f6a5b9c3ef27de1968b7d169d1433bea",
   "readme_url": "https://github.com/cjpais/Handy/blob/main/README.md"
 }

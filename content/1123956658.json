@@ -1,0 +1,25 @@
+{
+  "summary_zh": "一个本地浏览器审核界面，可接入 AI 编码代理。用于标注计划、规格、消息和 HTML，审查本地改动或远程 PR/MR，在收件箱集中处理代理的提问，并将反馈一键发回代理。",
+  "audience_zh": "适合使用 Claude Code、Codex、Copilot CLI、Gemini CLI 等 AI 编码代理的开发者与团队，用于审核文档、计划和代码差异并与代理协作。",
+  "evidence": [
+    {
+      "quote": "Plannotator is a local, browser-based review surface for AI coding agents: Claude Code, Codex, Copilot CLI, Gemini CLI, OpenCode, Kiro, Droid, Amp, DeepSeek Harness, and Pi. Plannotator Inbox also works with personal assistants (Grok Bot, Muse, Hermes, OpenClaw).",
+      "url": "https://github.com/backnotprop/plannotator/blob/main/README.md"
+    },
+    {
+      "quote": "**It plugs directly into your agent** through plugins, hooks and commands. When the agent proposes a decision, plan, html, or finishes working, the app opens in your browser and you mark it up, comment, and send feedback directly to the agent for it to act on it.",
+      "url": "https://github.com/backnotprop/plannotator/blob/main/README.md"
+    },
+    {
+      "quote": "Review local changes or remote PRs. Comment on diffs, suggest code. Your comments go back to the agent. Works with Git, GitButler, Jujutsu (`jj`), Perforce (`p4`), GitHub, and GitLab.",
+      "url": "https://github.com/backnotprop/plannotator/blob/main/README.md"
+    },
+    {
+      "quote": "The Plannotator Inbox is one local window where your agents leave you messages, questions, files, and guided reviews while they keep working. Answer a question with a click, annotate a file, and press Send when you can. Nothing holds an agent session open while you do, and your reply goes back to th",
+      "url": "https://github.com/backnotprop/plannotator/blob/main/README.md"
+    }
+  ],
+  "content_status": "generated",
+  "material_hash": "62c3a47df25cd19da40dbea47a834ffe6676798db071345d32d05161c984a386",
+  "readme_url": "https://github.com/backnotprop/plannotator/blob/main/README.md"
+}

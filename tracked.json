@@ -910,5 +910,41 @@
   "612354784": {
     "id": 612354784,
     "full_name": "ggml-org/llama.cpp"
+  },
+  "1241960226": {
+    "id": 1241960226,
+    "full_name": "alibaba/open-code-review"
+  },
+  "1123956658": {
+    "id": 1123956658,
+    "full_name": "backnotprop/plannotator"
+  },
+  "382496361": {
+    "id": 382496361,
+    "full_name": "louislam/uptime-kuma"
+  },
+  "1079356098": {
+    "id": 1079356098,
+    "full_name": "tradermonty/claude-trading-skills"
+  },
+  "880414192": {
+    "id": 880414192,
+    "full_name": "tailscale/tailcat"
+  },
+  "1174789082": {
+    "id": 1174789082,
+    "full_name": "block/buzz"
+  },
+  "1362562155": {
+    "id": 1362562155,
+    "full_name": "Likely7/Veyra-NRVideo"
+  },
+  "643445235": {
+    "id": 643445235,
+    "full_name": "lobehub/lobehub"
+  },
+  "1054793726": {
+    "id": 1054793726,
+    "full_name": "ChromeDevTools/chrome-devtools-mcp"
   }
 }
