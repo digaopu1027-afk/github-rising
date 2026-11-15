@@ -946,5 +946,25 @@
   "1054793726": {
     "id": 1054793726,
     "full_name": "ChromeDevTools/chrome-devtools-mcp"
+  },
+  "543101941": {
+    "id": 543101941,
+    "full_name": "dream-num/univer"
+  },
+  "979392131": {
+    "id": 979392131,
+    "full_name": "ag-ui-protocol/ag-ui"
+  },
+  "1201173969": {
+    "id": 1201173969,
+    "full_name": "JuliusBrussee/caveman"
+  },
+  "1314510108": {
+    "id": 1314510108,
+    "full_name": "Tencent/LoopForge"
+  },
+  "543516398": {
+    "id": 543516398,
+    "full_name": "martin-olivier/airgorah"
   }
 }
