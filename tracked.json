@@ -966,5 +966,21 @@
   "543516398": {
     "id": 543516398,
     "full_name": "martin-olivier/airgorah"
+  },
+  "1135847870": {
+    "id": 1135847870,
+    "full_name": "google-labs-code/stitch-skills"
+  },
+  "538180525": {
+    "id": 538180525,
+    "full_name": "ggml-org/ggml"
+  },
+  "1229774092": {
+    "id": 1229774092,
+    "full_name": "elementalsouls/Claude-BugHunter"
+  },
+  "1278676884": {
+    "id": 1278676884,
+    "full_name": "NVIDIA/SkillEvaluator"
   }
 }
