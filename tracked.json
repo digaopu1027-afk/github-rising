@@ -982,5 +982,29 @@
   "1278676884": {
     "id": 1278676884,
     "full_name": "NVIDIA/SkillEvaluator"
+  },
+  "1310427454": {
+    "id": 1310427454,
+    "full_name": "DeanChensj/jiangshan-map"
+  },
+  "968905557": {
+    "id": 968905557,
+    "full_name": "getarcaneapp/arcane"
+  },
+  "1140843380": {
+    "id": 1140843380,
+    "full_name": "mvanhorn/last30days-skill"
+  },
+  "74293321": {
+    "id": 74293321,
+    "full_name": "sveltejs/svelte"
+  },
+  "1226691771": {
+    "id": 1226691771,
+    "full_name": "google-research/paper-orchestra"
+  },
+  "1356077516": {
+    "id": 1356077516,
+    "full_name": "kajisho5/ffmpeg-skill"
   }
 }
