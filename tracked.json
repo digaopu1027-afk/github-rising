@@ -1010,5 +1010,41 @@
   "1140229822": {
     "id": 1140229822,
     "full_name": "cursor/plugins"
+  },
+  "1346499044": {
+    "id": 1346499044,
+    "full_name": "jub0t/Concat"
+  },
+  "1176011916": {
+    "id": 1176011916,
+    "full_name": "HKUDS/CLI-Anything"
+  },
+  "699532645": {
+    "id": 699532645,
+    "full_name": "astral-sh/uv"
+  },
+  "167174": {
+    "id": 167174,
+    "full_name": "jquery/jquery"
+  },
+  "180190854": {
+    "id": 180190854,
+    "full_name": "appwrite/appwrite"
+  },
+  "153097643": {
+    "id": 153097643,
+    "full_name": "openvinotoolkit/openvino"
+  },
+  "193215554": {
+    "id": 193215554,
+    "full_name": "n8n-io/n8n"
+  },
+  "130884470": {
+    "id": 130884470,
+    "full_name": "solidjs/solid"
+  },
+  "896335270": {
+    "id": 896335270,
+    "full_name": "punkpeye/awesome-mcp-servers"
   }
 }
